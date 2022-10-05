@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "ffcSww3WFA3a3PTxznjnue@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "item_fever_unable",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 69,
+                "height": 72
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 69,
+                "height": 72
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "ff712c30-dd61-40dd-adcf-4f1ce78e7b9e@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

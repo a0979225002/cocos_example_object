@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "logoAndStart.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "btn_start": {
+      "__uuid__": "31364c63-9d29-4cba-bfd6-ff1d04c3823c"
+    },
+    "logo": {
+      "__uuid__": "234c3455-1f9c-4917-91cf-b3fe452e8353"
+    }
+  }
+}

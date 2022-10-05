@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "65mVumIqRLdpx2RXBHKqyj@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_mixture",
+            "rect": {
+                "x": 2,
+                "y": 0,
+                "width": 91,
+                "height": 83
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 94,
+                "height": 83
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "65995ba6-22a4-4b76-9c76-4570472aaca3@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

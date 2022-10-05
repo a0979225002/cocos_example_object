@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "SearchLight",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "# 战争迷糊探照灯\r\n\r\n### 效果\r\n`使一张图片产生战争迷雾效果，跟随触摸点照亮圆形区域`\r\n\r\n---\r\n![战争迷雾](../../../screenshots/search.gif)\r\n\r\n---\r\n\r\n### 使用说明\r\n- 将`SearchLightEffect.ts`和`SearchLightFrag.ts`放到自己的项目  <br>将`SearchLightEffect.ts`拖到想要施加效果的节点上\r\n\r\n- 这个shader不支持子节点"
+}

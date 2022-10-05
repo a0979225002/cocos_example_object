@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_gift_icon",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 204,
+      "height": 145
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 204,
+      "height": 150
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8cece6c5-8044-4a78-946f-e6709b748b0d@6c48a"
+  }
+}

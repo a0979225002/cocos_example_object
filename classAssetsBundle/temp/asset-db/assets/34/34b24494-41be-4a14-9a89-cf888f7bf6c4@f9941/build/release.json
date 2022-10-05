@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "34skSUQb5KFJqJz4iPe/bE@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "sheet_text_achi_1",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 67,
+                "height": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 67,
+                "height": 37
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "34b24494-41be-4a14-9a89-cf888f7bf6c4@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

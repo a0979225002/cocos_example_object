@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "44rSque2hG2pn8MEoYSAQi@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "photo_exp_bar",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 74,
+                "height": 17
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 74,
+                "height": 17
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "44ad2aae-7b68-46da-99fc-304a18480422@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

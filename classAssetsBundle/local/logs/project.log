@@ -1,0 +1,23 @@
+2021-02-01 20:10:30-log: [Package] menu@1.0.0 enable
+2021-02-01 20:10:30-log: [Package] profile@1.0.0 enable
+2021-02-01 20:10:30-log: [Package] messages@1.0.0 enable
+2021-02-01 20:10:30-log: [Package] program@1.0.0 enable
+2021-02-01 20:10:30-log: [Package] device@1.0.1 enable
+2021-02-01 20:10:30-log: [Package] ui-kit@1.0.0 enable
+2021-02-01 20:10:30-log: [Package] tester@1.0.0 enable
+2021-02-01 20:10:30-log: [Package] preferences@1.0.0 enable
+2021-02-01 20:10:31-log: Setup mods mgr.: 437.210ms
+2021-02-01 20:10:31-log: [Package] engine@1.0.3 enable
+2021-02-01 20:10:31-log: [Package] asset-db@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] scene@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] console@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] project@1.0.1 enable
+2021-02-01 20:10:31-log: [Package] about@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] server@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] assets@1.0.0 enable
+2021-02-01 20:10:32-log: [Package] inspector@1.0.0 enable
+2021-02-01 20:10:37-log: [Package] preview@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] utils@1.0.0 enable
+2021-02-01 20:10:32-log: [Package] hierarchy@1.0.0 enable
+2021-02-01 20:10:31-log: [Package] extension@3.0.0 enable
+2021-02-01 20:10:37-log: [Package] animator@1.0.0 enable

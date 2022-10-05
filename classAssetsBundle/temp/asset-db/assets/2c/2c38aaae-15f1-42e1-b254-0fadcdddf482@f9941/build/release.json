@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "2cOKquFfFC4bJUD63N3fSC@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "bg_sale_2",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 166,
+                "height": 108
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 166,
+                "height": 108
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "2c38aaae-15f1-42e1-b254-0fadcdddf482@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

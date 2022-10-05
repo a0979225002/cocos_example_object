@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "word_grey",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 154,
+      "height": 66
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 154,
+      "height": 67
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ee89497a-ed68-4198-8dfc-acf6929e7ec6@6c48a"
+  }
+}

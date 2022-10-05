@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "submarine_grey",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 71
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 71
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "fb364a81-e96f-497b-bdea-21eefa85b76d@6c48a"
+  }
+}

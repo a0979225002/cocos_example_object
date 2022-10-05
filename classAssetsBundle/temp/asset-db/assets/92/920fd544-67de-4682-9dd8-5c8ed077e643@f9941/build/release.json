@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "92D9VEZ95Ggp3YXI7Qd+ZD@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "store_click",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 80,
+                "height": 86
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 80,
+                "height": 86
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "920fd544-67de-4682-9dd8-5c8ed077e643@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

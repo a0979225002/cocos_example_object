@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "46l3p5O/BF5bdNcJjfD3k6@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "gift_text_buy",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 103,
+                "height": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 103,
+                "height": 45
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "46977a79-3bf0-45e5-b74d-7098df0f793a@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

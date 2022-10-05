@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rank_btn_add_gray",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 50,
+      "height": 51
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 50,
+      "height": 51
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "06355de7-233c-4669-8ed0-cb317cac921d@6c48a"
+  }
+}

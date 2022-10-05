@@ -1,0 +1,77 @@
+{
+  "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
+    "asset": 1632304370610,
+    "meta": 1632304410092,
+    "relativePath": "Scene"
+  },
+  "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
+    "asset": 1632304370631,
+    "meta": 1632304410093,
+    "relativePath": "Script"
+  },
+  "e1b90feb-a217-4493-849d-9a611900d683": {
+    "asset": 1586331910000,
+    "meta": 1595988569521,
+    "relativePath": "Script\\Helloworld.ts"
+  },
+  "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
+    "asset": 1632304370701,
+    "meta": 1632304410094,
+    "relativePath": "Texture"
+  },
+  "2d2f792f-a40c-49bb-a189-ed176a246e49": {
+    "asset": 1632304410101,
+    "meta": 1632304410102,
+    "relativePath": "Scene\\helloworld.fire"
+  },
+  "a8027877-d8d6-4645-97a0-52d4a0123dba": {
+    "asset": 1586331910000,
+    "meta": 1632304410142,
+    "relativePath": "Texture\\singleColor.png"
+  },
+  "6aa0aa6a-ebee-4155-a088-a687a6aadec4": {
+    "asset": 1586331910000,
+    "meta": 1632304410126,
+    "relativePath": "Texture\\HelloWorld.png"
+  },
+  "e86175db-fd3e-48d7-bd8e-726a9af47199": {
+    "asset": 1632304370589,
+    "meta": 1632304410090,
+    "relativePath": "materials"
+  },
+  "7a0fd207-72d6-4d3f-a9e8-dcedc0971ccf": {
+    "asset": 1632304370560,
+    "meta": 1632304410089,
+    "relativePath": "effects"
+  },
+  "548f7169-59ca-4fc0-a8f6-e83bfc19de82": {
+    "asset": 1632304475464,
+    "meta": 1632304475473,
+    "relativePath": "materials\\ma.mtl"
+  },
+  "e5bd2a7e-5fe0-46af-a86b-ab5b2c1ec42e": {
+    "asset": 1595988676990,
+    "meta": 1595988677008,
+    "relativePath": "effects\\New Effect.effect"
+  },
+  "d211e50b-58af-4038-bb30-3692a11a8d91": {
+    "asset": 1595994408130,
+    "meta": 1595994411045,
+    "relativePath": "effects\\rongyan.effect"
+  },
+  "9f3afe9f-5f64-4f5f-a882-64f86b06f991": {
+    "asset": 1595994567609,
+    "meta": 1632304410141,
+    "relativePath": "Texture\\noize.jpg"
+  },
+  "18855ffb-4bde-430f-a72c-eaedf3e5efee": {
+    "asset": 1596003649230,
+    "meta": 1632304410119,
+    "relativePath": "Texture\\141812efdoez05fpftlehz.png.thumb.jpg"
+  },
+  "a97ca0b5-b511-48ab-975b-3100bb87198f": {
+    "asset": 1596019160180,
+    "meta": 1632304410166,
+    "relativePath": "Texture\\賤.png"
+  }
+}

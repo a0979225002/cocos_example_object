@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_bianfuyu_g",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 33,
+      "width": 114,
+      "height": 33
+    },
+    "offset": {
+      "x": 0,
+      "y": -5
+    },
+    "originalSize": {
+      "width": 114,
+      "height": 89
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "a2deefcd-1465-45f6-9b55-2509874ae9ef@6c48a"
+  }
+}

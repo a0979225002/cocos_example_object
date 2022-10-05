@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "a0DXRCh6pGpaivSMIuJDhA@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "sheet_light_2",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 108,
+                "height": 28
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 108,
+                "height": 28
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "a00d7442-87aa-46a5-a8af-48c22e243840@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

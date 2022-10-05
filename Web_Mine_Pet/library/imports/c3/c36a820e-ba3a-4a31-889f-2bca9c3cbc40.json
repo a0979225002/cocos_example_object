@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game_setting.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "auto_bg": {
+      "__uuid__": "95ccdf10-572a-4d5c-836f-8629770fa264"
+    },
+    "auto_bg_active": {
+      "__uuid__": "a1467406-3bd8-4f8c-a62a-83fdbe5f2a59"
+    },
+    "auto_bg_l": {
+      "__uuid__": "2dbe2266-a4ec-445d-aac1-7ca58479d5de"
+    },
+    "auto_bg_l_active": {
+      "__uuid__": "b97a9656-79d7-4507-80f1-a31c7f42dc10"
+    },
+    "bet2_bg": {
+      "__uuid__": "fdd5310d-c975-4f83-b27c-a038c630486d"
+    },
+    "bet2_toggle_off": {
+      "__uuid__": "58964bcf-b625-44ca-9a65-8d96dd936253"
+    },
+    "bet2_toggle_on": {
+      "__uuid__": "017f8138-5a94-46cd-ab2d-f188a5d61d94"
+    },
+    "bet_bg": {
+      "__uuid__": "f3072438-6cdd-41d0-97f8-3d7a41867e37"
+    },
+    "bet_btn": {
+      "__uuid__": "ccaef519-3359-444e-b2ca-77b19e9513b9"
+    },
+    "bet_btn_active": {
+      "__uuid__": "a375a0dc-80e6-4524-b0a7-23467a6d4bba"
+    },
+    "bet_panel_bg": {
+      "__uuid__": "5b107b30-7ad4-45d6-8c04-d09bc7b52485"
+    },
+    "btn_bet": {
+      "__uuid__": "9db46846-9d48-43d5-834e-59955e69cc10"
+    },
+    "btn_bg_border": {
+      "__uuid__": "7d2c1fe5-91e4-44ad-bca3-88e47a3667f1"
+    },
+    "default_color": {
+      "__uuid__": "3486b0f4-f890-4391-914f-6f31a6eab3f0"
+    },
+    "default_color_br": {
+      "__uuid__": "fe923b7f-7cc4-41f7-bc09-a2d05bc4356f"
+    },
+    "dot": {
+      "__uuid__": "750fce9f-0b71-4b1a-a471-a15e340cd437"
+    },
+    "icon_arrow": {
+      "__uuid__": "a3d0ab92-d60e-4a20-b21a-d424e7fc644a"
+    },
+    "icon_back": {
+      "__uuid__": "0ab64880-767d-43f7-a603-705cf10fda75"
+    },
+    "icon_home": {
+      "__uuid__": "ce52524c-884d-4049-9f9b-3060ccec962c"
+    },
+    "icon_info": {
+      "__uuid__": "61922323-46b6-4531-b53c-233180d672a7"
+    },
+    "icon_plus": {
+      "__uuid__": "20d35a39-55cd-4e51-b234-dc2e262d3131"
+    },
+    "icon_record": {
+      "__uuid__": "19182baf-ed56-4af5-afd5-44d199746d7c"
+    },
+    "icon_reduce": {
+      "__uuid__": "8ae1490c-212b-465d-a481-9c74f7d05b12"
+    },
+    "icon_set": {
+      "__uuid__": "e26eb883-0f56-4f07-bb74-e4d7471bf231"
+    },
+    "iocn_tip": {
+      "__uuid__": "d4ca3629-7fd8-4b99-95e3-991120233e19"
+    },
+    "load_icon": {
+      "__uuid__": "e7dbb560-58bd-4948-9e2c-21f4551e4d6a"
+    },
+    "switch_bg": {
+      "__uuid__": "fd1834b1-8832-48b0-8dc4-3831f24ee38f"
+    },
+    "switch_btn": {
+      "__uuid__": "07f72554-c9d6-4248-ae37-df77146211cc"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "path": {
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders\\multi-texture-2d.effect": [
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-global.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-local.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\embedded-alpha.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\alpha-test.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\cc-global.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\cc-local.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\common.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\embedded-alpha.chunk",
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\chunks\\alpha-test.chunk"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor1.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor1.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor2.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor2.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor3.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor3.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Monster.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Monster.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Nature.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Nature.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People1.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People1.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People3.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People3.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People2.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People2.png"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\symbol.plist": [
+      "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\symbol.png"
+    ]
+  },
+  "uuid": {
+    "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders\\multi-texture-2d.mtl": [
+      "577246bc-5f8e-4a70-9173-dafdb8181c5d"
+    ]
+  }
+}

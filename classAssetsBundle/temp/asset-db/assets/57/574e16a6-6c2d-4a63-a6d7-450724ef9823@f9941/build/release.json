@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "57ThambC1KY6bXRQck75gj@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "rw_bg_2",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 27,
+                "height": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 27,
+                "height": 22
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "574e16a6-6c2d-4a63-a6d7-450724ef9823@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

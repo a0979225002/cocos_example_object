@@ -1,0 +1,99 @@
+[
+    1,
+    [
+        "db6pESFFVLMIT512vTiSiH@3e201",
+        "1brw/JvvpFnIvdrxpFCgMZ"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            0,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            "Material #198",
+            [
+                {
+                    "rasterizerState": {},
+                    "blendState": {
+                        "targets": [
+                            {
+                                "blend": true,
+                                "blendSrc": 2,
+                                "blendDst": 4,
+                                "blendDstAlpha": 4
+                            }
+                        ]
+                    },
+                    "depthStencilState": {
+                        "depthWrite": false
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_ALBEDO_MAP": true
+                }
+            ],
+            [
+                [
+                    [
+                        {
+                            "metallic": 0.4000000059604645,
+                            "roughness": 0.7071067690849304
+                        },
+                        "albedoScale",
+                        8,
+                        [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "mainTexture",
+                        6,
+                        0
+                    ]
+                ],
+                11
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]

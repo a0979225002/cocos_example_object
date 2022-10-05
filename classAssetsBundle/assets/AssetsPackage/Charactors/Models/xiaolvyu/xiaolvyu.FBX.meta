@@ -1,0 +1,181 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d",
+  "files": [],
+  "subMetas": {
+    "5e001": {
+      "importer": "gltf-mesh",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@5e001",
+      "displayName": "",
+      "id": "5e001",
+      "name": "body.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f586": {
+      "importer": "gltf-animation",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@1f586",
+      "displayName": "",
+      "id": "1f586",
+      "name": "idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7666666666666667
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 6
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7257": {
+      "importer": "gltf-embeded-image",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@a7257",
+      "displayName": "",
+      "id": "a7257",
+      "name": "Map #3.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b9e5": {
+      "importer": "texture",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@6b9e5",
+      "displayName": "",
+      "id": "6b9e5",
+      "name": "Map #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "67a805f9-19a2-4a77-92a2-0753f94ede3d@a7257"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5ec3": {
+      "importer": "gltf-scene",
+      "uuid": "67a805f9-19a2-4a77-92a2-0753f94ede3d@b5ec3",
+      "displayName": "",
+      "id": "b5ec3",
+      "name": "xiaolvyu.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #3",
+        "uri": "67a805f9-19a2-4a77-92a2-0753f94ede3d@a7257"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.2916666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle",
+            "from": 0,
+            "to": 0.7666666666666667,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "67a805f9-19a2-4a77-92a2-0753f94ede3d@b5ec3",
+    "assetFinder": {
+      "meshes": [
+        "67a805f9-19a2-4a77-92a2-0753f94ede3d@5e001"
+      ],
+      "skeletons": [
+        "67a805f9-19a2-4a77-92a2-0753f94ede3d@438fe"
+      ],
+      "textures": [
+        "67a805f9-19a2-4a77-92a2-0753f94ede3d@6b9e5"
+      ],
+      "materials": [
+        "67a805f9-19a2-4a77-92a2-0753f94ede3d@9d093"
+      ],
+      "scenes": [
+        "67a805f9-19a2-4a77-92a2-0753f94ede3d@b5ec3"
+      ]
+    }
+  }
+}

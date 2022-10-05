@@ -1,0 +1,31 @@
+{
+    "ui": {
+        "ui-top-menu": {
+            "file" : "${localpath}/ui-top-menu"
+        },
+        "ui-message": {
+            "file" : "${localpath}/ui-message"
+        },
+        "ui-language": {
+            "file" : "${localpath}/ui-language"
+        },
+        "ui-package": {
+            "file" : "${localpath}/ui-package"
+        },
+        "ui-test-list": {
+            "file" : "${localpath}/ui-test-list"
+        },
+        "ui-test-config": {
+            "file" : "${localpath}/ui-test-config"
+        },
+        "ui-test-table": {
+            "file" : "${localpath}/ui-test-table"
+        },
+        "ui-test-network-websocket": {
+            "file" : "${localpath}/ui-test-network-websocket"
+        },
+        "ui-test-network-http": {
+            "file" : "${localpath}/ui-test-network-http"
+        }
+    }
+}

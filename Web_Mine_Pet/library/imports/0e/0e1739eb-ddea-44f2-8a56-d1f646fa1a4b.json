@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "map_gpg1",
+    "texture": "dca7b03f-88e3-4375-878f-1545abb289e4",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1088,
+      356
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1092,
+      360
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

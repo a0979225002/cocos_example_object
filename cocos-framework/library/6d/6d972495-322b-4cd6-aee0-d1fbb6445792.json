@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "../resources/effects/Basic",
+  "_objFlags": 0,
+  "_native": "",
+  "techniques": [
+    {
+      "name": "opaque",
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true,
+                "blendSrc": 2,
+                "blendDst": 4,
+                "blendDstAlpha": 4
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "program": "../resources/effects/Basic|basic-vs:vert|basic-fs:frag",
+          "depthStencilState": {
+            "depthTest": false,
+            "depthWrite": false
+          },
+          "properties": {
+            "color": {
+              "value": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "editor": {
+                "type": "color"
+              },
+              "type": 16
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 3632771527,
+      "glsl4": {
+        "vert": "\nprecision highp float;\nlayout(set = 0, binding = 0) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n};\nlayout(set = 0, binding = 1) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n};\nlayout(location = 0) in vec3 a_position;\nlayout(location = 1) in vec2 a_texCoord;\nvec4 vert () {\n  vec4 pos = vec4(a_position, 1);\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+        "frag": "\nprecision highp float;\nlayout(set = 1, binding = 0) uniform Constant {\n  vec4 color;\n};\nvec4 frag () {\n  vec4 o = vec4(1, 1, 1, 1);\n  #if USE_VERTEX_COLOR\n    o *= color;\n  #endif\n  return o;\n}\nlayout(location = 0) out vec4 cc_FragColor;\nvoid main() { cc_FragColor = frag(); }"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nlayout(std140) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n};\nlayout(std140) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n};\nin vec3 a_position;\nin vec2 a_texCoord;\nvec4 vert () {\n  vec4 pos = vec4(a_position, 1);\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+        "frag": "\nprecision highp float;\nlayout(std140) uniform Constant {\n  vec4 color;\n};\nvec4 frag () {\n  vec4 o = vec4(1, 1, 1, 1);\n  #if USE_VERTEX_COLOR\n    o *= color;\n  #endif\n  return o;\n}\nlayout(location = 0) out vec4 cc_FragColor;\nvoid main() { cc_FragColor = frag(); }"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nattribute vec3 a_position;\nattribute vec2 a_texCoord;\nvec4 vert () {\n  vec4 pos = vec4(a_position, 1);\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+        "frag": "\nprecision highp float;\n   uniform vec4 color;\nvec4 frag () {\n  vec4 o = vec4(1, 1, 1, 1);\n  #if USE_VERTEX_COLOR\n    o *= color;\n  #endif\n  return o;\n}\nvoid main() { gl_FragColor = frag(); }"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            },
+            {
+              "name": "CCCamera",
+              "defines": []
+            }
+          ],
+          "samplerTextures": []
+        },
+        "locals": {
+          "blocks": [],
+          "samplerTextures": []
+        },
+        "statistics": {
+          "CC_EFFECT_USED_VERTEX_UNIFORM_VECTORS": 37,
+          "CC_EFFECT_USED_FRAGMENT_UNIFORM_VECTORS": 1
+        }
+      },
+      "defines": [
+        {
+          "name": "USE_VERTEX_COLOR",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Constant",
+          "members": [
+            {
+              "name": "color",
+              "type": 16,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "stageFlags": 16,
+          "binding": 0
+        }
+      ],
+      "samplerTextures": [],
+      "attributes": [
+        {
+          "name": "a_position",
+          "type": 15,
+          "count": 1,
+          "defines": [],
+          "stageFlags": 1,
+          "format": 32,
+          "location": 0
+        },
+        {
+          "name": "a_texCoord",
+          "type": 14,
+          "count": 1,
+          "defines": [],
+          "stageFlags": 1,
+          "format": 21,
+          "location": 1
+        }
+      ],
+      "varyings": [],
+      "name": "../resources/effects/Basic|basic-vs:vert|basic-fs:frag"
+    }
+  ],
+  "combinations": [],
+  "hideInEditor": false
+}

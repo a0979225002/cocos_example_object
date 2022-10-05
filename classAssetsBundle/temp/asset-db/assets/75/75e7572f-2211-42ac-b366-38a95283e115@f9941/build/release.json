@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "7551cvIhFCrLNmOKlSg+EV@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "rw_freeget",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 171,
+                "height": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 171,
+                "height": 45
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "75e7572f-2211-42ac-b366-38a95283e115@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

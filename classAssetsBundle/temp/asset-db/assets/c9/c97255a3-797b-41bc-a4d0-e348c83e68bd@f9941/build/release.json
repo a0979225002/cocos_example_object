@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "c9clWjeXtBvKTQ40jIPmi9@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "lv_bar",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 72,
+                "height": 17
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 72,
+                "height": 17
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "c97255a3-797b-41bc-a4d0-e348c83e68bd@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

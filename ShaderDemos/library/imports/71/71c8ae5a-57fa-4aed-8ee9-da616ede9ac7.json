@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "danila",
+    "texture": "08dcd1a3-57ab-49f0-8741-5f5b3d35622d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      341,
+      456
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      341,
+      456
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

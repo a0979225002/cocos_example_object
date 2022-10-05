@@ -1,0 +1,1042 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 563,
+      "max": [
+        274.75469970703125,
+        99.23854064941406,
+        253.03793334960938
+      ],
+      "min": [
+        -408.5151672363281,
+        -99.23854064941406,
+        -311.3344421386719
+      ],
+      "name": "body/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 563,
+      "name": "body/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 563,
+      "name": "body/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 563,
+      "name": "body/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 563,
+      "name": "body/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 2262,
+      "name": "body/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bip01/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bip01/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bip01/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone010/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone010/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone010/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone003/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone003/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone003/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 82,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone004/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 82,
+      "name": "Bone004/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 82,
+      "name": "Bone004/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 79,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone013(mirrored)/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 79,
+      "name": "Bone013(mirrored)/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone013/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone013/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 82,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone008/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 82,
+      "name": "Bone008/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 82,
+      "name": "Bone008/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone009/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone009/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone009/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 34,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone006/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 34,
+      "name": "Bone006/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 34,
+      "name": "Bone006/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone011(mirrored)/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone011(mirrored)/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        2.4166667461395264
+      ],
+      "min": [
+        -1.0
+      ],
+      "name": "Bone011/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 81,
+      "name": "Bone011/rotation/Output",
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 2,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "node": 3,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "node": 4,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 9,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 10,
+          "target": {
+            "node": 6,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 11,
+          "target": {
+            "node": 6,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 12,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 13,
+          "target": {
+            "node": 7,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 14,
+          "target": {
+            "node": 8,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 15,
+          "target": {
+            "node": 8,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 16,
+          "target": {
+            "node": 9,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 17,
+          "target": {
+            "node": 10,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 7,
+          "output": 8
+        },
+        {
+          "input": 7,
+          "output": 9
+        },
+        {
+          "input": 10,
+          "output": 11
+        },
+        {
+          "input": 10,
+          "output": 12
+        },
+        {
+          "input": 13,
+          "output": 14
+        },
+        {
+          "input": 13,
+          "output": 15
+        },
+        {
+          "input": 16,
+          "output": 17
+        },
+        {
+          "input": 16,
+          "output": 18
+        },
+        {
+          "input": 19,
+          "output": 20
+        },
+        {
+          "input": 21,
+          "output": 22
+        },
+        {
+          "input": 23,
+          "output": 24
+        },
+        {
+          "input": 23,
+          "output": 25
+        },
+        {
+          "input": 26,
+          "output": 27
+        },
+        {
+          "input": 26,
+          "output": 28
+        },
+        {
+          "input": 29,
+          "output": 30
+        },
+        {
+          "input": 29,
+          "output": 31
+        },
+        {
+          "input": 32,
+          "output": 33
+        },
+        {
+          "input": 34,
+          "output": 35
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 31528,
+      "byteStride": 56,
+      "name": "body",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9048,
+      "byteOffset": 31528
+    },
+    {
+      "buffer": 0,
+      "byteLength": 640,
+      "byteOffset": 40576
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 41216
+    },
+    {
+      "buffer": 0,
+      "byteLength": 972,
+      "byteOffset": 41540
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 42512
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 43808
+    },
+    {
+      "buffer": 0,
+      "byteLength": 972,
+      "byteOffset": 44132
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 45104
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 46400
+    },
+    {
+      "buffer": 0,
+      "byteLength": 972,
+      "byteOffset": 46724
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 47696
+    },
+    {
+      "buffer": 0,
+      "byteLength": 328,
+      "byteOffset": 48992
+    },
+    {
+      "buffer": 0,
+      "byteLength": 984,
+      "byteOffset": 49320
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1312,
+      "byteOffset": 50304
+    },
+    {
+      "buffer": 0,
+      "byteLength": 316,
+      "byteOffset": 51616
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1264,
+      "byteOffset": 51932
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 53196
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 53520
+    },
+    {
+      "buffer": 0,
+      "byteLength": 328,
+      "byteOffset": 54816
+    },
+    {
+      "buffer": 0,
+      "byteLength": 984,
+      "byteOffset": 55144
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1312,
+      "byteOffset": 56128
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 57440
+    },
+    {
+      "buffer": 0,
+      "byteLength": 972,
+      "byteOffset": 57764
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 58736
+    },
+    {
+      "buffer": 0,
+      "byteLength": 136,
+      "byteOffset": 60032
+    },
+    {
+      "buffer": 0,
+      "byteLength": 408,
+      "byteOffset": 60168
+    },
+    {
+      "buffer": 0,
+      "byteLength": 544,
+      "byteOffset": 60576
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 61120
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 61444
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324,
+      "byteOffset": 62740
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 63064
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 64360,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Home\\workspace\\classAssetsBundle\\assets\\AssetsPackage\\Charactors\\Models\\tianshiyu\\tianshiyu.png",
+          "relativeFileName": "tianshiyu.png"
+        }
+      },
+      "name": "Map #38",
+      "uri": "tianshiyu.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #66",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "body",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        8
+      ],
+      "name": "Bip01",
+      "rotation": [
+        1.4742228131581214e-06,
+        -8.146076169168737e-08,
+        1.0,
+        -2.8219062642165227e-07
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "translation": [
+        0.6277329325675964,
+        -0.3327171802520752,
+        0.1971358060836792
+      ]
+    },
+    {
+      "children": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "name": "Bone010",
+      "rotation": [
+        0.0007185462745837867,
+        0.0536506287753582,
+        -0.013369813561439514,
+        0.9984700083732605
+      ],
+      "translation": [
+        5.4463653564453125,
+        3.814697265625e-06,
+        -1.52587890625e-05
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Bone003",
+      "rotation": [
+        -0.0012340181274339557,
+        0.08650064468383789,
+        -0.0012440758291631937,
+        0.9962502717971802
+      ],
+      "scale": [
+        0.9999999403953552,
+        0.9999999403953552,
+        1.0
+      ],
+      "translation": [
+        104.18256378173828,
+        -1.9073486328125e-05,
+        1.9073486328125e-06
+      ]
+    },
+    {
+      "name": "Bone004",
+      "rotation": [
+        0.00010482536163181067,
+        -0.09191770106554031,
+        0.015198729932308197,
+        0.995650589466095
+      ],
+      "scale": [
+        0.9999998807907104,
+        0.9999998211860657,
+        0.9999998807907104
+      ],
+      "translation": [
+        69.38739013671875,
+        1.9073486328125e-06,
+        -5.7220458984375e-06
+      ]
+    },
+    {
+      "name": "Bone013(mirrored)",
+      "rotation": [
+        0.9546133279800415,
+        0.10613677650690079,
+        -0.2719721794128418,
+        0.05898716673254967
+      ],
+      "scale": [
+        0.9999998211860657,
+        0.9999999403953552,
+        0.9999998807907104
+      ],
+      "translation": [
+        15.683708190917969,
+        -20.888090133666992,
+        -45.00605010986328
+      ]
+    },
+    {
+      "name": "Bone013",
+      "rotation": [
+        0.12382103502750397,
+        -0.33275455236434937,
+        0.11606228351593018,
+        0.9276164770126343
+      ],
+      "scale": [
+        1.0,
+        1.000000238418579,
+        1.0
+      ],
+      "translation": [
+        15.683952331542969,
+        -20.888097763061523,
+        44.46103286743164
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Bone008",
+      "rotation": [
+        0.004246151074767113,
+        0.021202579140663147,
+        -0.19034375250339508,
+        0.9814793467521667
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        111.44143676757813,
+        -190.1846466064453,
+        -0.00029850006103515625
+      ]
+    },
+    {
+      "name": "Bone009",
+      "rotation": [
+        -0.016398504376411438,
+        0.09785614162683487,
+        0.15410082042217255,
+        0.9830606579780579
+      ],
+      "scale": [
+        0.9999998807907104,
+        0.9999997615814209,
+        0.9999998807907104
+      ],
+      "translation": [
+        188.8646240234375,
+        -3.0517578125e-05,
+        -5.53131103515625e-05
+      ]
+    },
+    {
+      "children": [
+        9,
+        10
+      ],
+      "name": "Bone006",
+      "rotation": [
+        1.1941024240513798e-06,
+        7.334303386841157e-09,
+        0.9986376166343689,
+        0.05218121409416199
+      ],
+      "scale": [
+        0.9999999403953552,
+        0.9999999403953552,
+        1.0
+      ],
+      "translation": [
+        -3.0517578125e-05,
+        -7.105427357601002e-15,
+        1.9073486328125e-05
+      ]
+    },
+    {
+      "name": "Bone011(mirrored)",
+      "rotation": [
+        -0.49803194403648376,
+        0.8669688701629639,
+        -0.01645655930042267,
+        -0.007638146635144949
+      ],
+      "scale": [
+        1.000000238418579,
+        0.9999999403953552,
+        1.0
+      ],
+      "translation": [
+        29.028297424316406,
+        -135.55245971679688,
+        16.295658111572266
+      ]
+    },
+    {
+      "name": "Bone011",
+      "rotation": [
+        0.004118860699236393,
+        0.017668871209025383,
+        -0.747077465057373,
+        0.6644893288612366
+      ],
+      "scale": [
+        1.0000001192092896,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      "translation": [
+        29.03723907470703,
+        -135.6378173828125,
+        -14.030980110168457
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "body",
+      "rotation": [
+        -0.7071068286895752,
+        6.181723932741079e-08,
+        2.7021174756953386e-15,
+        0.7071067690849304
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "skin": 0,
+      "translation": [
+        0.0,
+        0.0,
+        -1.2749110211984771e-08
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        11
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "joints": [
+        3,
+        2,
+        1,
+        8,
+        5,
+        6,
+        9,
+        7,
+        10,
+        4
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Map #38",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

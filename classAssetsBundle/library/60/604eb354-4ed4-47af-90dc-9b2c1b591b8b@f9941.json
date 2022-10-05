@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bonus_time_more",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 37,
+      "height": 34
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 37,
+      "height": 35
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "604eb354-4ed4-47af-90dc-9b2c1b591b8b@6c48a"
+  }
+}

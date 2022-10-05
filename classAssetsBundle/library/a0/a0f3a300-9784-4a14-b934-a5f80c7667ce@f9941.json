@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rw_number_bg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 17,
+      "height": 17
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 17,
+      "height": 17
+    },
+    "rotated": false,
+    "capInsets": [
+      7,
+      5,
+      7,
+      6
+    ],
+    "texture": "a0f3a300-9784-4a14-b934-a5f80c7667ce@6c48a"
+  }
+}

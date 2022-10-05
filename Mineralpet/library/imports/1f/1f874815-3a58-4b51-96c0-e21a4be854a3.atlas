@@ -1,0 +1,69 @@
+
+mining1.png
+size: 288,288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+m_d1s_110
+  rotate: false
+  xy: 106, 62
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+m_efxlight3
+  rotate: true
+  xy: 106, 2
+  size: 58, 87
+  orig: 58, 87
+  offset: 0, 0
+  index: -1
+m_f_101_1
+  rotate: false
+  xy: 199, 178
+  size: 79, 105
+  orig: 79, 105
+  offset: 0, 0
+  index: -1
+m_f_102
+  rotate: false
+  xy: 230, 54
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+m_f_103
+  rotate: false
+  xy: 199, 110
+  size: 79, 66
+  orig: 79, 66
+  offset: 0, 0
+  index: -1
+m_f_104
+  rotate: true
+  xy: 195, 26
+  size: 40, 33
+  orig: 40, 33
+  offset: 0, 0
+  index: -1
+m_f_105
+  rotate: false
+  xy: 188, 68
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+m_f_bg101
+  rotate: false
+  xy: 2, 144
+  size: 195, 139
+  orig: 195, 139
+  offset: 0, 0
+  index: -1
+m_f_bg102
+  rotate: false
+  xy: 2, 26
+  size: 102, 116
+  orig: 102, 116
+  offset: 0, 0
+  index: -1

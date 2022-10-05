@@ -1,0 +1,150 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "690",
+  "_objFlags": 0,
+  "_native": "",
+  "properties": null,
+  "techniques": [
+    {
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "properties": {
+            "texture": {
+              "value": "white",
+              "type": 29
+            },
+            "texture2": {
+              "value": "white",
+              "type": 29
+            },
+            "u_time": {
+              "value": [
+                1
+              ],
+              "type": 13
+            },
+            "u_Position": {
+              "value": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "type": 16
+            },
+            "u_Radius": {
+              "value": [
+                1
+              ],
+              "type": 13
+            },
+            "u_Vague": {
+              "value": [
+                1
+              ],
+              "type": 13
+            }
+          },
+          "program": "690|vs|fs"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 3170440500,
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main () {\n  mat4 mvp;\n  mvp = cc_matViewProj;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n  v_wp = cc_matWorld * vec4(a_position, 1);\n    #if USE_TEXTURE\n    v_uv0 = a_uv0;\n    #endif\n}",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform Constants1 {\n  vec4 u_Position;\n  float u_Radius;\n  float u_time;\n  float u_Vague;\n};\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nfloat noise(vec3 p)\n{\n  vec3 i = floor(p);\n  vec4 a = dot(i, vec3(1., 57., 21.)) + vec4(0., 57., 21., 78.);\n  vec3 f = cos((p-i)*acos(-1.))*(-.5)+.5;\n  a = mix(sin(cos(a)*a),sin(cos(1.+a)*(1.+a)), f.x);\n  a.xy = mix(a.xz, a.yw, f.y);\n  return mix(a.x, a.y, f.z);\n}\nfloat sphere(vec3 p, vec4 spr)\n{\n  return length(spr.xyz-p) - spr.w;\n}\nfloat flame(vec3 p)\n{\n  float d = sphere(p*vec3(1.,.5,1.), vec4(.0,-1.,.0,1.));\n  return d + (noise(p+vec3(.0,u_time*10.,.0)) + noise(p*3.)*.5)*.25*(p.y) ;\n}\nfloat scene(vec3 p)\n{\n  return min(100.-length(p) , abs(flame(p)) );\n}\nvec4 raymarch(vec3 org, vec3 dir)\n{\n  float d = 0.0, glow = 0.0, eps = 0.02;\n  vec3  p = org;\n  bool glowed = false;\n  for(int i=0; i<64; i++)\n  {\n    d = scene(p) + eps;\n    p += d * dir;\n    if( d>eps )\n    {\n      if(flame(p) < .0)\n        glowed=true;\n      if(glowed)\n             glow = float(i)/40.;\n    }\n  }\n  return vec4(p,glow);\n}\nvoid main(void)\n{\n  vec2 v = -1.0 + 2.0 * gl_FragCoord.xy / vec2(960.,640.).xy;\n  v.x *= vec2(960.,640.).x/vec2(960.,640.).y;\n  vec3 org = vec3(0., -2., 4.);\n  vec3 dir = normalize(vec3(v.x*1.6, -v.y, -1.5));\n  vec4 p = raymarch(org, dir);\n  float glow = p.w;\n  vec4 col = mix(vec4(1.,.5,.1,1.), vec4(0.1,.5,1.,1.), p.y*.02+.4);\n  gl_FragColor = mix(vec4(0.), col, pow(glow*2.1,4.));\n}"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main () {\n  mat4 mvp;\n  mvp = cc_matViewProj;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n  v_wp = cc_matWorld * vec4(a_position, 1);\n    #if USE_TEXTURE\n    v_uv0 = a_uv0;\n    #endif\n}",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform float u_time;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nfloat noise(vec3 p)\n{\n  vec3 i = floor(p);\n  vec4 a = dot(i, vec3(1., 57., 21.)) + vec4(0., 57., 21., 78.);\n  vec3 f = cos((p-i)*acos(-1.))*(-.5)+.5;\n  a = mix(sin(cos(a)*a),sin(cos(1.+a)*(1.+a)), f.x);\n  a.xy = mix(a.xz, a.yw, f.y);\n  return mix(a.x, a.y, f.z);\n}\nfloat sphere(vec3 p, vec4 spr)\n{\n  return length(spr.xyz-p) - spr.w;\n}\nfloat flame(vec3 p)\n{\n  float d = sphere(p*vec3(1.,.5,1.), vec4(.0,-1.,.0,1.));\n  return d + (noise(p+vec3(.0,u_time*10.,.0)) + noise(p*3.)*.5)*.25*(p.y) ;\n}\nfloat scene(vec3 p)\n{\n  return min(100.-length(p) , abs(flame(p)) );\n}\nvec4 raymarch(vec3 org, vec3 dir)\n{\n  float d = 0.0, glow = 0.0, eps = 0.02;\n  vec3  p = org;\n  bool glowed = false;\n  for(int i=0; i<64; i++)\n  {\n    d = scene(p) + eps;\n    p += d * dir;\n    if( d>eps )\n    {\n      if(flame(p) < .0)\n        glowed=true;\n      if(glowed)\n             glow = float(i)/40.;\n    }\n  }\n  return vec4(p,glow);\n}\nvoid main(void)\n{\n  vec2 v = -1.0 + 2.0 * gl_FragCoord.xy / vec2(960.,640.).xy;\n  v.x *= vec2(960.,640.).x/vec2(960.,640.).y;\n  vec3 org = vec3(0., -2., 4.);\n  vec3 dir = normalize(vec3(v.x*1.6, -v.y, -1.5));\n  vec4 p = raymarch(org, dir);\n  float glow = p.w;\n  vec4 col = mix(vec4(1.,.5,.1,1.), vec4(0.1,.5,1.,1.), p.y*.02+.4);\n  gl_FragColor = mix(vec4(0.), col, pow(glow*2.1,4.));\n}"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        },
+        "locals": {
+          "blocks": [
+            {
+              "name": "CCLocal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        }
+      },
+      "defines": [
+        {
+          "name": "USE_TEXTURE",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Constants1",
+          "members": [
+            {
+              "name": "u_Position",
+              "type": 16,
+              "count": 1
+            },
+            {
+              "name": "u_Radius",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_time",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_Vague",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "binding": 0
+        }
+      ],
+      "samplers": [
+        {
+          "name": "texture",
+          "type": 29,
+          "count": 1,
+          "defines": [],
+          "binding": 30
+        },
+        {
+          "name": "texture2",
+          "type": 29,
+          "count": 1,
+          "defines": [],
+          "binding": 31
+        }
+      ],
+      "record": null,
+      "name": "690|vs|fs"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "People3",
+    "spriteFrames": [
+      "People3-1",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@ca054",
+      "People3-2",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@4d43e",
+      "People3-3",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@74131",
+      "People3-4",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@a30b4",
+      "People3-5",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@e949d",
+      "People3-6",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@be1cd",
+      "People3-7",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@0b972",
+      "People3-8",
+      "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c@54030"
+    ]
+  }
+}

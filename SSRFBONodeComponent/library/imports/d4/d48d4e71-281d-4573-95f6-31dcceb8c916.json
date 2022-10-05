@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cyber",
+    "texture": "4f548816-bceb-4a05-8098-f34f1d6e0618",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      3840,
+      2560
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

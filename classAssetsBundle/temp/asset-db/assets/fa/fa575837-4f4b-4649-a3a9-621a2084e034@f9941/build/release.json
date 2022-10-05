@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "faV1g3T0tGSaOpYhoghOA0@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "bar_coin",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 94,
+                "height": 101
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 94,
+                "height": 101
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "fa575837-4f4b-4649-a3a9-621a2084e034@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

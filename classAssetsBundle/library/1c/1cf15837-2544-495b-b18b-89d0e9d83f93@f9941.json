@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_click",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 64,
+      "height": 70
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 71
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1cf15837-2544-495b-b18b-89d0e9d83f93@6c48a"
+  }
+}

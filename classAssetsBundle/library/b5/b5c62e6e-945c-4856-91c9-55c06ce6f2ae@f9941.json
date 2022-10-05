@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "submarine_skill_bg",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 223,
+      "height": 105
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 224,
+      "height": 105
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "b5c62e6e-945c-4856-91c9-55c06ce6f2ae@6c48a"
+  }
+}

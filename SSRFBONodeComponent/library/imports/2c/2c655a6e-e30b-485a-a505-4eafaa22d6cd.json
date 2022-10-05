@@ -1,0 +1,126 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "CyberpunkDemo",
+  "_objFlags": 0,
+  "_native": "",
+  "properties": null,
+  "techniques": [
+    {
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "properties": {
+            "texture": {
+              "value": "white",
+              "type": 29
+            },
+            "u_float_8": {
+              "value": [
+                1.5
+              ],
+              "type": 13
+            },
+            "Power": {
+              "value": [
+                0.856
+              ],
+              "type": 13
+            }
+          },
+          "program": "CyberpunkDemo|vs|fs"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 2920389504,
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nin vec3 a_position;\n#if USE_TEXTURE\n    in vec2 a_uv0;\n    out vec2 v_uv0;\n#endif\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\n  #if USE_TEXTURE\n      in vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  in vec4 v_color;\n  uniform Constant {\n  float u_float_8;\n  float Power;\n};\n  vec4 c_TextureToRGBA_main_3(vec2 UV, sampler2D Texture) {\n    return texture2D(Texture, UV);\n}\nfloat c_Sub1_main_6(float InputA, float InputB) {\n    return (InputA - InputB);\n}\nfloat c_Abs1_main_4(float Input) {\n    return abs(Input);\n}\nfloat c_Mul1_main_7(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Add1_main_16(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Step1_main_9(float Input, float Edge) {\n    return step(Edge, Input);\n}\nfloat c_Complement1_main_10(float Input) {\n    return (1.0 - Input);\n}\nfloat c_Mul1_main_20(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Sub1_main_19(float InputA, float InputB) {\n    return (InputA - InputB);\n}\nfloat c_Mul1_main_21(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Add1_main_18(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Add1_main_11(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Mul1_main_12(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Sub1_main_13(float InputA, float InputB) {\n    return (InputA - InputB);\n}\nfloat c_Mul1_main_14(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Add1_main_15(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Sqrt1_main_22(float Input) {\n    return sqrt(Input);\n}\nvec3 c_3To3_main_24(float InputA, float InputB, float InputC) {\n    return vec3(InputA, InputB, InputC);\n}\nvec3 c_Mix3_main_23(vec3 InputA, vec3 InputB, float Percent) {\n    return mix(InputA, InputB, Percent);\n}\nvec4 c_31To4_main_26(vec3 InputA, float InputB) {\n    return vec4(InputA, InputB);\n}\nvec4 c_Output_main_1(vec4 Color) {\n    return Color;\n}\nvoid main()\n{\n    vec4 out_Color_TextureToRGBA_3 = c_TextureToRGBA_main_3(v_uv0, texture);\n    float out_r_TextureToRGBA_3 = out_Color_TextureToRGBA_3.r;\n    float out_g_TextureToRGBA_3 = out_Color_TextureToRGBA_3.g;\n    float out_b_TextureToRGBA_3 = out_Color_TextureToRGBA_3.b;\n    float out_a_TextureToRGBA_3 = out_Color_TextureToRGBA_3.a;\n    vec3 out_rgb_TextureToRGBA_3 = out_Color_TextureToRGBA_3.rgb;\n    float out_Output_Sub1_6 = c_Sub1_main_6(out_r_TextureToRGBA_3, out_g_TextureToRGBA_3);\n    float out_Output_Abs1_4 = c_Abs1_main_4(out_Output_Sub1_6);\n    float out_Output_Mul1_7 = c_Mul1_main_7(out_Output_Abs1_4, u_float_8);\n    float out_Output_Add1_16 = c_Add1_main_16(out_g_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Step1_9 = c_Step1_main_9(out_g_TextureToRGBA_3, out_r_TextureToRGBA_3);\n    float out_Output_Complement1_10 = c_Complement1_main_10(out_Output_Step1_9);\n    float out_Output_Mul1_20 = c_Mul1_main_20(out_Output_Add1_16, out_Output_Complement1_10);\n    float out_Output_Sub1_19 = c_Sub1_main_19(out_g_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Mul1_21 = c_Mul1_main_21(out_Output_Sub1_19, out_Output_Step1_9);\n    float out_Output_Add1_18 = c_Add1_main_18(out_Output_Mul1_20, out_Output_Mul1_21);\n    float out_Output_Add1_11 = c_Add1_main_11(out_r_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Mul1_12 = c_Mul1_main_12(out_Output_Add1_11, out_Output_Step1_9);\n    float out_Output_Sub1_13 = c_Sub1_main_13(out_r_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Mul1_14 = c_Mul1_main_14(out_Output_Sub1_13, out_Output_Complement1_10);\n    float out_Output_Add1_15 = c_Add1_main_15(out_Output_Mul1_12, out_Output_Mul1_14);\n    float out_Output_Sqrt1_22 = c_Sqrt1_main_22(out_b_TextureToRGBA_3);\n    vec3 out_Output_3To3_24 = c_3To3_main_24(out_Output_Add1_15, out_Output_Add1_18, out_Output_Sqrt1_22);\n    vec3 out_Output_Mix3_23 = c_Mix3_main_23(out_rgb_TextureToRGBA_3, out_Output_3To3_24, Power);\n    vec4 out_Output_31To4_26 = c_31To4_main_26(out_Output_Mix3_23, out_a_TextureToRGBA_3);\n    gl_FragColor = c_Output_main_1(out_Output_31To4_26);\n}"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\n#if USE_TEXTURE\n    attribute vec2 a_uv0;\n    varying vec2 v_uv0;\n#endif\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\n  #if USE_TEXTURE\n      varying vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  varying vec4 v_color;\n  uniform float u_float_8;\nuniform float Power;\n  vec4 c_TextureToRGBA_main_3(vec2 UV, sampler2D Texture) {\n    return texture2D(Texture, UV);\n}\nfloat c_Sub1_main_6(float InputA, float InputB) {\n    return (InputA - InputB);\n}\nfloat c_Abs1_main_4(float Input) {\n    return abs(Input);\n}\nfloat c_Mul1_main_7(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Add1_main_16(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Step1_main_9(float Input, float Edge) {\n    return step(Edge, Input);\n}\nfloat c_Complement1_main_10(float Input) {\n    return (1.0 - Input);\n}\nfloat c_Mul1_main_20(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Sub1_main_19(float InputA, float InputB) {\n    return (InputA - InputB);\n}\nfloat c_Mul1_main_21(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Add1_main_18(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Add1_main_11(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Mul1_main_12(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Sub1_main_13(float InputA, float InputB) {\n    return (InputA - InputB);\n}\nfloat c_Mul1_main_14(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Add1_main_15(float InputA, float InputB) {\n    return (InputA + InputB);\n}\nfloat c_Sqrt1_main_22(float Input) {\n    return sqrt(Input);\n}\nvec3 c_3To3_main_24(float InputA, float InputB, float InputC) {\n    return vec3(InputA, InputB, InputC);\n}\nvec3 c_Mix3_main_23(vec3 InputA, vec3 InputB, float Percent) {\n    return mix(InputA, InputB, Percent);\n}\nvec4 c_31To4_main_26(vec3 InputA, float InputB) {\n    return vec4(InputA, InputB);\n}\nvec4 c_Output_main_1(vec4 Color) {\n    return Color;\n}\nvoid main()\n{\n    vec4 out_Color_TextureToRGBA_3 = c_TextureToRGBA_main_3(v_uv0, texture);\n    float out_r_TextureToRGBA_3 = out_Color_TextureToRGBA_3.r;\n    float out_g_TextureToRGBA_3 = out_Color_TextureToRGBA_3.g;\n    float out_b_TextureToRGBA_3 = out_Color_TextureToRGBA_3.b;\n    float out_a_TextureToRGBA_3 = out_Color_TextureToRGBA_3.a;\n    vec3 out_rgb_TextureToRGBA_3 = out_Color_TextureToRGBA_3.rgb;\n    float out_Output_Sub1_6 = c_Sub1_main_6(out_r_TextureToRGBA_3, out_g_TextureToRGBA_3);\n    float out_Output_Abs1_4 = c_Abs1_main_4(out_Output_Sub1_6);\n    float out_Output_Mul1_7 = c_Mul1_main_7(out_Output_Abs1_4, u_float_8);\n    float out_Output_Add1_16 = c_Add1_main_16(out_g_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Step1_9 = c_Step1_main_9(out_g_TextureToRGBA_3, out_r_TextureToRGBA_3);\n    float out_Output_Complement1_10 = c_Complement1_main_10(out_Output_Step1_9);\n    float out_Output_Mul1_20 = c_Mul1_main_20(out_Output_Add1_16, out_Output_Complement1_10);\n    float out_Output_Sub1_19 = c_Sub1_main_19(out_g_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Mul1_21 = c_Mul1_main_21(out_Output_Sub1_19, out_Output_Step1_9);\n    float out_Output_Add1_18 = c_Add1_main_18(out_Output_Mul1_20, out_Output_Mul1_21);\n    float out_Output_Add1_11 = c_Add1_main_11(out_r_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Mul1_12 = c_Mul1_main_12(out_Output_Add1_11, out_Output_Step1_9);\n    float out_Output_Sub1_13 = c_Sub1_main_13(out_r_TextureToRGBA_3, out_Output_Mul1_7);\n    float out_Output_Mul1_14 = c_Mul1_main_14(out_Output_Sub1_13, out_Output_Complement1_10);\n    float out_Output_Add1_15 = c_Add1_main_15(out_Output_Mul1_12, out_Output_Mul1_14);\n    float out_Output_Sqrt1_22 = c_Sqrt1_main_22(out_b_TextureToRGBA_3);\n    vec3 out_Output_3To3_24 = c_3To3_main_24(out_Output_Add1_15, out_Output_Add1_18, out_Output_Sqrt1_22);\n    vec3 out_Output_Mix3_23 = c_Mix3_main_23(out_rgb_TextureToRGBA_3, out_Output_3To3_24, Power);\n    vec4 out_Output_31To4_26 = c_31To4_main_26(out_Output_Mix3_23, out_a_TextureToRGBA_3);\n    gl_FragColor = c_Output_main_1(out_Output_31To4_26);\n}"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        },
+        "locals": {
+          "blocks": [
+            {
+              "name": "CCLocal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        }
+      },
+      "defines": [
+        {
+          "name": "USE_TEXTURE",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "CC_USE_MODEL",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "USE_TINT",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Constant",
+          "members": [
+            {
+              "name": "u_float_8",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "Power",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "binding": 0
+        }
+      ],
+      "samplers": [
+        {
+          "name": "texture",
+          "type": 29,
+          "count": 1,
+          "defines": [
+            "USE_TEXTURE"
+          ],
+          "binding": 30
+        }
+      ],
+      "record": null,
+      "name": "CyberpunkDemo|vs|fs"
+    }
+  ]
+}

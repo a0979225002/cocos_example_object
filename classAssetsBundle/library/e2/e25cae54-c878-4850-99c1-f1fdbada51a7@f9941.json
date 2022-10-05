@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_rank",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 69,
+      "height": 72
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 69,
+      "height": 72
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "e25cae54-c878-4850-99c1-f1fdbada51a7@6c48a"
+  }
+}

@@ -1,0 +1,282 @@
+2019-02-01T07:46:22.008Z - normal: Load ~/.CocosCreator/settings.json
+2019-02-01T07:46:23.318Z - normal: Initializing Asset Database
+2019-02-01T07:46:23.327Z - normal: checking language setting...
+2019-02-01T07:46:23.327Z - normal: Language: zh
+2019-02-01T07:46:24.431Z - success: preview server running at http://localhost:7456
+2019-02-01T07:46:24.434Z - success: protocol editor-framework registered
+2019-02-01T07:46:24.435Z - success: protocol app registered
+2019-02-01T07:46:24.435Z - success: protocol theme registered
+2019-02-01T07:46:24.435Z - success: protocol packages registered
+2019-02-01T07:46:24.435Z - success: protocol uuid registerred
+2019-02-01T07:46:24.435Z - success: protocol db registerred
+2019-02-01T07:46:24.435Z - success: protocol thumbnail registerred
+2019-02-01T07:46:24.435Z - success: protocol unpack registerred
+2019-02-01T07:46:24.435Z - success: protocol disable-commonjs registerred
+2019-02-01T07:46:24.633Z - normal: connected!
+2019-02-01T07:46:24.634Z - normal: Check project C:\Home\workspace\class_fisher
+2019-02-01T07:46:24.636Z - normal: Initializing project C:\Home\workspace\class_fisher
+2019-02-01T07:46:25.633Z - normal: Initializing Cocos2d
+2019-02-01T07:46:26.703Z - normal: Initializing engine extends
+2019-02-01T07:46:26.708Z - normal: Loading editor/builtin packages from C:\CocosCreator_3d\resources\app.asar\editor\builtin
+2019-02-01T07:46:26.717Z - normal: Loading builtin packages from C:\CocosCreator_3d\resources\builtin
+2019-02-01T07:46:27.815Z - success: assets loaded
+2019-02-01T07:46:27.816Z - success: asset-db-debugger loaded
+2019-02-01T07:46:27.904Z - success: builder loaded
+2019-02-01T07:46:27.904Z - success: code-editor loaded
+2019-02-01T07:46:27.978Z - success: cocos-analytics loaded
+2019-02-01T07:46:27.979Z - success: color-picker loaded
+2019-02-01T07:46:28.134Z - success: console loaded
+2019-02-01T07:46:28.134Z - success: google-play-instant loaded
+2019-02-01T07:46:28.199Z - success: fb-instant-games loaded
+2019-02-01T07:46:28.200Z - success: jsb-adapter loaded
+2019-02-01T07:46:28.337Z - success: google-instant-games loaded
+2019-02-01T07:46:28.338Z - success: oppo-runtime loaded
+2019-02-01T07:46:28.361Z - success: hierarchy loaded
+2019-02-01T07:46:28.361Z - success: package-manager loaded
+2019-02-01T07:46:28.561Z - success: inspector loaded
+2019-02-01T07:46:28.561Z - success: qqplay-adapter loaded
+2019-02-01T07:46:28.575Z - success: keystore loaded
+2019-02-01T07:46:28.575Z - success: sdkbox loaded
+2019-02-01T07:46:28.596Z - success: node-library loaded
+2019-02-01T07:46:28.597Z - success: tester loaded
+2019-02-01T07:46:28.605Z - success: package-asset loaded
+2019-02-01T07:46:28.605Z - success: ui-grid loaded
+2019-02-01T07:46:28.657Z - success: preferences loaded
+2019-02-01T07:46:28.658Z - success: ui-kit-preview-extra loaded
+2019-02-01T07:46:28.662Z - success: project-exporter loaded
+2019-02-01T07:46:28.662Z - success: ui-kit-preview loaded
+2019-02-01T07:46:28.702Z - success: project-importer loaded
+2019-02-01T07:46:28.702Z - success: ui-kit loaded
+2019-02-01T07:46:28.714Z - success: project-settings loaded
+2019-02-01T07:46:28.715Z - success: ui-tree loaded
+2019-02-01T07:46:28.761Z - success: scene loaded
+2019-02-01T07:46:28.762Z - success: vivo-runtime loaded
+2019-02-01T07:46:28.765Z - success: simulator-debugger loaded
+2019-02-01T07:46:28.766Z - success: weapp-adapter loaded
+2019-02-01T07:46:28.768Z - success: sprite-editor loaded
+2019-02-01T07:46:28.778Z - success: store loaded
+2019-02-01T07:46:28.788Z - success: timeline loaded
+2019-02-01T07:46:29.909Z - normal: Loading packages
+2019-02-01T07:46:29.933Z - success: gen_navmesh loaded
+2019-02-01T07:46:29.941Z - success: unpack-textureatlas loaded
+2019-02-01T07:46:29.942Z - normal: Watching packages
+2019-02-01T07:46:30.737Z - normal: Run Application
+2019-02-01T07:48:23.099Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2019-02-01T07:48:23.102Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2019-02-01T07:48:23.102Z - normal: Simulator: FRAME SCALE = 1.00
+2019-02-01T07:48:23.733Z - normal: Simulator: Ready for GLSL
+2019-02-01T07:48:23.734Z - normal: Simulator: Ready for OpenGL 2.0
+2019-02-01T07:48:23.761Z - normal: Simulator: Project Config:
+2019-02-01T07:48:23.761Z - normal: Simulator:     project dir: C:\CocosCreator_3d\resources\cocos2d-x\simulator\win32\
+2019-02-01T07:48:23.762Z - normal: Simulator:     writable path: $(PROJDIR)\
+2019-02-01T07:48:23.762Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2019-02-01T07:48:23.762Z - normal: Simulator:     frame size: 960 x 640
+2019-02-01T07:48:23.763Z - normal: Simulator:     frame scale: 1.00
+2019-02-01T07:48:23.763Z - normal: Simulator:     show console: NO
+2019-02-01T07:48:23.763Z - normal: Simulator:     write debug log: NO ()
+2019-02-01T07:48:23.764Z - normal: Simulator:     listen: 
+2019-02-01T07:48:23.764Z - normal: Simulator:     debugger: none
+2019-02-01T07:48:23.764Z - normal: Simulator:     add searching path:
+2019-02-01T07:48:23.764Z - normal: Simulator: 
+2019-02-01T07:48:23.764Z - normal: Simulator: 
+2019-02-01T07:48:23.765Z - normal: Simulator: 
+2019-02-01T07:48:23.768Z - normal: Simulator: resetDesignResolution request
+2019-02-01T07:48:23.769Z - normal: Simulator: ------------------------------------------------
+2019-02-01T07:48:23.769Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-02-01T07:48:23.769Z - normal: Simulator: ------------------------------------------------
+2019-02-01T07:48:23.769Z - normal: Simulator: D/jswrapper (368): Initializing V8, version: 6.0.286.52
+2019-02-01T07:48:24.389Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2019-02-01T07:48:24.394Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-02-01T07:48:24.394Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2019-02-01T07:48:24.462Z - normal: Simulator: D/jswrapper (129): JS: Enable batch GL commands optimization!
+2019-02-01T07:48:24.465Z - normal: Simulator: resetDesignResolution request
+2019-02-01T07:48:24.465Z - normal: Simulator: ------------------------------------------------
+2019-02-01T07:48:24.465Z - normal: Simulator: LOAD Js FILE: main.js
+2019-02-01T07:48:24.466Z - normal: Simulator: ------------------------------------------------
+2019-02-01T07:48:25.209Z - normal: Simulator: D/jswrapper (4159): glGetIntegerv: pname: 0x8b4c
+2019-02-01T07:48:25.230Z - normal: Simulator: D/jswrapper (129): JS: Cocos Creator v2.1.0
+2019-02-01T07:48:25.430Z - normal: Simulator: iShow!
+2019-02-01T07:48:26.947Z - normal: Simulator: D/jswrapper (452): ScriptEngine::cleanup begin ...
+2019-02-01T07:48:26.948Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 15, all objects: 52
+2019-02-01T07:48:27.039Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 15, all objects: 52
+2019-02-01T07:48:27.039Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 15, all objects: 52
+2019-02-01T07:48:27.093Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 15, all objects: 52
+2019-02-01T07:48:27.095Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (2) by GC
+2019-02-01T07:48:27.095Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (8) by GC
+2019-02-01T07:48:27.095Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (1) by GC
+2019-02-01T07:48:27.095Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (2) by GC
+2019-02-01T07:48:27.100Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (5) by GC
+2019-02-01T07:48:27.100Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (3) by GC
+2019-02-01T07:48:27.100Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (4) by GC
+2019-02-01T07:48:27.100Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (6) by GC
+2019-02-01T07:48:27.101Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (7) by GC
+2019-02-01T07:48:27.101Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (1) by GC
+2019-02-01T07:48:27.101Z - normal: Simulator: D/jswrapper (327): Destroy WebGLProgram (3) by GC
+2019-02-01T07:48:27.103Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 0, all objects: 0
+2019-02-01T07:48:27.158Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 0, all objects: 0
+2019-02-01T07:48:27.164Z - normal: Simulator: D/jswrapper (515): ScriptEngine::cleanup end ...
+2019-02-01T07:57:11.284Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4964
+2019-02-01T07:57:11.287Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4966
+2019-02-01T07:58:55.213Z - warn: Error: [AssetLibrary] loading JSON or dependencies failed: undefined
+2019-02-01T08:00:21.325Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2019-02-01T08:00:21.328Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2019-02-01T08:00:21.329Z - normal: Simulator: FRAME SCALE = 1.00
+2019-02-01T08:00:21.950Z - normal: Simulator: Ready for GLSL
+2019-02-01T08:00:21.950Z - normal: Simulator: Ready for OpenGL 2.0
+2019-02-01T08:00:21.960Z - normal: Simulator: Project Config:
+2019-02-01T08:00:21.961Z - normal: Simulator:     project dir: C:\CocosCreator_3d\resources\cocos2d-x\simulator\win32\
+2019-02-01T08:00:21.961Z - normal: Simulator:     writable path: $(PROJDIR)\
+2019-02-01T08:00:21.962Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2019-02-01T08:00:21.962Z - normal: Simulator:     frame size: 960 x 640
+2019-02-01T08:00:21.962Z - normal: Simulator:     frame scale: 1.00
+2019-02-01T08:00:21.962Z - normal: Simulator:     show console: NO
+2019-02-01T08:00:21.963Z - normal: Simulator:     write debug log: NO ()
+2019-02-01T08:00:21.963Z - normal: Simulator:     listen: 
+2019-02-01T08:00:21.963Z - normal: Simulator:     debugger: none
+2019-02-01T08:00:21.964Z - normal: Simulator:     add searching path:
+2019-02-01T08:00:21.964Z - normal: Simulator: 
+2019-02-01T08:00:21.965Z - normal: Simulator: 
+2019-02-01T08:00:21.965Z - normal: Simulator: 
+2019-02-01T08:00:21.966Z - normal: Simulator: resetDesignResolution request
+2019-02-01T08:00:21.966Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:21.966Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-02-01T08:00:21.966Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:21.966Z - normal: Simulator: D/jswrapper (368): Initializing V8, version: 6.0.286.52
+2019-02-01T08:00:22.581Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2019-02-01T08:00:22.586Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-02-01T08:00:22.586Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2019-02-01T08:00:22.656Z - normal: Simulator: D/jswrapper (129): JS: Enable batch GL commands optimization!
+2019-02-01T08:00:22.662Z - normal: Simulator: resetDesignResolution request
+2019-02-01T08:00:22.662Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:22.662Z - normal: Simulator: LOAD Js FILE: main.js
+2019-02-01T08:00:22.663Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:23.422Z - normal: Simulator: iShow!
+2019-02-01T08:00:23.436Z - normal: Simulator: D/jswrapper (4159): glGetIntegerv: pname: 0x8b4c
+2019-02-01T08:00:23.472Z - normal: Simulator: D/jswrapper (129): JS: Cocos Creator v2.1.0
+2019-02-01T08:00:23.839Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, -29.00),(-507.00, 159.00),(-507.00, 159.00),(-255.00, 159.00),(-255.00, 159.00),(-203.00, 165.00),(-156.00, 169.00),(-113.00, 172.00),(-113.00, 172.00),(43.00, 182.00),(155.00, 173.00),(318.00, 132.00),(318.00, 132.00),(472.00, 93.00),(472.00, 93.00),(756.00, -29.00)
+2019-02-01T08:00:23.843Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, -29.00),(-693.37, -11.92),(-675.85, 4.09),(-659.37, 19.07),(-643.84, 33.05),(-629.18, 46.07),(-615.30, 58.16),(-602.11, 69.35),(-589.55, 79.69),(-577.51, 89.19),(-565.92, 97.91),(-554.70, 105.87),(-543.76, 113.10),(-533.01, 119.65),(-522.38, 125.54),(-511.78, 130.81),(-501.13, 135.50),(-490.33, 139.64),(-479.32, 143.26),(-468.00, 146.40),(-456.29, 149.09),(-444.11, 151.36),(-431.37, 153.26),(-417.99, 154.82),(-403.89, 156.06),(-388.98, 157.03),(-373.18, 157.76),(-356.41, 158.28),(-338.58, 158.63),(-319.61, 158.85),(-299.41, 158.95),(-277.90, 158.99),(-255.00, 159.00),(-235.73, 161.16),(-216.92, 163.14),(-198.56, 164.96),(-180.63, 166.63),(-163.12, 168.15),(-146.02, 169.55),(-129.31, 170.83),(-113.00, 172.00),(-95.84, 173.03),(-79.02, 173.90),(-62.50, 174.61),(-46.25, 175.15),(-30.26, 175.52),(-14.48, 175.71),(1.12, 175.72),(16.55, 175.55),(31.85, 175.19),(47.05, 174.63),(62.18, 173.88),(77.27, 172.93),(92.34, 171.78),(107.42, 170.42),(122.55, 168.84),(137.75, 167.06),(153.05, 165.05),(168.48, 162.81),(184.07, 160.35),(199.85, 157.66),(215.85, 154.74),(232.09, 151.57),(248.60, 148.16),(265.43, 144.50),(282.58, 140.59),(300.09, 136.42),(318.00, 132.00),(333.40, 128.10),(347.81, 124.43),(361.33, 120.97),(374.08, 117.67),(386.17, 114.48),(397.69, 111.38),(408.76, 108.31),(419.49, 105.25),(429.97, 102.15),(440.33, 98.97),(450.67, 95.67),(461.10, 92.21),(471.72, 88.56),(482.64, 84.67),(493.97, 80.51),(505.82, 76.02),(518.30, 71.19),(531.51, 65.96),(545.56, 60.29),(560.55, 54.15),(576.61, 47.49),(593.83, 40.28),(612.32, 32.48),(632.19, 24.05),(653.54, 14.94),(676.49, 5.12),(701.15, -5.45),(727.62, -16.81),(756.00, -29.00)
+2019-02-01T08:00:23.843Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, 69.00),(-524.00, 53.00),(-524.00, 53.00),(-300.00, 65.00),(-300.00, 65.00),(-158.00, 73.00),(11.00, 71.00),(164.00, 84.00),(164.00, 84.00),(468.00, 109.00),(468.00, 109.00),(728.00, 150.00)
+2019-02-01T08:00:23.844Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, 69.00),(-690.32, 67.16),(-670.28, 65.47),(-651.73, 63.92),(-634.51, 62.53),(-618.46, 61.29),(-603.43, 60.19),(-589.25, 59.24),(-575.77, 58.42),(-562.83, 57.75),(-550.27, 57.22),(-537.93, 56.83),(-525.66, 56.58),(-513.30, 56.46),(-500.68, 56.47),(-487.65, 56.62),(-474.05, 56.89),(-459.73, 57.30),(-444.52, 57.83),(-428.27, 58.49),(-410.82, 59.27),(-392.00, 60.18),(-371.68, 61.21),(-349.67, 62.35),(-325.83, 63.62),(-300.00, 65.00),(-285.22, 65.79),(-270.25, 66.52),(-255.11, 67.19),(-239.81, 67.81),(-224.36, 68.37),(-208.78, 68.90),(-193.06, 69.40),(-177.22, 69.86),(-161.28, 70.31),(-145.24, 70.73),(-129.11, 71.15),(-112.90, 71.57),(-96.63, 71.98),(-80.31, 72.41),(-63.93, 72.85),(-47.53, 73.31),(-31.10, 73.80),(-14.66, 74.32),(1.78, 74.88),(18.21, 75.48),(34.63, 76.14),(51.01, 76.86),(67.36, 77.64),(83.66, 78.49),(99.89, 79.41),(116.05, 80.42),(132.13, 81.52),(148.12, 82.71),(164.00, 84.00),(189.33, 86.08),(213.24, 88.05),(235.83, 89.92),(257.16, 91.69),(277.32, 93.38),(296.38, 94.99),(314.43, 96.53),(331.54, 98.01),(347.80, 99.45),(363.28, 100.85),(378.05, 102.21),(392.21, 103.56),(405.82, 104.89),(418.98, 106.22),(431.74, 107.56),(444.21, 108.92),(456.44, 110.30),(468.53, 111.71),(480.55, 113.17),(492.58, 114.68),(504.70, 116.26),(516.99, 117.90),(529.53, 119.63),(542.39, 121.44),(555.66, 123.36),(569.41, 125.38),(583.73, 127.52),(598.69, 129.79),(614.37, 132.20),(630.85, 134.75),(648.20, 137.45),(666.52, 140.32),(685.87, 143.36),(706.34, 146.58),(728.00, 150.00)
+2019-02-01T08:00:37.077Z - normal: Simulator: D/jswrapper (452): ScriptEngine::cleanup begin ...
+2019-02-01T08:00:37.077Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:37.131Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:37.132Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:37.183Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:37.183Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (8) by GC
+2019-02-01T08:00:37.184Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (4) by GC
+2019-02-01T08:00:37.186Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (2) by GC
+2019-02-01T08:00:37.187Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (2) by GC
+2019-02-01T08:00:37.187Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (3) by GC
+2019-02-01T08:00:37.187Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (1) by GC
+2019-02-01T08:00:37.187Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (4) by GC
+2019-02-01T08:00:37.187Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (7) by GC
+2019-02-01T08:00:37.188Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (5) by GC
+2019-02-01T08:00:37.188Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (6) by GC
+2019-02-01T08:00:37.188Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (1) by GC
+2019-02-01T08:00:37.188Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (3) by GC
+2019-02-01T08:00:37.188Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (9) by GC
+2019-02-01T08:00:37.188Z - normal: Simulator: D/jswrapper (327): Destroy WebGLProgram (3) by GC
+2019-02-01T08:00:37.189Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (10) by GC
+2019-02-01T08:00:37.189Z - normal: Simulator: D/jswrapper (327): Destroy WebGLProgram (6) by GC
+2019-02-01T08:00:37.189Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 0, all objects: 0
+2019-02-01T08:00:37.231Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 0, all objects: 0
+2019-02-01T08:00:37.287Z - normal: Simulator: D/jswrapper (515): ScriptEngine::cleanup end ...
+2019-02-01T08:00:47.173Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2019-02-01T08:00:47.175Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2019-02-01T08:00:47.178Z - normal: Simulator: FRAME SCALE = 1.00
+2019-02-01T08:00:47.791Z - normal: Simulator: Ready for GLSL
+2019-02-01T08:00:47.791Z - normal: Simulator: Ready for OpenGL 2.0
+2019-02-01T08:00:47.795Z - normal: Simulator: Project Config:
+2019-02-01T08:00:47.796Z - normal: Simulator:     project dir: C:\CocosCreator_3d\resources\cocos2d-x\simulator\win32\
+2019-02-01T08:00:47.796Z - normal: Simulator:     writable path: $(PROJDIR)\
+2019-02-01T08:00:47.798Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2019-02-01T08:00:47.812Z - normal: Simulator:     frame size: 960 x 640
+2019-02-01T08:00:47.813Z - normal: Simulator:     frame scale: 1.00
+2019-02-01T08:00:47.813Z - normal: Simulator:     show console: NO
+2019-02-01T08:00:47.814Z - normal: Simulator:     write debug log: NO ()
+2019-02-01T08:00:47.814Z - normal: Simulator:     listen: 
+2019-02-01T08:00:47.814Z - normal: Simulator:     debugger: none
+2019-02-01T08:00:47.814Z - normal: Simulator:     add searching path:
+2019-02-01T08:00:47.815Z - normal: Simulator: 
+2019-02-01T08:00:47.815Z - normal: Simulator: 
+2019-02-01T08:00:47.815Z - normal: Simulator: 
+2019-02-01T08:00:47.815Z - normal: Simulator: resetDesignResolution request
+2019-02-01T08:00:47.816Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:47.816Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-02-01T08:00:47.816Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:47.816Z - normal: Simulator: D/jswrapper (368): Initializing V8, version: 6.0.286.52
+2019-02-01T08:00:48.424Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2019-02-01T08:00:48.424Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-02-01T08:00:48.424Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2019-02-01T08:00:48.497Z - normal: Simulator: D/jswrapper (129): JS: Enable batch GL commands optimization!
+2019-02-01T08:00:48.502Z - normal: Simulator: resetDesignResolution request
+2019-02-01T08:00:48.502Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:48.502Z - normal: Simulator: LOAD Js FILE: main.js
+2019-02-01T08:00:48.503Z - normal: Simulator: ------------------------------------------------
+2019-02-01T08:00:49.225Z - normal: Simulator: iShow!
+2019-02-01T08:00:49.243Z - normal: Simulator: D/jswrapper (4159): glGetIntegerv: pname: 0x8b4c
+2019-02-01T08:00:49.275Z - normal: Simulator: D/jswrapper (129): JS: Cocos Creator v2.1.0
+2019-02-01T08:00:49.653Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, -29.00),(-507.00, 159.00),(-507.00, 159.00),(-255.00, 159.00),(-255.00, 159.00),(-203.00, 165.00),(-156.00, 169.00),(-113.00, 172.00),(-113.00, 172.00),(43.00, 182.00),(155.00, 173.00),(318.00, 132.00),(318.00, 132.00),(472.00, 93.00),(472.00, 93.00),(756.00, -29.00)
+2019-02-01T08:00:49.656Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, -29.00),(-693.37, -11.92),(-675.85, 4.09),(-659.37, 19.07),(-643.84, 33.05),(-629.18, 46.07),(-615.30, 58.16),(-602.11, 69.35),(-589.55, 79.69),(-577.51, 89.19),(-565.92, 97.91),(-554.70, 105.87),(-543.76, 113.10),(-533.01, 119.65),(-522.38, 125.54),(-511.78, 130.81),(-501.13, 135.50),(-490.33, 139.64),(-479.32, 143.26),(-468.00, 146.40),(-456.29, 149.09),(-444.11, 151.36),(-431.37, 153.26),(-417.99, 154.82),(-403.89, 156.06),(-388.98, 157.03),(-373.18, 157.76),(-356.41, 158.28),(-338.58, 158.63),(-319.61, 158.85),(-299.41, 158.95),(-277.90, 158.99),(-255.00, 159.00),(-235.73, 161.16),(-216.92, 163.14),(-198.56, 164.96),(-180.63, 166.63),(-163.12, 168.15),(-146.02, 169.55),(-129.31, 170.83),(-113.00, 172.00),(-95.84, 173.03),(-79.02, 173.90),(-62.50, 174.61),(-46.25, 175.15),(-30.26, 175.52),(-14.48, 175.71),(1.12, 175.72),(16.55, 175.55),(31.85, 175.19),(47.05, 174.63),(62.18, 173.88),(77.27, 172.93),(92.34, 171.78),(107.42, 170.42),(122.55, 168.84),(137.75, 167.06),(153.05, 165.05),(168.48, 162.81),(184.07, 160.35),(199.85, 157.66),(215.85, 154.74),(232.09, 151.57),(248.60, 148.16),(265.43, 144.50),(282.58, 140.59),(300.09, 136.42),(318.00, 132.00),(333.40, 128.10),(347.81, 124.43),(361.33, 120.97),(374.08, 117.67),(386.17, 114.48),(397.69, 111.38),(408.76, 108.31),(419.49, 105.25),(429.97, 102.15),(440.33, 98.97),(450.67, 95.67),(461.10, 92.21),(471.72, 88.56),(482.64, 84.67),(493.97, 80.51),(505.82, 76.02),(518.30, 71.19),(531.51, 65.96),(545.56, 60.29),(560.55, 54.15),(576.61, 47.49),(593.83, 40.28),(612.32, 32.48),(632.19, 24.05),(653.54, 14.94),(676.49, 5.12),(701.15, -5.45),(727.62, -16.81),(756.00, -29.00)
+2019-02-01T08:00:49.656Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, 69.00),(-524.00, 53.00),(-524.00, 53.00),(-300.00, 65.00),(-300.00, 65.00),(-158.00, 73.00),(11.00, 71.00),(164.00, 84.00),(164.00, 84.00),(468.00, 109.00),(468.00, 109.00),(728.00, 150.00)
+2019-02-01T08:00:49.657Z - normal: Simulator: D/jswrapper (129): JS: (-712.00, 69.00),(-690.32, 67.16),(-670.28, 65.47),(-651.73, 63.92),(-634.51, 62.53),(-618.46, 61.29),(-603.43, 60.19),(-589.25, 59.24),(-575.77, 58.42),(-562.83, 57.75),(-550.27, 57.22),(-537.93, 56.83),(-525.66, 56.58),(-513.30, 56.46),(-500.68, 56.47),(-487.65, 56.62),(-474.05, 56.89),(-459.73, 57.30),(-444.52, 57.83),(-428.27, 58.49),(-410.82, 59.27),(-392.00, 60.18),(-371.68, 61.21),(-349.67, 62.35),(-325.83, 63.62),(-300.00, 65.00),(-285.22, 65.79),(-270.25, 66.52),(-255.11, 67.19),(-239.81, 67.81),(-224.36, 68.37),(-208.78, 68.90),(-193.06, 69.40),(-177.22, 69.86),(-161.28, 70.31),(-145.24, 70.73),(-129.11, 71.15),(-112.90, 71.57),(-96.63, 71.98),(-80.31, 72.41),(-63.93, 72.85),(-47.53, 73.31),(-31.10, 73.80),(-14.66, 74.32),(1.78, 74.88),(18.21, 75.48),(34.63, 76.14),(51.01, 76.86),(67.36, 77.64),(83.66, 78.49),(99.89, 79.41),(116.05, 80.42),(132.13, 81.52),(148.12, 82.71),(164.00, 84.00),(189.33, 86.08),(213.24, 88.05),(235.83, 89.92),(257.16, 91.69),(277.32, 93.38),(296.38, 94.99),(314.43, 96.53),(331.54, 98.01),(347.80, 99.45),(363.28, 100.85),(378.05, 102.21),(392.21, 103.56),(405.82, 104.89),(418.98, 106.22),(431.74, 107.56),(444.21, 108.92),(456.44, 110.30),(468.53, 111.71),(480.55, 113.17),(492.58, 114.68),(504.70, 116.26),(516.99, 117.90),(529.53, 119.63),(542.39, 121.44),(555.66, 123.36),(569.41, 125.38),(583.73, 127.52),(598.69, 129.79),(614.37, 132.20),(630.85, 134.75),(648.20, 137.45),(666.52, 140.32),(685.87, 143.36),(706.34, 146.58),(728.00, 150.00)
+2019-02-01T08:00:51.538Z - normal: Simulator: D/jswrapper (452): ScriptEngine::cleanup begin ...
+2019-02-01T08:00:51.539Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:51.618Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:51.618Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:51.684Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 22, all objects: 59
+2019-02-01T08:00:51.685Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (1) by GC
+2019-02-01T08:00:51.686Z - normal: Simulator: D/jswrapper (327): Destroy WebGLProgram (6) by GC
+2019-02-01T08:00:51.686Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (2) by GC
+2019-02-01T08:00:51.686Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (3) by GC
+2019-02-01T08:00:51.687Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (7) by GC
+2019-02-01T08:00:51.687Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (4) by GC
+2019-02-01T08:00:51.687Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (5) by GC
+2019-02-01T08:00:51.688Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (6) by GC
+2019-02-01T08:00:51.688Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (8) by GC
+2019-02-01T08:00:51.688Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (1) by GC
+2019-02-01T08:00:51.689Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (3) by GC
+2019-02-01T08:00:51.689Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (2) by GC
+2019-02-01T08:00:51.689Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (4) by GC
+2019-02-01T08:00:51.689Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (9) by GC
+2019-02-01T08:00:51.690Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (10) by GC
+2019-02-01T08:00:51.690Z - normal: Simulator: D/jswrapper (327): Destroy WebGLProgram (3) by GC
+2019-02-01T08:00:51.690Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 0, all objects: 0
+2019-02-01T08:00:51.765Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 0, all objects: 0
+2019-02-01T08:00:51.771Z - normal: Simulator: D/jswrapper (515): ScriptEngine::cleanup end ...
+2019-02-01T08:23:20.435Z - failed: [db-task][sync-changes] Failed to import asset C:\Home\workspace\class_fisher\assets\scripts\bullet.js, message: Compile error: SyntaxError: C:/Home/workspace/class_fisher/assets/scripts/bullet.js: Unexpected token (40:4)
+  38 | 
+  39 |         if (this.node.x < -cc.winSize.width * 0.5)
+> 40 |     },
+     |     ^
+  41 | });
+  42 | 
+    at Parser.pp$5.raise (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseExpression (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
+    at Parser.pp$1.parseStatement (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
+2019-02-01T08:31:32.108Z - failed: [db-task][sync-changes] Failed to import asset C:\Home\workspace\class_fisher\assets\scripts\cannon.js, message: Compile error: SyntaxError: C:/Home/workspace/class_fisher/assets/scripts/cannon.js: Unexpected token (33:4)
+  31 |         var degree = this.node.angle + 90;
+  32 |         var bullet = 
+> 33 |     },
+     |     ^
+  34 | 
+  35 |     update (dt) {
+  36 |         if (this.target === null) {
+    at Parser.pp$5.raise (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$1.parseVar (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:2340:24)
+    at Parser.pp$1.parseVarStatement (C:\CocosCreator_3d\resources\app.asar\node_modules\babylon\lib\index.js:2169:8)
+2019-02-01T08:54:59.251Z - info: shutdown preview server

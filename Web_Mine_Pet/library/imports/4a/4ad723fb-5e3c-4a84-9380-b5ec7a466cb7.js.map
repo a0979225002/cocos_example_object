@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\script\\manager\\EventMng.ts"],"names":[],"mappings":";;;;;;AAAA,kBAAe,IAAI,EAAE,CAAC,WAAW,EAAE,CAAC","file":"","sourceRoot":"/","sourcesContent":["export default new cc.EventTarget();"]}

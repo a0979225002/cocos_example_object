@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "time_progress",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 98,
+      "height": 98
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 98,
+      "height": 98
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "560c2530-220f-4e00-a92a-6dbae91f5d65@6c48a"
+  }
+}

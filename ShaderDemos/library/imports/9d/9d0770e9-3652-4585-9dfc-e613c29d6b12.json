@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sunwukong",
+    "texture": "0b4ac3b7-c79d-4c19-a5ab-0577fd3a13c1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      116,
+      116
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      116,
+      116
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

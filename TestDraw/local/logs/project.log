@@ -1,0 +1,68 @@
+2020-04-19T02:39:15.708Z - normal: Load ~/.CocosCreator/settings.json
+2020-04-19T02:39:15.749Z - normal: Initializing Asset Database
+2020-04-19T02:39:15.751Z - normal: checking language setting...
+2020-04-19T02:39:15.751Z - normal: Language: zh
+2020-04-19T02:39:16.176Z - success: preview server running at http://localhost:7456
+2020-04-19T02:39:16.215Z - success: protocol editor-framework registered
+2020-04-19T02:39:16.215Z - success: protocol app registered
+2020-04-19T02:39:16.215Z - success: protocol theme registered
+2020-04-19T02:39:16.215Z - success: protocol packages registered
+2020-04-19T02:39:16.215Z - success: protocol uuid registerred
+2020-04-19T02:39:16.215Z - success: protocol db registerred
+2020-04-19T02:39:16.215Z - success: protocol thumbnail registerred
+2020-04-19T02:39:16.215Z - success: protocol unpack registerred
+2020-04-19T02:39:16.215Z - success: protocol disable-commonjs registerred
+2020-04-19T02:39:16.328Z - normal: connected!
+2020-04-19T02:39:16.329Z - normal: Check project /Users/mabin/work/cocos_game_220/TestDraw
+2020-04-19T02:39:16.331Z - normal: Initializing project /Users/mabin/work/cocos_game_220/TestDraw
+2020-04-19T02:39:16.394Z - success: adapters loaded
+2020-04-19T02:39:16.409Z - success: asset-db-debugger loaded
+2020-04-19T02:39:16.531Z - success: fb-audience-network loaded
+2020-04-19T02:39:16.570Z - success: fb-live-stream loaded
+2020-04-19T02:39:16.572Z - success: google-play-instant loaded
+2020-04-19T02:39:16.576Z - success: huawei-runtime loaded
+2020-04-19T02:39:16.577Z - success: jkw-adapter loaded
+2020-04-19T02:39:16.577Z - success: jsb-adapter loaded
+2020-04-19T02:39:16.581Z - success: oppo-runtime loaded
+2020-04-19T02:39:16.595Z - success: package-manager loaded
+2020-04-19T02:39:16.596Z - success: qtt-adapter loaded
+2020-04-19T02:39:16.598Z - success: runtime-dev-tools loaded
+2020-04-19T02:39:16.614Z - success: sdkbox loaded
+2020-04-19T02:39:16.628Z - success: ui-kit-preview-extra loaded
+2020-04-19T02:39:16.642Z - success: ui-kit-preview loaded
+2020-04-19T02:39:16.646Z - success: vivo-runtime loaded
+2020-04-19T02:39:16.648Z - success: alipay-minigame loaded
+2020-04-19T02:39:16.705Z - success: assets loaded
+2020-04-19T02:39:16.707Z - success: baidugame-opendata loaded
+2020-04-19T02:39:16.708Z - success: baidugame loaded
+2020-04-19T02:39:16.720Z - success: builder loaded
+2020-04-19T02:39:16.913Z - success: cocos-services loaded
+2020-04-19T02:39:16.929Z - success: console loaded
+2020-04-19T02:39:16.939Z - success: fb-instant-games loaded
+2020-04-19T02:39:16.954Z - success: game-window loaded
+2020-04-19T02:39:16.955Z - success: google-instant-games loaded
+2020-04-19T02:39:16.970Z - success: hierarchy loaded
+2020-04-19T02:39:16.985Z - success: inspector loaded
+2020-04-19T02:39:17.344Z - success: cpk-publish loaded
+2020-04-19T02:39:17.352Z - success: keystore loaded
+2020-04-19T02:39:17.381Z - success: node-library loaded
+2020-04-19T02:39:17.382Z - success: open-recent-items loaded
+2020-04-19T02:39:17.384Z - success: package-asset loaded
+2020-04-19T02:39:17.385Z - success: preferences loaded
+2020-04-19T02:39:17.398Z - success: project-exporter loaded
+2020-04-19T02:39:17.411Z - success: project-importer loaded
+2020-04-19T02:39:17.425Z - success: project-settings loaded
+2020-04-19T02:39:17.436Z - success: qtt-runtime loaded
+2020-04-19T02:39:17.450Z - success: scene loaded
+2020-04-19T02:39:17.451Z - success: simulator-debugger loaded
+2020-04-19T02:39:17.451Z - success: sprite-editor loaded
+2020-04-19T02:39:17.464Z - success: store loaded
+2020-04-19T02:39:17.481Z - success: timeline loaded
+2020-04-19T02:39:17.484Z - success: wechatgame-opendata loaded
+2020-04-19T02:39:17.487Z - success: wechatgame loaded
+2020-04-19T02:39:17.489Z - success: xiaomi-runtime loaded
+2020-04-19T02:39:18.429Z - normal: Initializing Cocos2d
+2020-04-19T02:39:18.768Z - normal: Initializing engine extends
+2020-04-19T02:39:21.787Z - normal: Loading packages
+2020-04-19T02:39:21.791Z - normal: Watching packages
+2020-04-19T02:39:21.846Z - normal: Run Application

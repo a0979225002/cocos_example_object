@@ -1,0 +1,190 @@
+{
+    "texts": {
+        "test-topmenu-back": {
+            "text": "Back",
+            "fontName": "testfont"
+        },
+        "test-topmenu-packmgr": {
+            "text": "Pack Manager",
+            "fontName": "testfont"
+        },
+        "test-topmenu-mullang": {
+            "text": "Multilingual",
+            "fontName": "testfont"
+        },
+        "test-testlist-notice": {
+            "text": "Before testing the case, <color=#ffff00>make sure that the test server is started<color/>",
+            "fontName": "testfont"
+        },
+        "test-testlist-config": {
+            "text": "Config Module",
+            "fontName": "testfont"
+        },
+        "test-testconfig-local1": {
+            "text": "Local profile 1:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-local2": {
+            "text": "Local profile 2:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-remote": {
+            "text": "Remote configuration:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-definevar": {
+            "text": "Define variables:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-readconfig1": {
+            "text": "Test configuration 1:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-readconfig2": {
+            "text": "Test configuration 2:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-varstring": {
+            "text": "Variable string",
+            "fontName": "testfont"
+        },
+        "test-testconfig-watch": {
+            "text": "Watch",
+            "fontName": "testfont"
+        },
+        "test-testconfig-read": {
+            "text": "Read",
+            "fontName": "testfont"
+        },
+        "test-testconfig-modify": {
+            "text": "Modify",
+            "fontName": "testfont"
+        },
+        "test-testconfig-modifysuccess": {
+            "text": "Successfully modified variable",
+            "fontName": "testfont"
+        },
+        "language-zh": {
+            "text": "Chinese",
+            "fontName": "testfont"
+        },
+        "language-en": {
+            "text": "English",
+            "fontName": "testfont"
+        },
+        "test-package-loaded": {
+            "text": "Loaded",
+            "fontName": "testfont"
+        },
+        "test-package-notloaded": {
+            "text": "Not Loaded",
+            "fontName": "testfont"
+        },
+        "test-package-load": {
+            "text": "Load",
+            "fontName": "testfont"
+        },
+        "test-package-unload": {
+            "text": "Unload",
+            "fontName": "testfont"
+        },
+        "test-package-unloadnotice": {
+            "text": "<color=#ffff00>Subcontract uninstall will restart the game<color/>",
+            "fontName": "testfont"
+        },
+        "test-package-localdesc": {
+            "text": "本地模块化分包:",
+            "fontName": "testfont"
+        },
+        "test-package-remotedesc": {
+            "text": "远程模块化分包:",
+            "fontName": "testfont"
+        },
+        "test-testlist-table": {
+            "text": "Table Module",
+            "fontName": "testfont"
+        },
+        "test-testtable-mapobject": {
+            "text": "Export mapping object table",
+            "fontName": "testfont"
+        },
+        "test-testtable-maparray": {
+            "text": "Export mapping array table",
+            "fontName": "testfont"
+        },
+        "test-testtable-mapvalue": {
+            "text": "Export mapping table",
+            "fontName": "testfont"
+        },
+        "test-testtable-listobject": {
+            "text": "Export permutation object table",
+            "fontName": "testfont"
+        },
+        "test-testtable-listarray": {
+            "text": "Export permutation array table",
+            "fontName": "testfont"
+        },
+        "test-testtable-listvalue": {
+            "text": "Export row list",
+            "fontName": "testfont"
+        },
+        "test-testtable-langtest": {
+            "text": "Role table 101 data name of current language:",
+            "fontName": "testfont"
+        },
+        "test-testlist-network-websocket": {
+            "text": "Network Module - WebsocketLine",
+            "fontName": "testfont"
+        },
+        "test-testlist-network-http": {
+            "text": "Network Module - HttpLine",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-connected": {
+            "text": "Connected",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-notconnected": {
+            "text": "Not Connected",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-connect": {
+            "text": "Connect",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-disconnect": {
+            "text": "Disconnect",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-useprotobuf": {
+            "text": "Use Protobuf:",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-sendcontent": {
+            "text": "Send data content",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-sendrecv": {
+            "text": "Sending and receiving data",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-watch": {
+            "text": "Watch",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-test": {
+            "text": "Test",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-state": {
+            "text": "NetLine State:",
+            "fontName": "testfont"
+        },
+        "resources_0": {
+            "text": "LiuBei"
+        }
+    },
+    "images": {
+        "test-testimage": "asset://resources/lcc-assets/assets/textures/langs/en/test"
+    }
+}

@@ -1,0 +1,215 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "NightVisionDemo",
+  "_objFlags": 0,
+  "_native": "",
+  "properties": null,
+  "techniques": [
+    {
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "properties": {
+            "texture": {
+              "value": "white",
+              "type": 29
+            },
+            "Pos": {
+              "value": [
+                0.456,
+                0.528
+              ],
+              "type": 14
+            },
+            "u_float_14": {
+              "value": [
+                0.352
+              ],
+              "type": 13
+            },
+            "u_float_15": {
+              "value": [
+                0.9
+              ],
+              "type": 13
+            },
+            "u_x_24": {
+              "value": [
+                0.213
+              ],
+              "type": 13
+            },
+            "u_y_24": {
+              "value": [
+                0.715
+              ],
+              "type": 13
+            },
+            "u_z_24": {
+              "value": [
+                0.072
+              ],
+              "type": 13
+            },
+            "u_x_27": {
+              "value": [
+                0.2
+              ],
+              "type": 13
+            },
+            "u_y_27": {
+              "value": [
+                1.5
+              ],
+              "type": 13
+            },
+            "u_z_27": {
+              "value": [
+                0.4
+              ],
+              "type": 13
+            },
+            "u_float_35": {
+              "value": [
+                1
+              ],
+              "type": 13
+            }
+          },
+          "program": "NightVisionDemo|vs|fs"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 213354752,
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nin vec3 a_position;\n#if USE_TEXTURE\n    in vec2 a_uv0;\n    out vec2 v_uv0;\n#endif\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\n  #if USE_TEXTURE\n      in vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  in vec4 v_color;\n  uniform Constant {\n  vec2 Pos;\n  float u_float_14;\n  float u_float_15;\n  float u_x_24;\n  float u_y_24;\n  float u_z_24;\n  float u_x_27;\n  float u_y_27;\n  float u_z_27;\n  float u_float_35;\n};\n  vec4 c_TextureToRGBA_main_16(vec2 UV, sampler2D Texture) {\n    return texture2D(Texture, UV);\n}\nvec2 c_UV0_main_7() {\n    return v_uv0;\n}\nvec2 c_UVNDC_main_34(vec2 UV) {\n    return UV * 2.0 - 1.0;\n}\nvec2 c_Mul2_main_29(vec2 InputA, vec2 InputB) {\n    return (InputA * InputB);\n}\nvec2 c_Mul2_main_12(vec2 InputA, vec2 InputB) {\n    return (InputA * InputB);\n}\nfloat c_Length2_main_10(vec2 Input) {\n    return length(Input);\n}\nfloat c_SmoothStep1_main_13(float Input, float EdgeMin, float EdgeMax) {\n    return smoothstep(EdgeMin, EdgeMax, Input);\n}\nvec3 c_1To3_main_21(float Input) {\n    return vec3(Input);\n}\nvec3 c_Mul3_main_22(vec3 InputA, vec3 InputB) {\n    return (InputA * InputB);\n}\nfloat c_Dot3_main_23(vec3 InputA, vec3 InputB) {\n    return dot(InputA, InputB);\n}\nvec3 c_1To3_main_26(float Input) {\n    return vec3(Input);\n}\nvec3 c_Mul3_main_25(vec3 InputA, vec3 InputB) {\n    return (InputA * InputB);\n}\nvec4 c_31To4_main_28(vec3 InputA, float InputB) {\n    return vec4(InputA, InputB);\n}\nvec4 c_Output_main_1(vec4 Color) {\n    return Color;\n}\nvoid main()\n{\n    vec4 out_Color_TextureToRGBA_16 = c_TextureToRGBA_main_16(v_uv0, texture);\n    vec3 out_rgb_TextureToRGBA_16 = out_Color_TextureToRGBA_16.rgb;\n    vec2 out_UV_UV0_7 = c_UV0_main_7();\n    vec2 out_UV_UVNDC_34 = c_UVNDC_main_34(out_UV_UV0_7);\n    vec2 out_Output_Mul2_29 = c_Mul2_main_29(out_UV_UVNDC_34, out_UV_UVNDC_34);\n    vec2 out_Output_Mul2_12 = c_Mul2_main_12(Pos, out_Output_Mul2_29);\n    float out_Output_Length2_10 = c_Length2_main_10(out_Output_Mul2_12);\n    float out_Output_SmoothStep1_13 = c_SmoothStep1_main_13(0.352, out_Output_Length2_10, 0.900);\n    vec3 out_Output_1To3_21 = c_1To3_main_21(out_Output_SmoothStep1_13);\n    vec3 out_Output_Mul3_22 = c_Mul3_main_22(out_Output_1To3_21, out_rgb_TextureToRGBA_16);\n    float out_Output_Dot3_23 = c_Dot3_main_23(out_Output_Mul3_22, vec3(0.213, 0.715, 0.072));\n    vec3 out_Output_1To3_26 = c_1To3_main_26(out_Output_Dot3_23);\n    vec3 out_Output_Mul3_25 = c_Mul3_main_25(out_Output_1To3_26, vec3(0.200, 1.500, 0.400));\n    vec4 out_Output_31To4_28 = c_31To4_main_28(out_Output_Mul3_25, 1.000);\n    gl_FragColor = c_Output_main_1(out_Output_31To4_28);\n}"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\n#if USE_TEXTURE\n    attribute vec2 a_uv0;\n    varying vec2 v_uv0;\n#endif\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\n  #if USE_TEXTURE\n      varying vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  varying vec4 v_color;\n  uniform vec2 Pos;\n  vec4 c_TextureToRGBA_main_16(vec2 UV, sampler2D Texture) {\n    return texture2D(Texture, UV);\n}\nvec2 c_UV0_main_7() {\n    return v_uv0;\n}\nvec2 c_UVNDC_main_34(vec2 UV) {\n    return UV * 2.0 - 1.0;\n}\nvec2 c_Mul2_main_29(vec2 InputA, vec2 InputB) {\n    return (InputA * InputB);\n}\nvec2 c_Mul2_main_12(vec2 InputA, vec2 InputB) {\n    return (InputA * InputB);\n}\nfloat c_Length2_main_10(vec2 Input) {\n    return length(Input);\n}\nfloat c_SmoothStep1_main_13(float Input, float EdgeMin, float EdgeMax) {\n    return smoothstep(EdgeMin, EdgeMax, Input);\n}\nvec3 c_1To3_main_21(float Input) {\n    return vec3(Input);\n}\nvec3 c_Mul3_main_22(vec3 InputA, vec3 InputB) {\n    return (InputA * InputB);\n}\nfloat c_Dot3_main_23(vec3 InputA, vec3 InputB) {\n    return dot(InputA, InputB);\n}\nvec3 c_1To3_main_26(float Input) {\n    return vec3(Input);\n}\nvec3 c_Mul3_main_25(vec3 InputA, vec3 InputB) {\n    return (InputA * InputB);\n}\nvec4 c_31To4_main_28(vec3 InputA, float InputB) {\n    return vec4(InputA, InputB);\n}\nvec4 c_Output_main_1(vec4 Color) {\n    return Color;\n}\nvoid main()\n{\n    vec4 out_Color_TextureToRGBA_16 = c_TextureToRGBA_main_16(v_uv0, texture);\n    vec3 out_rgb_TextureToRGBA_16 = out_Color_TextureToRGBA_16.rgb;\n    vec2 out_UV_UV0_7 = c_UV0_main_7();\n    vec2 out_UV_UVNDC_34 = c_UVNDC_main_34(out_UV_UV0_7);\n    vec2 out_Output_Mul2_29 = c_Mul2_main_29(out_UV_UVNDC_34, out_UV_UVNDC_34);\n    vec2 out_Output_Mul2_12 = c_Mul2_main_12(Pos, out_Output_Mul2_29);\n    float out_Output_Length2_10 = c_Length2_main_10(out_Output_Mul2_12);\n    float out_Output_SmoothStep1_13 = c_SmoothStep1_main_13(0.352, out_Output_Length2_10, 0.900);\n    vec3 out_Output_1To3_21 = c_1To3_main_21(out_Output_SmoothStep1_13);\n    vec3 out_Output_Mul3_22 = c_Mul3_main_22(out_Output_1To3_21, out_rgb_TextureToRGBA_16);\n    float out_Output_Dot3_23 = c_Dot3_main_23(out_Output_Mul3_22, vec3(0.213, 0.715, 0.072));\n    vec3 out_Output_1To3_26 = c_1To3_main_26(out_Output_Dot3_23);\n    vec3 out_Output_Mul3_25 = c_Mul3_main_25(out_Output_1To3_26, vec3(0.200, 1.500, 0.400));\n    vec4 out_Output_31To4_28 = c_31To4_main_28(out_Output_Mul3_25, 1.000);\n    gl_FragColor = c_Output_main_1(out_Output_31To4_28);\n}"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        },
+        "locals": {
+          "blocks": [
+            {
+              "name": "CCLocal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        }
+      },
+      "defines": [
+        {
+          "name": "USE_TEXTURE",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "CC_USE_MODEL",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "USE_TINT",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Constant",
+          "members": [
+            {
+              "name": "Pos",
+              "type": 14,
+              "count": 1
+            },
+            {
+              "name": "u_float_14",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_float_15",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_x_24",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_y_24",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_z_24",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_x_27",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_y_27",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_z_27",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_float_35",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "binding": 0
+        }
+      ],
+      "samplers": [
+        {
+          "name": "texture",
+          "type": 29,
+          "count": 1,
+          "defines": [
+            "USE_TEXTURE"
+          ],
+          "binding": 30
+        }
+      ],
+      "record": null,
+      "name": "NightVisionDemo|vs|fs"
+    }
+  ]
+}

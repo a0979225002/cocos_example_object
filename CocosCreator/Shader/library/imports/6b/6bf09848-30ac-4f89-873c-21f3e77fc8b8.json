@@ -1,0 +1,6 @@
+{
+  "__type__": "cc.Asset",
+  "_name": "op_hlsl_blur_horizontal",
+  "_objFlags": 0,
+  "_native": ".fx"
+}

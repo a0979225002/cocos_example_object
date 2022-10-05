@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "82EGfXcLhBNYt8v7ODnAJT@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "avatar_shark",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 147,
+                "height": 211
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 147,
+                "height": 211
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "821067d7-70b8-4135-8b7c-bfb3839c0253@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

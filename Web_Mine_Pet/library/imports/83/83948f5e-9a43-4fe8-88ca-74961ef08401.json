@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_2.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "display_f1": {
+      "__uuid__": "88f4ecad-d43c-47ee-ac32-6ecfbd61ec96"
+    }
+  }
+}

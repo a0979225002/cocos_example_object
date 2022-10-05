@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "photo_fangyu",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 170,
+      "height": 170
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 170,
+      "height": 170
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "62647119-d2e8-4a43-ac10-c684452a05a0@6c48a"
+  }
+}

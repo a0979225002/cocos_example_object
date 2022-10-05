@@ -1,0 +1,290 @@
+{
+  "ver": "1.0.6",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a",
+  "files": [
+    ".plist",
+    ".json"
+  ],
+  "subMetas": {
+    "9d475": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@9d475",
+      "displayName": "",
+      "id": "9d475",
+      "name": "Actor3-1",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 1,
+        "offsetY": -37,
+        "trimX": 150,
+        "trimY": 1,
+        "width": 163,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "64a0d": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@64a0d",
+      "displayName": "",
+      "id": "64a0d",
+      "name": "Actor3-2",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -2,
+        "offsetY": -37,
+        "trimX": 315,
+        "trimY": 1,
+        "width": 157,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e27b6": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@e27b6",
+      "displayName": "",
+      "id": "e27b6",
+      "name": "Actor3-3",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1,
+        "offsetY": -37,
+        "trimX": 1,
+        "trimY": 155,
+        "width": 173,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "056e8": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@056e8",
+      "displayName": "",
+      "id": "056e8",
+      "name": "Actor3-4",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1,
+        "offsetY": -22,
+        "trimX": 179,
+        "trimY": 315,
+        "width": 183,
+        "height": 182,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57e88": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@57e88",
+      "displayName": "",
+      "id": "57e88",
+      "name": "Actor3-5",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 2,
+        "offsetY": -37,
+        "trimX": 176,
+        "trimY": 155,
+        "width": 159,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f303": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@1f303",
+      "displayName": "",
+      "id": "1f303",
+      "name": "Actor3-6",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -4,
+        "offsetY": -40,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 147,
+        "height": 146,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "520b8": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@520b8",
+      "displayName": "",
+      "id": "520b8",
+      "name": "Actor3-7",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -6,
+        "offsetY": -34,
+        "trimX": 337,
+        "trimY": 155,
+        "width": 159,
+        "height": 158,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf459": {
+      "importer": "sprite-frame",
+      "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a@cf459",
+      "displayName": "",
+      "id": "cf459",
+      "name": "Actor3-8",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": -10,
+        "offsetY": -25,
+        "trimX": 1,
+        "trimY": 309,
+        "width": 175,
+        "height": 176,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+        "atlasUuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Actor3.png",
+    "format": 3,
+    "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a",
+    "textureUuid": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tip_avatar",
+    "atlas": "",
+    "rect": {
+      "x": 4,
+      "y": 4,
+      "width": 131,
+      "height": 151
+    },
+    "offset": {
+      "x": 1,
+      "y": -2
+    },
+    "originalSize": {
+      "width": 137,
+      "height": 155
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "4c7ad99b-d048-48ac-b1f3-702064f3f61a@6c48a"
+  }
+}

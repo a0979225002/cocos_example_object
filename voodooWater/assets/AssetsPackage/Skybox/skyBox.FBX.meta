@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8a28575d-f49a-4523-afda-985d172c8f5c",
+  "files": [],
+  "subMetas": {
+    "63569": {
+      "importer": "gltf-mesh",
+      "uuid": "8a28575d-f49a-4523-afda-985d172c8f5c@63569",
+      "displayName": "",
+      "id": "63569",
+      "name": "skyBox.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae49a": {
+      "importer": "texture",
+      "uuid": "8a28575d-f49a-4523-afda-985d172c8f5c@ae49a",
+      "displayName": "",
+      "id": "ae49a",
+      "name": "skyBox.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/AssetsPackage/Skybox/skyBox1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b79a0": {
+      "importer": "gltf-material",
+      "uuid": "8a28575d-f49a-4523-afda-985d172c8f5c@b79a0",
+      "displayName": "",
+      "id": "b79a0",
+      "name": "skyBox.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4a72": {
+      "importer": "gltf-scene",
+      "uuid": "8a28575d-f49a-4523-afda-985d172c8f5c@d4a72",
+      "displayName": "",
+      "id": "d4a72",
+      "name": "skyBox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "skyBox",
+        "uri": "db://assets/AssetsPackage/Skybox/skyBox1.jpg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "8a28575d-f49a-4523-afda-985d172c8f5c@d4a72",
+    "assetFinder": {
+      "meshes": [
+        "8a28575d-f49a-4523-afda-985d172c8f5c@63569"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8a28575d-f49a-4523-afda-985d172c8f5c@ae49a"
+      ],
+      "materials": [
+        "8a28575d-f49a-4523-afda-985d172c8f5c@b79a0"
+      ],
+      "scenes": [
+        "8a28575d-f49a-4523-afda-985d172c8f5c@d4a72"
+      ]
+    }
+  }
+}

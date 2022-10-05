@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "npc.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "body": {
+      "__uuid__": "cc02c745-b6f9-4d19-b048-c06154385769"
+    },
+    "clothes_1": {
+      "__uuid__": "3c1d2537-c7d4-4262-897d-935091f87db7"
+    },
+    "clothes_2": {
+      "__uuid__": "a0c3925b-ee55-4cc5-8ab5-acd4bc7ab70e"
+    },
+    "hair_1": {
+      "__uuid__": "e9f3c10f-4801-41a4-8663-3fd896d18eef"
+    },
+    "hair_2": {
+      "__uuid__": "2df09bb5-82de-49ae-9fae-57267ac94230"
+    },
+    "hair_3": {
+      "__uuid__": "8f7541e4-f656-43c5-b078-a476afbfa091"
+    },
+    "hand": {
+      "__uuid__": "361aeeb3-a1af-48aa-874a-53d09f17eb71"
+    },
+    "shoe_1": {
+      "__uuid__": "fe9f4bf5-0e7c-41e0-8b83-be6b449cffb4"
+    },
+    "shoe_2": {
+      "__uuid__": "f0994c5d-414c-462f-8d53-897a5a4c1603"
+    },
+    "sleeve_1": {
+      "__uuid__": "160dce43-46b9-46f2-8812-704e6cfcba44"
+    },
+    "sleeve_2": {
+      "__uuid__": "d76cbca5-a184-4da9-baea-06176ac21645"
+    }
+  }
+}

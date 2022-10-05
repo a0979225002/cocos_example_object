@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "80mWdhgmFJqIw8FeD4TYJ6@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "reward_titile",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 362,
+                "height": 97
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 362,
+                "height": 97
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "80996761-8261-49a8-8c3c-15e0f84d827a@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

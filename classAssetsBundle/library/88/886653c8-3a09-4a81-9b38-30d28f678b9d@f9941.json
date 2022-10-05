@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rank_btn_close_clcik",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 74,
+      "height": 74
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 74,
+      "height": 74
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "886653c8-3a09-4a81-9b38-30d28f678b9d@6c48a"
+  }
+}

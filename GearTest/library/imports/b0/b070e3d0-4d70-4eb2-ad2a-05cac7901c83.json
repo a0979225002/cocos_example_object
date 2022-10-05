@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_420_gear_top",
+    "texture": "dc946d2f-9bad-44db-877c-b65be1b2f444",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      420,
+      420
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      420,
+      420
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

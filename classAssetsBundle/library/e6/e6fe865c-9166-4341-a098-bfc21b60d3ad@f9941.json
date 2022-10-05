@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "share_text",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 86,
+      "height": 42
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 87,
+      "height": 43
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "e6fe865c-9166-4341-a098-bfc21b60d3ad@6c48a"
+  }
+}

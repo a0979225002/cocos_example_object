@@ -1,0 +1,290 @@
+{
+  "ver": "1.0.6",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "35a638f2-2b17-4691-9349-c476222567cc",
+  "files": [
+    ".plist",
+    ".json"
+  ],
+  "subMetas": {
+    "56880": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@56880",
+      "displayName": "",
+      "id": "56880",
+      "name": "Monster-7",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 1,
+        "offsetY": -25,
+        "trimX": 1,
+        "trimY": 307,
+        "width": 219,
+        "height": 176,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "82bff": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@82bff",
+      "displayName": "",
+      "id": "82bff",
+      "name": "Monster-1",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1,
+        "offsetY": -3,
+        "trimX": 232,
+        "trimY": 1,
+        "width": 199,
+        "height": 166,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9217c": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@9217c",
+      "displayName": "",
+      "id": "9217c",
+      "name": "Monster-2",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 2,
+        "offsetY": -43,
+        "trimX": 226,
+        "trimY": 169,
+        "width": 193,
+        "height": 140,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a5022": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@a5022",
+      "displayName": "",
+      "id": "a5022",
+      "name": "Monster-3",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -34,
+        "trimX": 1,
+        "trimY": 147,
+        "width": 223,
+        "height": 158,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4e466": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@4e466",
+      "displayName": "",
+      "id": "4e466",
+      "name": "Monster-4",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 3,
+        "offsetY": -24,
+        "trimX": 1,
+        "trimY": 485,
+        "width": 177,
+        "height": 178,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7cc2b": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@7cc2b",
+      "displayName": "",
+      "id": "7cc2b",
+      "name": "Monster-5",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -41,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 229,
+        "height": 144,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a94bc": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@a94bc",
+      "displayName": "",
+      "id": "a94bc",
+      "name": "Monster-6",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 3,
+        "offsetY": -38,
+        "trimX": 181,
+        "trimY": 501,
+        "width": 181,
+        "height": 150,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c323a": {
+      "importer": "sprite-frame",
+      "uuid": "35a638f2-2b17-4691-9349-c476222567cc@c323a",
+      "displayName": "",
+      "id": "c323a",
+      "name": "Monster-8",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -19,
+        "trimX": 222,
+        "trimY": 311,
+        "width": 213,
+        "height": 188,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a",
+        "atlasUuid": "35a638f2-2b17-4691-9349-c476222567cc"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Monster.png",
+    "format": 3,
+    "uuid": "35a638f2-2b17-4691-9349-c476222567cc",
+    "textureUuid": "c82313cd-224d-4537-9a91-1de29c4a170d@6c48a"
+  }
+}

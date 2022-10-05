@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0x72_16x16DungeonTileset_walls",
+    "texture": "dbc31adf-b447-4555-b5e1-a7db4c94e365",
+    "atlas": "",
+    "rect": [
+      11,
+      12,
+      213,
+      132
+    ],
+    "offset": [
+      -10.5,
+      50
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

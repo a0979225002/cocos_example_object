@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "5dWla71TVPUZ2JhTUlgCHH@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "vip_double",
+            "rect": {
+                "x": 2,
+                "y": 2,
+                "width": 115,
+                "height": 90
+            },
+            "offset": {
+                "x": 1,
+                "y": -1
+            },
+            "originalSize": {
+                "width": 117,
+                "height": 92
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "5d5a56bb-d535-4f51-9d89-8535258021c7@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

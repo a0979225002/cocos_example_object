@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "79Tzon6jVPZZML+gsHi2nQ@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "bg_btn",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 60,
+                "height": 59
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "794f3a27-ea35-4f65-930b-fa0b078b69d0@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

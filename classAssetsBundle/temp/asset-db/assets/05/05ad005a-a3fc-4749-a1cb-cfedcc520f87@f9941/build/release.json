@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "05rQBao/xHSaHLz+3MUg+H@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_sheet_2",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 166,
+                "height": 60
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 167,
+                "height": 60
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "05ad005a-a3fc-4749-a1cb-cfedcc520f87@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

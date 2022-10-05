@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "8ae8V7e8BG4alfoSjxz5qS@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "time_bg",
+            "rect": {
+                "x": 2,
+                "y": 1,
+                "width": 113,
+                "height": 114
+            },
+            "offset": {
+                "x": 1,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 115,
+                "height": 115
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "8a7bc57b-7bc0-46e1-a95f-a128f1cf9a92@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

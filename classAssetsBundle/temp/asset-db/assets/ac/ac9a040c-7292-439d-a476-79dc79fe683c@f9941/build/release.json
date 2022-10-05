@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "acmgQMcpJDnaR2edx5/mg8@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "photo_douyu",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 170,
+                "height": 170
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 170,
+                "height": 170
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "ac9a040c-7292-439d-a476-79dc79fe683c@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

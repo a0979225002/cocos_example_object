@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "buyFree.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "btn_false": {
+      "__uuid__": "58dcf0b4-e42c-40a6-a95c-cd9ea95ec7e5"
+    },
+    "btn_true": {
+      "__uuid__": "793f79d2-c718-4866-a060-724a6ba5448e"
+    },
+    "buy_bg_1": {
+      "__uuid__": "4160e2b4-dbcb-4a08-9416-a5f3e492ba95"
+    },
+    "buy_bg_2": {
+      "__uuid__": "1877d078-6e9f-44fb-8e35-c8709e5e57e4"
+    }
+  }
+}

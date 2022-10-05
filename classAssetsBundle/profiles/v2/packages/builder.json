@@ -1,0 +1,56 @@
+{
+  "__version__": "1.2.6",
+  "version": {
+    "builder": "1.2.3"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1612183014124": {
+        "id": "1612183014124",
+        "progress": 1,
+        "state": "success",
+        "message": "Build success in 29838 ms!",
+        "options": {
+          "buildPath": "./build",
+          "compressTexture": true,
+          "debug": false,
+          "experimentalEraseModules": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": true,
+          "md5Cache": false,
+          "mergeStartScene": false,
+          "name": "classAssetsBundle",
+          "outputName": "wechatgame",
+          "packAutoAtlas": true,
+          "packages": {
+            "wechatgame": {
+              "appid": "wx6ac3f5090a6b99c5",
+              "orientation": "portrait",
+              "separateEngine": false,
+              "startSceneAssetBundle": false,
+              "wasm": "js"
+            }
+          },
+          "platform": "wechatgame",
+          "replaceSplashScreen": false,
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/Main.scene",
+              "uuid": "5631fbf9-8d73-4268-83a3-1faccab23cb8"
+            }
+          ],
+          "sourceMaps": false,
+          "startScene": "5631fbf9-8d73-4268-83a3-1faccab23cb8"
+        },
+        "time": "2021-2-1 20:48",
+        "dirty": false
+      }
+    }
+  },
+  "common": {
+    "outputName": "wechatgame",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "wechatgame",
+    "mainBundleIsRemote": true
+  }
+}

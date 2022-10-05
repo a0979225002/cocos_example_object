@@ -1,0 +1,40 @@
+{
+    "roleslo": [
+        {
+            "ID": 101,
+            "name": "resources_0",
+            "attr": {
+                "force": 130,
+                "intellect": 200,
+                "speed": 180
+            },
+            "weapontype": "S"
+        },
+        {
+            "ID": 103,
+            "name": "张飞",
+            "attr": {
+                "force": 255,
+                "intellect": 60,
+                "speed": 120
+            },
+            "weapontype": "P"
+        },
+        {
+            "ID": 104,
+            "name": "赵云",
+            "attr": {
+                "force": 240,
+                "intellect": 200,
+                "speed": 180
+            },
+            "weapontype": "P"
+        }
+    ],
+    "#listSort": {
+        "roleslo": {
+            "key": "attr.force",
+            "type": "down"
+        }
+    }
+}

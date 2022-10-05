@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feofox logo",
+    "texture": "39adb433-8aa2-4d43-ae29-4fb979c1a79a",
+    "atlas": "",
+    "rect": [
+      106,
+      56,
+      300,
+      400
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

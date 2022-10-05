@@ -1,0 +1,36 @@
+
+/**
+* 枚举测试
+*/
+enum EnumTest {
+	ENUM1 = 0,
+	ENUM2,
+	ENUM3,
+}
+
+/**
+* 引用测试
+*/
+interface RefTest {
+	value:number;		// 引用值
+}
+
+/**
+* 继承测试
+*/
+interface ExtendTest {
+	parent:string;		// 父类字符串
+}
+
+/**
+* 协议测试
+*/
+export(1000) interface ProtoTest extends ExtendTest {
+	from:string;
+	version:number;
+	isClient:boolean;
+	isServer:boolean;
+	ref?:RefTest;
+	enumList:EnumTest[];
+	enumMap:{[key:string]:EnumTest};
+}

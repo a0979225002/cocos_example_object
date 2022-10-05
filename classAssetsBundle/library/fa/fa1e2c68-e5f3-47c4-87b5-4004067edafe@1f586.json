@@ -1,0 +1,1553 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "idle",
+    "_objFlags": 0,
+    "_native": ".bin",
+    "sample": 30,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 2,
+    "_keys": [
+      {
+        "__id__": 1
+      },
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 16
+      },
+      {
+        "__id__": 17
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 19
+      }
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 20
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 0,
+          "values": {
+            "__id__": 21
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 20
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 0,
+          "values": {
+            "__id__": 22
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 20
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 0,
+          "values": {
+            "__id__": 23
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 24
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 1,
+          "values": {
+            "__id__": 25
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 24
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 1,
+          "values": {
+            "__id__": 26
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 24
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 1,
+          "values": {
+            "__id__": 27
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 28
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 2,
+          "values": {
+            "__id__": 29
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 28
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 2,
+          "values": {
+            "__id__": 30
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 28
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 2,
+          "values": {
+            "__id__": 31
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 32
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 3,
+          "values": {
+            "__id__": 33
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 32
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 3,
+          "values": {
+            "__id__": 34
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 32
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 3,
+          "values": {
+            "__id__": 35
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 36
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 4,
+          "values": {
+            "__id__": 37
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 36
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 4,
+          "values": {
+            "__id__": 38
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 36
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 4,
+          "values": {
+            "__id__": 39
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 40
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 5,
+          "values": {
+            "__id__": 41
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 40
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 5,
+          "values": {
+            "__id__": 42
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 40
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 5,
+          "values": {
+            "__id__": 43
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 44
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 6,
+          "values": {
+            "__id__": 45
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 44
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 6,
+          "values": {
+            "__id__": 46
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 44
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 6,
+          "values": {
+            "__id__": 47
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 48
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 7,
+          "values": {
+            "__id__": 49
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 48
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 7,
+          "values": {
+            "__id__": 50
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 48
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 7,
+          "values": {
+            "__id__": 51
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 52
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 8,
+          "values": {
+            "__id__": 53
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 52
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 8,
+          "values": {
+            "__id__": 54
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 52
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 8,
+          "values": {
+            "__id__": 55
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 56
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 9,
+          "values": {
+            "__id__": 57
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 56
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 9,
+          "values": {
+            "__id__": 58
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 56
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 9,
+          "values": {
+            "__id__": 59
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 60
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 10,
+          "values": {
+            "__id__": 61
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 60
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 10,
+          "values": {
+            "__id__": 62
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 60
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 10,
+          "values": {
+            "__id__": 63
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 64
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 11,
+          "values": {
+            "__id__": 65
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 64
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 11,
+          "values": {
+            "__id__": 66
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 64
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 11,
+          "values": {
+            "__id__": 67
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 68
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 12,
+          "values": {
+            "__id__": 69
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 68
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 12,
+          "values": {
+            "__id__": 70
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 68
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 12,
+          "values": {
+            "__id__": 71
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 72
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 13,
+          "values": {
+            "__id__": 73
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 72
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 13,
+          "values": {
+            "__id__": 74
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 72
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 13,
+          "values": {
+            "__id__": 75
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 76
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 14,
+          "values": {
+            "__id__": 77
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 76
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 14,
+          "values": {
+            "__id__": 78
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 76
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 14,
+          "values": {
+            "__id__": 79
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 80
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 15,
+          "values": {
+            "__id__": 81
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 80
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 15,
+          "values": {
+            "__id__": 82
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 80
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 15,
+          "values": {
+            "__id__": 83
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 84
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 16,
+          "values": {
+            "__id__": 85
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 84
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 16,
+          "values": {
+            "__id__": 86
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 84
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 16,
+          "values": {
+            "__id__": 87
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 88
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 17,
+          "values": {
+            "__id__": 89
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 88
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 17,
+          "values": {
+            "__id__": 90
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 88
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 17,
+          "values": {
+            "__id__": 91
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 92
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 18,
+          "values": {
+            "__id__": 93
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 92
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 18,
+          "values": {
+            "__id__": 94
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 92
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 18,
+          "values": {
+            "__id__": 95
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 96
+          },
+          "position"
+        ],
+        "data": {
+          "keys": -1,
+          "values": {
+            "__id__": 97
+          },
+          "interpolate": false
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 96
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": -1,
+          "values": {
+            "__id__": 98
+          },
+          "interpolate": false
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 96
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": -1,
+          "values": {
+            "__id__": 99
+          },
+          "interpolate": false
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 4001379504
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30720,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30916,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 31112,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 31308,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 31504,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 31700,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 31896,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32092,
+    "_unitCount": 47,
+    "_unitElement": 6,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32280,
+    "_unitCount": 3,
+    "_unitElement": 6,
+    "_length": 3
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32292,
+    "_unitCount": 47,
+    "_unitElement": 6,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32480,
+    "_unitCount": 47,
+    "_unitElement": 6,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32668,
+    "_unitCount": 32,
+    "_unitElement": 6,
+    "_length": 32
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32796,
+    "_unitCount": 24,
+    "_unitElement": 6,
+    "_length": 24
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 32892,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 33088,
+    "_unitCount": 18,
+    "_unitElement": 6,
+    "_length": 18
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 33160,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 33356,
+    "_unitCount": 26,
+    "_unitElement": 6,
+    "_length": 26
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 33460,
+    "_unitCount": 49,
+    "_unitElement": 6,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 33656,
+    "_unitCount": 33,
+    "_unitElement": 6,
+    "_length": 33
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 0,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 588,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 1372,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone003"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 1960,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 2548,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 3332,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone003/Bone004"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 3920,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 4508,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 5292,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone003/Bone021(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 5880,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 6468,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 7252,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone003/Bone021"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 7840,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 8428,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 9212,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 9800,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 10388,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 11172,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone007"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 11760,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 12348,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 13132,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone007/Bone020(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 13720,
+    "_unitCount": 141,
+    "_unitElement": 22,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 14284,
+    "_unitCount": 188,
+    "_unitElement": 38,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 15036,
+    "_unitCount": 141,
+    "_unitElement": 22,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone007/Bone011"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 15600,
+    "_unitCount": 9,
+    "_unitElement": 22,
+    "_length": 3
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 15636,
+    "_unitCount": 12,
+    "_unitElement": 38,
+    "_length": 3
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 15684,
+    "_unitCount": 9,
+    "_unitElement": 22,
+    "_length": 3
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone007/Bone009"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 15720,
+    "_unitCount": 141,
+    "_unitElement": 22,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 16284,
+    "_unitCount": 188,
+    "_unitElement": 38,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 17036,
+    "_unitCount": 141,
+    "_unitElement": 22,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone007/Bone020"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 17600,
+    "_unitCount": 141,
+    "_unitElement": 22,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 18164,
+    "_unitCount": 188,
+    "_unitElement": 38,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 18916,
+    "_unitCount": 141,
+    "_unitElement": 22,
+    "_length": 47
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone013(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 19480,
+    "_unitCount": 96,
+    "_unitElement": 22,
+    "_length": 32
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 19864,
+    "_unitCount": 128,
+    "_unitElement": 38,
+    "_length": 32
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 20376,
+    "_unitCount": 96,
+    "_unitElement": 22,
+    "_length": 32
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone015(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 20760,
+    "_unitCount": 72,
+    "_unitElement": 22,
+    "_length": 24
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 21048,
+    "_unitCount": 96,
+    "_unitElement": 38,
+    "_length": 24
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 21432,
+    "_unitCount": 72,
+    "_unitElement": 22,
+    "_length": 24
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone017"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 21720,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 22308,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 23092,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone015"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 23680,
+    "_unitCount": 54,
+    "_unitElement": 22,
+    "_length": 18
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 23896,
+    "_unitCount": 72,
+    "_unitElement": 38,
+    "_length": 18
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 24184,
+    "_unitCount": 54,
+    "_unitElement": 22,
+    "_length": 18
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone017(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 24400,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 24988,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 25772,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone016(mirrored)(mirrored)(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 26360,
+    "_unitCount": 78,
+    "_unitElement": 22,
+    "_length": 26
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 26672,
+    "_unitCount": 104,
+    "_unitElement": 38,
+    "_length": 26
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27088,
+    "_unitCount": 78,
+    "_unitElement": 22,
+    "_length": 26
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone016(mirrored)(mirrored)(mirrored)(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27400,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27988,
+    "_unitCount": 196,
+    "_unitElement": 38,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 28772,
+    "_unitCount": 147,
+    "_unitElement": 22,
+    "_length": 49
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/Bone006/Bone013(mirrored)(mirrored)"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29360,
+    "_unitCount": 99,
+    "_unitElement": 22,
+    "_length": 33
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29756,
+    "_unitCount": 132,
+    "_unitElement": 38,
+    "_length": 33
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30284,
+    "_unitCount": 99,
+    "_unitElement": 22,
+    "_length": 33
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "body"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30680,
+    "_unitCount": 3,
+    "_unitElement": 22,
+    "_length": 1
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30692,
+    "_unitCount": 3,
+    "_unitElement": 22,
+    "_length": 1
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30704,
+    "_unitCount": 4,
+    "_unitElement": 38,
+    "_length": 1
+  }
+]

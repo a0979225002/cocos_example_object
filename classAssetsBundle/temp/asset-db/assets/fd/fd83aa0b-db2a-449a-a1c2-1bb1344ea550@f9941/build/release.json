@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "fdg6oL2ypEmqHCG7E0TqVQ@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "icon_weishequ2",
+            "rect": {
+                "x": 0,
+                "y": 1,
+                "width": 69,
+                "height": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 69,
+                "height": 72
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "fd83aa0b-db2a-449a-a1c2-1bb1344ea550@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

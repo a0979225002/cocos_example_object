@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "d6bB7Eb49A0b+9ysxfLHg4@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "photo_box_0",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 82,
+                "height": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 82,
+                "height": 82
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "d66c1ec4-6f8f-40d1-bfbd-cacc5f2c7838@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,7 @@
+{
+    "ui": {
+        "ui-test-local": {
+            "file" : "${localpath}/ui-test-local"
+        }
+    }
+}

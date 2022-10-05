@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Material",
+  "_name": "WaterTurbulence",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "616b89d3-3eca-4288-8ccc-fcbec27d87f1"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "Intensity": "1.00000",
+        "Speed": "0.10000",
+        "Scale": "1.00000",
+        "Sub": {
+          "__uuid__": "080e116c-37b2-481a-b675-69d27186201e"
+        },
+        "texture": {
+          "__uuid__": "080e116c-37b2-481a-b675-69d27186201e"
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

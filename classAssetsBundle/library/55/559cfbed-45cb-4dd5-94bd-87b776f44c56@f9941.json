@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "photo_dianman",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 170,
+      "height": 170
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 170,
+      "height": 170
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "559cfbed-45cb-4dd5-94bd-87b776f44c56@6c48a"
+  }
+}

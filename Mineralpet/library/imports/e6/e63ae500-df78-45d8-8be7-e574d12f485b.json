@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bar_rankbg2",
+    "texture": "783bad84-026f-46bc-bdba-e01d95f2804e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      38,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      28
+    ],
+    "capInsets": [
+      14,
+      13,
+      15,
+      13
+    ]
+  }
+}

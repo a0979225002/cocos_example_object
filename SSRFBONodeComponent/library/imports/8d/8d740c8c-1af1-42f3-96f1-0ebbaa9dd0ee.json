@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.Material",
+  "_name": "NightVisionDemo",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "395e0649-3894-43cf-a704-728ef70204d5"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "Pos": {
+          "__type__": "cc.Vec2",
+          "x": "0.456",
+          "y": "0.528"
+        },
+        "u_float_14": "0.352",
+        "u_float_15": "0.900",
+        "u_x_24": "0.213",
+        "u_y_24": "0.715",
+        "u_z_24": "0.072",
+        "u_x_27": "0.200",
+        "u_y_27": "1.500",
+        "u_z_27": "0.400",
+        "u_float_35": 1
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

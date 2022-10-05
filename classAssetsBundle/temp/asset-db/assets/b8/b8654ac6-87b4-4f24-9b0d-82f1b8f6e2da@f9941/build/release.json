@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "b8ZUrGh7RPJJsNgvG49uLa@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "light1",
+            "rect": {
+                "x": 2,
+                "y": 1,
+                "width": 223,
+                "height": 224
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 226,
+                "height": 225
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "b8654ac6-87b4-4f24-9b0d-82f1b8f6e2da@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

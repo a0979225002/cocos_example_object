@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ad_pop",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 54,
+      "height": 44
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 54,
+      "height": 44
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "c548eb77-b9fe-4b76-8f9b-d13dec2a4f22@6c48a"
+  }
+}

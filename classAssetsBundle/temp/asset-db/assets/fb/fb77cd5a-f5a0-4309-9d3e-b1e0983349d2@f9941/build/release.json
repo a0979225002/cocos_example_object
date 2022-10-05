@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "fbd81a9aBDCZ0+seCYM0nS@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "wenzi-wohaishi",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 277,
+                "height": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 277,
+                "height": 42
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "fb77cd5a-f5a0-4309-9d3e-b1e0983349d2@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

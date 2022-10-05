@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_message_box",
+    "texture": "b5ddd64f-700d-4211-8fef-31aceec77a9f",
+    "atlas": "bdb6bf9b-6259-475c-bfb8-6a3580675633",
+    "rect": [
+      2,
+      583,
+      44,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      44
+    ],
+    "capInsets": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

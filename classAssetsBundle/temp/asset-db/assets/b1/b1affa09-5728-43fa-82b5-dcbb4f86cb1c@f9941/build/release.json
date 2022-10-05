@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "b1r/oJVyhD+oK13LtPhssc@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "item_bg_grey2",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 107,
+                "height": 102
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 107,
+                "height": 102
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "b1affa09-5728-43fa-82b5-dcbb4f86cb1c@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

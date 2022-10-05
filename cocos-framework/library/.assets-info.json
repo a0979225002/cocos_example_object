@@ -1,0 +1,442 @@
+{
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\libs": {
+    "time": 1658992087861.526,
+    "uuid": "2f831e44-6d01-40c7-8d1e-c8a13a742145",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources": {
+    "time": 1658992087867.4775,
+    "uuid": "441ad107-9a9b-4df3-8f41-8037eeb33dcc",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scene.scene": {
+    "time": 1658992147716.114,
+    "uuid": "03ea5323-ad72-42ad-834b-e77db667e973",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts": {
+    "time": 1658992087874.4224,
+    "uuid": "c6095ba6-51a3-4a12-8f0f-ae68bde894c8",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\libs\\framework.d.ts": {
+    "time": 1658992087858.5503,
+    "uuid": "79595f0c-d680-408f-b396-4e2a6b3faed8",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\libs\\framework.min.js": {
+    "time": 1658992087861.0305,
+    "uuid": "583135d6-c8b5-460f-9628-f7573d94037c",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects": {
+    "time": 1658992087863.5103,
+    "uuid": "90fb3412-d9b5-45c5-8384-89c27fd9b7db",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials": {
+    "time": 1658992087865.4941,
+    "uuid": "ea646a42-0236-45df-92f3-be45d096e4a5",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs": {
+    "time": 1658992087866.9814,
+    "uuid": "508e8bbd-e1cf-45ce-99d2-9a0b9ac4f100",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\shared": {
+    "time": 1658992087867.4775,
+    "uuid": "f8fdf627-48a2-4da4-80ba-edb7c2965ede",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components": {
+    "time": 1658992087873.4307,
+    "uuid": "c5d1c2e0-d9eb-45ae-a1c6-6fe41df6e216",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\graphics": {
+    "time": 1658992087873.9258,
+    "uuid": "61024a54-9de6-4c26-bbaa-2e56e2bb1938",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input": {
+    "time": 1658992087870.9785,
+    "uuid": "42d267ba-e2bd-4933-98de-7c87208ac029",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Main.ts": {
+    "time": 1658992087870.9785,
+    "uuid": "44fe39ca-80de-43bb-b5c2-21430ffae401",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes": {
+    "time": 1658992087877.8938,
+    "uuid": "f80a010f-9b9d-48dc-be6f-001389379de8",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\Basic.effect": {
+    "time": 1658992087862.0227,
+    "uuid": "6d972495-322b-4cd6-aee0-d1fbb6445792",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\Bevels.effect": {
+    "time": 1658992087862.5183,
+    "uuid": "793ec069-fc94-492e-a275-30c0e45cb9bc",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\BloomCombine.effect": {
+    "time": 1658992087862.5183,
+    "uuid": "e7843767-a781-4ee5-9367-0af688b9a9ad",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\DeferredSprite.effect": {
+    "time": 1658992087863.0142,
+    "uuid": "1875aea2-fd05-4cf7-b75a-8cb0b4bc1786",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\Dissolve.effect": {
+    "time": 1658992087863.5103,
+    "uuid": "53c02bae-80df-45c0-a971-9a73393764fd",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\Basic.mtl": {
+    "time": 1658992087864.006,
+    "uuid": "cd775137-dd78-4360-b065-9373dd9d4783",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\Bevels.mtl": {
+    "time": 1658992087864.006,
+    "uuid": "9a1ac363-05e1-48b4-9738-cca3d9d606d4",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\BloomCombine.mtl": {
+    "time": 1658992087864.5022,
+    "uuid": "5fead98b-a57a-4a5a-8ea2-120ac9c58975",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\DeferredSprite.mtl": {
+    "time": 1658992087864.998,
+    "uuid": "30661d39-98b9-4c86-8259-e8c8d4c36030",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\Dissolve.mtl": {
+    "time": 1658992087865.4941,
+    "uuid": "3ac978ca-7844-46d6-a716-ae0874c1e0bd",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs\\Button.prefab": {
+    "time": 1658992147847.5544,
+    "uuid": "acc9e07b-5d05-46e6-be64-7a97c0e9150f",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs\\moon.prefab": {
+    "time": 1658992147849.0422,
+    "uuid": "841ae291-dce6-4daa-a0fd-1f8d21a3c1e5",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs\\moon_polygon.prefab": {
+    "time": 1658992147851.0264,
+    "uuid": "c4c7d901-f3fa-42aa-a535-efc0cf951dfe",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\shared\\moon.png": {
+    "time": 1658992087867.4775,
+    "uuid": "f03eaeb0-0254-47d1-87c5-546745cb6cbd",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\component_camera.ts": {
+    "time": 1658992087873.4307,
+    "uuid": "dae371aa-4ce5-4354-bddc-77bcdf9bcc45",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\Mesh.ts": {
+    "time": 1658992087871.9426,
+    "uuid": "eb8e7996-d927-480b-97df-9dafe9e346d2",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\PolygonMesh.ts": {
+    "time": 1658992087872.4731,
+    "uuid": "d33e0aa0-91e2-4075-95fd-e9d1e2b92017",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\PolygonSprite.ts": {
+    "time": 1658992087872.9534,
+    "uuid": "2e4f6996-2c9e-4efe-82bc-c4714d6277fc",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\SpriteRenderer.ts": {
+    "time": 1658992087872.9534,
+    "uuid": "c0fa9249-030f-4f09-a54c-54746ce98f9d",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\graphics\\Batcher.ts": {
+    "time": 1658992087873.9258,
+    "uuid": "57068a3f-3b33-47dc-9d4f-c09249a18368",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\Input.ts": {
+    "time": 1658992087868.9946,
+    "uuid": "2434d6d4-eaf1-4734-a964-72726e0bb4ae",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\KeyboardUtils.ts": {
+    "time": 1658992087868.9946,
+    "uuid": "6590a5c7-8a5d-4360-8f73-b652ff7f977f",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\Keys.ts": {
+    "time": 1658992087869.4917,
+    "uuid": "71b1fc88-4e85-44c2-8134-1f64e312589e",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\MouseState.ts": {
+    "time": 1658992087869.9812,
+    "uuid": "5e0e5932-5247-4401-8ab2-a8e7408b5c22",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\VirtualAxis.ts": {
+    "time": 1658992087869.9812,
+    "uuid": "76eb1d5e-6796-4864-bce6-3e4b60c8e260",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\VirtualInput.ts": {
+    "time": 1658992087870.4824,
+    "uuid": "693baa37-45a2-4395-b745-5eb5bf9390f8",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\VirtualIntegerAxis.ts": {
+    "time": 1658992087870.9785,
+    "uuid": "a6159918-34b3-46b4-9f1c-fc48bb8e3d59",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\BasicScene.ts": {
+    "time": 1658992087874.4224,
+    "uuid": "802e6015-eaa0-4781-8531-72be2705fdcf",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\collider": {
+    "time": 1658992087875.9097,
+    "uuid": "ff9837ac-3a96-4dfd-9f4a-6f0ae253ee88",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\lineCasting": {
+    "time": 1658992087876.9023,
+    "uuid": "5e04a2b8-98f9-4d3b-b921-3a8a03987f10",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\RenderScene.ts": {
+    "time": 1658992087874.9182,
+    "uuid": "06f92185-dceb-49a6-83d9-43861ce9dc4a",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\rigidBodies": {
+    "time": 1658992087877.3982,
+    "uuid": "39a96a4e-3b1e-48c6-af9a-1fc9352c28da",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\verletPhysics": {
+    "time": 1658992087878.3904,
+    "uuid": "48679130-c836-44df-82cc-1a270a4c9ee2",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\collider\\ColliderScene.ts": {
+    "time": 1658992087875.4143,
+    "uuid": "61919a78-2967-4b75-87b5-80289862b40b",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\collider\\ColliderTrigger.ts": {
+    "time": 1658992087875.4143,
+    "uuid": "e23539e9-d13b-4f12-b720-90c38166ab4b",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\lineCasting\\LineCaster.ts": {
+    "time": 1658992087876.4065,
+    "uuid": "a22e2223-f155-4d03-8640-431af9a982f4",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\lineCasting\\LineCastingScene.ts": {
+    "time": 1658992087876.9023,
+    "uuid": "68b57bbf-6f33-468b-9140-fa3655e33b04",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\rigidBodies\\RigidBodyScene.ts": {
+    "time": 1658992087877.3982,
+    "uuid": "15663d4c-0622-4555-a8d0-48807d11b2f1",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\verletPhysics\\VerletPhysicsScene.ts": {
+    "time": 1658992087877.8938,
+    "uuid": "bcb9ffa5-137b-4e5b-82ee-207a87f1409e",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\verletPhysics\\VerletSystem.ts": {
+    "time": 1658992087878.3904,
+    "uuid": "48ad382b-01e4-4822-941c-6cafd0559690",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\libs.meta": {
+    "time": 1658992087857.0623
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources.meta": {
+    "time": 1658992087861.526
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts.meta": {
+    "time": 1658992087868.4822
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\libs\\framework.d.ts.meta": {
+    "time": 1658992087859.0464
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects.meta": {
+    "time": 1658992087861.526
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials.meta": {
+    "time": 1658992087863.5103
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs.meta": {
+    "time": 1658992087865.4941
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\shared.meta": {
+    "time": 1658992087866.9814
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components.meta": {
+    "time": 1658992087871.4844
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\graphics.meta": {
+    "time": 1658992087873.9258
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input.meta": {
+    "time": 1658992087868.4822
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes.meta": {
+    "time": 1658992087874.4224
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Main.ts.meta": {
+    "time": 1658992087870.9785
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\Basic.effect.meta": {
+    "time": 1658992087862.0227
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\BloomCombine.effect.meta": {
+    "time": 1658992087863.0142
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\Bevels.effect.meta": {
+    "time": 1658992087862.5183
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\libs\\framework.min.js.meta": {
+    "time": 1658992087861.526
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\DeferredSprite.effect.meta": {
+    "time": 1658992087863.0142
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\Bevels.mtl.meta": {
+    "time": 1658992087864.006
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\effects\\Dissolve.effect.meta": {
+    "time": 1658992087863.5103
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\Basic.mtl.meta": {
+    "time": 1658992087864.006
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scene.scene.meta": {
+    "time": 1658992147842.5942
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\DeferredSprite.mtl.meta": {
+    "time": 1658992087865.4941
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\BloomCombine.mtl.meta": {
+    "time": 1658992087864.998
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\materials\\Dissolve.mtl.meta": {
+    "time": 1658992087865.4941
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\component_camera.ts.meta": {
+    "time": 1658992087873.4307
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\Mesh.ts.meta": {
+    "time": 1658992087871.9426
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\PolygonMesh.ts.meta": {
+    "time": 1658992087872.4731
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\PolygonSprite.ts.meta": {
+    "time": 1658992087872.9534
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\components\\SpriteRenderer.ts.meta": {
+    "time": 1658992087873.4307
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\graphics\\Batcher.ts.meta": {
+    "time": 1658992087874.4224
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\Input.ts.meta": {
+    "time": 1658992087868.9946
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs\\Button.prefab.meta": {
+    "time": 1658992147860.9473
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\KeyboardUtils.ts.meta": {
+    "time": 1658992087869.4917
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\Keys.ts.meta": {
+    "time": 1658992087869.4917
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs\\moon.prefab.meta": {
+    "time": 1658992147863.9226
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\MouseState.ts.meta": {
+    "time": 1658992087869.9812
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\VirtualAxis.ts.meta": {
+    "time": 1658992087870.4824
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\VirtualInput.ts.meta": {
+    "time": 1658992087870.4824
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\collider.meta": {
+    "time": 1658992087874.9182
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\lineCasting.meta": {
+    "time": 1658992087876.4065
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\Input\\VirtualIntegerAxis.ts.meta": {
+    "time": 1658992087870.9785
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\rigidBodies.meta": {
+    "time": 1658992087877.3982
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\BasicScene.ts.meta": {
+    "time": 1658992087874.9182
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\verletPhysics.meta": {
+    "time": 1658992087877.8938
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\prefabs\\moon_polygon.prefab.meta": {
+    "time": 1658992147875.8264
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\RenderScene.ts.meta": {
+    "time": 1658992087874.9182
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\collider\\ColliderScene.ts.meta": {
+    "time": 1658992087875.4143
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\collider\\ColliderTrigger.ts.meta": {
+    "time": 1658992087875.9097
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\lineCasting\\LineCaster.ts.meta": {
+    "time": 1658992087876.9023
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\lineCasting\\LineCastingScene.ts.meta": {
+    "time": 1658992087876.9023
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\resources\\shared\\moon.png.meta": {
+    "time": 1658992147881.282
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\rigidBodies\\RigidBodyScene.ts.meta": {
+    "time": 1658992087877.3982
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\verletPhysics\\VerletPhysicsScene.ts.meta": {
+    "time": 1658992087878.3904
+  },
+  "D:\\My_Game\\別人寫的參考用\\cocos-framework\\assets\\scripts\\scenes\\verletPhysics\\VerletSystem.ts.meta": {
+    "time": 1658992087878.3904
+  }
+}

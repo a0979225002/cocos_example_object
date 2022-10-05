@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "45RXUaWqNIH5qkJ/bRaWjl@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "photo_board_3",
+            "rect": {
+                "x": 2,
+                "y": 1,
+                "width": 43,
+                "height": 50
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 46,
+                "height": 51
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "4545751a-5aa3-481f-9aa4-27f6d16968e5@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

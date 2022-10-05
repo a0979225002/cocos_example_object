@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.25",
+  "uuid": "e15e2be1-7374-4930-8e5e-0e95a264d922",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main () {\n  mat4 mvp;\n  mvp = cc_matViewProj;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n  v_wp = cc_matWorld * vec4(a_position, 1);\n    #if USE_TEXTURE\n    v_uv0 = a_uv0;\n    #endif\n}",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform float u_time;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main( void )\n{\n    float u_time = (u_time+30.) * 30.0;\n    float s = 0.0, v = 0.0;\n    vec2 uv = (-vec2(960.,640.).xy + 2.0 * gl_FragCoord.xy ) / vec2(960.,640.);\n  float t = u_time*0.01;\n  uv.x += sin(t) * 0.5;\n  float si = sin(t + 2.17);\n  float co = cos(t);\n  uv *= mat2(co, si, -si, co);\n  vec3 col = vec3(0.0);\n  vec3 init = vec3(0.25, 0.25 + sin(u_time * 0.001) * 0.4, floor(u_time) * 0.0008);\n  for (int r = 0; r < 100; r++)\n  {\n    vec3 p = init + s * vec3(uv, 0.143);\n    p.z = mod(p.z, 2.0);\n    for (int i=0; i < 10; i++)  p = abs(p * 2.04) / dot(p, p) - 0.75;\n    v += length(p * p) * smoothstep(0.0, 0.5, 0.9 - s) * .0025;\n    col +=  vec3(v * 0.8, 1.1 - s * 0.5, .7 + v * 0.5) * v * 0.013;\n    s += .005;\n  }\n  gl_FragColor = vec4(col, 1.0);\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main () {\n  mat4 mvp;\n  mvp = cc_matViewProj;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n  v_wp = cc_matWorld * vec4(a_position, 1);\n    #if USE_TEXTURE\n    v_uv0 = a_uv0;\n    #endif\n}",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform Constants1 {\n  vec4 u_Position;\n  float u_Radius;\n  float u_time;\n  float u_Vague;\n};\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main( void )\n{\n    float u_time = (u_time+30.) * 30.0;\n    float s = 0.0, v = 0.0;\n    vec2 uv = (-vec2(960.,640.).xy + 2.0 * gl_FragCoord.xy ) / vec2(960.,640.);\n  float t = u_time*0.01;\n  uv.x += sin(t) * 0.5;\n  float si = sin(t + 2.17);\n  float co = cos(t);\n  uv *= mat2(co, si, -si, co);\n  vec3 col = vec3(0.0);\n  vec3 init = vec3(0.25, 0.25 + sin(u_time * 0.001) * 0.4, floor(u_time) * 0.0008);\n  for (int r = 0; r < 100; r++)\n  {\n    vec3 p = init + s * vec3(uv, 0.143);\n    p.z = mod(p.z, 2.0);\n    for (int i=0; i < 10; i++)  p = abs(p * 2.04) / dot(p, p) - 0.75;\n    v += length(p * p) * smoothstep(0.0, 0.5, 0.9 - s) * .0025;\n    col +=  vec3(v * 0.8, 1.1 - s * 0.5, .7 + v * 0.5) * v * 0.013;\n    s += .005;\n  }\n  gl_FragColor = vec4(col, 1.0);\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

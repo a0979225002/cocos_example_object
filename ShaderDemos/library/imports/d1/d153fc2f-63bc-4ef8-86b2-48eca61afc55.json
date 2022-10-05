@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wcard",
+    "texture": "95be9ce7-b4bf-465d-98ec-4a6d18d58201",
+    "atlas": "",
+    "rect": [
+      3,
+      51,
+      284,
+      399
+    ],
+    "offset": [
+      -8.5,
+      -18
+    ],
+    "originalSize": [
+      307,
+      465
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

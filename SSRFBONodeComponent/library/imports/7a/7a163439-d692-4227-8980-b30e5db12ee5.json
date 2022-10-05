@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.Material",
+  "_name": "fow",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "10bf9c98-c4c1-4fad-bc5e-bbfc1cf3aaac"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {}
+}

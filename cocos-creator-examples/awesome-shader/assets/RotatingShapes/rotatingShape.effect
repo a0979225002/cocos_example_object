@@ -1,0 +1,154 @@
+// Effect Syntax Guide: https://github.com/cocos-creator/docs-3d/blob/master/zh/material-system/effect-syntax.md
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert  
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: white }
+        mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        axis1:       { value: [0,1,0], target: axis1AndSpeed.xyz  }
+        speed:       { value: 1, target: axis1AndSpeed.w  }
+        axis2:       { value: [0,1,0], target: axis2AndDistortion.xyz  }
+        distortion:       { value: 3, target: axis2AndDistortion.w  }
+  - name: transparent
+    passes:
+    - vert: unlit-vs:vert  
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+
+CCProgram unlit-vs %{
+  precision highp float;
+  #include <input-standard>
+  #include <cc-global>
+  #include <cc-local-batch>
+  #include <input-standard>
+  #include <cc-fog-vs>
+  #include <cc-shadow-map-vs>
+
+  in vec4 a_color;
+  #if HAS_SECOND_UV
+  in vec2 a_texCoord1;
+  #endif
+
+  out vec3 v_position;
+  out vec3 v_normal;
+  out vec3 v_tangent;
+  out vec3 v_bitangent;
+  out vec2 v_uv;
+  out vec2 v_uv1;
+  out vec4 v_color;
+  out vec3 v_eye;
+
+  uniform axisParams {
+    vec4 axis1AndSpeed;
+    vec4 axis2AndDistortion;
+  };
+
+  mat4 rotationMatrix(vec3 axis, float angle) {
+      axis = normalize(axis);
+      float s = sin(angle);
+      float c = cos(angle);
+      float oc = 1.0 - c;
+      
+      return mat4(oc * axis.x * axis.x + c,           oc * axis.x * axis.y - axis.z * s,  oc * axis.z * axis.x + axis.y * s,  0.0,
+                  oc * axis.x * axis.y + axis.z * s,  oc * axis.y * axis.y + c,           oc * axis.y * axis.z - axis.x * s,  0.0,
+                  oc * axis.z * axis.x - axis.y * s,  oc * axis.y * axis.z + axis.x * s,  oc * axis.z * axis.z + c,           0.0,
+                  0.0,                                0.0,                                0.0,                                1.0);
+  }
+
+  vec3 rotate(vec3 v, vec3 axis, float angle) {
+    mat4 m = rotationMatrix(axis, angle);
+    return (m * vec4(v, 1.0)).xyz;
+  }
+  float qinticInOut(float t) {
+    return t < 0.5
+      ? +16.0 * pow(t, 5.0)
+      : -0.5 * abs(pow(2.0 * t - 2.0, 5.0)) + 1.0;
+  }
+
+  vec4 vert () {
+
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+    vec4 pos = matWorld * In.position;
+
+    float time = cc_time.x;
+    vec3 axis2 = axis2AndDistortion.xyz;
+    float distortion = axis2AndDistortion.w;
+    vec3 newPos = In.position.xyz;
+    float offset = dot(axis2,newPos);
+    float speed = axis1AndSpeed.w; 
+    float localprogress = clamp((fract(time*speed) - 0.01*distortion*offset)/(1. - 0.01*distortion),0.,1.); 
+    localprogress = qinticInOut(localprogress)*3.141592653*2.; 
+
+    vec3 axis = axis1AndSpeed.xyz;
+    newPos = rotate(newPos,axis,localprogress); 
+    vec3 newnormal = rotate(In.normal.xyz, axis, localprogress);
+
+    v_position = pos.xyz;
+    v_normal = normalize((matWorldIT * vec4(newnormal.xyz, 0.0)).xyz);
+    v_tangent = normalize((matWorld * vec4(In.tangent.xyz, 0.0)).xyz);
+    v_bitangent = cross(v_normal, v_tangent) * In.tangent.w; // note the cross order
+    v_eye = normalize(pos.xyz - cc_cameraPos.xyz);  
+    v_uv = a_texCoord;
+    #if HAS_SECOND_UV
+      v_uv1 = a_texCoord1;
+    #endif
+    v_color = a_color;
+
+    CC_TRANSFER_FOG(pos); 
+    CC_TRANSFER_SHADOW(pos);
+
+    return cc_matProj * (cc_matView * matWorld) * vec4(newPos,1.0);
+  }
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <output>
+  #include <cc-fog-fs>
+
+  in vec2 v_uv;
+  in vec3 v_eye;
+  in vec3 v_normal;
+  uniform sampler2D mainTexture;
+
+  uniform Constant {
+    vec4 mainColor;
+  };
+
+  vec2 matcap(vec3 eye, vec3 normal) {
+    vec3 reflected = reflect(eye, normal);
+    // because: 
+    //  pow( reflected.x, 2. ) + pow( reflected.y, 2. ) + pow( reflected.y, 2. ) = 1
+    //  float m = 2. * sqrt( pow( reflected.x, 2. ) + pow( reflected.y, 2. ) + pow( reflected.z + 1., 2. ) );
+    // so: 
+    //  m = 2*sqrt(2)* sqrt( reflected.z+1.0 )
+    float m = 2.8284271247461903 * sqrt( reflected.z+1.0 );
+    return reflected.xy / m + 0.5;
+  }
+
+  vec4 frag () {
+    vec2 muv = matcap(v_eye,v_normal);
+    vec4 col = texture(mainTexture, muv);
+    CC_APPLY_FOG(col);
+    return CCFragOutput(col);
+  }
+}%
+
+
+//https://github.com/akella/RotatingShapes

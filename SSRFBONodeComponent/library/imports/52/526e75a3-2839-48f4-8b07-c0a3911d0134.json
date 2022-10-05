@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.Material",
+  "_name": "pixelate",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "914c3bbd-ae02-4e94-bd1d-c96a60ca1eb0"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {}
+}

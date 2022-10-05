@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "ccxIbPcLdN2bFRKC3NOjmF@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "store_number_bg_click",
+            "rect": {
+                "x": 0,
+                "y": 1,
+                "width": 105,
+                "height": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 105,
+                "height": 83
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "ccc486cf-70b7-4dd9-b151-282dcd3a3985@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

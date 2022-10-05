@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "93s5+fCwJCKLnuLclbv7rA@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn1_grey",
+            "rect": {
+                "x": 1,
+                "y": 3,
+                "width": 69,
+                "height": 49
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -1.5
+            },
+            "originalSize": {
+                "width": 70,
+                "height": 52
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "93b39f9f-0b02-4228-b9ee-2dc95bbfbac0@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

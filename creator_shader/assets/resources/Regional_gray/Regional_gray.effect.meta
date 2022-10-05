@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.25",
+  "uuid": "f9847f00-619d-4b08-bb48-9f0bbce643e7",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main () {\n  mat4 mvp;\n  mvp = cc_matViewProj;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n  v_wp = cc_matWorld * vec4(a_position, 1);\n    #if USE_TEXTURE\n    v_uv0 = a_uv0;\n    #endif\n}",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform float u_Radius;\nuniform vec4 u_Position;\nuniform float u_Vague;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvec4 lerp(vec4 a, vec4 b, float w) {\n  return a + w*(b-a);\n}\nfloat saturate(float x)\n{\n  return max(0.0, min(1.0, x));\n}\nvoid main () {\n    vec4 col = texture2D(texture, v_uv0);\n    float val = 0.299*col.r+0.578*col.g+0.114*col.b;\n    vec3 grayScale = vec3(val, val, val);\n    float d = saturate((u_Radius - distance(u_Position.xyz, v_wp.xyz)) / u_Vague);\n    col = lerp(vec4(grayScale,1.0),col, d);\n    gl_FragColor = col;\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvoid main () {\n  mat4 mvp;\n  mvp = cc_matViewProj;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n  v_wp = cc_matWorld * vec4(a_position, 1);\n    #if USE_TEXTURE\n    v_uv0 = a_uv0;\n    #endif\n}",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform Constants1 {\n  vec2 u_resolution;\n  float u_Radius;\n  float u_time;\n  vec4 u_Position;\n  float u_Vague;\n};\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nvec4 lerp(vec4 a, vec4 b, float w) {\n  return a + w*(b-a);\n}\nfloat saturate(float x)\n{\n  return max(0.0, min(1.0, x));\n}\nvoid main () {\n    vec4 col = texture(texture, v_uv0);\n    float val = 0.299*col.r+0.578*col.g+0.114*col.b;\n    vec3 grayScale = vec3(val, val, val);\n    float d = saturate((u_Radius - distance(u_Position.xyz, v_wp.xyz)) / u_Vague);\n    col = lerp(vec4(grayScale,1.0),col, d);\n    gl_FragColor = col;\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_mixture_click",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 91,
+      "height": 83
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 94,
+      "height": 83
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "dee20700-6bfa-4347-ba1f-bdf787457a25@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "item_slot_click",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 69,
+      "height": 71
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 69,
+      "height": 71
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "a707bbf3-7df6-472a-81c9-dd5948e0be0f@6c48a"
+  }
+}

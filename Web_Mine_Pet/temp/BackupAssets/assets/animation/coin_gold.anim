@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "coin_gold",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "28a862bf-5c7a-4bdd-a265-dc939bcb29b9"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "e24e24f6-7b2c-4ad9-a1af-8b81c5e487ac"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "cf1adc9b-9d5a-4bea-a526-f77c907de9ff"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "af3f98b3-8b89-4153-8d7c-2824eab9bb76"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

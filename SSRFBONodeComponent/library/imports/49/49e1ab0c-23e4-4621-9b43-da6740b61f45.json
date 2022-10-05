@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "Dissolvemosco4",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "fafa6b65-acc2-46a0-a19f-602da91dd313"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "masktex": {
+          "__uuid__": "3c422590-b831-4372-b9dc-d9a87280e1d6"
+        },
+        "linetex": {
+          "__uuid__": "2d939c6d-9f6e-4b67-822c-3c5fd78a8dd3"
+        },
+        "linecolor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "u_float_61": 0,
+        "rongjie": 0.013,
+        "u_float_11": 0.29999999999998894,
+        "u_float_62": 1.5,
+        "lineglow": 1
+      }
+    }
+  }
+}

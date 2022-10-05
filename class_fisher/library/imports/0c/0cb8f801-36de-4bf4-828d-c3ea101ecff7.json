@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fort_light_5",
+    "texture": "29a27772-5521-4385-9be9-eb48c950495c",
+    "atlas": "82e9bc56-d5e3-459d-a414-82dcc9e9c85e",
+    "rect": [
+      1924,
+      428,
+      106,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      122,
+      122
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

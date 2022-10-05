@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Actor2-6",
+    "atlas": "5cb3c58c-b5f0-4320-9bbd-18e92f6e7497",
+    "rect": {
+      "x": 210,
+      "y": 302,
+      "width": 219,
+      "height": 212
+    },
+    "offset": {
+      "x": 0,
+      "y": -7
+    },
+    "originalSize": {
+      "width": 229,
+      "height": 226
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "44d368c1-80e2-4309-9dba-afad705a85ec@6c48a",
+    "packable": true
+  }
+}

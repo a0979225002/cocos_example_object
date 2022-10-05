@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_hat",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 42,
+      "height": 39
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 42,
+      "height": 39
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8100ea21-fc07-4614-8e19-367b97d817d2@6c48a"
+  }
+}

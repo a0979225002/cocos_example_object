@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game330Number_0",
+    "texture": "9e050624-6c35-45b7-af59-ecd1b12ddfc4",
+    "atlas": "",
+    "rect": [
+      2,
+      30,
+      1183,
+      339
+    ],
+    "offset": [
+      -6.5,
+      50.5
+    ],
+    "originalSize": [
+      1200,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

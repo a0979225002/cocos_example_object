@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "6cy9aKV+tD3pUtkh5BCTCl@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "vip_light_2",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 143,
+                "height": 3
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 143,
+                "height": 3
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "6ccbd68a-57eb-43de-952d-921e410930a5@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

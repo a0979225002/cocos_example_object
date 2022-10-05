@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "17JGmrxCdFt6JVlKy4hO+X@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "vip_title_gray",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 166,
+                "height": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 166,
+                "height": 82
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "172469ab-c427-45b7-a255-94acb884ef97@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "樓婥蚚logo@2x",
+    "texture": "b92592f3-96a8-404c-b58c-e236f192ff14",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      321,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      321,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

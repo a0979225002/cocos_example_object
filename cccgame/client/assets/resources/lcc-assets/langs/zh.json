@@ -1,0 +1,190 @@
+{
+    "texts": {
+        "test-topmenu-back": {
+            "text": "返回",
+            "fontName": "testfont"
+        },
+        "test-topmenu-packmgr": {
+            "text": "包管理",
+            "fontName": "testfont"
+        },
+        "test-topmenu-mullang": {
+            "text": "多语言",
+            "fontName": "testfont"
+        },
+        "test-testlist-notice": {
+            "text": "在测试用例前，<color=#ffff00>确保测试服务器已经启动<color/>",
+            "fontName": "testfont"
+        },
+        "test-testlist-config": {
+            "text": "配置模块",
+            "fontName": "testfont"
+        },
+        "test-testconfig-local1": {
+            "text": "本地配置文件1:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-local2": {
+            "text": "本地配置文件2:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-remote": {
+            "text": "远程配置:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-definevar": {
+            "text": "定义变量:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-readconfig1": {
+            "text": "测试配置1:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-readconfig2": {
+            "text": "测试配置2:",
+            "fontName": "testfont"
+        },
+        "test-testconfig-varstring": {
+            "text": "变量字符串",
+            "fontName": "testfont"
+        },
+        "test-testconfig-watch": {
+            "text": "查看",
+            "fontName": "testfont"
+        },
+        "test-testconfig-read": {
+            "text": "读取",
+            "fontName": "testfont"
+        },
+        "test-testconfig-modify": {
+            "text": "修改",
+            "fontName": "testfont"
+        },
+        "test-testconfig-modifysuccess": {
+            "text": "修改变量成功",
+            "fontName": "testfont"
+        },
+        "language-zh": {
+            "text": "中文",
+            "fontName": "testfont"
+        },
+        "language-en": {
+            "text": "英语",
+            "fontName": "testfont"
+        },
+        "test-package-loaded": {
+            "text": "已加载",
+            "fontName": "testfont"
+        },
+        "test-package-notloaded": {
+            "text": "未加载",
+            "fontName": "testfont"
+        },
+        "test-package-load": {
+            "text": "加载",
+            "fontName": "testfont"
+        },
+        "test-package-unload": {
+            "text": "卸载",
+            "fontName": "testfont"
+        },
+        "test-package-unloadnotice": {
+            "text": "<color=#ffff00>分包卸载会重启游戏<color/>",
+            "fontName": "testfont"
+        },
+        "test-package-localdesc": {
+            "text": "本地模块化分包:",
+            "fontName": "testfont"
+        },
+        "test-package-remotedesc": {
+            "text": "远程模块化分包:",
+            "fontName": "testfont"
+        },
+        "test-testlist-table": {
+            "text": "数据表模块",
+            "fontName": "testfont"
+        },
+        "test-testtable-mapobject": {
+            "text": "导出映射对象表",
+            "fontName": "testfont"
+        },
+        "test-testtable-maparray": {
+            "text": "导出映射数组表",
+            "fontName": "testfont"
+        },
+        "test-testtable-mapvalue": {
+            "text": "导出映射表",
+            "fontName": "testfont"
+        },
+        "test-testtable-listobject": {
+            "text": "导出排列对象表",
+            "fontName": "testfont"
+        },
+        "test-testtable-listarray": {
+            "text": "导出排列数组表",
+            "fontName": "testfont"
+        },
+        "test-testtable-listvalue": {
+            "text": "导出排列表",
+            "fontName": "testfont"
+        },
+        "test-testtable-langtest": {
+            "text": "角色表101数据当前语言的姓名：",
+            "fontName": "testfont"
+        },
+        "test-testlist-network-websocket": {
+            "text": "网络模块 - WebsocketLine",
+            "fontName": "testfont"
+        },
+        "test-testlist-network-http": {
+            "text": "网络模块 - HttpLine",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-connected": {
+            "text": "已连接",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-notconnected": {
+            "text": "未连接",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-connect": {
+            "text": "连接",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-disconnect": {
+            "text": "断开",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-useprotobuf": {
+            "text": "启用Protobuf:",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-sendcontent": {
+            "text": "发送数据内容",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-sendrecv": {
+            "text": "发送数据与接收",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-watch": {
+            "text": "查看",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-test": {
+            "text": "测试",
+            "fontName": "testfont"
+        },
+        "test-testnetwork-state": {
+            "text": "网络线状态：",
+            "fontName": "testfont"
+        },
+        "resources_0": {
+            "text": "刘备"
+        }
+    },
+    "images": {
+        "test-testimage": "asset://resources/lcc-assets/assets/textures/langs/zh/test"
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "btn_shine",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.3888888888888888,
+  "sample": 36,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "txt": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.2777777777777778,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.06,
+                "y": 1.06
+              }
+            },
+            {
+              "frame": 1.3888888888888888,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      },
+      "bg/shine": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.1388888888888889,
+              "value": 0
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 30
+            },
+            {
+              "frame": 1.1111111111111112,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

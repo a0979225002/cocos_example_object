@@ -1,0 +1,114 @@
+{
+  "path": {
+    "D:\\Home\\workspace\\voodooWater\\assets\\AssetsPackage\\Skybox\\skyBox.FBX@ae49a": [
+      "D:\\Home\\workspace\\voodooWater\\assets\\AssetsPackage\\Skybox\\skyBox1.jpg"
+    ],
+    "D:\\Home\\workspace\\voodooWater\\assets\\AssetsPackage\\Shaders\\Water.effect": [
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\general-vs.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\input-standard.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\decode-standard.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\decode-base.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\morph.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-skinning.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\skinning-lbs.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-global.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-local-batch.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-local.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-fog-vs.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-fog-base.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-shadow-map-vs.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-shadow.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-shadow-map-base.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\packing.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\output.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\gamma.chunk",
+      "D:\\CocosCreatorEditor\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-fog-fs.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\general-vs.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\input-standard.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\decode-standard.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\decode-base.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\common.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\morph.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-skinning.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\skinning-lbs.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-global.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-local-batch.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-local.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-fog-vs.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-fog-base.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-shadow-map-vs.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-shadow.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-shadow-map-base.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\packing.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\unlit-fs.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\output.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\gamma.chunk",
+      "D:\\Home\\workspace\\voodooWater\\assets\\chunks\\cc-fog-fs.chunk"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\AssetsPackage\\Shaders\\Water.effect": [
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\general-vs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\input-standard.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\decode-standard.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\decode-base.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\morph.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-skinning.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\skinning-lbs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-global.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-local-batch.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-local.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-fog-vs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-fog-base.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-shadow-map-vs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-shadow.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-shadow-map-base.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\packing.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\output.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\gamma.chunk",
+      "C:\\CocosDashboard_1.0.11\\resources\\.editors\\Creator\\3.3.0\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\cc-fog-fs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\general-vs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\input-standard.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\decode-standard.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\decode-base.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\common.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\morph.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-skinning.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\skinning-lbs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-global.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-local-batch.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-local.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-fog-vs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-fog-base.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-shadow-map-vs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-shadow.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-shadow-map-base.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\packing.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\unlit-fs.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\output.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\gamma.chunk",
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\chunks\\cc-fog-fs.chunk"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\AssetsPackage\\Skybox\\skyBox.FBX@ae49a": [
+      "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\AssetsPackage\\Skybox\\skyBox1.jpg"
+    ]
+  },
+  "uuid": {
+    "D:\\Home\\workspace\\voodooWater\\assets\\AssetsPackage\\Skybox\\skybox.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "D:\\Home\\workspace\\voodooWater\\assets\\AssetsPackage\\Water\\Water.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+      "a85bd2a3-2fbf-49de-879c-beda3947fdca"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\AssetsPackage\\Skybox\\skybox.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "D:\\My_Game\\別人寫的參考用\\voodooWater\\assets\\AssetsPackage\\Water\\Water.mtl": [
+      "a85bd2a3-2fbf-49de-879c-beda3947fdca"
+    ]
+  }
+}

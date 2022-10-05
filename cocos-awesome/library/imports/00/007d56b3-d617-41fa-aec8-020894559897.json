@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scratch_ticket",
+    "texture": "9db9d60f-857e-4c9b-89ea-45725dfc3dc8",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      675,
+      477
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      676,
+      478
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "0arFWC0bxLPr/pA/7cxlRM@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "title_bg",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 37,
+                "height": 30
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 38,
+                "height": 30
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "0aac5582-d1bc-4b3e-bfe9-03fedcc6544c@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

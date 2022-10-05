@@ -1,0 +1,290 @@
+{
+  "ver": "1.0.6",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3",
+  "files": [
+    ".plist",
+    ".json"
+  ],
+  "subMetas": {
+    "e492e": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@e492e",
+      "displayName": "",
+      "id": "e492e",
+      "name": "People1-1",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": -3,
+        "offsetY": -36,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 139,
+        "height": 154,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8610": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@b8610",
+      "displayName": "",
+      "id": "b8610",
+      "name": "People1-2",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": -6,
+        "offsetY": -37,
+        "trimX": 157,
+        "trimY": 1,
+        "width": 145,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5533": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@e5533",
+      "displayName": "",
+      "id": "e5533",
+      "name": "People1-3",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 3,
+        "offsetY": -36,
+        "trimX": 330,
+        "trimY": 149,
+        "width": 165,
+        "height": 154,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "15e13": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@15e13",
+      "displayName": "",
+      "id": "15e13",
+      "name": "People1-4",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 5,
+        "offsetY": -40,
+        "trimX": 311,
+        "trimY": 1,
+        "width": 179,
+        "height": 146,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d35e3": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@d35e3",
+      "displayName": "",
+      "id": "d35e3",
+      "name": "People1-5",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 8,
+        "offsetY": -37,
+        "trimX": 155,
+        "trimY": 149,
+        "width": 173,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8fb80": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@8fb80",
+      "displayName": "",
+      "id": "8fb80",
+      "name": "People1-6",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 2,
+        "offsetY": -37,
+        "trimX": 1,
+        "trimY": 142,
+        "width": 151,
+        "height": 152,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7e449": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@7e449",
+      "displayName": "",
+      "id": "7e449",
+      "name": "People1-7",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 2,
+        "offsetY": -36,
+        "trimX": 1,
+        "trimY": 303,
+        "width": 187,
+        "height": 154,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78f2c": {
+      "importer": "sprite-frame",
+      "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3@78f2c",
+      "displayName": "",
+      "id": "78f2c",
+      "name": "People1-8",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 3,
+        "offsetY": -28,
+        "trimX": 190,
+        "trimY": 305,
+        "width": 189,
+        "height": 170,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+        "atlasUuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "People1.png",
+    "format": 3,
+    "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3",
+    "textureUuid": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a"
+  }
+}

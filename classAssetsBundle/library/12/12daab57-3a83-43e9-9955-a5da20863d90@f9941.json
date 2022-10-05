@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "box_open",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 172,
+      "height": 218
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 172,
+      "height": 218
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "12daab57-3a83-43e9-9955-a5da20863d90@6c48a"
+  }
+}

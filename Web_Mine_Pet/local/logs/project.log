@@ -1,0 +1,119 @@
+2021-12-15T05:53:39.641Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-15T05:53:39.741Z - normal: Initializing Asset Database
+2021-12-15T05:53:39.747Z - normal: checking language setting...
+2021-12-15T05:53:39.747Z - normal: Language: zh
+2021-12-15T05:53:40.416Z - success: preview server running at http://localhost:7457
+2021-12-15T05:53:40.418Z - success: protocol editor-framework registered
+2021-12-15T05:53:40.418Z - success: protocol app registered
+2021-12-15T05:53:40.418Z - success: protocol theme registered
+2021-12-15T05:53:40.418Z - success: protocol packages registered
+2021-12-15T05:53:40.419Z - success: protocol uuid registerred
+2021-12-15T05:53:40.419Z - success: protocol db registerred
+2021-12-15T05:53:40.419Z - success: protocol thumbnail registerred
+2021-12-15T05:53:40.419Z - success: protocol unpack registerred
+2021-12-15T05:53:40.419Z - success: protocol disable-commonjs registerred
+2021-12-15T05:53:41.286Z - normal: connected!
+2021-12-15T05:53:41.287Z - normal: Check project C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet
+2021-12-15T05:53:41.290Z - normal: Initializing project C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet
+2021-12-15T05:53:41.326Z - success: adapters loaded
+2021-12-15T05:53:41.338Z - success: asset-db-debugger loaded
+2021-12-15T05:53:41.428Z - success: fb-audience-network loaded
+2021-12-15T05:53:41.471Z - success: fb-live-stream loaded
+2021-12-15T05:53:41.483Z - success: google-play-instant loaded
+2021-12-15T05:53:41.510Z - success: huawei-runtime loaded
+2021-12-15T05:53:41.513Z - success: jkw-adapter loaded
+2021-12-15T05:53:41.515Z - success: jsb-adapter loaded
+2021-12-15T05:53:41.539Z - success: oppo-runtime loaded
+2021-12-15T05:53:41.552Z - success: package-manager loaded
+2021-12-15T05:53:41.556Z - success: qtt-adapter loaded
+2021-12-15T05:53:41.571Z - success: runtime-dev-tools loaded
+2021-12-15T05:53:41.586Z - success: sdkbox loaded
+2021-12-15T05:53:41.596Z - success: ui-kit-preview-extra loaded
+2021-12-15T05:53:41.608Z - success: ui-kit-preview loaded
+2021-12-15T05:53:41.641Z - success: vivo-runtime loaded
+2021-12-15T05:53:41.643Z - success: alipay-minigame loaded
+2021-12-15T05:53:41.686Z - success: assets loaded
+2021-12-15T05:53:41.690Z - success: baidugame-opendata loaded
+2021-12-15T05:53:41.694Z - success: baidugame loaded
+2021-12-15T05:53:41.702Z - success: builder loaded
+2021-12-15T05:53:41.851Z - success: cocos-services loaded
+2021-12-15T05:53:41.860Z - success: console loaded
+2021-12-15T05:53:41.871Z - success: fb-instant-games loaded
+2021-12-15T05:53:41.874Z - success: game-window loaded
+2021-12-15T05:53:41.877Z - success: google-instant-games loaded
+2021-12-15T05:53:41.879Z - success: hierarchy loaded
+2021-12-15T05:53:41.881Z - success: inspector loaded
+2021-12-15T05:53:42.496Z - success: cpk-publish loaded
+2021-12-15T05:53:42.505Z - success: keystore loaded
+2021-12-15T05:53:42.517Z - success: node-library loaded
+2021-12-15T05:53:42.518Z - success: open-recent-items loaded
+2021-12-15T05:53:42.520Z - success: package-asset loaded
+2021-12-15T05:53:42.522Z - success: preferences loaded
+2021-12-15T05:53:42.523Z - success: project-exporter loaded
+2021-12-15T05:53:42.525Z - success: project-importer loaded
+2021-12-15T05:53:42.527Z - success: project-settings loaded
+2021-12-15T05:53:42.539Z - success: qtt-runtime loaded
+2021-12-15T05:53:42.544Z - success: scene loaded
+2021-12-15T05:53:42.545Z - success: simulator-debugger loaded
+2021-12-15T05:53:42.546Z - success: sprite-editor loaded
+2021-12-15T05:53:42.548Z - success: store loaded
+2021-12-15T05:53:42.550Z - success: timeline loaded
+2021-12-15T05:53:42.553Z - success: wechatgame-opendata loaded
+2021-12-15T05:53:42.556Z - success: wechatgame loaded
+2021-12-15T05:53:42.561Z - success: xiaomi-runtime loaded
+2021-12-15T05:53:42.603Z - success: im-plugin loaded
+2021-12-15T05:53:42.801Z - success: unpack-textureatlas loaded
+2021-12-15T05:53:43.846Z - normal: 引擎编译中，首次编译需要较长时间，请稍等。
+2021-12-15T05:53:44.114Z - info: Cocos Service load base data!
+2021-12-15T05:53:48.633Z - normal: 检测到 JavaScript 引擎发生改动，已清空构建缓存。
+2021-12-15T05:53:48.642Z - normal: Initializing Cocos2d
+2021-12-15T05:53:49.823Z - normal: Initializing engine extends
+2021-12-15T05:54:06.954Z - normal: Loading packages
+2021-12-15T05:54:06.962Z - normal: Watching packages
+2021-12-15T05:54:07.886Z - normal: Run Application
+2021-12-15T06:19:16.402Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/script/res.meta
+2021-12-15T06:19:20.237Z - failed: load script [../res/ResLoader] failed : Error: Cannot find module '../res/ResLoader'
+Require stack:
+- C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js
+- C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\GameController.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\project-scripts.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\lib\sandbox.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\edit-mode\index.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\index.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\editor.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\index.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\renderer.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\index.html
+    at Module._resolveFilename (internal/modules/cjs/loader.js:683:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (C:\CocosCreator_2.2.2\resources\electron.asar\common\reset-search-paths.js:43:12)
+    at Function.s._resolveFilename (C:\CocosCreator_2.2.2\resources\app.asar\editor\page\project-scripts.js:1:941)
+    at Function.Module._load (internal/modules/cjs/loader.js:601:27)
+    at Module.require (internal/modules/cjs/loader.js:739:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.cc.require (C:\CocosCreator_2.2.2\resources\app.asar\editor\page\project-scripts.js:1:589)
+    at __require (C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js:1:359)
+    at __define (C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js:9:19)
+    at C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js:103:13
+2021-12-15T06:19:20.238Z - failed: load script [../res/ResLeakChecker] failed : Error: Cannot find module '../res/ResLeakChecker'
+Require stack:
+- C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js
+- C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\GameController.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\project-scripts.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\lib\sandbox.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\edit-mode\index.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\index.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\editor.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\index.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\renderer.js
+- C:\CocosCreator_2.2.2\resources\app.asar\editor\index.html
+    at Module._resolveFilename (internal/modules/cjs/loader.js:683:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (C:\CocosCreator_2.2.2\resources\electron.asar\common\reset-search-paths.js:43:12)
+    at Function.s._resolveFilename (C:\CocosCreator_2.2.2\resources\app.asar\editor\page\project-scripts.js:1:941)
+    at Function.Module._load (internal/modules/cjs/loader.js:601:27)
+    at Module.require (internal/modules/cjs/loader.js:739:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.cc.require (C:\CocosCreator_2.2.2\resources\app.asar\editor\page\project-scripts.js:1:589)
+    at __require (C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js:1:359)
+    at __define (C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js:10:24)
+    at C:\Users\sp\Desktop\cocos_project\Web_Mine_Pet\temp\quick-scripts\assets\script\manager\AssetsMng.js:103:13
+2021-12-15T06:26:34.390Z - info: shutdown preview server

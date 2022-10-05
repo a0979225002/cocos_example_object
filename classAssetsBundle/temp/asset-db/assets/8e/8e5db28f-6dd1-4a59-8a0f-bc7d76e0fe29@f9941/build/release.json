@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "8eXbKPbdFKWYoPvH124P4p@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "numberbg 2",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 49,
+                "height": 50
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 50,
+                "height": 51
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "8e5db28f-6dd1-4a59-8a0f-bc7d76e0fe29@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

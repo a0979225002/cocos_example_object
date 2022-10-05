@@ -1,0 +1,5 @@
+{
+	"remoteconfig":"https://gamedownload.singmaan.com/games/wdywfw_test/version.json",
+	"server": "https://www.singmaan.com:8890/protocol",
+	"test":"${localpath}/localtest/"
+}

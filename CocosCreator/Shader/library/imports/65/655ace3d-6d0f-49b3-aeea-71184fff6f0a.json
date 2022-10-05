@@ -1,0 +1,6 @@
+{
+  "__type__": "cc.Asset",
+  "_name": "op_hlsl_boxblur_vertical",
+  "_objFlags": 0,
+  "_native": ".fx"
+}

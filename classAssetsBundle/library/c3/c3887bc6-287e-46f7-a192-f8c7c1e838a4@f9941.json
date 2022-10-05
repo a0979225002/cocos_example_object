@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn4_grey",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 61,
+      "height": 36
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 61,
+      "height": 36
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "c3887bc6-287e-46f7-a192-f8c7c1e838a4@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btnb_gray",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 71
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 71
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "dc405768-7539-45c4-8913-27ba4951db4e@6c48a"
+  }
+}

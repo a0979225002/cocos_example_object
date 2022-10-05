@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_arrow",
+    "texture": "93894241-2118-4172-b611-8e468a5811a3",
+    "atlas": "c36a820e-ba3a-4a31-889f-2bca9c3cbc40",
+    "rect": [
+      452,
+      322,
+      39,
+      63
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "ecxurlcv1Cmo2dJ7RB/NPk@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "photo_shiziyu",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 170,
+                "height": 170
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 170,
+                "height": 170
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "ecc6eae5-72fd-429a-8d9d-27b441fcd3e4@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

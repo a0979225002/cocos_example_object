@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "item_bg_today",
+    "atlas": "",
+    "rect": {
+      "x": 7,
+      "y": 2,
+      "width": 138,
+      "height": 149
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -1
+    },
+    "originalSize": {
+      "width": 151,
+      "height": 151
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "5f961f9e-25c6-4436-b6d1-046947420857@6c48a"
+  }
+}

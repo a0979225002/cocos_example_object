@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_huodong",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 358,
+      "height": 179
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 358,
+      "height": 179
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "fd169111-b968-4f43-b7a0-49b66fff24cd@6c48a"
+  }
+}

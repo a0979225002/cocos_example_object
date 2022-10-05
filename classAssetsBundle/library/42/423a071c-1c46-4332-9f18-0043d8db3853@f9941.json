@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rw_arrow",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 140,
+      "height": 89
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 141,
+      "height": 89
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "423a071c-1c46-4332-9f18-0043d8db3853@6c48a"
+  }
+}

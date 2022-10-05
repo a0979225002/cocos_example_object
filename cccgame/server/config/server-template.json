@@ -1,0 +1,10 @@
+{
+	"GID":"test",
+	"servers":[
+		{
+			"enable" : "true",
+			"PID" : "test",
+			"server" : "template"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "1esoE3KK9BhY/gWJ4arr4E@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "progress_2",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 20,
+                "height": 20
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 21,
+                "height": 21
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "1eb28137-28af-4185-8fe0-589e1aaebe04@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

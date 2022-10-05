@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\script\\common\\Log.ts"],"names":[],"mappings":";;;;;;;AAAA;IAAA;IAEA,CAAC;IAAD,UAAC;AAAD,CAFA,AAEC,IAAA;AAFY,kBAAG","file":"","sourceRoot":"/","sourcesContent":["export class Log {\r\n\r\n}"]}

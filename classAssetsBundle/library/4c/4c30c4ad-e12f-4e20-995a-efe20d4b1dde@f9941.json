@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "submarine_arrow",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 64,
+      "height": 106
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 107
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "4c30c4ad-e12f-4e20-995a-efe20d4b1dde@6c48a"
+  }
+}

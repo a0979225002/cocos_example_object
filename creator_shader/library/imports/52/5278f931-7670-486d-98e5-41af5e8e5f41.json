@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "noise2",
+    "texture": "6f640af0-fdc3-49db-8aa5-46a8e6ee0d46",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      375
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

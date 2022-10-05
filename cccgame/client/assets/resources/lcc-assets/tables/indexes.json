@@ -1,0 +1,22 @@
+{
+    "table": {
+        "rolesla": [
+            "asset://resources/lcc-assets/tables/rolesla"
+        ],
+        "roleslo": [
+            "asset://resources/lcc-assets/tables/roleslo"
+        ],
+        "roleslv": [
+            "asset://resources/lcc-assets/tables/roleslv"
+        ],
+        "rolesma": [
+            "asset://resources/lcc-assets/tables/rolesma"
+        ],
+        "rolesmo": [
+            "asset://resources/lcc-assets/tables/rolesmo"
+        ],
+        "rolesmv": [
+            "asset://resources/lcc-assets/tables/rolesmv"
+        ]
+    }
+}

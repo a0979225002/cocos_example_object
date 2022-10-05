@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "reward_titile_2",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 150,
+      "height": 38
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 151,
+      "height": 38
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "7dfbc51a-901d-4fcb-a4c4-a9faf1380c40@6c48a"
+  }
+}

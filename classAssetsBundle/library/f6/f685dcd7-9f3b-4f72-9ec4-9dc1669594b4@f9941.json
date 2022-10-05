@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "photo_exp_bg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 25
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 25,
+      "height": 25
+    },
+    "rotated": false,
+    "capInsets": [
+      9,
+      0,
+      8,
+      0
+    ],
+    "texture": "f685dcd7-9f3b-4f72-9ec4-9dc1669594b4@6c48a"
+  }
+}

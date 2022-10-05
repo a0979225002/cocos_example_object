@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "item_bg2",
+    "atlas": "",
+    "rect": {
+      "x": 7,
+      "y": 2,
+      "width": 138,
+      "height": 149
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -1
+    },
+    "originalSize": {
+      "width": 151,
+      "height": 151
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "9e4b87b0-1037-4334-94f2-e4521b4b5742@6c48a"
+  }
+}

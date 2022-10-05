@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "binocular",
+    "texture": "494ab53a-cd38-4ef2-9b6b-2a5f14dec76c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      582,
+      278
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      582,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

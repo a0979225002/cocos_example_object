@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "bar_rankbg": {
+      "__uuid__": "f358f39a-2b24-43b9-aa30-2eb79ef8f1c2"
+    },
+    "bar_strip": {
+      "__uuid__": "3b5fad06-d2e8-4a60-a53b-18608d67d73b"
+    },
+    "bg": {
+      "__uuid__": "f0e8171d-5807-4b46-bccb-418dcd303222"
+    },
+    "bg_ex": {
+      "__uuid__": "a811889c-80ac-4fc1-a318-ca29e736fef9"
+    },
+    "bg_fillet20": {
+      "__uuid__": "a3275cc4-b882-4f79-8d83-789907e7c19c"
+    },
+    "bg_round130": {
+      "__uuid__": "eded0068-0909-4fa7-8da1-a0a89922a38a"
+    },
+    "bg_round48": {
+      "__uuid__": "f30d353f-fb00-4bdd-a114-746e4da68cd5"
+    },
+    "btn_100": {
+      "__uuid__": "85ec52a4-f62d-41c9-8d2f-1476bbede473"
+    },
+    "btn_101": {
+      "__uuid__": "7309244a-2dcf-40ab-ad6a-7f766c5c2e8d"
+    },
+    "btn_arrow": {
+      "__uuid__": "69674ca8-d75d-4cd3-9238-022fa119f865"
+    },
+    "btn_go": {
+      "__uuid__": "25a1d4f8-9eae-41ef-8eea-8b8c53607e6c"
+    },
+    "btn_goun": {
+      "__uuid__": "216d86ac-1150-43d2-ae84-b09af5b335ed"
+    },
+    "btn_mi_close": {
+      "__uuid__": "e3128ef2-36f8-4d22-9142-97a9e16ffdd0"
+    },
+    "btn_mi_close_red": {
+      "__uuid__": "683819b5-8c98-4240-92f5-4a1a9b83a4da"
+    },
+    "btn_mi_info": {
+      "__uuid__": "754b6a30-3ea7-45b6-8a7c-e34bcfb32cbb"
+    },
+    "btn_small": {
+      "__uuid__": "d6cd94be-7109-4d07-ab79-9c5aad88a08a"
+    },
+    "btn_word_get": {
+      "__uuid__": "bd5e7534-2b6c-4315-b2e3-41816ee0a057"
+    },
+    "btn_word_get00": {
+      "__uuid__": "a7954b2a-8565-4b54-b5cd-caf98606f327"
+    },
+    "btn_word_go": {
+      "__uuid__": "cc2d8d82-6214-45d8-afad-8bc6a2a15139"
+    },
+    "btn_word_go_g": {
+      "__uuid__": "771f0356-1b78-4c42-919a-192f6f9a630d"
+    },
+    "default_color": {
+      "__uuid__": "2dd295d3-fb2b-4273-96ae-911ad7ea853f"
+    },
+    "dis_skin01_100": {
+      "__uuid__": "0eed0e1e-ad3d-41c4-81f7-f480b022f8cc"
+    },
+    "dis_skin01_101": {
+      "__uuid__": "25d40811-49b9-49de-b347-b8e5d11fdb27"
+    },
+    "i_home": {
+      "__uuid__": "5e1b321c-b644-4b1a-8e02-c2620d1cf25d"
+    },
+    "i_info": {
+      "__uuid__": "25c77f53-1386-41ec-9685-9049277118df"
+    },
+    "i_month": {
+      "__uuid__": "650a10c5-4b80-4688-96b3-8107cd837403"
+    },
+    "i_rank00": {
+      "__uuid__": "aff4c899-b860-4436-ae95-480b2a0875d8"
+    },
+    "i_rank01": {
+      "__uuid__": "b40d010e-bc00-4110-839f-2c8172d4058a"
+    },
+    "i_select": {
+      "__uuid__": "d4773c41-ac7e-44be-ad74-935e68a867db"
+    },
+    "item_i01": {
+      "__uuid__": "50b3cce2-b916-42e9-9e1f-2f7e2787f756"
+    },
+    "item_i01g": {
+      "__uuid__": "eb27f526-49dd-48cb-bfb4-33364b2d8e7a"
+    },
+    "item_i02": {
+      "__uuid__": "1168afa4-d041-413d-a72e-91282c5a48d6"
+    },
+    "item_i02g": {
+      "__uuid__": "2e6828c9-59c3-4c35-b4d1-5d21dfe1657d"
+    },
+    "item_i03": {
+      "__uuid__": "0f6373c3-acbd-4eb7-8930-a4bcea998c06"
+    },
+    "item_i03g": {
+      "__uuid__": "1df5fc0d-f2e1-4737-a453-8c169472249e"
+    },
+    "item_titlebg": {
+      "__uuid__": "d6c9d8d9-b83f-464d-b914-8a527650cfa3"
+    },
+    "itembg100": {
+      "__uuid__": "0b947237-3b05-4c84-862b-e4afb389b271"
+    },
+    "itembg101": {
+      "__uuid__": "89eadc97-f0eb-41cd-88ef-69380af2e4a8"
+    },
+    "itembg200": {
+      "__uuid__": "65989bb8-61e7-44b4-87d0-3ab85e9fac39"
+    },
+    "itembg201": {
+      "__uuid__": "13bff1ef-3632-4700-8b4f-3f2772aa2cf8"
+    },
+    "m_coin102": {
+      "__uuid__": "05980bc0-ba77-460a-a4cf-1ccdd896e17c"
+    },
+    "m_coin202": {
+      "__uuid__": "5c986151-a8d4-4774-bb43-b3aa6510fac9"
+    },
+    "m_coin_g101": {
+      "__uuid__": "28a862bf-5c7a-4bdd-a265-dc939bcb29b9"
+    },
+    "m_coin_g102": {
+      "__uuid__": "e24e24f6-7b2c-4ad9-a1af-8b81c5e487ac"
+    },
+    "m_coin_g103": {
+      "__uuid__": "cf1adc9b-9d5a-4bea-a526-f77c907de9ff"
+    },
+    "m_coin_g104": {
+      "__uuid__": "af3f98b3-8b89-4153-8d7c-2824eab9bb76"
+    },
+    "m_coin_s101": {
+      "__uuid__": "9df705ae-3500-4dd0-adc4-f25647cd9e4f"
+    },
+    "m_coin_s102": {
+      "__uuid__": "4c302546-4b4c-4a2b-8c7b-d79ac592e409"
+    },
+    "m_coin_s103": {
+      "__uuid__": "c6ec0b8a-4d69-4bf8-ae5b-2db055a5475e"
+    },
+    "m_coin_s104": {
+      "__uuid__": "a173d50b-8269-4ea1-bc5d-ce7004a2001c"
+    },
+    "mine_coin_g": {
+      "__uuid__": "064cd432-cbb5-4d80-b46e-0f39613e5037"
+    },
+    "mine_coin_s": {
+      "__uuid__": "6d6d773f-7a9e-4c6d-9a93-8f4e392f3ce2"
+    },
+    "mine_coinbg": {
+      "__uuid__": "ed589e5d-43dc-405c-bcf2-c03131095159"
+    },
+    "notshow_100": {
+      "__uuid__": "869cabe2-2348-44fd-98aa-bf6022a2bf97"
+    },
+    "notshow_101": {
+      "__uuid__": "2ac1d5b9-9ce8-4d0e-93dc-863d816d1b5d"
+    },
+    "rank_star": {
+      "__uuid__": "fa3d955b-b9bf-47cd-9fdb-0f9e5edaffbe"
+    },
+    "triangle01": {
+      "__uuid__": "6f7154d6-366d-4fa4-8416-f68b8e52d727"
+    }
+  }
+}

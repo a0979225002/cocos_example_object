@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_text_store",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 172,
+      "height": 45
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 172,
+      "height": 45
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "83771aa6-4372-4d0c-9570-dbb30a76ce81@6c48a"
+  }
+}

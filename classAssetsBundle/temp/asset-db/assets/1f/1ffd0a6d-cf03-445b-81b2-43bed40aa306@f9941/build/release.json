@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "1f/QptzwNEW4GyQ77UCqMG@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "icon_weapon_1",
+            "rect": {
+                "x": 3,
+                "y": 4,
+                "width": 84,
+                "height": 109
+            },
+            "offset": {
+                "x": 1.5,
+                "y": -1
+            },
+            "originalSize": {
+                "width": 87,
+                "height": 115
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "1ffd0a6d-cf03-445b-81b2-43bed40aa306@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

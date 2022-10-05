@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "./Game/GameApp": "Game/GameApp.ts",
+        "./Managers/ResMgr": "Managers/ResMgr.ts"
+    }
+}

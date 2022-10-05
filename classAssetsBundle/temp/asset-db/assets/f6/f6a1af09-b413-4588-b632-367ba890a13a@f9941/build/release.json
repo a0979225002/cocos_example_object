@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "f6oa8JtBNFiLYyNnuokKE6@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "ad_button",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 35,
+                "height": 38
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "f6a1af09-b413-4588-b632-367ba890a13a@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

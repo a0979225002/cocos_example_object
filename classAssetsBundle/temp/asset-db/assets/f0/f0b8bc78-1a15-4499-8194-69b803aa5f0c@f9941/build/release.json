@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "f0uLx4GhVEmYGUabgDql8M@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "wenzi-wojiushi",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 277,
+                "height": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 277,
+                "height": 42
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "f0b8bc78-1a15-4499-8194-69b803aa5f0c@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

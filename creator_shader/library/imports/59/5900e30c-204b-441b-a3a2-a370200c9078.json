@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "battlepass_buy_bg1",
+    "texture": "2a53f5e8-1567-4a9c-b08d-71e7292bd86a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      633,
+      691
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      633,
+      691
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_pink",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 61,
+      "height": 29
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 61,
+      "height": 29
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "096e4f4c-fab0-401f-ab24-7afb2da15be9@6c48a"
+  }
+}

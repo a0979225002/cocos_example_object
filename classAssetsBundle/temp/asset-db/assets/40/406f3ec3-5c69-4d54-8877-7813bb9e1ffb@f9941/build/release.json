@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "40bz7DXGlNVIh3eBO7nh/7@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "fk",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 32,
+                "height": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 32,
+                "height": 32
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "406f3ec3-5c69-4d54-8877-7813bb9e1ffb@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.Material",
+  "_name": "test-002",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "17e007b6-80ad-446a-a257-cc7834732cae"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "u_Radius": 101,
+        "u_Position": {
+          "__type__": "cc.Vec4",
+          "x": 200,
+          "y": 200,
+          "z": 0,
+          "w": 0
+        },
+        "u_Vague": -8.600000000000009,
+        "texture": {
+          "__uuid__": "ecce1fac-48a0-48b2-8992-e0d33e79f02a"
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true,
+        "MAIN_1": false
+      }
+    }
+  }
+}

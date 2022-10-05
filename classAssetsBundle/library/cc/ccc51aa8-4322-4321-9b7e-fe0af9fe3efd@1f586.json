@@ -1,0 +1,1329 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "idle",
+    "_objFlags": 0,
+    "_native": ".bin",
+    "sample": 30,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 2.1666666666666665,
+    "_keys": [
+      {
+        "__id__": 1
+      },
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 16
+      },
+      {
+        "__id__": 17
+      }
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 18
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 0,
+          "values": {
+            "__id__": 19
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 18
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 0,
+          "values": {
+            "__id__": 20
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 18
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 0,
+          "values": {
+            "__id__": 21
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 22
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 1,
+          "values": {
+            "__id__": 23
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 22
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 1,
+          "values": {
+            "__id__": 24
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 22
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 1,
+          "values": {
+            "__id__": 25
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 26
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 2,
+          "values": {
+            "__id__": 27
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 26
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 2,
+          "values": {
+            "__id__": 28
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 26
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 2,
+          "values": {
+            "__id__": 29
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 30
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 3,
+          "values": {
+            "__id__": 31
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 30
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 3,
+          "values": {
+            "__id__": 32
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 30
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 3,
+          "values": {
+            "__id__": 33
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 34
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 4,
+          "values": {
+            "__id__": 35
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 34
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 4,
+          "values": {
+            "__id__": 36
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 34
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 4,
+          "values": {
+            "__id__": 37
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 38
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 5,
+          "values": {
+            "__id__": 39
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 38
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 5,
+          "values": {
+            "__id__": 40
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 38
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 5,
+          "values": {
+            "__id__": 41
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 42
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 6,
+          "values": {
+            "__id__": 43
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 42
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 6,
+          "values": {
+            "__id__": 44
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 42
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 6,
+          "values": {
+            "__id__": 45
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 46
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 7,
+          "values": {
+            "__id__": 47
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 46
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 7,
+          "values": {
+            "__id__": 48
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 46
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 7,
+          "values": {
+            "__id__": 49
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 50
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 8,
+          "values": {
+            "__id__": 51
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 50
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 8,
+          "values": {
+            "__id__": 52
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 50
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 8,
+          "values": {
+            "__id__": 53
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 54
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 9,
+          "values": {
+            "__id__": 55
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 54
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 9,
+          "values": {
+            "__id__": 56
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 54
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 9,
+          "values": {
+            "__id__": 57
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 58
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 10,
+          "values": {
+            "__id__": 59
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 58
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 10,
+          "values": {
+            "__id__": 60
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 58
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 10,
+          "values": {
+            "__id__": 61
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 62
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 11,
+          "values": {
+            "__id__": 63
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 62
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 11,
+          "values": {
+            "__id__": 64
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 62
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 11,
+          "values": {
+            "__id__": 65
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 66
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 12,
+          "values": {
+            "__id__": 67
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 66
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 12,
+          "values": {
+            "__id__": 68
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 66
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 12,
+          "values": {
+            "__id__": 69
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 70
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 13,
+          "values": {
+            "__id__": 71
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 70
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 13,
+          "values": {
+            "__id__": 72
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 70
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 13,
+          "values": {
+            "__id__": 73
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 74
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 14,
+          "values": {
+            "__id__": 75
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 74
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 14,
+          "values": {
+            "__id__": 76
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 74
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 14,
+          "values": {
+            "__id__": 77
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 78
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 15,
+          "values": {
+            "__id__": 79
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 78
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 15,
+          "values": {
+            "__id__": 80
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 78
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 15,
+          "values": {
+            "__id__": 81
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 82
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 16,
+          "values": {
+            "__id__": 83
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 82
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 16,
+          "values": {
+            "__id__": 84
+          }
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 82
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 16,
+          "values": {
+            "__id__": 85
+          }
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 3688980105
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27440,
+    "_unitCount": 2,
+    "_unitElement": 6,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27448,
+    "_unitCount": 52,
+    "_unitElement": 6,
+    "_length": 52
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27656,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27868,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 28080,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 28292,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 28504,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 28716,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 28928,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29140,
+    "_unitCount": 53,
+    "_unitElement": 6,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29352,
+    "_unitCount": 52,
+    "_unitElement": 6,
+    "_length": 52
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29560,
+    "_unitCount": 41,
+    "_unitElement": 6,
+    "_length": 41
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29724,
+    "_unitCount": 52,
+    "_unitElement": 6,
+    "_length": 52
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 29932,
+    "_unitCount": 28,
+    "_unitElement": 6,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30044,
+    "_unitCount": 28,
+    "_unitElement": 6,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30156,
+    "_unitCount": 2,
+    "_unitElement": 6,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 30164,
+    "_unitCount": 2,
+    "_unitElement": 6,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "body"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 0,
+    "_unitCount": 6,
+    "_unitElement": 22,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 24,
+    "_unitCount": 8,
+    "_unitElement": 38,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 56,
+    "_unitCount": 6,
+    "_unitElement": 22,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 80,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 716,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 1564,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 2200,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 2836,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 3684,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/w2"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 4320,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 4956,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 5804,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/w2/w3"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 6440,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 7076,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 7924,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/q3q"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 8560,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 9196,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 10044,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/q4"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 10680,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 11316,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 12164,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/q5"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 12800,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 13436,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 14284,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/q7"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 14920,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 15556,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 16404,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/w1/q6"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 17040,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 17676,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 18524,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 19160,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 19796,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 20644,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou/mei2"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 21280,
+    "_unitCount": 123,
+    "_unitElement": 22,
+    "_length": 41
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 21772,
+    "_unitCount": 164,
+    "_unitElement": 38,
+    "_length": 41
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 22428,
+    "_unitCount": 123,
+    "_unitElement": 22,
+    "_length": 41
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou/mei"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 22920,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 23556,
+    "_unitCount": 212,
+    "_unitElement": 38,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 24404,
+    "_unitCount": 159,
+    "_unitElement": 22,
+    "_length": 53
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou/yanpi2"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 25040,
+    "_unitCount": 84,
+    "_unitElement": 22,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 25376,
+    "_unitCount": 112,
+    "_unitElement": 38,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 25824,
+    "_unitCount": 84,
+    "_unitElement": 22,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou/yanpi"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 26160,
+    "_unitCount": 84,
+    "_unitElement": 22,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 26496,
+    "_unitCount": 112,
+    "_unitElement": 38,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 26944,
+    "_unitCount": 84,
+    "_unitElement": 22,
+    "_length": 28
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou/yan2"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27280,
+    "_unitCount": 6,
+    "_unitElement": 22,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27304,
+    "_unitCount": 8,
+    "_unitElement": 38,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27336,
+    "_unitCount": 6,
+    "_unitElement": 22,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Bip01/tou/yan"
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27360,
+    "_unitCount": 6,
+    "_unitElement": 22,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27384,
+    "_unitCount": 8,
+    "_unitElement": 38,
+    "_length": 2
+  },
+  {
+    "__type__": "cc.CompactValueTypeArray",
+    "_byteOffset": 27416,
+    "_unitCount": 6,
+    "_unitElement": 22,
+    "_length": 2
+  }
+]

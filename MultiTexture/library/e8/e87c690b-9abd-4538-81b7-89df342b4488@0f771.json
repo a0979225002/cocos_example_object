@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Nature-7",
+    "atlas": "e87c690b-9abd-4538-81b7-89df342b4488",
+    "rect": {
+      "x": 198,
+      "y": 295,
+      "width": 229,
+      "height": 158
+    },
+    "offset": {
+      "x": 0,
+      "y": -34
+    },
+    "originalSize": {
+      "width": 229,
+      "height": 226
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+    "packable": true
+  }
+}

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "95ie8r0pZOdKKrlKlLxj/7@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn4_click",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 61,
+                "height": 36
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "9589ef2b-d296-4e74-a2ab-94a94bc63ffb@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,83 @@
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      properties: &props
+        _GradTex:    { value: white }
+        _BaseColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        _GradNearColor:  { value: [1, 1, 1, 1], editor: { type: color } }
+        _GradFarColor:  { value: [1, 1, 1, 1], editor: { type: color } }
+        _WaveTex:    { value: white }
+        _WaveBaseColor:  { value: [1, 1, 1, 1], editor: { type: color } }
+  - name: transparent
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <output>
+  #include <cc-fog-fs>
+
+  in vec2 v_uv;
+  uniform sampler2D _GradTex;
+  uniform sampler2D _WaveTex;
+
+  uniform Constant {
+    vec4 _BaseColor;
+    vec4 _GradNearColor;
+    vec4 _GradFarColor;
+    vec4 _WaveBaseColor;
+  };
+
+  vec4 gradColor(vec2 uv) {
+    float gradValue = texture(_GradTex, uv).r; // [0~1.0]
+    vec4 gColor = mix(_GradNearColor, _GradFarColor, gradValue);
+
+    return gColor;
+  }
+
+  vec4 waveColor(vec2 uv) {
+    float tilling = 50.0;
+    float speed = 0.03;
+
+    vec2 offset = vec2(1, 0) * speed * cc_time.x;
+    vec4 wColor1 = texture(_WaveTex, uv * tilling + offset);
+    vec4 wColor2 = texture(_WaveTex, -uv * tilling + offset);
+    vec4 wColor = min(wColor1, wColor2);
+
+    wColor = wColor * _WaveBaseColor;
+
+    float stren = 2.0;
+
+    return wColor * stren;
+  }
+
+  vec4 frag () {
+    // vec4 col = mainColor * texture(mainTexture, v_uv);
+    vec4 col = _BaseColor; // 叠加上水面的本来的颜色
+
+    // 叠加渐变的颜色;
+    vec4 gColor = gradColor(v_uv);
+    col = gColor * gColor.a + _BaseColor * (1.0 - gColor.a);
+    // end
+
+    // 添加我们的波纹的我们的水面;
+    vec4 wColor = waveColor(v_uv);
+    col = col + wColor;
+
+    return CCFragOutput(col);
+  }
+}%

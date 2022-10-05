@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_1.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "m_d1_l": {
+      "__uuid__": "d5d70307-9767-46ab-9955-630308081100"
+    },
+    "m_d1_m": {
+      "__uuid__": "e2cce9a5-f53f-4b71-bf89-a2e9256966ec"
+    },
+    "m_d1_s": {
+      "__uuid__": "519f4db8-81b6-41e7-b673-9fe71669fcc7"
+    }
+  }
+}

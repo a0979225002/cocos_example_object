@@ -1,0 +1,98 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -1920,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 332.15625,
+                "type": "panel",
+                "width": 307.40625
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets",
+                  "cloud-function"
+                ],
+                "height": 626.84375,
+                "type": "panel",
+                "width": 307.40625
+              }
+            ],
+            "height": 962,
+            "type": "dock-v",
+            "width": 307.40625
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ],
+            "height": 962,
+            "type": "panel",
+            "width": 459.125
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 248.375,
+                "type": "panel",
+                "width": 1131.46875
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ],
+                "height": 710.625,
+                "type": "panel",
+                "width": 1131.46875
+              }
+            ],
+            "height": 962,
+            "type": "dock-v",
+            "width": 1131.46875
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "cloud-function",
+        "inspector",
+        "cocos-services",
+        "scene",
+        "console",
+        "timeline",
+        "game-window"
+      ]
+    },
+    "worker": {}
+  },
+  "panels": {},
+  "panelLabelWidth": {
+    "inspector": null
+  }
+}

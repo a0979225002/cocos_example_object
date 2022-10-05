@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "d7S5XNjXZOHIKtG7Xk2lO3@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "submarine_arrow_click",
+            "rect": {
+                "x": 0,
+                "y": 1,
+                "width": 64,
+                "height": 106
+            },
+            "offset": {
+                "x": 0,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 64,
+                "height": 107
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "d74b95cd-8d76-4e1c-82ad-1bb5e4da53b7@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

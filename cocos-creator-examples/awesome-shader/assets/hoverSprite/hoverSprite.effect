@@ -1,0 +1,115 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        uMouse:      { value: [0.5,0.5], target: params.xy  }
+        resolution:      { value: [1.0,1.0], target: params.zw  }
+
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <cc-global>
+  #if USE_LOCAL
+    #include <cc-local>
+  #endif
+  #if SAMPLE_FROM_RT
+    #include <common>
+  #endif
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 color;
+  out vec2 uv0;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    uv0 = a_texCoord;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(uv0);
+    #endif
+    color = a_color;
+
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <embedded-alpha>
+  #include <alpha-test>
+
+
+  uniform Constants {
+    vec4 params;
+  };
+
+  in vec4 color;
+
+  #if USE_TEXTURE
+    in vec2 uv0;
+    #pragma builtin(local)
+    layout(set = 2, binding = 10) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  float circle(vec2 uv, vec2 disc_center, float disc_radius, float border_size) {
+     uv -= disc_center;
+     vec2 resolution = params.zw;
+     uv*=resolution;
+     float dist = sqrt(dot(uv, uv));
+     return smoothstep(disc_radius+border_size, disc_radius-border_size, dist);
+   }
+
+  vec4 frag () {
+    vec4 o = vec4(1, 1, 1, 1);
+
+    #if USE_TEXTURE
+      // o *= CCSampleWithAlphaSeparated(cc_spriteTexture, uv0);
+      vec2 uMouse = params.xy;
+      vec2 newUV = uv0;
+      float c = circle(uv0, uMouse, 0.0, 0.2);
+      float r = CCSampleWithAlphaSeparated(cc_spriteTexture, newUV.xy += c * (0.1 * .5)).x;
+      float g = CCSampleWithAlphaSeparated(cc_spriteTexture, newUV.xy += c * (0.1 * .525)).y;
+      float b = CCSampleWithAlphaSeparated(cc_spriteTexture, newUV.xy += c * (0.1 * .55)).z;
+      o = vec4(r, g, b, 1.);
+
+      #if IS_GRAY
+        float gray  = 0.2126 * o.r + 0.7152 * o.g + 0.0722 * o.b;
+        o.r = o.g = o.b = gray;
+      #endif
+    #endif
+
+    o *= color;
+    ALPHA_TEST(o);
+    return o;
+  }
+}%

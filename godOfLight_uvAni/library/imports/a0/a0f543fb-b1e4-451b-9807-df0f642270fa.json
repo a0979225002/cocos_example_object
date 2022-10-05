@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_spin_stop",
+    "texture": "05133b51-9093-4adb-af3d-1879b87ecb90",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      93,
+      93
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      93,
+      93
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rw_card_positive",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 120,
+      "height": 152
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 121,
+      "height": 152
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "56d382e7-d655-4e83-aebe-bc2b740a8a91@6c48a"
+  }
+}

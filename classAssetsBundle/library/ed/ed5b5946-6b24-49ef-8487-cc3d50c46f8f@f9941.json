@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "submarine3",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 224,
+      "height": 127
+    },
+    "offset": {
+      "x": 0,
+      "y": 2.5
+    },
+    "originalSize": {
+      "width": 224,
+      "height": 132
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ed5b5946-6b24-49ef-8487-cc3d50c46f8f@6c48a"
+  }
+}

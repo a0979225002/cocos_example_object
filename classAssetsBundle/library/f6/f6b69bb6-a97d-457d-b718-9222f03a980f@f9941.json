@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "text_look1",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 107,
+      "height": 44
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 108,
+      "height": 44
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "f6b69bb6-a97d-457d-b718-9222f03a980f@6c48a"
+  }
+}

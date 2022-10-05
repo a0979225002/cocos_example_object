@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_green_click",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 71
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 71
+    },
+    "rotated": false,
+    "capInsets": [
+      23,
+      0,
+      22,
+      0
+    ],
+    "texture": "677648ef-6c2d-45bf-8ea6-8f05b0d6de26@6c48a"
+  }
+}

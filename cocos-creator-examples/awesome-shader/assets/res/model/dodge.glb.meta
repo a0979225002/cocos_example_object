@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "51c65669-f7b2-484d-985a-c11c0be2e3fa",
+  "files": [],
+  "subMetas": {
+    "24b20": {
+      "importer": "gltf-mesh",
+      "uuid": "51c65669-f7b2-484d-985a-c11c0be2e3fa@24b20",
+      "displayName": "",
+      "id": "24b20",
+      "name": "Body_BodyMesh.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "51c65669-f7b2-484d-985a-c11c0be2e3fa@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94f25": {
+      "importer": "gltf-scene",
+      "uuid": "51c65669-f7b2-484d-985a-c11c0be2e3fa@94f25",
+      "displayName": "",
+      "id": "94f25",
+      "name": "dodge.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "51c65669-f7b2-484d-985a-c11c0be2e3fa@94f25",
+    "assetFinder": {
+      "meshes": [
+        "51c65669-f7b2-484d-985a-c11c0be2e3fa@24b20"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "51c65669-f7b2-484d-985a-c11c0be2e3fa@ea6e2"
+      ],
+      "scenes": [
+        "51c65669-f7b2-484d-985a-c11c0be2e3fa@94f25"
+      ]
+    }
+  }
+}

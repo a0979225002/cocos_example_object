@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "8d6A+k16JFCYccQXoF0Yma@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "gift_nail",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 11,
+                "height": 11
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 11,
+                "height": 11
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "8de80fa4-d7a2-4509-871c-417a05d1899a@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

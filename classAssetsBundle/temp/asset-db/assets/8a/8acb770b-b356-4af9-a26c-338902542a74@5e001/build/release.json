@@ -1,0 +1,140 @@
+[
+    1,
+    0,
+    0,
+    [
+        [
+            "cc.Mesh",
+            [
+                "_native",
+                "_dataLength",
+                "_hash",
+                "_struct"
+            ],
+            0,
+            11
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            ".bin",
+            146352,
+            4018351923,
+            [
+                {
+                    "primitives": [
+                        {
+                            "primitiveMode": 7,
+                            "jointMapIndex": 0,
+                            "vertexBundelIndices": [
+                                0
+                            ],
+                            "indexView": {
+                                "offset": 115632,
+                                "length": 30720,
+                                "count": 7680,
+                                "stride": 4
+                            }
+                        }
+                    ],
+                    "vertexBundles": [
+                        {
+                            "view": {
+                                "offset": 0,
+                                "length": 115632,
+                                "count": 1606,
+                                "stride": 72
+                            },
+                            "attributes": [
+                                {
+                                    "name": "a_position",
+                                    "format": 32,
+                                    "isNormalized": false
+                                },
+                                {
+                                    "name": "a_normal",
+                                    "format": 32,
+                                    "isNormalized": false
+                                },
+                                {
+                                    "name": "a_texCoord",
+                                    "format": 21,
+                                    "isNormalized": false
+                                },
+                                {
+                                    "name": "a_tangent",
+                                    "format": 44,
+                                    "isNormalized": false
+                                },
+                                {
+                                    "name": "a_joints",
+                                    "format": 42,
+                                    "isNormalized": false
+                                },
+                                {
+                                    "name": "a_weights",
+                                    "format": 44,
+                                    "isNormalized": false
+                                }
+                            ]
+                        }
+                    ],
+                    "jointMaps": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ]
+                },
+                "minPosition",
+                8,
+                [
+                    1,
+                    -1657.3326416015625,
+                    -1021.3076782226562,
+                    -829.3016967773438
+                ],
+                "maxPosition",
+                8,
+                [
+                    1,
+                    1174.02783203125,
+                    1021.3076782226562,
+                    870.260009765625
+                ]
+            ]
+        ]
+    ],
+    0,
+    0,
+    [],
+    [],
+    []
+]

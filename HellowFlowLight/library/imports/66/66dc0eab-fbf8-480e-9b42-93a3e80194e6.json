@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "waveLight3",
+    "texture": "46836848-bfd4-466a-b9c1-a6ec6cdfc16e",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      221,
+      219
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      221,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

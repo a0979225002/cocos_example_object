@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "coin_sliver",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.26666666666666666,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "9df705ae-3500-4dd0-adc4-f25647cd9e4f"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "4c302546-4b4c-4a2b-8c7b-d79ac592e409"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "c6ec0b8a-4d69-4bf8-ae5b-2db055a5475e"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "a173d50b-8269-4ea1-bc5d-ce7004a2001c"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

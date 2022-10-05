@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "word_time",
+    "texture": "2bb336dd-bbfa-429a-ab34-bb4e8443fe86",
+    "atlas": "",
+    "rect": [
+      8,
+      13,
+      245,
+      72
+    ],
+    "offset": [
+      0.5,
+      -4
+    ],
+    "originalSize": [
+      260,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

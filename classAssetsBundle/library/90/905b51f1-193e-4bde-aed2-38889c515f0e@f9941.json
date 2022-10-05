@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_weapon_70",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 84,
+      "height": 107
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 84,
+      "height": 107
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "905b51f1-193e-4bde-aed2-38889c515f0e@6c48a"
+  }
+}

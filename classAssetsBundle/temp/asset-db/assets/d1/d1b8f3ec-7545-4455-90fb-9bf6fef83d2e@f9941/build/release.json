@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "d1uPPsdUVEVZD7m/b++D0u@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "mission_progress",
+            "rect": {
+                "x": 0,
+                "y": 1,
+                "width": 140,
+                "height": 19
+            },
+            "offset": {
+                "x": 0,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 140,
+                "height": 20
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "d1b8f3ec-7545-4455-90fb-9bf6fef83d2e@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

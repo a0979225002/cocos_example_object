@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "fbNkqB6W9Je73qIe76hbdt@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "submarine_grey",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 64,
+                "height": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 64,
+                "height": 71
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "fb364a81-e96f-497b-bdea-21eefa85b76d@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

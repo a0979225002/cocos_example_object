@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "005pISjeFEq7qvRTJf8piw@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "box_close",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 172,
+                "height": 173
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 172,
+                "height": 173
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "00e69212-8de1-44ab-baaf-45325ff298b0@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

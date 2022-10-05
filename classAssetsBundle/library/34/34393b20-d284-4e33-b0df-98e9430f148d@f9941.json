@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "choose_text_bg",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 1,
+      "width": 296,
+      "height": 107
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 299,
+      "height": 109
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "34393b20-d284-4e33-b0df-98e9430f148d@6c48a"
+  }
+}

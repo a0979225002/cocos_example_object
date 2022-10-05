@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "ui_message.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "bg_message_box": {
+      "__uuid__": "64c740a3-b8e2-454e-aeeb-f6b428a1527b"
+    },
+    "icon_message_tip_1": {
+      "__uuid__": "9584603d-e7af-44ee-bee9-4b21adab188c"
+    },
+    "icon_message_tip_2": {
+      "__uuid__": "086a0790-df82-43ca-89a4-2de05f743d3a"
+    },
+    "icon_message_tip_3": {
+      "__uuid__": "5a2259d4-2524-4a8e-a90a-d895b922e2b4"
+    },
+    "icon_message_tip_4": {
+      "__uuid__": "20bf1396-abd0-433b-94c3-4470292042fd"
+    }
+  }
+}

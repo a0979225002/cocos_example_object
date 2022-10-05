@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "b8wVpdtLdIm41na1oWZ2ij@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "user_tip",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 163,
+                "height": 174
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 163,
+                "height": 174
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "b8c15a5d-b4b7-489b-8d67-6b5a166768a3@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

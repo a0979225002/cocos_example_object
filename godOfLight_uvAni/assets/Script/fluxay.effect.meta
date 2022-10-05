@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.25",
+  "uuid": "4c5f5d8f-2e04-4b3b-8401-3e992f3f1d5d",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute vec4 a_color;\nvarying vec4 v_color;\n#if USE_TEXTURE\n  attribute vec2 a_uv0;\n  varying vec2 v_uv0;\n#endif\nvoid main () {\n  mat4 mvp;\n  #if CC_USE_MODEL\n    mvp = cc_matViewProj * cc_matWorld;\n  #else\n    mvp = cc_matViewProj;\n  #endif\n  v_uv0 = a_uv0;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\nprecision highp float;\n#if USE_ALPHA_TEST\n  uniform float alphaThreshold;\n#endif\nvoid ALPHA_TEST (in vec4 color) {\n  #if USE_ALPHA_TEST\n      if (color.a < alphaThreshold) discard;\n  #endif\n}\nvoid ALPHA_TEST (in float alpha) {\n  #if USE_ALPHA_TEST\n      if (alpha < alphaThreshold) discard;\n  #endif\n}\nvarying vec4 v_color;\nvarying vec2 v_uv0;\nuniform sampler2D texture;\nuniform sampler2D u_fluxayTexture;\nuniform float u_time;\nuniform float light;\nvoid main () {\n  vec4 o = v_color;\n  #if USE_TEXTURE\n    o = texture2D(texture, v_uv0);\n  #endif\n  o *= v_color;\n  ALPHA_TEST(o);\n  if(o.a >= 1.0) {\n    vec2 fluxayUV = vec2(v_uv0.x, v_uv0.y);\n    fluxayUV.x -= u_time - 1.0;\n    vec4 fluxay = texture2D(u_fluxayTexture, fluxayUV);\n    gl_FragColor = o + fluxay * light;\n  } else {\n    gl_FragColor = o;\n  }\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nin vec3 a_position;\nin vec4 a_color;\nout vec4 v_color;\n#if USE_TEXTURE\n  in vec2 a_uv0;\n  out vec2 v_uv0;\n#endif\nvoid main () {\n  mat4 mvp;\n  #if CC_USE_MODEL\n    mvp = cc_matViewProj * cc_matWorld;\n  #else\n    mvp = cc_matViewProj;\n  #endif\n  v_uv0 = a_uv0;\n  v_color = a_color;\n  gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\nprecision highp float;\n#if USE_ALPHA_TEST\n  uniform ALPHA_TEST {\n    float alphaThreshold;\n  };\n#endif\nvoid ALPHA_TEST (in vec4 color) {\n  #if USE_ALPHA_TEST\n      if (color.a < alphaThreshold) discard;\n  #endif\n}\nvoid ALPHA_TEST (in float alpha) {\n  #if USE_ALPHA_TEST\n      if (alpha < alphaThreshold) discard;\n  #endif\n}\nin vec4 v_color;\nin vec2 v_uv0;\nuniform sampler2D texture;\nuniform sampler2D u_fluxayTexture;\nuniform ARGS {\n  float u_time;\n  float light;\n};\nvoid main () {\n  vec4 o = v_color;\n  #if USE_TEXTURE\n    o = texture2D(texture, v_uv0);\n  #endif\n  o *= v_color;\n  ALPHA_TEST(o);\n  if(o.a >= 1.0) {\n    vec2 fluxayUV = vec2(v_uv0.x, v_uv0.y);\n    fluxayUV.x -= u_time - 1.0;\n    vec4 fluxay = texture2D(u_fluxayTexture, fluxayUV);\n    gl_FragColor = o + fluxay * light;\n  } else {\n    gl_FragColor = o;\n  }\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

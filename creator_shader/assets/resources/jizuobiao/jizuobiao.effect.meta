@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.25",
+  "uuid": "414b3b84-2cab-43c0-8f9c-89ffd7684b0e",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main () {\n   mat4 mvp;\n   mvp = cc_matViewProj;\n   v_color = a_color;\n   gl_Position = mvp * vec4(a_position, 1);\n   v_wp = cc_matWorld * vec4(a_position, 1);\n#if USE_TEXTURE\n   v_uv0 = a_uv0;\n#endif\n }",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main() {\n   vec2 uv = gl_FragCoord.xy/vec2(960.,640.).xy;\n   uv = (uv - 0.5) * 2.;\n   float v = atan(uv.y, uv.x);\n   float r = length(uv);\n   float f = cos(atan(uv.y, uv.x)*3.);\n   v -= 0.25;\n   v = mod(v,1.);\n   vec3 color = vec3( 1.-smoothstep(f,f+0.02,r) );\n   gl_FragColor = vec4(color, 1.0);\n }"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main () {\n   mat4 mvp;\n   mvp = cc_matViewProj;\n   v_color = a_color;\n   gl_Position = mvp * vec4(a_position, 1);\n   v_wp = cc_matWorld * vec4(a_position, 1);\n#if USE_TEXTURE\n   v_uv0 = a_uv0;\n#endif\n }",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform Constants1 {\n  vec4 u_Position;\n  vec2 u_mouse;\n  float u_Radius;\n  float u_time;\n  float u_Vague;\n};\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main() {\n   vec2 uv = gl_FragCoord.xy/vec2(960.,640.).xy;\n   uv = (uv - 0.5) * 2.;\n   float v = atan(uv.y, uv.x);\n   float r = length(uv);\n   float f = cos(atan(uv.y, uv.x)*3.);\n   v -= 0.25;\n   v = mod(v,1.);\n   vec3 color = vec3( 1.-smoothstep(f,f+0.02,r) );\n   gl_FragColor = vec4(color, 1.0);\n }"
+      }
+    }
+  ],
+  "subMetas": {}
+}

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "27nRWj+h5LC4T7valYC0IU@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "vip_item_icon",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 133,
+                "height": 127
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 133,
+                "height": 127
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "279d15a3-fa1e-4b0b-84fb-bda9580b4214@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

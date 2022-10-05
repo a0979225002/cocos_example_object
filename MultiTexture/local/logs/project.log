@@ -1,0 +1,170 @@
+2021-11-04 14:00:25-log: [Package] menu@1.0.0 enable
+2021-11-04 14:00:25-log: [Package] profile@1.0.0 enable
+2021-11-04 14:00:25-log: [Package] messages@1.0.0 enable
+2021-11-04 14:00:25-log: [Package] program@1.0.0 enable
+2021-11-04 14:00:25-log: [Package] device@1.0.1 enable
+2021-11-04 14:00:25-log: [Package] ui-kit@1.0.1 enable
+2021-11-04 14:00:25-log: [Package] tester@1.0.0 enable
+2021-11-04 14:00:25-log: [Package] preferences@1.0.0 enable
+2021-11-04 14:00:26-log: Setup mods mgr.: 662.985ms
+2021-11-04 14:00:26-log: [Package] engine@1.0.5 enable
+2021-11-04 14:00:29-log: [Package] programming@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] asset-db@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] console@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] scene@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] server@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] utils@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] assets@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] inspector@1.0.0 enable
+2021-11-04 14:00:29-log: [Package] hierarchy@1.0.0 enable
+2021-11-04 14:00:30-log: [Package] preview@1.0.1 enable
+2021-11-04 14:00:30-log: [Package] animator@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] builder@1.2.8 enable
+2021-11-04 14:00:31-log: [Package] node-library@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] shortcuts@1.0.1 enable
+2021-11-04 14:00:31-log: [Package] importer@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] package-asset@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] reference-image@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] channel-upload-tools@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] alipay-mini-game@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] android@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] baidu-mini-game@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] bytedance-mini-game@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] huawei-agc@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] ios@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] ios-app-clip@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] mac@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] native@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] ohos@1.0.0 enable
+2021-11-04 14:00:31-log: [Package] web-desktop@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] web-mobile@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] wechatgame@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] windows@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] cocos-play@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] huawei-quick-game@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] link-sure@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] oppo-mini-game@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] qtt@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] vivo-mini-game@1.0.0 enable
+2021-11-04 14:00:32-log: [Package] cocos-service@3.0.1 enable
+2021-11-04 14:00:32-log: [Package] extension@3.0.8 enable
+2021-11-04 14:00:33-log: [Package] im-plugin@3.0.6 enable
+2021-11-04 14:00:33-log: [Package] lightmap@1.0.3 enable
+2021-11-04 14:00:36-error: [Asset DB] Importer exec failed: {asset[C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\resources\3d\engine\editor\assets\primitives.fbx](1263d74c-8167-4928-91a6-4e2672411f47)}
+2021-11-04 14:00:36-error: [Asset DB] 内部错误：无法为 fbx-temp-dir 选项找到一个仅含 ascii 字符的路径。 你可以尝试使项目路径中仅含英文字符来解决该问题。
+2021-11-04 14:00:36-error: [Asset DB] Error: 内部错误：无法为 fbx-temp-dir 选项找到一个仅含 ascii 字符的路径。 你可以尝试使项目路径中仅含英文字符来解决该问题。
+    at Object.fbxToGlTf (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\builtin\asset-db\dist\importer-3d\importers\gltf\fbx-to-gltf.ccc:1:1178)
+    at async FbxImporter.getGltfFilePath (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\builtin\asset-db\dist\importer-3d\importers\fbx.ccc:1:555)
+    at async createGlTfReader (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\builtin\asset-db\dist\importer-3d\importers\gltf\reader-manager.ccc:1:853)
+    at async GlTfReaderManager.getOrCreate (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\builtin\asset-db\dist\importer-3d\importers\gltf\reader-manager.ccc:1:534)
+    at async FbxImporter._importSubAssets (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\builtin\asset-db\dist\importer-3d\importers\gltf.ccc:1:4477)
+    at async FbxImporter.import (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\builtin\asset-db\dist\importer-3d\importers\gltf.ccc:1:2368)
+    at async ImportTask.importAsset (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2323)
+    at async ImportTask.exec (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:608)
+    at async ParallelQueue._generate (C:\CocosDashboard_1.0.11\resources\.editors\Creator\3.3.0\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2371)
+2021-11-04 14:00:36-warn: Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+2021-11-04 14:00:36-log: [Scene] begin init
+2021-11-04 14:00:36-log: [Scene] require engine end
+2021-11-04 14:00:36-log: [Scene] Serialize end
+2021-11-04 14:00:36-log: [Scene] configureStartup end
+2021-11-04 14:00:36-info: [Scene] WebGL2 device initialized.
+2021-11-04 14:00:37-log: [Scene] Cocos Creator v3.3.0
+2021-11-04 14:00:37-info: [Scene] Forward render pipeline initialized.
+2021-11-04 14:00:37-log: [Scene] openEngine end
+2021-11-04 14:00:37-log: [Scene] configureEngine end
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}
+2021-11-04 14:00:40-log: [Scene] {
+  createData: [Function: createData],
+  updateRenderData: [Function: updateRenderData],
+  updateWorldVerts: [Function: updateWorldVerts],
+  fillBuffers: [Function: fillBuffers],
+  updateVertexData: [Function: updateVertexData],
+  updateUvs: [Function: updateUvs],
+  updateColor: [Function: updateColor],
+  updateTextureIdx: [Function: updateTextureIdx]
+}

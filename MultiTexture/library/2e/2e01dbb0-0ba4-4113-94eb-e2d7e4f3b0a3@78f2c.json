@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "People1-8",
+    "atlas": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3",
+    "rect": {
+      "x": 190,
+      "y": 305,
+      "width": 189,
+      "height": 170
+    },
+    "offset": {
+      "x": 3,
+      "y": -28
+    },
+    "originalSize": {
+      "width": 229,
+      "height": 226
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "52acd807-fa54-4b4c-ab92-5f58d88baf39@6c48a",
+    "packable": true
+  }
+}

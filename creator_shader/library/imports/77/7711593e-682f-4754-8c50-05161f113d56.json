@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knifeLight",
+    "texture": "e725676e-cd6b-48e1-b806-026e1cca59bf",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      953,
+      616
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      953,
+      616
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

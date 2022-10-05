@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\Script\\drawBoard\\IColorCount.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["/**\r\n * 顏色像素數量\r\n */\r\nexport default interface IColorCount {\r\n    /**\r\n     * 當前index 像素數量\r\n     */\r\n    [key: number]: number;\r\n}\r\n"]}

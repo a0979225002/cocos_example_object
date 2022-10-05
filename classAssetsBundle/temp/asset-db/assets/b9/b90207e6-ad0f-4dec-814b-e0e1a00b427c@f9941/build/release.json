@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "b9AgfmrQ9N7IFL4OGgC0J8@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "bg_line_blue",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 117,
+                "height": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 117,
+                "height": 24
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "b90207e6-ad0f-4dec-814b-e0e1a00b427c@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

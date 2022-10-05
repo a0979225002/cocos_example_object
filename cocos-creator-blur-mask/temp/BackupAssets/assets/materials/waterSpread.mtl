@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Material",
+  "_name": "waterSpread",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "b822f771-06ca-4429-9664-6e66c77eee32"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "canvas_size": {
+          "__type__": "cc.Vec2",
+          "x": 1560,
+          "y": 960
+        },
+        "wave_radius": 0.4,
+        "texture": {
+          "__uuid__": "f073b918-e33a-4d47-8fd3-d8a4c8f4706a"
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

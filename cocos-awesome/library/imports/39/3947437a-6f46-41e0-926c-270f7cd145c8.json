@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ticket_mask",
+    "texture": "9a8148c8-a077-4c5d-9bd6-0b3d14e9a339",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      486,
+      234
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      486,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

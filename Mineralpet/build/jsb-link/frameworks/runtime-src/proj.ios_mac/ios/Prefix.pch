@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Mineralpet' target in the 'Mineralpet' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif

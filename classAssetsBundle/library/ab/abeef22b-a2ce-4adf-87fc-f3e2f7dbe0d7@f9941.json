@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "button_weixin",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 112,
+      "height": 109
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 112,
+      "height": 110
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "abeef22b-a2ce-4adf-87fc-f3e2f7dbe0d7@6c48a"
+  }
+}

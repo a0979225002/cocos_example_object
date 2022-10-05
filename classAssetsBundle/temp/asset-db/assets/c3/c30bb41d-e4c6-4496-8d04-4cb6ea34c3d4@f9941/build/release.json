@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "c3C7Qd5MZElo0ETLbqNMPU@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "reward_back",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 120,
+                "height": 152
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 121,
+                "height": 152
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "c30bb41d-e4c6-4496-8d04-4cb6ea34c3d4@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

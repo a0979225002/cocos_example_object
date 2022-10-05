@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.Material",
+  "_name": "ma",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "d211e50b-58af-4038-bb30-3692a11a8d91"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "time": 0.2,
+        "u_normalMap": {
+          "__uuid__": "18855ffb-4bde-430f-a72c-eaedf3e5efee"
+        },
+        "texture": {
+          "__uuid__": "6aa0aa6a-ebee-4155-a088-a687a6aadec4"
+        }
+      }
+    }
+  }
+}

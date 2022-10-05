@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mine_coin_s2",
+    "texture": "6a2fa059-3b73-45fd-aec1-09914ab49919",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      38,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

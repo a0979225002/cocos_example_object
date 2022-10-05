@@ -1,0 +1,314 @@
+{
+    "utils":{
+        "baseModule" : true,
+		"description" : "工具模块",
+        "sources":[
+            "utils/fs.ts", "utils/js.ts", "utils/math.ts", "utils/asset.ts"
+        ]
+    },
+    "utils/js-buffer":{
+		"description" : "工具模块 - JS缓冲区",
+        "dependences":[],
+        "sources":[
+            "utils/js-buffer.ts"
+        ],
+        "keywords":[
+            "BufferReader","BufferWriter","StreamReader"
+        ]
+    },
+    "base":{
+        "baseModule" : true,
+		"description" : "基础模块",
+        "dependences":[
+            "utils"
+        ],
+        "sources":[
+            "base/base.ts", "base/doing.ts", "base/state.ts", "base/reference.ts", "base/variable.ts"
+        ]
+    },
+    "index":{
+		"keepDefault": true,
+		"description" : "索引模块",
+        "dependences":[
+            "base", "pack", "pack/read-config", "log"
+        ],
+        "sources":[
+            "index/index-manager.ts"
+        ],
+        "keywords":[
+            "INDEX_PATH_CONFLICT", "INDEX_PACK_CONFLICT", "indexMgr"
+        ]
+    },
+    "pack":{
+		"keepDefault": true,
+		"description" : "包管理模块",
+        "dependences":[
+            "base", "index"
+        ],
+        "sources":[
+            "pack/pack-loader.ts", "pack/pack-manager.ts"
+        ],
+        "keywords":[
+            "PackLoader", "packMgr"
+        ]
+    },
+    "pack/read-config":{
+		"description" : "包管理模块 - 读取配置",
+        "dependences":[
+            "pack", "network/http"
+        ],
+        "sources":[
+            "pack/read-config.ts"
+        ],
+        "keywords":[
+            "readConfigFile"
+        ]
+    },
+    "archive":{
+		"keepDefault": true,
+		"description" : "存档管理模块",
+        "dependences":[
+            "base"
+        ],
+        "sources":[
+            "archive/archive-manager.ts"
+        ],
+        "keywords":[
+            "archiveMgr"
+        ]
+    },
+    "audio":{
+		"keepDefault": true,
+		"description" : "音频管理模块",
+        "dependences":[
+            "base", "index", "pack"
+        ],
+        "sources":[
+            "audio/audio-manager.ts"
+        ],
+        "keywords":[
+            "DEFAULT_BGM_VOLUME", "DEFAULT_SE_VOLUME", "audioMgr"
+        ]
+    },
+    "config":{
+		"keepDefault": true,
+		"description" : "配置管理模块",
+        "dependences":[
+            "base", "pack/read-config"
+        ],
+        "sources":[
+            "config/config-manager.ts"
+        ],
+        "keywords":[
+            "REMOTE_CONFIG", "GET_REMOTE_CONFIG", "CONFIG", "configMgr"
+        ]
+    },
+    "table":{
+		"keepDefault": true,
+		"description" : "数据表管理模块",
+        "dependences":[
+            "base", "index", "pack"
+        ],
+        "sources":[
+            "table/table-manager.ts"
+        ],
+        "keywords":[
+            "TABLE_KEY_CONFLICT", "TABLES", "tableMgr"
+        ]
+    },
+    "language":{
+		"keepDefault": true,
+		"description" : "语言管理模块",
+        "dependences":[
+            "base", "pack/read-config", "index", "pack"
+        ],
+        "sources":[
+            "language/lang-manager.ts"
+        ],
+        "keywords":[
+            "FONT", "LANG", "LangText", "LangImage", "langMgr"
+        ]
+    },
+    "language/multiple-languages":{
+		"keepDefault": true,
+		"description" : "语言管理模块 - 多语言组件",
+        "dependences":[
+            "base", "language"
+        ],
+        "sources":[
+            "language/multiple-languages.ts"
+        ],
+        "keywords":[
+            "MultipleLanguages"
+        ]
+    },
+    "log":{
+		"keepDefault": true,
+		"description" : "日志管理模块",
+        "dependences":[
+            "base"
+        ],
+        "sources":[
+            "log/log-manager.ts"
+        ],
+        "keywords":[
+            "LOGLEVEL", "LOG_BUFFERSIZE", "logMgr"
+        ]
+	},
+	"network":{
+		"keepDefault": true,
+		"description" : "网络管理模块",
+        "dependences":[
+            "base", "timer", "log", "utils/js-buffer"
+        ],
+        "sources":[
+            "network/net-client.ts", "network/net-line.ts", "network/net-data.ts"
+        ],
+        "keywords":[
+            "NET_TICK_TIME", "netClient", "NetLineMode", "NetLine", "NetDataType"
+        ]
+    },
+    "network/websocket-line":{
+		"keepDefault": true,
+		"description" : "网络管理模块 - websocket网络线模块",
+        "dependences":[
+            "base", "network"
+        ],
+        "sources":[
+            "network/websocket/websocket-line.ts"
+        ],
+        "keywords":[
+            "WEBSOCKET_HEARTTICK", "WEBSOCKET", "WebSocketConfig", "WebSocketLine"
+        ]
+    },
+    "network/http":{
+		"keepDefault": true,
+		"description" : "网络管理模块 - http模块",
+        "dependences":[
+            "base", "timer"
+        ],
+        "sources":[
+            "network/http/http.ts"
+        ],
+        "keywords":[
+            "HTTP_SEND", "postJson", "getJson"
+        ]
+    },
+    "network/http-line":{
+		"keepDefault": true,
+		"description" : "网络管理模块 - http网络线模块",
+        "dependences":[
+            "base", "network", "network/http"
+        ],
+        "sources":[
+            "network/http/http-line.ts"
+        ],
+        "keywords":[
+            "HTTP_HEARTTICK", "HTTP", "HttpConfig", "HttpLine", "HttpCall"
+        ]
+    },
+    "network/protobuf":{
+		"keepDefault": true,
+		"description" : "网络管理模块 - protobuf模块",
+        "dependences":[
+            "base", "network", "pack"
+        ],
+        "sources":[
+            "network/protobuf-manager.ts"
+        ],
+        "keywords":[
+            "MessagePacker", "pbMgr"
+        ]
+    },
+    "scene":{
+		"keepDefault": true,
+		"description" : "场景管理模块",
+        "dependences":[
+            "base", "ui"
+        ],
+        "sources":[
+            "scene/scene-base.ts", "scene/scene-manager.ts"
+        ],
+        "keywords":[
+            "SceneSnapshot", "SceneBase", "sceneMgr"
+        ]
+    },
+    "timer":{
+		"keepDefault": true,
+		"description" : "定时器管理模块",
+        "dependences":[
+            "base"
+        ],
+        "sources":[
+            "timer/timer-manager.ts"
+        ],
+        "keywords":[
+            "TIMER_TIMESLICE", "timerMgr"
+        ]
+    },
+    "ui":{
+		"keepDefault": true,
+		"description" : "UI管理模块",
+        "dependences":[
+            "base", "index", "pack"
+        ],
+        "sources":[
+            "ui/ui-base.ts", "ui/ui-manager.ts"
+        ],
+        "keywords":[
+            "UIBase", "UI", "DEFAULT_CANVAS", "PRIORITY_MAX", "CanvasConfig", "uiMgr"
+        ]
+    },
+    "ui/ui-animation":{
+		"keepDefault": false,
+		"description" : "UI管理模块 - UI动画",
+        "dependences":[
+            "ui"
+        ],
+        "sources":[
+            "ui/ui-animation.ts"
+        ],
+        "keywords":[
+            "UIAnimation"
+        ]
+    },
+    "prefab":{
+		"keepDefault": true,
+		"description" : "预制体管理模块",
+        "dependences":[
+            "base", "index", "pool-node", "pack"
+        ],
+        "sources":[
+            "prefab/prefab-base.ts", "prefab/prefab-manager.ts"
+        ],
+        "keywords":[
+            "PrefabBase", "PREFAB", "prefabMgr"
+        ]
+    },
+    "prefab/node-pools":{
+		"keepDefault": true,
+		"description" : "预制体管理模块 - 节点池",
+        "dependences":[
+            "base"
+        ],
+        "sources":[
+            "prefab/node-pools.ts"
+        ],
+        "keywords":[
+            "nodePools"
+        ]
+    },
+    "prefab/prefab-bind":{
+		"keepDefault": true,
+		"description" : "预制体管理模块 - 预制体绑定组件",
+        "dependences":[
+            "base", "prefab"
+        ],
+        "sources":[
+            "prefab/prefab-bind.ts"
+        ],
+        "keywords":[
+            "PrefabBind"
+        ]
+    }
+}

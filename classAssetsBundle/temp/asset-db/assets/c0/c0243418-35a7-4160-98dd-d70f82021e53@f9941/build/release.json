@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "c0JDQYNadBYJjd1w+CAh5T@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "logo",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 506,
+                "height": 303
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 507,
+                "height": 304
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "c0243418-35a7-4160-98dd-d70f82021e53@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

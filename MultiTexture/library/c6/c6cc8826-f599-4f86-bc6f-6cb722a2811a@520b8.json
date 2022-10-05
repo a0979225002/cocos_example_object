@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Actor3-7",
+    "atlas": "c6cc8826-f599-4f86-bc6f-6cb722a2811a",
+    "rect": {
+      "x": 337,
+      "y": 155,
+      "width": 159,
+      "height": 158
+    },
+    "offset": {
+      "x": -6,
+      "y": -34
+    },
+    "originalSize": {
+      "width": 229,
+      "height": 226
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "2fca6118-832b-43f0-b75f-9f25c82fc8c3@6c48a",
+    "packable": true
+  }
+}

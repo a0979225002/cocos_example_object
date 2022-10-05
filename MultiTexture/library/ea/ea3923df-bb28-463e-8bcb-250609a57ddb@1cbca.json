@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "symbol_12",
+    "atlas": "ea3923df-bb28-463e-8bcb-250609a57ddb",
+    "rect": {
+      "x": 2,
+      "y": 556,
+      "width": 178,
+      "height": 180
+    },
+    "offset": {
+      "x": -3,
+      "y": 4
+    },
+    "originalSize": {
+      "width": 240,
+      "height": 240
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "af40d501-0bf8-4eb8-af94-dbd77c16624e@6c48a",
+    "packable": true
+  }
+}

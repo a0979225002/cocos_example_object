@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "70eygeH2RKRb3QgUTweQod@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "submarine2",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 219,
+                "height": 147
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 220,
+                "height": 147
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "707b281e-1f64-4a45-bdd0-8144f0790a1d@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

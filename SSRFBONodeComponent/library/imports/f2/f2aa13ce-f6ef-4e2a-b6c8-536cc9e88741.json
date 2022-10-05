@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mh_putong",
+    "texture": "276f4091-4bb8-489e-bad4-c9cf4bc2bf40",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      469,
+      365
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      471,
+      367
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

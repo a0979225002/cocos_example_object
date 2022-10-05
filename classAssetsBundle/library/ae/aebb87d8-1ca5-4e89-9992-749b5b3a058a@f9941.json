@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_weapon_5",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 83,
+      "height": 109
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 84,
+      "height": 109
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "aebb87d8-1ca5-4e89-9992-749b5b3a058a@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_message_tip_2",
+    "texture": "b5ddd64f-700d-4211-8fef-31aceec77a9f",
+    "atlas": "bdb6bf9b-6259-475c-bfb8-6a3580675633",
+    "rect": [
+      2,
+      2,
+      150,
+      141
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      141
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "KnifeLight",
+  "_objFlags": 0,
+  "_native": "",
+  "properties": null,
+  "techniques": [
+    {
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "properties": {
+            "texture": {
+              "value": "white",
+              "type": 29
+            },
+            "texture2": {
+              "value": "white",
+              "type": 29
+            },
+            "u_time": {
+              "value": [
+                1
+              ],
+              "type": 13
+            },
+            "u_Position": {
+              "value": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "type": 16
+            },
+            "u_Radius": {
+              "value": [
+                1
+              ],
+              "type": 13
+            },
+            "u_mouse": {
+              "value": [
+                1,
+                1
+              ],
+              "type": 14
+            },
+            "u_Vague": {
+              "value": [
+                1
+              ],
+              "type": 13
+            }
+          },
+          "program": "KnifeLight|vs|fs"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 2344874866,
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main () {\n   mat4 mvp;\n   mvp = cc_matViewProj;\n   v_color = a_color;\n   gl_Position = mvp * vec4(a_position, 1);\n   v_wp = cc_matWorld * vec4(a_position, 1);\n#if USE_TEXTURE\n   v_uv0 = a_uv0;\n#endif\n }",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform Constants1 {\n  vec4 u_Position;\n  vec2 u_mouse;\n  float u_Radius;\n  float u_time;\n  float u_Vague;\n};\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main() {\n   vec2 uv = vec2(1. - v_uv0.x,v_uv0.y);vec2 st = uv;;\n   vec2 n1 = uv;\n   float v = atan(n1.y,n1.x);\n   float r = length(uv);\n   v = (v + 3.14159265358979323846) / 2. / 3.14159265358979323846;\n   v -= 0.25;\n   v = mod(v,1.);\n   vec3 color = texture2D(texture,v_uv0).xyz;\n   float a = 1.;\n   a *= smoothstep(u_Vague * .1,u_Vague * .1 + .05,v);\n   a *= step(.5,color.r + color.g + color.b);\n   color.g *= 0.;\n   color.b *= 0.;\n   color.gb = vec2(fract(color.r) * .1);\n   color *= 1.3;\n   color *= color;color *= color;\n   color.rgb += smoothstep(.2,.21,v_uv0.x*v_uv0.y + u_Vague * .1)-smoothstep(.25,.26,v_uv0.x*v_uv0.y  + u_Vague * .1);\n   color.rgb += smoothstep(.2,.21,v_uv0.x + u_Vague * .1)-smoothstep(.25,.26,v_uv0.x  + u_Vague * .1);\n   gl_FragColor = vec4(color, a);\n }"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main () {\n   mat4 mvp;\n   mvp = cc_matViewProj;\n   v_color = a_color;\n   gl_Position = mvp * vec4(a_position, 1);\n   v_wp = cc_matWorld * vec4(a_position, 1);\n#if USE_TEXTURE\n   v_uv0 = a_uv0;\n#endif\n }",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform float u_Vague;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main() {\n   vec2 uv = vec2(1. - v_uv0.x,v_uv0.y);vec2 st = uv;;\n   vec2 n1 = uv;\n   float v = atan(n1.y,n1.x);\n   float r = length(uv);\n   v = (v + 3.14159265358979323846) / 2. / 3.14159265358979323846;\n   v -= 0.25;\n   v = mod(v,1.);\n   vec3 color = texture2D(texture,v_uv0).xyz;\n   float a = 1.;\n   a *= smoothstep(u_Vague * .1,u_Vague * .1 + .05,v);\n   a *= step(.5,color.r + color.g + color.b);\n   color.g *= 0.;\n   color.b *= 0.;\n   color.gb = vec2(fract(color.r) * .1);\n   color *= 1.3;\n   color *= color;color *= color;\n   color.rgb += smoothstep(.2,.21,v_uv0.x*v_uv0.y + u_Vague * .1)-smoothstep(.25,.26,v_uv0.x*v_uv0.y  + u_Vague * .1);\n   color.rgb += smoothstep(.2,.21,v_uv0.x + u_Vague * .1)-smoothstep(.25,.26,v_uv0.x  + u_Vague * .1);\n   gl_FragColor = vec4(color, a);\n }"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        },
+        "locals": {
+          "blocks": [
+            {
+              "name": "CCLocal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        }
+      },
+      "defines": [
+        {
+          "name": "USE_TEXTURE",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Constants1",
+          "members": [
+            {
+              "name": "u_Position",
+              "type": 16,
+              "count": 1
+            },
+            {
+              "name": "u_mouse",
+              "type": 14,
+              "count": 1
+            },
+            {
+              "name": "u_Radius",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_time",
+              "type": 13,
+              "count": 1
+            },
+            {
+              "name": "u_Vague",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "binding": 0
+        }
+      ],
+      "samplers": [
+        {
+          "name": "texture",
+          "type": 29,
+          "count": 1,
+          "defines": [],
+          "binding": 30
+        },
+        {
+          "name": "texture2",
+          "type": 29,
+          "count": 1,
+          "defines": [],
+          "binding": 31
+        }
+      ],
+      "record": null,
+      "name": "KnifeLight|vs|fs"
+    }
+  ]
+}

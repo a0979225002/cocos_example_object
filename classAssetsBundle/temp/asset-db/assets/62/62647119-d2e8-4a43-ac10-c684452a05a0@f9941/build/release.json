@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "62ZHEZ0uhKQ6wQxoRFKgWg@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "photo_fangyu",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 170,
+                "height": 170
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 170,
+                "height": 170
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "62647119-d2e8-4a43-ac10-c684452a05a0@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

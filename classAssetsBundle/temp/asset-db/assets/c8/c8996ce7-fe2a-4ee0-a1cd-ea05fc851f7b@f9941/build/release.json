@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "c8mWzn/ipO4KHN6gX8hR97@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "sheet_text_info_1",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 126,
+                "height": 37
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 127,
+                "height": 37
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "c8996ce7-fe2a-4ee0-a1cd-ea05fc851f7b@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

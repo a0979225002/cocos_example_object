@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.Material",
+  "_name": "sprite-tiled-sin",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "ed4aa585-e5a6-4e0e-a06d-984565e8fd31"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "sin_lamda": 100
+      }
+    }
+  }
+}

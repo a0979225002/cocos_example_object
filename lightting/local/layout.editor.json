@@ -1,0 +1,112 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -1450,
+      "y": 186,
+      "width": 1280,
+      "height": 773,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 298.84375,
+                "type": "panel",
+                "width": 304
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets",
+                  "cloud-function"
+                ],
+                "height": 673.65625,
+                "type": "panel",
+                "width": 304
+              }
+            ],
+            "height": 975.5,
+            "type": "dock-v",
+            "width": 304
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ],
+            "height": 975.5,
+            "type": "panel",
+            "width": 830
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 706.359375,
+                "type": "panel",
+                "width": 780
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ],
+                "height": 266.125,
+                "type": "panel",
+                "width": 780
+              }
+            ],
+            "height": 975.5,
+            "type": "dock-v",
+            "width": 780
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "cloud-function",
+        "inspector",
+        "cocos-services",
+        "scene",
+        "console",
+        "timeline",
+        "game-window"
+      ]
+    },
+    "worker": {}
+  },
+  "panels": {
+    "builder": {
+      "x": 702,
+      "y": 160,
+      "width": 516,
+      "height": 739
+    },
+    "sprite-editor": {
+      "x": 702,
+      "y": 260,
+      "width": 516,
+      "height": 539
+    }
+  },
+  "panelLabelWidth": {
+    "inspector": null
+  },
+  "panelLabelWidth.inspector": null
+}

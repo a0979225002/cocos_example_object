@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "card_countdown_icon",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 75,
+      "height": 60
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 76,
+      "height": 60
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "31333bb4-bf90-4a9f-af9a-10208d663385@6c48a"
+  }
+}

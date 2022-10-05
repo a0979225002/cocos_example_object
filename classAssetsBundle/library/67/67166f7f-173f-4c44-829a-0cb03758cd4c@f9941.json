@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "photo_moguiyu",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 170,
+      "height": 170
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 170,
+      "height": 170
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "67166f7f-173f-4c44-829a-0cb03758cd4c@6c48a"
+  }
+}

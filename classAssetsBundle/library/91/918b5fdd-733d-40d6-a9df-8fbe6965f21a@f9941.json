@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "photo_hetun",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 170,
+      "height": 170
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 170,
+      "height": 170
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "918b5fdd-733d-40d6-a9df-8fbe6965f21a@6c48a"
+  }
+}

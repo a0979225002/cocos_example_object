@@ -1,0 +1,16 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "9b2ce5f5-ecd4-4cb4-98cd-9ffd647d51e8",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": {
+      "wechatgame": false,
+      "web-desktop": false
+    },
+    "isBundle": true
+  }
+}

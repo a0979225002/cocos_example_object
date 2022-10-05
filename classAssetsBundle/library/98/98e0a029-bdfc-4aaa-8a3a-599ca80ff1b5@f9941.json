@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lv",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 27,
+      "height": 14
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 27,
+      "height": 14
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "98e0a029-bdfc-4aaa-8a3a-599ca80ff1b5@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gift_btn6",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 68,
+      "height": 69
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 70,
+      "height": 70
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3d775614-8483-4988-81e1-c89c98327ef7@6c48a"
+  }
+}

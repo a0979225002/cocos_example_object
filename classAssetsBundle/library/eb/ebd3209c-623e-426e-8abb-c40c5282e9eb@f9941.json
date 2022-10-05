@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_scene04",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 119,
+      "height": 118
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 119,
+      "height": 118
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ebd3209c-623e-426e-8abb-c40c5282e9eb@6c48a"
+  }
+}

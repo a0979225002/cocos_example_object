@@ -1,0 +1,13 @@
+{
+    "font": {
+        "testfont": "asset://resources/lcc-assets/langs/testfont"
+    },
+    "lang": {
+        "en": [
+            "asset://resources/lcc-assets/langs/en"
+        ],
+        "zh": [
+            "asset://resources/lcc-assets/langs/zh"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_word_get",
+    "texture": "6b6229cd-4bac-4b60-a80d-2d2f8de4622e",
+    "atlas": "c00e59a0-90bc-4eaa-9911-4a45af2aad73",
+    "rect": [
+      595,
+      1746,
+      131,
+      47
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      139,
+      81
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

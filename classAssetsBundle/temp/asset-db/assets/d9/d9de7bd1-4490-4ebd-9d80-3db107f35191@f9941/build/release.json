@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "d93nvRRJBOvZ2APbEH81GR@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "icon_xiaochouyu_g",
+            "rect": {
+                "x": 1,
+                "y": 7,
+                "width": 113,
+                "height": 78
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -1.5
+            },
+            "originalSize": {
+                "width": 114,
+                "height": 89
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "d9de7bd1-4490-4ebd-9d80-3db107f35191@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

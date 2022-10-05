@@ -1,0 +1,2242 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5871.9860000014305,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 19798.238199979067,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 165
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/KeyboardUtils.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 181
+          },
+          "end": {
+            "line": 5,
+            "column": 319
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Keys.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 335
+          },
+          "end": {
+            "line": 5,
+            "column": 464
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/MouseState.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 480
+          },
+          "end": {
+            "line": 5,
+            "column": 615
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualAxis.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 631
+          },
+          "end": {
+            "line": 5,
+            "column": 767
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualInput.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 783
+          },
+          "end": {
+            "line": 5,
+            "column": 920
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualIntegerAxis.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 936
+          },
+          "end": {
+            "line": 5,
+            "column": 1079
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Main.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1095
+          },
+          "end": {
+            "line": 5,
+            "column": 1218
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/Mesh.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1234
+          },
+          "end": {
+            "line": 5,
+            "column": 1368
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/PolygonMesh.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1384
+          },
+          "end": {
+            "line": 5,
+            "column": 1525
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/PolygonSprite.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1541
+          },
+          "end": {
+            "line": 5,
+            "column": 1684
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1700
+          },
+          "end": {
+            "line": 5,
+            "column": 1844
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/component_camera.ts",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1860
+          },
+          "end": {
+            "line": 5,
+            "column": 2006
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/graphics/Batcher.ts",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2022
+          },
+          "end": {
+            "line": 5,
+            "column": 2157
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/BasicScene.ts",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2173
+          },
+          "end": {
+            "line": 5,
+            "column": 2309
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2325
+          },
+          "end": {
+            "line": 5,
+            "column": 2462
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderScene.ts",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2478
+          },
+          "end": {
+            "line": 5,
+            "column": 2626
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderTrigger.ts",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2642
+          },
+          "end": {
+            "line": 5,
+            "column": 2792
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCaster.ts",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2808
+          },
+          "end": {
+            "line": 5,
+            "column": 2956
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCastingScene.ts",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2972
+          },
+          "end": {
+            "line": 5,
+            "column": 3126
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/rigidBodies/RigidBodyScene.ts",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3142
+          },
+          "end": {
+            "line": 5,
+            "column": 3294
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletPhysicsScene.ts",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3310
+          },
+          "end": {
+            "line": 5,
+            "column": 3468
+          }
+        }
+      },
+      {
+        "value": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletSystem.ts",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3484
+          },
+          "end": {
+            "line": 5,
+            "column": 3636
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/KeyboardUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Keys.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/MouseState.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualAxis.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualInput.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualIntegerAxis.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Main.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/Mesh.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/PolygonMesh.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/PolygonSprite.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/component_camera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/graphics/Batcher.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/BasicScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderTrigger.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCaster.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCastingScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/rigidBodies/RigidBodyScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletPhysicsScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletSystem.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/BasicScene.ts": {
+    "mTimestamp": 1658992087874.4224,
+    "chunkId": "assets/scripts/scenes/BasicScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../components/SpriteRenderer",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 31
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "./RenderScene",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 41
+          },
+          "end": {
+            "line": 3,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderScene.ts": {
+    "mTimestamp": 1658992087875.4143,
+    "chunkId": "assets/scripts/scenes/collider/ColliderScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../../components/SpriteRenderer",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 31
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../RenderScene",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 41
+          },
+          "end": {
+            "line": 3,
+            "column": 57
+          }
+        }
+      },
+      {
+        "value": "./ColliderTrigger",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderTrigger.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Main.ts": {
+    "mTimestamp": 1658992087870.9785,
+    "chunkId": "assets/scripts/Main.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 122
+          },
+          "end": {
+            "line": 2,
+            "column": 126
+          }
+        }
+      },
+      {
+        "value": "./graphics/Batcher",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./Input/Input",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 5,
+            "column": 37
+          }
+        }
+      },
+      {
+        "value": "./Input/KeyboardUtils",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 6,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "./scenes/BasicScene",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 27
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./scenes/RenderScene",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 55
+          },
+          "end": {
+            "line": 8,
+            "column": 77
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/graphics/Batcher.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/KeyboardUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/BasicScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/collider/ColliderTrigger.ts": {
+    "mTimestamp": 1658992087875.4143,
+    "chunkId": "assets/scripts/scenes/collider/ColliderTrigger.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts": {
+    "mTimestamp": 1658992087874.9182,
+    "chunkId": "assets/scripts/scenes/RenderScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../components/component_camera",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 53
+          },
+          "end": {
+            "line": 2,
+            "column": 85
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/component_camera.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletPhysicsScene.ts": {
+    "mTimestamp": 1658992087877.8938,
+    "chunkId": "assets/scripts/scenes/verletPhysics/VerletPhysicsScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 55
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "../../components/SpriteRenderer",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../RenderScene",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 5,
+            "column": 57
+          }
+        }
+      },
+      {
+        "value": "./VerletSystem",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletSystem.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCaster.ts": {
+    "mTimestamp": 1658992087876.4065,
+    "chunkId": "assets/scripts/scenes/lineCasting/LineCaster.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../../components/component_camera",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 68
+          }
+        }
+      },
+      {
+        "value": "../../Input/Input",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "../../Input/Keys",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 39
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/component_camera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Keys.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/rigidBodies/RigidBodyScene.ts": {
+    "mTimestamp": 1658992087877.3982,
+    "chunkId": "assets/scripts/scenes/rigidBodies/RigidBodyScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 67
+          },
+          "end": {
+            "line": 1,
+            "column": 71
+          }
+        }
+      },
+      {
+        "value": "../../components/SpriteRenderer",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../RenderScene",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 41
+          },
+          "end": {
+            "line": 4,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/verletPhysics/VerletSystem.ts": {
+    "mTimestamp": 1658992087878.3904,
+    "chunkId": "assets/scripts/scenes/verletPhysics/VerletSystem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "../../components/component_camera",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 33
+          },
+          "end": {
+            "line": 1,
+            "column": 68
+          }
+        }
+      },
+      {
+        "value": "../../Input/Input",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "../../Input/Keys",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 39
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/component_camera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Keys.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCastingScene.ts": {
+    "mTimestamp": 1658992087876.9023,
+    "chunkId": "assets/scripts/scenes/lineCasting/LineCastingScene.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 68
+          },
+          "end": {
+            "line": 1,
+            "column": 72
+          }
+        }
+      },
+      {
+        "value": "../../components/SpriteRenderer",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 31
+          },
+          "end": {
+            "line": 2,
+            "column": 64
+          }
+        }
+      },
+      {
+        "value": "../RenderScene",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 41
+          },
+          "end": {
+            "line": 3,
+            "column": 57
+          }
+        }
+      },
+      {
+        "value": "./LineCaster",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/RenderScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/scenes/lineCasting/LineCaster.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts": {
+    "mTimestamp": 1658992087868.9946,
+    "chunkId": "assets/scripts/Input/Input.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 79
+          },
+          "end": {
+            "line": 1,
+            "column": 83
+          }
+        }
+      },
+      {
+        "value": "./KeyboardUtils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 30
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "./MouseState",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 40
+          },
+          "end": {
+            "line": 4,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/KeyboardUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/MouseState.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualInput.ts": {
+    "mTimestamp": 1658992087870.4824,
+    "chunkId": "assets/scripts/Input/VirtualInput.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "./Input",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 31
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Keys.ts": {
+    "mTimestamp": 1658992087869.4917,
+    "chunkId": "assets/scripts/Input/Keys.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/MouseState.ts": {
+    "mTimestamp": 1658992087869.9812,
+    "chunkId": "assets/scripts/Input/MouseState.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/Mesh.ts": {
+    "mTimestamp": 1658992087871.9426,
+    "chunkId": "assets/scripts/components/Mesh.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 115
+          },
+          "end": {
+            "line": 1,
+            "column": 119
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/PolygonMesh.ts": {
+    "mTimestamp": 1658992087872.4731,
+    "chunkId": "assets/scripts/components/PolygonMesh.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "./Mesh",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 21
+          },
+          "end": {
+            "line": 1,
+            "column": 29
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/Mesh.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualIntegerAxis.ts": {
+    "mTimestamp": 1658992087870.9785,
+    "chunkId": "assets/scripts/Input/VirtualIntegerAxis.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "./VirtualAxis",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 29
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./VirtualInput",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 64
+          },
+          "end": {
+            "line": 3,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualAxis.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualInput.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/SpriteRenderer.ts": {
+    "mTimestamp": 1658992087872.9534,
+    "chunkId": "assets/scripts/components/SpriteRenderer.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 77
+          },
+          "end": {
+            "line": 1,
+            "column": 81
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualAxis.ts": {
+    "mTimestamp": 1658992087869.9812,
+    "chunkId": "assets/scripts/Input/VirtualAxis.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "./Input",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 22
+          },
+          "end": {
+            "line": 1,
+            "column": 31
+          }
+        }
+      },
+      {
+        "value": "./VirtualInput",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 46
+          },
+          "end": {
+            "line": 3,
+            "column": 62
+          }
+        }
+      },
+      {
+        "value": "./VirtualIntegerAxis",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualInput.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/VirtualIntegerAxis.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/PolygonSprite.ts": {
+    "mTimestamp": 1658992087872.9534,
+    "chunkId": "assets/scripts/components/PolygonSprite.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 156
+          },
+          "end": {
+            "line": 1,
+            "column": 160
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/components/component_camera.ts": {
+    "mTimestamp": 1658992087873.4307,
+    "chunkId": "assets/scripts/components/component_camera.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 61
+          },
+          "end": {
+            "line": 1,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../Input/Input",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 22
+          },
+          "end": {
+            "line": 2,
+            "column": 38
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/Input.ts"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/graphics/Batcher.ts": {
+    "mTimestamp": 1658992087873.9258,
+    "chunkId": "assets/scripts/graphics/Batcher.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 52
+          },
+          "end": {
+            "line": 1,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/My_Game/%E5%88%A5%E4%BA%BA%E5%AF%AB%E7%9A%84%E5%8F%83%E8%80%83%E7%94%A8/cocos-framework/assets/scripts/Input/KeyboardUtils.ts": {
+    "mTimestamp": 1658992087868.9946,
+    "chunkId": "assets/scripts/Input/KeyboardUtils.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 56
+          },
+          "end": {
+            "line": 1,
+            "column": 60
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1658992128209,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  }
+}

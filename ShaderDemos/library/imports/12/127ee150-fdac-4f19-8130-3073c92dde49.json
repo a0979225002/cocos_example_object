@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "GaussBlurs",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "# 高斯模糊\r\n\r\n### 效果\r\n`用高斯模糊算法使图片产生模糊效果`<br>\r\n`新增透明通道支持`\r\n\r\n---\r\n![高斯模糊](../../../screenshots/gauss.gif)\r\n\r\n---\r\n\r\n### 使用说明：\r\n\r\n- 将`GaussBlurEffect.ts`和`GaussBlursFrag.ts`放到自己的项目  <br>将`GaussBlurEffect.ts`拖到想要施加效果的节点上 \r\n\r\n- 拖到想要施加效果的节点上，去掉slider控件和相关代码\r\n\r\n- 高斯模糊特效可以控制模糊程度\r\n\r\n- 模糊系数`bluramount`取值为`[0, 0.1]`\r\n\r\n- 如果想要对节点及其子节点施加效果，勾选 `isAllChildrenUse` 即可"
+}

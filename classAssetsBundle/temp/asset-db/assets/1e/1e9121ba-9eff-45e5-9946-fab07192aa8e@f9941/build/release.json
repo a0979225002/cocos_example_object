@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "1ekSG6nv9F5ZlG+rBxkqqO@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "word",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 153,
+                "height": 66
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 154,
+                "height": 67
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "1e9121ba-9eff-45e5-9946-fab07192aa8e@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

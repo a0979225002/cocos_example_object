@@ -1,0 +1,98 @@
+/**
+ * 模糊shader
+ * @author wheatup
+ * @reference https://github.com/ShawnZhang2015/ShaderHelper/blob/master/assets/shader/GaussBlurs.js
+ * @version 1.0
+ */
+
+%{
+	techniques : [
+		{
+			passes : [
+				{
+					vert : vs
+					frag : fs
+					cullMode : none
+					blend : true
+				}
+			]
+			layer : 0
+		}
+	]
+	properties : {
+		texture : {
+			type : sampler2D
+			value : null
+		}
+	}
+%}
+
+%% vs {
+	precision highp float;
+	
+	uniform mat4 cc_matViewProj;
+	attribute vec3 a_position;
+	attribute mediump vec2 a_uv0;
+	varying mediump vec2 v_uv0;
+	
+	void main() {
+		gl_Position = cc_matViewProj * vec4(a_position, 1);
+		v_uv0 = a_uv0;
+	}
+}
+
+%% fs {
+	// float低精度(反正都模糊了，精度无所谓)
+	precision lowp float;
+	// 贴图采样器，来自于v2f管线
+	uniform sampler2D texture;
+	// 亮度，外界属性
+	uniform float bightness;
+	// 模糊度，外界属性
+	uniform float blurAmount;
+	// 当前点uv
+	varying lowp vec2 v_uv0;
+
+	// 随机值
+	float rand(vec2 co) {
+		return fract(sin(dot(co.xy , vec2(12.9898, 78.233))) * 43758.5453);
+	}
+
+	// 降低亮度
+	vec4 dim(vec4 col, float factor) {
+		return vec4(col.r * factor, col.g * factor, col.b * factor, col.a);
+	}
+	
+	vec4 blur(vec2 uv){
+		// 重复次数，值越大模糊质量越高，但性能越低
+		#define repeats 16.0
+
+		// 模糊值
+		float _blurAmount = 0.08 * blurAmount;
+
+		vec4 blurred = vec4(0.0);
+
+		// 重复采样
+		for(float i = 0.0; i < repeats; i ++ ) {
+			// 第一采样点
+			vec2 q = vec2(cos(degrees((i / repeats) * 360.0)), sin(degrees((i / repeats) * 360.0))) * (rand(vec2(i, uv.x + uv.y)) + _blurAmount);
+			vec2 uv2 = uv + (q * _blurAmount);
+			blurred += texture2D(texture, uv).rgba / 2.0;
+			
+			// 第二采样点
+			q = vec2(cos(degrees((i / repeats) * 360.0)), sin(degrees((i / repeats) * 360.0))) * (rand(vec2(i + 2.0, uv.x + uv.y + 24.0)) + _blurAmount);
+			uv2 = uv + (q * _blurAmount);
+			blurred += texture2D(texture, uv2).rgba / 2.0;
+		}
+
+		// 中和
+		blurred /= repeats;
+
+		return blurred;
+	}
+	
+	// 入口函数
+	void main() {
+		gl_FragColor = vec4(dim(blur(v_uv0), bightness));
+	}
+}

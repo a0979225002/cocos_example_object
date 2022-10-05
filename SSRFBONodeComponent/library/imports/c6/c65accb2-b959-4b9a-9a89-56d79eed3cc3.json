@@ -1,0 +1,17 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "baoxiang",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "_atlasText": "\nbaoxiang.png\nsize: 1845,244\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nXB_DG_glow\n  rotate: false\n  xy: 2, 2\n  size: 240, 240\n  orig: 258, 262\n  offset: 7, 11\n  index: -1\nXB_GH_glow\n  rotate: false\n  xy: 1540, 24\n  size: 80, 80\n  orig: 84, 81\n  offset: 0, 1\n  index: -1\ncj_gaizihou\n  rotate: true\n  xy: 1658, 30\n  size: 126, 56\n  orig: 126, 56\n  offset: 0, 0\n  index: -1\ncj_gaiziqian\n  rotate: true\n  xy: 1360, 106\n  size: 136, 77\n  orig: 136, 77\n  offset: 0, 0\n  index: -1\ncj_hezi\n  rotate: true\n  xy: 244, 6\n  size: 236, 184\n  orig: 236, 184\n  offset: 0, 0\n  index: -1\ngj_gaizihou\n  rotate: false\n  xy: 1716, 100\n  size: 126, 56\n  orig: 126, 56\n  offset: 0, 0\n  index: -1\ngj_gaiziqian\n  rotate: true\n  xy: 1439, 106\n  size: 136, 77\n  orig: 136, 77\n  offset: 0, 0\n  index: -1\ngj_hezi\n  rotate: true\n  xy: 430, 6\n  size: 236, 184\n  orig: 236, 184\n  offset: 0, 0\n  index: -1\nglowline02\n  rotate: true\n  xy: 1467, 10\n  size: 94, 71\n  orig: 94, 71\n  offset: 0, 0\n  index: -1\nmh_gaizity\n  rotate: false\n  xy: 1360, 5\n  size: 105, 99\n  orig: 105, 99\n  offset: 0, 0\n  index: -1\nmh_gaoji\n  rotate: true\n  xy: 616, 6\n  size: 236, 184\n  orig: 236, 184\n  offset: 0, 0\n  index: -1\nmh_putong\n  rotate: true\n  xy: 802, 6\n  size: 236, 184\n  orig: 236, 184\n  offset: 0, 0\n  index: -1\nmh_ty\n  rotate: false\n  xy: 1597, 158\n  size: 246, 84\n  orig: 248, 93\n  offset: 0, 0\n  index: -1\nmh_xiyou\n  rotate: true\n  xy: 988, 6\n  size: 236, 184\n  orig: 236, 184\n  offset: 0, 0\n  index: -1\nq5_fangshecaiguang\n  rotate: false\n  xy: 1597, 111\n  size: 59, 45\n  orig: 63, 49\n  offset: 0, 3\n  index: -1\nxy_gaizihou\n  rotate: false\n  xy: 1716, 42\n  size: 126, 56\n  orig: 126, 56\n  offset: 0, 0\n  index: -1\nxy_gaiziqian\n  rotate: true\n  xy: 1518, 106\n  size: 136, 77\n  orig: 136, 77\n  offset: 0, 0\n  index: -1\nxy_hezi\n  rotate: true\n  xy: 1174, 6\n  size: 236, 184\n  orig: 236, 184\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "1d287cec-4021-46c8-8f5e-6fa44133f05b"
+    }
+  ],
+  "textureNames": [
+    "baoxiang.png"
+  ],
+  "scale": 1
+}

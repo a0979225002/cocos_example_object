@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "dbc31adf-b447-4555-b5e1-a7db4c94e365",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 256,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "0x72_16x16DungeonTileset_walls.v1": {
+      "ver": "1.0.4",
+      "uuid": "ef67c742-71b8-42d0-96c3-5cbcec4daec8",
+      "rawTextureUuid": "dbc31adf-b447-4555-b5e1-a7db4c94e365",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -10.5,
+      "offsetY": 50,
+      "trimX": 11,
+      "trimY": 12,
+      "width": 213,
+      "height": 132,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "winLine.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "line": {
+      "__uuid__": "5236e7b1-9e49-4595-9707-cee5473e1013"
+    },
+    "oval": {
+      "__uuid__": "c4d065c2-78f7-4a8b-8774-2fa4753eeafc"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+select.png
+size: 920,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+m_bg102
+  rotate: false
+  xy: 2, 2
+  size: 353, 353
+  orig: 353, 353
+  offset: 0, 0
+  index: -1
+min_obj100
+  rotate: false
+  xy: 357, 2
+  size: 353, 353
+  orig: 353, 353
+  offset: 0, 0
+  index: -1
+min_obj101
+  rotate: false
+  xy: 712, 48
+  size: 206, 307
+  orig: 206, 308
+  offset: 0, 1
+  index: -1

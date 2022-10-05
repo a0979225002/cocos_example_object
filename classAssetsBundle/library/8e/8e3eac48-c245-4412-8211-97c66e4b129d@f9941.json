@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_store_title",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 273,
+      "height": 84
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 273,
+      "height": 84
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8e3eac48-c245-4412-8211-97c66e4b129d@6c48a"
+  }
+}

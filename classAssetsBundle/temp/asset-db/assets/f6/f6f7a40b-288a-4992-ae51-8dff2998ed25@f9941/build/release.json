@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "f696QLKIpJkq5Rjf8pmO0l@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "icon_new",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 20,
+                "height": 21
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 20,
+                "height": 21
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "f6f7a40b-288a-4992-ae51-8dff2998ed25@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

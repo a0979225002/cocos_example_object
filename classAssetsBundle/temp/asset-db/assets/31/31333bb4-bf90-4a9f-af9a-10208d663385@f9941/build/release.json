@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "31Mzu0v5BKn6+aECCNZjOF@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "card_countdown_icon",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 75,
+                "height": 60
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 76,
+                "height": 60
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "31333bb4-bf90-4a9f-af9a-10208d663385@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

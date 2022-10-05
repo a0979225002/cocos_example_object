@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "BrightSaturaContrastUniform",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "467badba-a293-4d4b-8888-1071fc323e95"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "brightness": 1,
+        "saturation": 1,
+        "constrast": 1
+      }
+    }
+  }
+}

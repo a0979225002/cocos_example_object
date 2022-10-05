@@ -1,0 +1,27 @@
+{
+  "f7f6ba6c-78c8-4398-8bc3-ea5295b003ad": {
+    "asset": 1663311553849,
+    "meta": 1663329431296,
+    "relativePath": "DrawingBoard.ts"
+  },
+  "da476c28-b12c-47d3-880f-8440890912d6": {
+    "asset": 1663329643478,
+    "meta": 1663329643488,
+    "relativePath": "test.fire"
+  },
+  "f1719de9-6401-4fab-832d-5ab7d959d217": {
+    "asset": 1663329547397,
+    "meta": 1663329547410,
+    "relativePath": "fcc"
+  },
+  "7def55f4-c2c7-4900-b213-a3d208833170": {
+    "asset": 1663060736330,
+    "meta": 1663329552923,
+    "relativePath": "fcc\\framework-production.js"
+  },
+  "731b8259-64a9-44a7-9d5f-ded4eed7e162": {
+    "asset": 1663330766385,
+    "meta": 1663330766942,
+    "relativePath": "test.ts"
+  }
+}

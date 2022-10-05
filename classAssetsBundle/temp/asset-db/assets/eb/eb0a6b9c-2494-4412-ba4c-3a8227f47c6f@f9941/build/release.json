@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "ebCmucJJREErpMOoIn9Hxv@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btnb_pk",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 64,
+                "height": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 64,
+                "height": 71
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "eb0a6b9c-2494-4412-ba4c-3a8227f47c6f@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

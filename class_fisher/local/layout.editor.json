@@ -1,0 +1,98 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -1928,
+      "y": -8,
+      "width": 1936,
+      "height": 1056,
+      "layout": {
+        "type": "dock-h",
+        "children": [
+          {
+            "width": 244,
+            "height": 940,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 244,
+                "height": 320,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 244,
+                "height": 617,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 1305.984375,
+            "height": 940,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 1305.984375,
+                "height": 652,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "scene"
+                ]
+              },
+              {
+                "width": 1305.984375,
+                "height": 285,
+                "type": "panel",
+                "active": 1,
+                "children": [
+                  "console",
+                  "timeline"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 364,
+            "height": 940,
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "inspector",
+              "node-library"
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "scene",
+        "console",
+        "timeline",
+        "inspector",
+        "node-library"
+      ]
+    },
+    " common-asset-worker-worker": {}
+  },
+  "panels": {
+    "builder": {
+      "x": 556,
+      "y": 121,
+      "width": 670,
+      "height": 739
+    }
+  }
+}

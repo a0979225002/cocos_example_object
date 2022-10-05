@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Beam_gost",
+    "texture": "e93ee1c4-6745-4f1b-86fc-fa73e0fa07fd",
+    "atlas": "",
+    "rect": [
+      0,
+      68,
+      256,
+      54
+    ],
+    "offset": [
+      0,
+      -31
+    ],
+    "originalSize": [
+      256,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

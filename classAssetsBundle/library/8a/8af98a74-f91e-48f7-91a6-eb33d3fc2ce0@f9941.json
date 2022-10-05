@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "item_fever_click",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 69,
+      "height": 72
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 69,
+      "height": 72
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8af98a74-f91e-48f7-91a6-eb33d3fc2ce0@6c48a"
+  }
+}

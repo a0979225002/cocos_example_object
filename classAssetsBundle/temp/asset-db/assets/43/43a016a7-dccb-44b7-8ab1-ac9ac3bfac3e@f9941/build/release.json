@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "43oBan3MtEt4qxrJrDv6w+@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "ocean_front",
+            "rect": {
+                "x": 0,
+                "y": 3,
+                "width": 1,
+                "height": 253
+            },
+            "offset": {
+                "x": 0,
+                "y": -1.5
+            },
+            "originalSize": {
+                "width": 1,
+                "height": 256
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "43a016a7-dccb-44b7-8ab1-ac9ac3bfac3e@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

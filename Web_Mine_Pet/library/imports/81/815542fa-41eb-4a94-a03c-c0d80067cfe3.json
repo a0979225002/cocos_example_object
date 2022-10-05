@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "decoration.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "dec_01_a": {
+      "__uuid__": "babe7cd3-a2ee-4616-9235-59239d4ffff7"
+    },
+    "dec_01_n": {
+      "__uuid__": "f458fd3d-fa9e-4195-8bc9-9dbffc926c78"
+    },
+    "skin_01_a": {
+      "__uuid__": "fa0cc732-e6e0-46c4-9c5b-f8b6bd69227d"
+    },
+    "skin_01_n": {
+      "__uuid__": "10dd2d02-f499-434f-a94a-ce76b8aa1bc7"
+    }
+  }
+}

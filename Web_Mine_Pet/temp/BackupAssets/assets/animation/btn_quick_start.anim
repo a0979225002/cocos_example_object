@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "btn_quick_start",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.1666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "arrow": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                109.507,
+                0,
+                0
+              ],
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                125.846,
+                0,
+                0
+              ],
+              "curve": "linear"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                109.507,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "bg": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.03,
+                "y": 1.03
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

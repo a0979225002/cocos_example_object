@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "06NV3nIzxGaY7QyzF8rJId@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "rank_btn_add_gray",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 50,
+                "height": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 50,
+                "height": 51
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "06355de7-233c-4669-8ed0-cb317cac921d@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

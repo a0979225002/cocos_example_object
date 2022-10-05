@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mecha_1502b_tex",
+    "texture": "5a1fe762-85d4-4ba9-a33e-36cb7b1b395e",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      507,
+      482
+    ],
+    "offset": [
+      -1.5,
+      14
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

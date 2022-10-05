@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "8c091824-f172-4f99-a4a3-02bda5c36b53",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_TEXTURE": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "depthTexture": {
+        "__uuid__": "9215b086-9a10-4281-a1c5-3931aee44218@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      }
+    }
+  ]
+}

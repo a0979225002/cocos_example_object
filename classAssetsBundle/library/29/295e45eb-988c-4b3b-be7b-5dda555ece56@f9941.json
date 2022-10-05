@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_double_grey",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 116,
+      "height": 91
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 117,
+      "height": 92
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "295e45eb-988c-4b3b-be7b-5dda555ece56@6c48a"
+  }
+}

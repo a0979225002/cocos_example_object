@@ -1,0 +1,290 @@
+{
+  "ver": "1.0.6",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "e87c690b-9abd-4538-81b7-89df342b4488",
+  "files": [
+    ".plist",
+    ".json"
+  ],
+  "subMetas": {
+    "d8347": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@d8347",
+      "displayName": "",
+      "id": "d8347",
+      "name": "Nature-1",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1,
+        "offsetY": -41,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 217,
+        "height": 144,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "24f66": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@24f66",
+      "displayName": "",
+      "id": "24f66",
+      "name": "Nature-2",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -4,
+        "offsetY": -41,
+        "trimX": 220,
+        "trimY": 1,
+        "width": 171,
+        "height": 144,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9136f": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@9136f",
+      "displayName": "",
+      "id": "9136f",
+      "name": "Nature-3",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 6,
+        "offsetY": -40,
+        "trimX": 1,
+        "trimY": 147,
+        "width": 179,
+        "height": 146,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0fad": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@a0fad",
+      "displayName": "",
+      "id": "a0fad",
+      "name": "Nature-4",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -40,
+        "trimX": 182,
+        "trimY": 147,
+        "width": 225,
+        "height": 146,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84f07": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@84f07",
+      "displayName": "",
+      "id": "84f07",
+      "name": "Nature-5",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 2,
+        "offsetY": -34,
+        "trimX": 1,
+        "trimY": 295,
+        "width": 195,
+        "height": 158,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53ec4": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@53ec4",
+      "displayName": "",
+      "id": "53ec4",
+      "name": "Nature-6",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 8,
+        "offsetY": -30,
+        "trimX": 1,
+        "trimY": 455,
+        "width": 173,
+        "height": 166,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f771": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@0f771",
+      "displayName": "",
+      "id": "0f771",
+      "name": "Nature-7",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -34,
+        "trimX": 198,
+        "trimY": 295,
+        "width": 229,
+        "height": 158,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6d39b": {
+      "importer": "sprite-frame",
+      "uuid": "e87c690b-9abd-4538-81b7-89df342b4488@6d39b",
+      "displayName": "",
+      "id": "6d39b",
+      "name": "Nature-8",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 8,
+        "offsetY": -8,
+        "trimX": 176,
+        "trimY": 455,
+        "width": 181,
+        "height": 210,
+        "rawWidth": 229,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a",
+        "atlasUuid": "e87c690b-9abd-4538-81b7-89df342b4488"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Nature.png",
+    "format": 3,
+    "uuid": "e87c690b-9abd-4538-81b7-89df342b4488",
+    "textureUuid": "14032f85-9afe-43f4-8365-73082d582f9c@6c48a"
+  }
+}

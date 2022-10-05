@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"module":"system",
+		"lib": [ "dom", "es5", "es2015.promise" ],
+        "target": "ES5",
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"noImplicitAny": false,
+        "isolatedModules": false,
+        "declaration" : true,
+        "removeComments": false,
+		"esModuleInterop" : true,
+		"outFile": "lcc-framework.js",
+		"types": [
+			"../@types/creator",
+			"node"
+		],
+		"typeRoots": [ 
+			"../node_modules/@types" 
+		]
+	},
+	"typedocOptions": {
+		"entryPoints" : ["./src"],
+		"out" : "api/",
+		"theme" : "default",
+		"excludePrivate" : true,
+		"excludeProtected" : true,
+		"excludeInternal" : true,
+		"name" : "lcc-framework(Client2.4.x)",
+		"readme" : "docs/客户端框架API文档.md"
+	}
+}

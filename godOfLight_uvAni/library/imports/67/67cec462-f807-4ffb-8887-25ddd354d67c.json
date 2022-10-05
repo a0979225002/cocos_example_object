@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fluxay_texture",
+    "texture": "1f6e8cd2-2adf-4485-93bf-135eca5ba7bd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      130,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

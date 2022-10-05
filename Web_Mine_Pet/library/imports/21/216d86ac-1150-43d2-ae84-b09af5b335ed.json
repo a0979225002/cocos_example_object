@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_goun",
+    "texture": "6b6229cd-4bac-4b60-a80d-2d2f8de4622e",
+    "atlas": "c00e59a0-90bc-4eaa-9911-4a45af2aad73",
+    "rect": [
+      602,
+      1414,
+      330,
+      120
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      330,
+      120
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes": {
+    "time": 1635939456200.543,
+    "uuid": "85747e4b-25c3-4a8e-9988-cde1191609db",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\scene.scene": {
+    "time": 1635997495805.0645,
+    "uuid": "9f104b4f-140d-45e9-bce3-86f9696cecb2",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\Scripts": {
+    "time": 1635996951769.439,
+    "uuid": "a5ee34ae-5d62-466b-b0b3-eb4fc30a7e17",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders": {
+    "time": 1635939456166.5527,
+    "uuid": "422a3dc6-4e07-4ff3-b86b-3262135f60a6",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures": {
+    "time": 1635997042574.427,
+    "uuid": "a4db4e93-dadc-4db9-898b-4f8471198154",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\Scripts\\MultiTexture2d.ts": {
+    "time": 1635996951768.9436,
+    "uuid": "7ee4446a-ca03-4794-8ce5-358997e38dca",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders\\multi-texture-2d.effect": {
+    "time": 1632041150095.633,
+    "uuid": "577246bc-5f8e-4a70-9173-dafdb8181c5d",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders\\multi-texture-2d.mtl": {
+    "time": 1635997612978.2522,
+    "uuid": "78c61dca-7236-491a-85a1-ab5cf742f2a5",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor1.plist": {
+    "time": 1632038326139.229,
+    "uuid": "70ae788b-0207-4bff-bf03-01f0c95b3547",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor1.png": {
+    "time": 1632038326137.2341,
+    "uuid": "62bb3b46-d268-4fe3-82d7-8171301ce482",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor2.plist": {
+    "time": 1632038326849.6965,
+    "uuid": "5cb3c58c-b5f0-4320-9bbd-18e92f6e7497",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor2.png": {
+    "time": 1632038326846.7053,
+    "uuid": "44d368c1-80e2-4309-9dba-afad705a85ec",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor3.plist": {
+    "time": 1632038327514.727,
+    "uuid": "c6cc8826-f599-4f86-bc6f-6cb722a2811a",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor3.png": {
+    "time": 1632038327512.731,
+    "uuid": "2fca6118-832b-43f0-b75f-9f25c82fc8c3",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Monster.plist": {
+    "time": 1632038330694.9353,
+    "uuid": "35a638f2-2b17-4691-9349-c476222567cc",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Monster.png": {
+    "time": 1632038330692.9404,
+    "uuid": "c82313cd-224d-4537-9a91-1de29c4a170d",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Nature.plist": {
+    "time": 1632038331397.0017,
+    "uuid": "e87c690b-9abd-4538-81b7-89df342b4488",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Nature.png": {
+    "time": 1632038331395.0095,
+    "uuid": "14032f85-9afe-43f4-8365-73082d582f9c",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People1.plist": {
+    "time": 1632038332076.9534,
+    "uuid": "2e01dbb0-0ba4-4113-94eb-e2d7e4f3b0a3",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People1.png": {
+    "time": 1632038332063.8438,
+    "uuid": "52acd807-fa54-4b4c-ab92-5f58d88baf39",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People2.plist": {
+    "time": 1632038332913.92,
+    "uuid": "6bbd85f6-5b89-4f35-8106-61ea9ae5d360",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People2.png": {
+    "time": 1632038332911.9246,
+    "uuid": "1ea80ec7-2fe4-41b2-8fa2-a63d6b599c73",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People3.plist": {
+    "time": 1632038333565.048,
+    "uuid": "1e3e6eee-2fc5-416b-9d59-bfdc3532bf5c",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People3.png": {
+    "time": 1632038333552.6792,
+    "uuid": "14ad9803-d30b-4be3-8475-cc9f8d4bd2e0",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes.meta": {
+    "time": 1631980229261.8655
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\Scripts.meta": {
+    "time": 1631980236737.1467
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders.meta": {
+    "time": 1631980244565.069
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures.meta": {
+    "time": 1631980913478.9307
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\Scripts\\MultiTexture2d.ts.meta": {
+    "time": 1631983398910.7202
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders\\multi-texture-2d.effect.meta": {
+    "time": 1631984892440.7495
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\scene.scene.meta": {
+    "time": 1631980975895.5608
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Shaders\\multi-texture-2d.mtl.meta": {
+    "time": 1632038526112.1094
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor1.png.meta": {
+    "time": 1632039259848.2153
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor2.png.meta": {
+    "time": 1632039255272.9653
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor1.plist.meta": {
+    "time": 1632038399894.6238
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor2.plist.meta": {
+    "time": 1632038399807.8586
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor3.plist.meta": {
+    "time": 1632038399963.1682
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Actor3.png.meta": {
+    "time": 1632038399984.113
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Monster.png.meta": {
+    "time": 1632038400153.6604
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Monster.plist.meta": {
+    "time": 1632038400132.7156
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Nature.plist.meta": {
+    "time": 1632038400170.6147
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\Nature.png.meta": {
+    "time": 1632038400209.5122
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People1.png.meta": {
+    "time": 1632038400255.3862
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People1.plist.meta": {
+    "time": 1632038400188.5674
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People2.png.meta": {
+    "time": 1632038400235.4412
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People2.plist.meta": {
+    "time": 1632038400291.9207
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People3.png.meta": {
+    "time": 1632038400310.8745
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\People3.plist.meta": {
+    "time": 1632038400274.3357
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\symbol.plist": {
+    "time": 1634638517988.4006,
+    "uuid": "ea3923df-bb28-463e-8bcb-250609a57ddb",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\symbol.png": {
+    "time": 1634638517986.9124,
+    "uuid": "af40d501-0bf8-4eb8-af94-dbd77c16624e",
+    "missing": false
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\symbol.plist.meta": {
+    "time": 1635997042659.9116
+  },
+  "D:\\My_Game\\別人寫的參考用\\MultiTexture\\assets\\LocalRes\\Textures\\symbol.png.meta": {
+    "time": 1635997042698.1038
+  }
+}

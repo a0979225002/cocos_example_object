@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "cakGKeWgVOXrtjTEVlI9M2@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "sheet_text_rank_1",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 97,
+                "height": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 97,
+                "height": 37
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "ca90629e-5a05-4e5e-bb63-4c456523d336@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

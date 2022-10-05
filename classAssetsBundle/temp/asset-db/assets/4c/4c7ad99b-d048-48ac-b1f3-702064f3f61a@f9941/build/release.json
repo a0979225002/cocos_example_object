@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "4cetmb0EhIrLHzcCBk8/Ya@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "tip_avatar",
+            "rect": {
+                "x": 4,
+                "y": 4,
+                "width": 131,
+                "height": 151
+            },
+            "offset": {
+                "x": 1,
+                "y": -2
+            },
+            "originalSize": {
+                "width": 137,
+                "height": 155
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "4c7ad99b-d048-48ac-b1f3-702064f3f61a@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

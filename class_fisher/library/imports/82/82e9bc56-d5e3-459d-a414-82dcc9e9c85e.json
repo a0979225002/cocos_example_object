@@ -1,0 +1,272 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "bullet.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "bomb_0": {
+      "__uuid__": "ca92ad07-3c5b-4872-aeb9-8533aaea0a65"
+    },
+    "bomb_1": {
+      "__uuid__": "6f607791-e712-40ef-b3f7-97047266a20b"
+    },
+    "bomb_10": {
+      "__uuid__": "04888dd8-724d-4d40-953f-e2b382651845"
+    },
+    "bomb_11": {
+      "__uuid__": "6df7324e-9d22-4afa-b6e7-540c506d4d5f"
+    },
+    "bomb_12": {
+      "__uuid__": "8ebb6352-b1da-4bb8-911c-a76cac27e5d6"
+    },
+    "bomb_13": {
+      "__uuid__": "a0cad708-2e95-4950-ad57-85e67adb718a"
+    },
+    "bomb_14": {
+      "__uuid__": "d8747794-b2eb-4936-bca6-a960d814e55a"
+    },
+    "bomb_2": {
+      "__uuid__": "0b5898a4-fe20-4c85-a9ec-33ed5220acfb"
+    },
+    "bomb_3": {
+      "__uuid__": "4bfd760f-5129-412c-bd6a-1ba2b6b874fe"
+    },
+    "bomb_4": {
+      "__uuid__": "b7bc7e11-2a7e-41c5-a5ae-bac7e5386740"
+    },
+    "bomb_5": {
+      "__uuid__": "f068c72c-162e-402b-9c17-4c1371511102"
+    },
+    "bomb_6": {
+      "__uuid__": "e6c31615-3f23-4858-b79e-7f2c87c40d24"
+    },
+    "bomb_7": {
+      "__uuid__": "154544c1-dd92-4b43-bb20-0eaa9b5d17a1"
+    },
+    "bomb_8": {
+      "__uuid__": "016b8792-0a2a-4c35-a944-2cc5abf19a86"
+    },
+    "bomb_9": {
+      "__uuid__": "789d9ef3-b49c-4a61-8628-983255d5d138"
+    },
+    "bullet_0": {
+      "__uuid__": "6bfe9bfb-b50a-4bfc-a536-08099bbd6dae"
+    },
+    "bullet_1": {
+      "__uuid__": "74bcabcc-d00c-4992-b9a4-77ad0cc1eb4e"
+    },
+    "bullet_2": {
+      "__uuid__": "d88c9e79-c1c4-4b0f-bcb0-8bc410b4c26d"
+    },
+    "bullet_3": {
+      "__uuid__": "dc8b9104-6990-4288-a05d-5a95943591d3"
+    },
+    "bullet_4": {
+      "__uuid__": "a38e331a-cb3e-4403-89a4-ae8b28ec5828"
+    },
+    "bullet_5": {
+      "__uuid__": "4bd4b7a2-01ae-4680-813d-5c414cf4dd23"
+    },
+    "bullet_6": {
+      "__uuid__": "ac50af3d-9f35-43b4-97c5-dcf3c401d3d6"
+    },
+    "bullet_7": {
+      "__uuid__": "dff9d722-c723-48a8-b0f1-81f845d12263"
+    },
+    "bullet_8": {
+      "__uuid__": "d394ad1b-bffc-479d-b516-8854bebadb2e"
+    },
+    "bullet_9": {
+      "__uuid__": "841e004c-e090-473d-bee5-84fd4a9f1e93"
+    },
+    "copper_coin_0": {
+      "__uuid__": "72774023-e68c-4c2d-b1a3-10ec8cbf27f4"
+    },
+    "copper_coin_1": {
+      "__uuid__": "3a23c361-7ea0-4dde-a531-aa9bdab2f9ba"
+    },
+    "copper_coin_2": {
+      "__uuid__": "9d39b1f8-3574-48af-853b-2ba91c22d013"
+    },
+    "copper_coin_3": {
+      "__uuid__": "59e62713-07a4-429f-a37a-1b79f5539fb6"
+    },
+    "copper_coin_4": {
+      "__uuid__": "463d9367-ecc5-4a30-bbc7-2a6261d3ae1d"
+    },
+    "copper_coin_5": {
+      "__uuid__": "fb850bb4-5ba7-43c7-b631-d8df251b63f3"
+    },
+    "copper_coin_6": {
+      "__uuid__": "21095b4c-cc16-4a66-8eb7-6c7f444d51db"
+    },
+    "copper_coin_7": {
+      "__uuid__": "d9fe38c2-0113-47bb-96a5-3aff97794dfb"
+    },
+    "copper_coin_8": {
+      "__uuid__": "864b98e8-7792-438c-8225-d51d8db3d494"
+    },
+    "copper_coin_9": {
+      "__uuid__": "445f8bd3-f37a-420b-b26f-99282f66df67"
+    },
+    "fort_0": {
+      "__uuid__": "842ad4de-fa6e-40d3-9479-c6ebc09d5a4e"
+    },
+    "fort_1": {
+      "__uuid__": "85263d44-2e01-4e4d-8c0e-57027dc5f7cd"
+    },
+    "fort_2": {
+      "__uuid__": "0c0d19ec-22ca-444a-b2f7-b7ddc4d8d16a"
+    },
+    "fort_3": {
+      "__uuid__": "5f85e81e-1fc0-48e3-a73d-b8c49927001a"
+    },
+    "fort_4": {
+      "__uuid__": "17c0ab3f-02b1-40ae-8d32-2fc364fc2378"
+    },
+    "fort_5": {
+      "__uuid__": "629ff3b5-0ad0-448f-ad5c-1954b43cd704"
+    },
+    "fort_light_0": {
+      "__uuid__": "697535a5-dd22-4a4a-9854-ca6e15496084"
+    },
+    "fort_light_1": {
+      "__uuid__": "e8bb2340-92c6-43f6-9a80-07f3ff2cae44"
+    },
+    "fort_light_2": {
+      "__uuid__": "b1ec0773-d009-4de7-bb49-9da489fd8a01"
+    },
+    "fort_light_3": {
+      "__uuid__": "663c562f-c598-4f08-8d25-08516f47c722"
+    },
+    "fort_light_4": {
+      "__uuid__": "cb82336f-964d-4903-98a8-0daa7be32402"
+    },
+    "fort_light_5": {
+      "__uuid__": "0cb8f801-36de-4bf4-828d-c3ea101ecff7"
+    },
+    "fortlight_0": {
+      "__uuid__": "c7216ba2-e7e9-453f-8e5e-7ad8d0e47529"
+    },
+    "fortlight_1": {
+      "__uuid__": "aa8949e3-5461-4788-88cb-ae7e703e3570"
+    },
+    "fortlight_2": {
+      "__uuid__": "cd838254-525a-4a09-bac6-f3b2a51a9675"
+    },
+    "fortlight_3": {
+      "__uuid__": "077fd26c-f085-4754-bd5a-2c87c7bc8a91"
+    },
+    "gold_coin_0": {
+      "__uuid__": "f4062e37-3ddd-452e-b70a-bbf171f46e96"
+    },
+    "gold_coin_1": {
+      "__uuid__": "2bed8cdc-f3ac-4df9-848d-3c3b8c8201b2"
+    },
+    "gold_coin_2": {
+      "__uuid__": "86605a72-8659-4870-b752-3df9909acdab"
+    },
+    "gold_coin_3": {
+      "__uuid__": "5b7e375f-7e27-4db8-b6b1-28a39a627b69"
+    },
+    "gold_coin_4": {
+      "__uuid__": "93cc98db-0f42-464d-8893-fe57b5c626bf"
+    },
+    "gold_coin_5": {
+      "__uuid__": "61c4a5aa-ebc8-4cca-8dcc-5a44eb752a0f"
+    },
+    "gold_coin_6": {
+      "__uuid__": "3144ed02-152b-4dcc-b4dd-dfcd7dd4e1f0"
+    },
+    "gold_coin_7": {
+      "__uuid__": "d1e1c8fe-f833-40a4-8ad2-1a5f46d47989"
+    },
+    "gold_coin_8": {
+      "__uuid__": "fa60c2ec-58d3-4c80-bb2f-8c374e9aa277"
+    },
+    "gold_coin_9": {
+      "__uuid__": "35df950c-d122-4c4d-b257-ece12825c2de"
+    },
+    "light": {
+      "__uuid__": "18cadfb5-de22-48f0-9acb-ebb6f32e4382"
+    },
+    "light_0": {
+      "__uuid__": "5592e1de-7fca-49de-b3ba-58e1d2338b20"
+    },
+    "light_1": {
+      "__uuid__": "ceb830ec-50dd-4912-bc07-4f6bd565e7d0"
+    },
+    "light_10": {
+      "__uuid__": "9a869ea9-e151-48f4-a3b9-158623efbf7e"
+    },
+    "light_11": {
+      "__uuid__": "c310b28d-5204-4937-af49-faba04a8ef41"
+    },
+    "light_12": {
+      "__uuid__": "8fda3de4-b880-4a8f-97b1-75f8f8e69144"
+    },
+    "light_13": {
+      "__uuid__": "482cc48f-14e6-4ef2-8ffd-9c7c24bae1e0"
+    },
+    "light_14": {
+      "__uuid__": "a3364920-6d5c-47be-af07-a2747b52d947"
+    },
+    "light_15": {
+      "__uuid__": "0bcce86d-82b7-417d-a903-bb4498770e59"
+    },
+    "light_2": {
+      "__uuid__": "1e785c36-7ae6-4031-80a7-5a527b9061a6"
+    },
+    "light_3": {
+      "__uuid__": "9029549f-12d5-4b6a-8fd2-eb6a3d0bf505"
+    },
+    "light_4": {
+      "__uuid__": "a3b0ae9c-2e60-40c2-9128-449c66b44a83"
+    },
+    "light_5": {
+      "__uuid__": "e8790a17-272c-43d1-925b-3465533f476c"
+    },
+    "light_6": {
+      "__uuid__": "b8e8be47-3305-4dab-a809-e121b30979bf"
+    },
+    "light_7": {
+      "__uuid__": "b554f808-b534-4a85-98ac-859a7d9ad7a0"
+    },
+    "light_8": {
+      "__uuid__": "44cf76e3-a6f6-4ec0-ac9a-86dc2218150d"
+    },
+    "light_9": {
+      "__uuid__": "997e233b-13e3-459d-bad0-2ff8fff4c6c9"
+    },
+    "silver_coin_0": {
+      "__uuid__": "486b699b-ba3a-4562-9326-b2e0b77ec4c7"
+    },
+    "silver_coin_1": {
+      "__uuid__": "4233f976-62a6-443d-bcf1-4f1de22d9480"
+    },
+    "silver_coin_2": {
+      "__uuid__": "54fb44b6-047e-4022-b534-f8bb80e4d738"
+    },
+    "silver_coin_3": {
+      "__uuid__": "cca048c1-e288-4c62-9463-2c05676e1e91"
+    },
+    "silver_coin_4": {
+      "__uuid__": "4177ba59-a6fe-47bb-badf-ff963ae460bf"
+    },
+    "silver_coin_5": {
+      "__uuid__": "f4fe7f84-e8eb-447d-8450-44d734f1bb4e"
+    },
+    "silver_coin_6": {
+      "__uuid__": "72534b75-fc79-4ae3-8fb7-d36463f9faba"
+    },
+    "silver_coin_7": {
+      "__uuid__": "a87695a6-c5d7-4f03-a03d-f9710ab0b909"
+    },
+    "silver_coin_8": {
+      "__uuid__": "f8cceabe-52a6-4127-b19c-e317f65a5103"
+    },
+    "silver_coin_9": {
+      "__uuid__": "b44b810e-0fa9-4b8e-87dc-ac22dc4d8f94"
+    }
+  }
+}

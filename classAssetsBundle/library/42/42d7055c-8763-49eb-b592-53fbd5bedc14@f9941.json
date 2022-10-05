@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_book_click",
+    "atlas": "",
+    "rect": {
+      "x": 4,
+      "y": 1,
+      "width": 92,
+      "height": 75
+    },
+    "offset": {
+      "x": 1.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 97,
+      "height": 76
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "42d7055c-8763-49eb-b592-53fbd5bedc14@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_purple",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 61,
+      "height": 29
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 61,
+      "height": 29
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "b33f0ff7-c9ed-4ffd-b35e-767c6075e809@6c48a"
+  }
+}

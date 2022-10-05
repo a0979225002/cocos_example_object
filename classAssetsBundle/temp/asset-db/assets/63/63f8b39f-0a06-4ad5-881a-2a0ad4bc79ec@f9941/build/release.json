@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "63+LOfCgZK1YgaKgrUvHns@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "sheet_bg_light_1",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 54,
+                "height": 253
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 54,
+                "height": 253
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "63f8b39f-0a06-4ad5-881a-2a0ad4bc79ec@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "d3pH1PGXNOiLPYC1+B9UXm@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "gift_btn5",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 68,
+                "height": 69
+            },
+            "offset": {
+                "x": 0,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 70,
+                "height": 70
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "d3a47d4f-1973-4e88-b3d8-0b5f81f545e6@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

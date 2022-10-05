@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "text_vip_open",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 153,
+      "height": 44
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 153,
+      "height": 44
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "7a0b9c94-b91e-4193-b464-c05b12871ff8@6c48a"
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"GID":"Game",
+	"servers":[
+		{
+			"PID" : "test",
+			"enable" : true,
+			"server" : "test",
+			"config" : "${localpath}/server-test.json"
+		},
+		{
+			"PID" : "test2",
+			"enable" : true,
+			"server" : "test",
+			"config" : "${localpath}/server-template.json"
+		}
+	]
+}

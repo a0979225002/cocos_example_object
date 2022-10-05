@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bonus_time_less",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 39,
+      "height": 37
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 40,
+      "height": 38
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3a2eed2d-d596-4c52-a581-a7083c5b9459@6c48a"
+  }
+}

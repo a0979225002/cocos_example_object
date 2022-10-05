@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "8cGmfdCP5L3abeFwayYczb@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_up_0",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 237,
+                "height": 65
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 238,
+                "height": 65
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "8c1a67dd-08fe-4bdd-a6de-1706b261ccdb@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

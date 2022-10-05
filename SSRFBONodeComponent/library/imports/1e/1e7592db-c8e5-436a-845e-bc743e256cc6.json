@@ -1,0 +1,144 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "CircularFogDemo",
+  "_objFlags": 0,
+  "_native": "",
+  "properties": null,
+  "techniques": [
+    {
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "properties": {
+            "texture": {
+              "value": "white",
+              "type": 29
+            },
+            "Intensity": {
+              "value": [
+                1.079
+              ],
+              "type": 13
+            },
+            "Pos": {
+              "value": [
+                0.5,
+                0.5
+              ],
+              "type": 14
+            },
+            "color": {
+              "value": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "inspector": {
+                "type": "color"
+              },
+              "type": 16
+            }
+          },
+          "program": "CircularFogDemo|vs|fs"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 800414491,
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nin vec3 a_position;\n#if USE_TEXTURE\n    in vec2 a_uv0;\n    out vec2 v_uv0;\n#endif\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\n  #if USE_TEXTURE\n      in vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  in vec4 v_color;\n  uniform Constant {\n  vec4 color;\n  vec2 Pos;\n  float Intensity;\n};\n  vec2 c_UV0_main_5() {\n    return v_uv0;\n}\nfloat c_Distance2_main_6(vec2 InputA, vec2 InputB) {\n    return distance(InputA, InputB);\n}\nfloat c_Mul1_main_8(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Abs1_main_9(float Input) {\n    return abs(Input);\n}\nfloat c_Negate1_main_22(float Input) {\n    return (-Input);\n}\nfloat c_Exp1_main_11(float Input) {\n    return exp(Input);\n}\nvec4 c_TextureToRGBA_main_4(vec2 UV, sampler2D Texture) {\n    return texture2D(Texture, UV);\n}\nvec4 c_Split4_main_21(vec4 Input) {\n    return Input;\n}\nvec4 c_31To4_main_20(vec3 InputA, float InputB) {\n    return vec4(InputA, InputB);\n}\nvec4 c_Mix4_main_13(vec4 InputA, vec4 InputB, float Percent) {\n    return mix(InputA, InputB, Percent);\n}\nvec4 c_Output_main_1(vec4 Color) {\n    return Color;\n}\nvoid main()\n{\n    vec2 out_UV_UV0_5 = c_UV0_main_5();\n    float out_Output_Distance2_6 = c_Distance2_main_6(out_UV_UV0_5, Pos);\n    float out_Output_Mul1_8 = c_Mul1_main_8(Intensity, out_Output_Distance2_6);\n    float out_Output_Abs1_9 = c_Abs1_main_9(out_Output_Mul1_8);\n    float out_Output_Negate1_22 = c_Negate1_main_22(out_Output_Abs1_9);\n    float out_Output_Exp1_11 = c_Exp1_main_11(out_Output_Negate1_22);\n    vec4 out_Color_TextureToRGBA_4 = c_TextureToRGBA_main_4(v_uv0, texture);\n    float out_a_TextureToRGBA_4 = out_Color_TextureToRGBA_4.a;\n    vec4 out_Output_Split4_21 = c_Split4_main_21(color);\n    vec3 out_xyz_Split4_21 = out_Output_Split4_21.xyz;\n    vec4 out_Output_31To4_20 = c_31To4_main_20(out_xyz_Split4_21, out_a_TextureToRGBA_4);\n    vec4 out_Output_Mix4_13 = c_Mix4_main_13(out_Output_31To4_20, out_Color_TextureToRGBA_4, out_Output_Exp1_11);\n    gl_FragColor = c_Output_main_1(out_Output_Mix4_13);\n}"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\n#if USE_TEXTURE\n    attribute vec2 a_uv0;\n    varying vec2 v_uv0;\n#endif\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\n  #if USE_TEXTURE\n      varying vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  varying vec4 v_color;\n  uniform vec4 color;\nuniform vec2 Pos;\nuniform float Intensity;\n  vec2 c_UV0_main_5() {\n    return v_uv0;\n}\nfloat c_Distance2_main_6(vec2 InputA, vec2 InputB) {\n    return distance(InputA, InputB);\n}\nfloat c_Mul1_main_8(float InputA, float InputB) {\n    return (InputA * InputB);\n}\nfloat c_Abs1_main_9(float Input) {\n    return abs(Input);\n}\nfloat c_Negate1_main_22(float Input) {\n    return (-Input);\n}\nfloat c_Exp1_main_11(float Input) {\n    return exp(Input);\n}\nvec4 c_TextureToRGBA_main_4(vec2 UV, sampler2D Texture) {\n    return texture2D(Texture, UV);\n}\nvec4 c_Split4_main_21(vec4 Input) {\n    return Input;\n}\nvec4 c_31To4_main_20(vec3 InputA, float InputB) {\n    return vec4(InputA, InputB);\n}\nvec4 c_Mix4_main_13(vec4 InputA, vec4 InputB, float Percent) {\n    return mix(InputA, InputB, Percent);\n}\nvec4 c_Output_main_1(vec4 Color) {\n    return Color;\n}\nvoid main()\n{\n    vec2 out_UV_UV0_5 = c_UV0_main_5();\n    float out_Output_Distance2_6 = c_Distance2_main_6(out_UV_UV0_5, Pos);\n    float out_Output_Mul1_8 = c_Mul1_main_8(Intensity, out_Output_Distance2_6);\n    float out_Output_Abs1_9 = c_Abs1_main_9(out_Output_Mul1_8);\n    float out_Output_Negate1_22 = c_Negate1_main_22(out_Output_Abs1_9);\n    float out_Output_Exp1_11 = c_Exp1_main_11(out_Output_Negate1_22);\n    vec4 out_Color_TextureToRGBA_4 = c_TextureToRGBA_main_4(v_uv0, texture);\n    float out_a_TextureToRGBA_4 = out_Color_TextureToRGBA_4.a;\n    vec4 out_Output_Split4_21 = c_Split4_main_21(color);\n    vec3 out_xyz_Split4_21 = out_Output_Split4_21.xyz;\n    vec4 out_Output_31To4_20 = c_31To4_main_20(out_xyz_Split4_21, out_a_TextureToRGBA_4);\n    vec4 out_Output_Mix4_13 = c_Mix4_main_13(out_Output_31To4_20, out_Color_TextureToRGBA_4, out_Output_Exp1_11);\n    gl_FragColor = c_Output_main_1(out_Output_Mix4_13);\n}"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        },
+        "locals": {
+          "blocks": [
+            {
+              "name": "CCLocal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        }
+      },
+      "defines": [
+        {
+          "name": "USE_TEXTURE",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "CC_USE_MODEL",
+          "type": "boolean",
+          "defines": []
+        },
+        {
+          "name": "USE_TINT",
+          "type": "boolean",
+          "defines": []
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Constant",
+          "members": [
+            {
+              "name": "color",
+              "type": 16,
+              "count": 1
+            },
+            {
+              "name": "Pos",
+              "type": 14,
+              "count": 1
+            },
+            {
+              "name": "Intensity",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "binding": 0
+        }
+      ],
+      "samplers": [
+        {
+          "name": "texture",
+          "type": 29,
+          "count": 1,
+          "defines": [
+            "USE_TEXTURE"
+          ],
+          "binding": 30
+        }
+      ],
+      "record": null,
+      "name": "CircularFogDemo|vs|fs"
+    }
+  ]
+}

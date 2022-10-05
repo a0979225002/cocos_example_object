@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "賤",
+    "texture": "a97ca0b5-b511-48ab-975b-3100bb87198f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      492,
+      731
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      492,
+      732
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

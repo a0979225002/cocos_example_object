@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_line_2",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 350,
+      "height": 74
+    },
+    "offset": {
+      "x": 1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 352,
+      "height": 74
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "72938ce3-6eff-4a87-a722-fd4ba62f8db9@6c48a"
+  }
+}

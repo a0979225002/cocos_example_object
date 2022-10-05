@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "f5U19zdwZGZpdRD0J7XnB2@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_login",
+            "rect": {
+                "x": 0,
+                "y": 1,
+                "width": 64,
+                "height": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 64,
+                "height": 71
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "f5535f73-7706-4666-9751-0f427b5e7076@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "3fzqTPjGdHWaoy7YEAfFNf@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "store_light2",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 52,
+                "height": 46
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 53,
+                "height": 47
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "3fcea4cf-8c67-4759-aa32-ed81007c535f@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

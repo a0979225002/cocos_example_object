@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vip_send",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 111,
+      "height": 69
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 111,
+      "height": 69
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ca9a4601-88fb-4e69-bc49-900d713d583b@6c48a"
+  }
+}

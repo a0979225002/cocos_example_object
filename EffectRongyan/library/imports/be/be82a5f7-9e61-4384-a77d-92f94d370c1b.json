@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "noize",
+    "texture": "9f3afe9f-5f64-4f5f-a882-64f86b06f991",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      533,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      533,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

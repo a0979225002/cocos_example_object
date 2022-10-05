@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "done",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 1,
+      "width": 85,
+      "height": 88
+    },
+    "offset": {
+      "x": 1,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 87,
+      "height": 89
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "87a61a1c-ab06-4103-9191-e4fc823b60d0@6c48a"
+  }
+}

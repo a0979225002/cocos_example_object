@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "c0b8dW685LKJyHpLEeuECV@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "bg_dark_side",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 40,
+                "height": 125
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 40,
+                "height": 125
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "c06fc756-ebce-4b28-9c87-a4b11eb84095@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

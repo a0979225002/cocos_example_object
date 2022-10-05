@@ -1,0 +1,23 @@
+{
+  "start-scene": "0b9c76e0-2054-4eea-a6d9-040d0aa037f0",
+  "group-list": [
+    "default"
+  ],
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "excluded-modules": [
+    "Geom Utils",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle",
+    "SafeArea"
+  ],
+  "migrate-history": [
+    "cloud-function"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_rmb",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 36,
+      "height": 34
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 1.5
+    },
+    "originalSize": {
+      "width": 37,
+      "height": 37
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "acc2cef4-8e6b-484c-bd24-0bd6ff0728d0@6c48a"
+  }
+}

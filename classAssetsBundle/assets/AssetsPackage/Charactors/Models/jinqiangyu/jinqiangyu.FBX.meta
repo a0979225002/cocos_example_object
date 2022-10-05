@@ -1,0 +1,181 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd",
+  "files": [],
+  "subMetas": {
+    "5e001": {
+      "importer": "gltf-mesh",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@5e001",
+      "displayName": "",
+      "id": "5e001",
+      "name": "body.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f586": {
+      "importer": "gltf-animation",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@1f586",
+      "displayName": "",
+      "id": "1f586",
+      "name": "idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.1666666666666665
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 15
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6386": {
+      "importer": "gltf-embeded-image",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@d6386",
+      "displayName": "",
+      "id": "d6386",
+      "name": "Map #8.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0427": {
+      "importer": "texture",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@a0427",
+      "displayName": "",
+      "id": "a0427",
+      "name": "Map #8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@d6386"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b1faf": {
+      "importer": "gltf-material",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@b1faf",
+      "displayName": "",
+      "id": "b1faf",
+      "name": "Material #3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbfe2": {
+      "importer": "gltf-scene",
+      "uuid": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@cbfe2",
+      "displayName": "",
+      "id": "cbfe2",
+      "name": "jinqiangyu.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #8",
+        "uri": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@d6386"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 9.25,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle",
+            "from": 0,
+            "to": 2.1666666666666665,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@cbfe2",
+    "assetFinder": {
+      "meshes": [
+        "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@5e001"
+      ],
+      "skeletons": [
+        "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@438fe"
+      ],
+      "textures": [
+        "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@a0427"
+      ],
+      "materials": [
+        "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@b1faf"
+      ],
+      "scenes": [
+        "ccc51aa8-4322-4321-9b7e-fe0af9fe3efd@cbfe2"
+      ]
+    }
+  }
+}

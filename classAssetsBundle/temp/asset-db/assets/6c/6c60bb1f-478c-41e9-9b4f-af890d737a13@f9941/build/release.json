@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "6cYLsfR4xB6ZtPr4kNc3oT@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "text_chongzhi",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 86,
+                "height": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 86,
+                "height": 45
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "6c60bb1f-478c-41e9-9b4f-af890d737a13@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "level": 2,
+    "message": {
+      "code": "shall_not_be_texture",
+      "material": "Material #242",
+      "property": "Transparent color"
+    }
+  }
+]

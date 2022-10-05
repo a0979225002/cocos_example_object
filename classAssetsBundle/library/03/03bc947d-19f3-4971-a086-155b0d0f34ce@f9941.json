@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_add",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 3,
+      "width": 68,
+      "height": 49
+    },
+    "offset": {
+      "x": 0,
+      "y": -1.5
+    },
+    "originalSize": {
+      "width": 70,
+      "height": 52
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "03bc947d-19f3-4971-a086-155b0d0f34ce@6c48a"
+  }
+}

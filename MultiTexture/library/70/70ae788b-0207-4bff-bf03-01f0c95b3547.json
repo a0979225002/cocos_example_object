@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "Actor1",
+    "spriteFrames": [
+      "Actor1-1",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@f4d33",
+      "Actor1-2",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@3fbbc",
+      "Actor1-3",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@96348",
+      "Actor1-4",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@6fbe9",
+      "Actor1-5",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@ab9c2",
+      "Actor1-6",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@a8ae4",
+      "Actor1-7",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@45688",
+      "Actor1-8",
+      "70ae788b-0207-4bff-bf03-01f0c95b3547@259a3"
+    ]
+  }
+}

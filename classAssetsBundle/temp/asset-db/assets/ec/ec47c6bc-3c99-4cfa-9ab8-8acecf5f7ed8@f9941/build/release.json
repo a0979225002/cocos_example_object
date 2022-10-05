@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "ecR8a8PJlM+pq4is7PX37Y@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn3",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 26,
+                "height": 25
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 26,
+                "height": 25
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "ec47c6bc-3c99-4cfa-9ab8-8acecf5f7ed8@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

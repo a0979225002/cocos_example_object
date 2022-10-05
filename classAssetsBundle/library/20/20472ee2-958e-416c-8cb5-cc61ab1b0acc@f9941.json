@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "percent_ch",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 39
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 48,
+      "height": 39
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "20472ee2-958e-416c-8cb5-cc61ab1b0acc@6c48a"
+  }
+}

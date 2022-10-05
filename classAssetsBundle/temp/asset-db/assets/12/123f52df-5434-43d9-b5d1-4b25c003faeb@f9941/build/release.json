@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "12P1LfVDRD2bXRSyXAA/rr@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_blue_click",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 64,
+                "height": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 64,
+                "height": 71
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "123f52df-5434-43d9-b5d1-4b25c003faeb@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

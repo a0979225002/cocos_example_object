@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "a85bd2a3-2fbf-49de-879c-beda3947fdca",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "_GradTex": {
+        "__uuid__": "ed5421e8-0910-4462-b0ac-5c2d03a4d489@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "_BaseColor": {
+        "__type__": "cc.Color",
+        "r": 20,
+        "g": 170,
+        "b": 255,
+        "a": 255
+      },
+      "_GradNearColor": {
+        "__type__": "cc.Color",
+        "r": 0,
+        "g": 149,
+        "b": 233,
+        "a": 190
+      },
+      "_GradFarColor": {
+        "__type__": "cc.Color",
+        "r": 184,
+        "g": 248,
+        "b": 253,
+        "a": 184
+      },
+      "_WaveTex": {
+        "__uuid__": "f8fc4b5b-8653-4d69-a508-279bb034f7e1@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "_WaveBaseColor": {
+        "__type__": "cc.Color",
+        "r": 0,
+        "g": 80,
+        "b": 95,
+        "a": 255
+      }
+    }
+  ]
+}

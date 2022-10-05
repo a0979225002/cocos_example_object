@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "14WZ5cTcVPuYkE+E6vnNlu@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_book",
+            "rect": {
+                "x": 4,
+                "y": 1,
+                "width": 89,
+                "height": 75
+            },
+            "offset": {
+                "x": 0,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 97,
+                "height": 76
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "14599e5c-4dc5-4fb9-8904-f84eaf9cd96e@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

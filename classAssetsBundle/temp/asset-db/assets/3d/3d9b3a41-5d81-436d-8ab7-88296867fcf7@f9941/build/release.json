@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "3dmzpBXYFDbYq3iCloZ/z3@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "icon_jianyu_g",
+            "rect": {
+                "x": 0,
+                "y": 15,
+                "width": 114,
+                "height": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0.5
+            },
+            "originalSize": {
+                "width": 114,
+                "height": 89
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "3d9b3a41-5d81-436d-8ab7-88296867fcf7@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

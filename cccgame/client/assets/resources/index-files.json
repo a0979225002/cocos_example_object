@@ -1,0 +1,5 @@
+{
+    "lang_auto": "asset://resources/lcc-assets/langs/indexes",
+    "table_auto": "asset://resources/lcc-assets/tables/indexes",
+    "ui": "asset://resources/tests/uis/indexes"
+}

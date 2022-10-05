@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "afe1NhQQxLVr3M1PHWZ4D6@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "rank_btn_click ",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 50,
+                "height": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 50,
+                "height": 51
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "af7b5361-410c-4b56-bdcc-d4f1d66780fa@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -1,0 +1,76 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f6521534-187d-41ea-a94d-10e3bf8df335",
+  "files": [],
+  "subMetas": {
+    "e3734": {
+      "importer": "gltf-mesh",
+      "uuid": "f6521534-187d-41ea-a94d-10e3bf8df335@e3734",
+      "displayName": "",
+      "id": "e3734",
+      "name": "waterPlane.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "df8ea": {
+      "importer": "gltf-material",
+      "uuid": "f6521534-187d-41ea-a94d-10e3bf8df335@df8ea",
+      "displayName": "",
+      "id": "df8ea",
+      "name": "waterPlane.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d2406": {
+      "importer": "gltf-scene",
+      "uuid": "f6521534-187d-41ea-a94d-10e3bf8df335@d2406",
+      "displayName": "",
+      "id": "d2406",
+      "name": "waterPlane.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "f6521534-187d-41ea-a94d-10e3bf8df335@d2406",
+    "assetFinder": {
+      "meshes": [
+        "f6521534-187d-41ea-a94d-10e3bf8df335@e3734"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f6521534-187d-41ea-a94d-10e3bf8df335@df8ea"
+      ],
+      "scenes": [
+        "f6521534-187d-41ea-a94d-10e3bf8df335@d2406"
+      ]
+    }
+  }
+}

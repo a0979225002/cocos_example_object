@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_money_main_click",
+    "atlas": "",
+    "rect": {
+      "x": 3,
+      "y": 1,
+      "width": 88,
+      "height": 82
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 94,
+      "height": 83
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "0c143867-d7f1-44dd-942e-a6955314175f@6c48a"
+  }
+}

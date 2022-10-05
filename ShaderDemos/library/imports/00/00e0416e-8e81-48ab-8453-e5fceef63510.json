@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dragon_nest",
+    "texture": "cf332f89-0c3a-47cf-9e96-3666c7f839ea",
+    "atlas": "",
+    "rect": [
+      0,
+      7,
+      500,
+      180
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      187
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

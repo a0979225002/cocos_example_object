@@ -1,0 +1,4 @@
+{
+    "@remote": "http://localhost:4567/config",
+    "@local": "${localpath}/test2"
+}

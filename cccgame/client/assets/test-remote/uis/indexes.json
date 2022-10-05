@@ -1,0 +1,7 @@
+{
+    "ui": {
+        "ui-test-remote": {
+            "file" : "${localpath}/ui-test-remote"
+        }
+    }
+}

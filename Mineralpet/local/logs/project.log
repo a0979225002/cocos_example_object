@@ -1,0 +1,194 @@
+2022-09-19T03:11:10.527Z - normal: Load ~/.CocosCreator/settings.json
+2022-09-19T03:11:10.563Z - normal: Initializing Asset Database
+2022-09-19T03:11:10.565Z - normal: checking language setting...
+2022-09-19T03:11:10.566Z - normal: Language: en
+2022-09-19T03:11:11.145Z - success: protocol editor-framework registered
+2022-09-19T03:11:11.145Z - success: protocol app registered
+2022-09-19T03:11:11.145Z - success: protocol theme registered
+2022-09-19T03:11:11.145Z - success: protocol packages registered
+2022-09-19T03:11:11.145Z - success: protocol uuid registerred
+2022-09-19T03:11:11.145Z - success: protocol db registerred
+2022-09-19T03:11:11.145Z - success: protocol thumbnail registerred
+2022-09-19T03:11:11.145Z - success: protocol unpack registerred
+2022-09-19T03:11:11.145Z - success: protocol disable-commonjs registerred
+2022-09-19T03:11:12.332Z - normal: connected!
+2022-09-19T03:11:12.332Z - normal: Check project C:\CocosProject\2.4.4_Mineralpet\Mineralpet
+2022-09-19T03:11:12.333Z - normal: Initializing project C:\CocosProject\2.4.4_Mineralpet\Mineralpet
+2022-09-19T03:11:12.476Z - success: adapters loaded
+2022-09-19T03:11:12.478Z - success: asset-db-debugger loaded
+2022-09-19T03:11:12.523Z - success: fb-audience-network loaded
+2022-09-19T03:11:12.546Z - success: fb-live-stream loaded
+2022-09-19T03:11:12.547Z - success: google-play-instant loaded
+2022-09-19T03:11:12.548Z - success: jsb-adapter loaded
+2022-09-19T03:11:12.550Z - success: package-manager loaded
+2022-09-19T03:11:12.550Z - success: runtime-adapters loaded
+2022-09-19T03:11:12.552Z - success: runtime-dev-tools loaded
+2022-09-19T03:11:12.554Z - success: ui-kit-preview-extra loaded
+2022-09-19T03:11:12.556Z - success: ui-kit-preview loaded
+2022-09-19T03:11:12.591Z - success: alipay-minigame loaded
+2022-09-19T03:11:12.624Z - success: assets loaded
+2022-09-19T03:11:12.626Z - success: baidugame-opendata loaded
+2022-09-19T03:11:12.627Z - success: baidugame loaded
+2022-09-19T03:11:12.629Z - success: builder loaded
+2022-09-19T03:11:12.630Z - success: bytedance-opendata loaded
+2022-09-19T03:11:12.631Z - success: bytedance loaded
+2022-09-19T03:11:12.634Z - success: channel-upload-tools loaded
+2022-09-19T03:11:12.636Z - success: cloud-function loaded
+2022-09-19T03:11:12.748Z - success: cocos-services loaded
+2022-09-19T03:11:12.749Z - success: console loaded
+2022-09-19T03:11:12.751Z - success: curve-editor loaded
+2022-09-19T03:11:12.758Z - success: fb-instant-games loaded
+2022-09-19T03:11:12.759Z - success: game-window loaded
+2022-09-19T03:11:12.760Z - success: google-instant-games loaded
+2022-09-19T03:11:12.762Z - success: hierarchy loaded
+2022-09-19T03:11:12.765Z - success: huawei-agc loaded
+2022-09-19T03:11:12.767Z - success: huawei-runtime loaded
+2022-09-19T03:11:12.769Z - success: inspector loaded
+2022-09-19T03:11:12.778Z - success: cpk-publish loaded
+2022-09-19T03:11:12.778Z - success: keystore loaded
+2022-09-19T03:11:12.788Z - success: link-sure-runtime loaded
+2022-09-19T03:11:12.794Z - success: node-library loaded
+2022-09-19T03:11:12.794Z - success: open-recent-items loaded
+2022-09-19T03:11:12.796Z - success: oppo-runtime loaded
+2022-09-19T03:11:12.797Z - success: package-asset loaded
+2022-09-19T03:11:12.797Z - success: preferences loaded
+2022-09-19T03:11:12.798Z - success: project-importer loaded
+2022-09-19T03:11:12.799Z - success: project-settings loaded
+2022-09-19T03:11:12.808Z - success: qtt-runtime loaded
+2022-09-19T03:11:12.813Z - success: scene loaded
+2022-09-19T03:11:12.813Z - success: simulator-debugger loaded
+2022-09-19T03:11:12.814Z - success: sprite-editor loaded
+2022-09-19T03:11:12.840Z - success: store loaded
+2022-09-19T03:11:12.842Z - success: timeline loaded
+2022-09-19T03:11:12.845Z - success: vivo-runtime loaded
+2022-09-19T03:11:12.846Z - success: wechatgame-opendata loaded
+2022-09-19T03:11:12.848Z - success: wechatgame loaded
+2022-09-19T03:11:12.850Z - success: xiaomi-runtime loaded
+2022-09-19T03:11:12.857Z - success: ccc-references-finder loaded
+2022-09-19T03:11:12.859Z - success: citrus loaded
+2022-09-19T03:11:12.861Z - success: fwc-noder loaded
+2022-09-19T03:11:12.897Z - success: im-plugin loaded
+2022-09-19T03:11:12.900Z - success: mini_game_optimize loaded
+2022-09-19T03:11:12.902Z - normal: TypeError: Cannot read property 'nativeWin' of null
+    at Object.load (C:\Users\ASUS\.CocosCreator\packages\simple-handle-node\main.js:8:28)
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor-framework\lib\main\package.js:1:4000
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:2952:28
+    at replenish (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:444:21)
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:449:13
+    at eachOfLimit$1 (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:475:34)
+    at awaitable(eachOfLimit$1) (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:208:32)
+    at eachOfSeries (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:662:16)
+    at awaitable(eachOfSeries) (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:208:32)
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:2951:9
+2022-09-19T03:11:12.902Z - success: simple-handle-node loaded
+2022-09-19T03:11:13.054Z - success: unpack-textureatlas loaded
+2022-09-19T03:11:13.055Z - success: preview server running at http://localhost:7456
+2022-09-19T03:11:13.968Z - normal: Initializing Cocos2d
+2022-09-19T03:11:14.296Z - normal: Initializing engine extends
+2022-09-19T03:11:15.249Z - normal: Loading packages
+2022-09-19T03:11:15.252Z - normal: Watching packages
+2022-09-19T03:11:15.338Z - normal: Run Application
+2022-09-19T03:11:15.940Z - info: Cocos Service load base data!
+2022-09-19T03:11:23.548Z - normal: Start building with options : {
+  "actualPlatform": "android",
+  "agreements": {},
+  "android": {
+    "REMOTE_SERVER_ROOT": "",
+    "packageName": "org.cocos2d.demo"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.demo",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "android-33",
+  "appABIs": [
+    "armeabi-v7a"
+  ],
+  "appBundle": false,
+  "buildPath": "C:\\CocosProject\\2.4.4_Mineralpet\\Mineralpet\\build",
+  "buildScriptsOnly": false,
+  "debug": false,
+  "dest": "C:\\CocosProject\\2.4.4_Mineralpet\\Mineralpet\\build\\jsb-link",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/Builtin"
+  ],
+  "fb-instant-games": {},
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "REMOTE_SERVER_ROOT": "",
+    "ios_enable_jit": true,
+    "packageName": "org.cocos2d.demo"
+  },
+  "mac": {
+    "REMOTE_SERVER_ROOT": "",
+    "height": 720,
+    "packageName": "org.cocos2d.demo",
+    "width": 1280
+  },
+  "mainCompressionType": "default",
+  "mainIsRemote": false,
+  "md5Cache": true,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.demo",
+  "platform": "android",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "961442a9-3564-450b-9ab6-9b529e6931bc"
+  ],
+  "separateEngineMode": false,
+  "sourceMaps": false,
+  "startScene": "961442a9-3564-450b-9ab6-9b529e6931bc",
+  "template": "link",
+  "title": "Mineralpet",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {
+    "REMOTE_SERVER_ROOT": "",
+    "height": 720,
+    "width": 1280
+  },
+  "xxteaKey": "f201d37f-5810-4a",
+  "zipCompressJs": true,
+  "project": "C:\\CocosProject\\2.4.4_Mineralpet\\Mineralpet",
+  "projectName": "Mineralpet",
+  "debugBuildWorker": false
+}
+2022-09-19T03:11:23.549Z - normal: Building C:\CocosProject\2.4.4_Mineralpet\Mineralpet
+2022-09-19T03:11:23.549Z - normal: Destination C:\CocosProject\2.4.4_Mineralpet\Mineralpet\build\jsb-link
+2022-09-19T03:11:23.608Z - normal: Delete C:/CocosProject/2.4.4_Mineralpet/Mineralpet/build/jsb-link/assets/**/*,C:/CocosProject/2.4.4_Mineralpet/Mineralpet/build/jsb-link/remote/**/*,C:/CocosProject/2.4.4_Mineralpet/Mineralpet/build/jsb-link/src/**/*
+2022-09-19T03:11:23.614Z - error: Build Failed: Error: Please make sure java is installed and JAVA_HOME is in your environment
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\core\native-utils.js:1:2810
+    at U (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\core\native-utils.js:1:2907)
+    at Object.build (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\core\native-utils.js:1:19484)
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\core\gulp-build.js:1:24598
+    at taskWrapper (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\undertaker\lib\set-task.js:13:15)
+    at bound (domain.js:413:14)
+    at runBound (domain.js:426:12)
+    at asyncRunner (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async-done\index.js:55:18)
+    at processTicksAndRejections (internal/process/task_queues.js:79:9)
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\lib\builder\index.js:1:3950
+    at wrapper (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:272:20)
+    at next (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:4584:24)
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\node_modules\async\dist\async.js:325:20
+    at C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\core\gulp-build.js:1:5879
+    at Gulp.<anonymous> (C:\CocosDashboard_1.0.20\resources\.editors\Creator\2.4.4\resources\app.asar\editor\core\gulp-build.js:1:26734)
+    at Object.onceWrapper (events.js:282:20)
+    at Gulp.emit (events.js:194:13)
+    at Gulp.EventEmitter.emit (domain.js:469:20)

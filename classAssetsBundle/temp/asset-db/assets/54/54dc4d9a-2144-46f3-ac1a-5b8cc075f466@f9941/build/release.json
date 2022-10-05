@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "543E2aIURG86waW4zAdfRm@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "ad_tip",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 48,
+                "height": 19
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 49,
+                "height": 19
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "54dc4d9a-2144-46f3-ac1a-5b8cc075f466@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

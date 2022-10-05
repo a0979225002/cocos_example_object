@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_tehui_click",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 92,
+      "height": 83
+    },
+    "offset": {
+      "x": 1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 94,
+      "height": 83
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "2ebeda00-a8bd-4e4c-860c-3a2ec438c781@6c48a"
+  }
+}

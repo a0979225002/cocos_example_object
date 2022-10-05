@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "icon_update",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.3333333333333335,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 3.3333333333333335,
+          "value": 360
+        }
+      ]
+    }
+  },
+  "events": []
+}

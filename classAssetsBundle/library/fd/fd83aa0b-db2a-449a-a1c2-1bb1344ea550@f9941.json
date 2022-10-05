@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_weishequ2",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 69,
+      "height": 71
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 69,
+      "height": 72
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "fd83aa0b-db2a-449a-a1c2-1bb1344ea550@6c48a"
+  }
+}

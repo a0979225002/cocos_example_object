@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "numberbg",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 105,
+      "height": 23
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 106,
+      "height": 23
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "05852078-f951-4b93-80b6-5756d7a7d70d@6c48a"
+  }
+}

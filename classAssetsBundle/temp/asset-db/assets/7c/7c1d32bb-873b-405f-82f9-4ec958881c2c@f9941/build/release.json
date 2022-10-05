@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "7cHTK7hztAX4L5TslYiBws@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "btn_tehui",
+            "rect": {
+                "x": 3,
+                "y": 0,
+                "width": 90,
+                "height": 83
+            },
+            "offset": {
+                "x": 1,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 94,
+                "height": 83
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "7c1d32bb-873b-405f-82f9-4ec958881c2c@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

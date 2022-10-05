@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "e1HzU782ZLv77oBV5DpSs9@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "sheet_text_miss_0",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 127,
+                "height": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 127,
+                "height": 37
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "e11f353b-f366-4bbf-bee8-055e43a52b3d@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

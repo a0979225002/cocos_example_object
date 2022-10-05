@@ -1,0 +1,120 @@
+{
+  "__type__": "cc.EffectAsset",
+  "_name": "64645.0",
+  "_objFlags": 0,
+  "_native": "",
+  "properties": null,
+  "techniques": [
+    {
+      "passes": [
+        {
+          "blendState": {
+            "targets": [
+              {
+                "blend": true
+              }
+            ]
+          },
+          "rasterizerState": {
+            "cullMode": 0
+          },
+          "properties": {
+            "texture": {
+              "value": "white",
+              "type": 29
+            },
+            "texture2": {
+              "value": "white",
+              "type": 29
+            },
+            "u_time": {
+              "value": [
+                1
+              ],
+              "type": 13
+            },
+            "u_mouse": {
+              "value": [
+                1,
+                1
+              ],
+              "type": 14
+            }
+          },
+          "program": "64645.0|vs|fs"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "hash": 1819517798,
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main () {\n   mat4 mvp;\n   mvp = cc_matViewProj;\n   v_color = a_color;\n   gl_Position = mvp * vec4(a_position, 1);\n   v_wp = cc_matWorld * vec4(a_position, 1);\n   v_uv0 = a_uv0;\n }",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform Constants1 {\n  vec2 u_mouse;\n  float u_time;\n};\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nfloat saturate(float x){\n    return clamp(x,0.0,1.0);\n}\nvec3 CenterLight(vec2 p){\n    p -= vec2(0.5*cos(0.5*u_time-sin(u_time*0.5)), 0.5*sin(0.5*u_time+cos(u_time*0.75)));\n    p *= 12.;\n   float l = 1. / dot(p, p);\n    return l*l * (sin(u_time*vec3(.345, .456, .657))*.4+.6);\n}\nvec3 Straws(vec2 p){\n    p -= vec2(0.5*cos(0.5*u_time-sin(u_time*0.5)), 0.5*sin(0.5*u_time+cos(u_time*0.75)));\n  float a = atan(p.y, p.x);\n    float d = dot(p,p);\n    float l = saturate(1.-length(p));\n    l *= 0.5 + 0.5*sin(a*50.+d*5.+sin(u_time*1.)*20.);\n    l *= 0.5 + 0.3 * sin(d*10.+a*10.-u_time*5.);\n    return l*l*(sin(u_time*vec3(.345, .456, .657))*.4+.6);\n}\nvec3 Lights(vec2 p){\n    p -= vec2(0.5*cos(0.5*u_time-sin(u_time*0.5)), 0.5*sin(0.5*u_time+cos(u_time*0.75)));\n    float res = 0.0;\n    for(float i = 0.; i < 500.; ++i){\n        float t = u_time + i*i;\n        vec2 q = p + vec2(cos(t), sin(t)) * sin(i*11.+u_time*0.5);\n        float l = 0.0003 / pow(length(q), 1.5);\n        res += l;\n    }\n    res = res*res;\n    return res * (sin(u_time*vec3(.345, .456, .657))*.4+.6);\n}\nvoid mainImage(  )\n{\n    vec2 uvs = gl_FragCoord.xy/vec2(960.,640.).xy;\n    vec2 uv = (gl_FragCoord.xy*2.-vec2(960.,640.).xy)/vec2(960.,640.).y;\n    vec3 col = vec3(0.0);\n    vec2 p = uv;\n    col += CenterLight(p);\n   col += Straws(p);\n    col += Lights(p);\n    col = max(min(vec3(1.0), col), vec3(0.0));\n    vec3 newFrame = pow(col, vec3(1./0.8));\n    vec3 oldFrame = vec3(.0);\n    gl_FragColor = vec4(newFrame + oldFrame,1.0)*0.85;\n}\nvoid main()\n{\n    mainImage();\n}"
+      },
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\nattribute lowp vec4 a_color;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\n void main () {\n   mat4 mvp;\n   mvp = cc_matViewProj;\n   v_color = a_color;\n   gl_Position = mvp * vec4(a_position, 1);\n   v_wp = cc_matWorld * vec4(a_position, 1);\n   v_uv0 = a_uv0;\n }",
+        "frag": "\nprecision mediump float;\nuniform sampler2D texture;\nuniform sampler2D texture2;\nuniform float u_time;\nvarying mediump vec2 v_uv0;\nvarying lowp vec4 v_color;\nvarying lowp vec4 v_wp;\nfloat saturate(float x){\n    return clamp(x,0.0,1.0);\n}\nvec3 CenterLight(vec2 p){\n    p -= vec2(0.5*cos(0.5*u_time-sin(u_time*0.5)), 0.5*sin(0.5*u_time+cos(u_time*0.75)));\n    p *= 12.;\n   float l = 1. / dot(p, p);\n    return l*l * (sin(u_time*vec3(.345, .456, .657))*.4+.6);\n}\nvec3 Straws(vec2 p){\n    p -= vec2(0.5*cos(0.5*u_time-sin(u_time*0.5)), 0.5*sin(0.5*u_time+cos(u_time*0.75)));\n  float a = atan(p.y, p.x);\n    float d = dot(p,p);\n    float l = saturate(1.-length(p));\n    l *= 0.5 + 0.5*sin(a*50.+d*5.+sin(u_time*1.)*20.);\n    l *= 0.5 + 0.3 * sin(d*10.+a*10.-u_time*5.);\n    return l*l*(sin(u_time*vec3(.345, .456, .657))*.4+.6);\n}\nvec3 Lights(vec2 p){\n    p -= vec2(0.5*cos(0.5*u_time-sin(u_time*0.5)), 0.5*sin(0.5*u_time+cos(u_time*0.75)));\n    float res = 0.0;\n    for(float i = 0.; i < 500.; ++i){\n        float t = u_time + i*i;\n        vec2 q = p + vec2(cos(t), sin(t)) * sin(i*11.+u_time*0.5);\n        float l = 0.0003 / pow(length(q), 1.5);\n        res += l;\n    }\n    res = res*res;\n    return res * (sin(u_time*vec3(.345, .456, .657))*.4+.6);\n}\nvoid mainImage(  )\n{\n    vec2 uvs = gl_FragCoord.xy/vec2(960.,640.).xy;\n    vec2 uv = (gl_FragCoord.xy*2.-vec2(960.,640.).xy)/vec2(960.,640.).y;\n    vec3 col = vec3(0.0);\n    vec2 p = uv;\n    col += CenterLight(p);\n   col += Straws(p);\n    col += Lights(p);\n    col = max(min(vec3(1.0), col), vec3(0.0));\n    vec3 newFrame = pow(col, vec3(1./0.8));\n    vec3 oldFrame = vec3(.0);\n    gl_FragColor = vec4(newFrame + oldFrame,1.0)*0.85;\n}\nvoid main()\n{\n    mainImage();\n}"
+      },
+      "builtins": {
+        "globals": {
+          "blocks": [
+            {
+              "name": "CCGlobal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        },
+        "locals": {
+          "blocks": [
+            {
+              "name": "CCLocal",
+              "defines": []
+            }
+          ],
+          "samplers": []
+        }
+      },
+      "defines": [],
+      "blocks": [
+        {
+          "name": "Constants1",
+          "members": [
+            {
+              "name": "u_mouse",
+              "type": 14,
+              "count": 1
+            },
+            {
+              "name": "u_time",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "binding": 0
+        }
+      ],
+      "samplers": [
+        {
+          "name": "texture",
+          "type": 29,
+          "count": 1,
+          "defines": [],
+          "binding": 30
+        },
+        {
+          "name": "texture2",
+          "type": 29,
+          "count": 1,
+          "defines": [],
+          "binding": 31
+        }
+      ],
+      "record": null,
+      "name": "64645.0|vs|fs"
+    }
+  ]
+}

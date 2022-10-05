@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "Nature",
+    "spriteFrames": [
+      "Nature-1",
+      "e87c690b-9abd-4538-81b7-89df342b4488@d8347",
+      "Nature-2",
+      "e87c690b-9abd-4538-81b7-89df342b4488@24f66",
+      "Nature-3",
+      "e87c690b-9abd-4538-81b7-89df342b4488@9136f",
+      "Nature-4",
+      "e87c690b-9abd-4538-81b7-89df342b4488@a0fad",
+      "Nature-5",
+      "e87c690b-9abd-4538-81b7-89df342b4488@84f07",
+      "Nature-6",
+      "e87c690b-9abd-4538-81b7-89df342b4488@53ec4",
+      "Nature-7",
+      "e87c690b-9abd-4538-81b7-89df342b4488@0f771",
+      "Nature-8",
+      "e87c690b-9abd-4538-81b7-89df342b4488@6d39b"
+    ]
+  }
+}

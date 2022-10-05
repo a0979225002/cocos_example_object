@@ -1,0 +1,10 @@
+[submodule "client/packages/lcc-framework-client"]
+	path = client/packages/lcc-framework-client
+	url = git@gitee.com:nomat/lcc-framework-client.git
+	branch = 2.4.x
+[submodule "server/node/lcc-framework-server"]
+	path = server/node/lcc-framework-server
+	url = git@gitee.com:nomat/lcc-framework-server.git
+[submodule "lcc-framework-scripts"]
+	path = lcc-framework-scripts
+	url = git@gitee.com:nomat/lcc-framework-scripts.git

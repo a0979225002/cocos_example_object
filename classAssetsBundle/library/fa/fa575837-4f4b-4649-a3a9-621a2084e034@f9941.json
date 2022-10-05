@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bar_coin",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 94,
+      "height": 101
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 94,
+      "height": 101
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "fa575837-4f4b-4649-a3a9-621a2084e034@6c48a"
+  }
+}

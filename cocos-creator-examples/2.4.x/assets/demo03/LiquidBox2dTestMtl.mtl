@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "LiquidBox2dTestMtl",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "d43d3736-ffaf-45f6-a6c7-67a0d26b85aa"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

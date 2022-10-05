@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "People2",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 220,
+      "height": 1328
+    },
+    "offset": {
+      "x": -1,
+      "y": -1.5
+    },
+    "originalSize": {
+      "width": 222,
+      "height": 1331
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1ea80ec7-2fe4-41b2-8fa2-a63d6b599c73@6c48a",
+    "packable": true
+  }
+}
