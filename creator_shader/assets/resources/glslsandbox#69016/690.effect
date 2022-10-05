@@ -1,0 +1,157 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_Position: {value: [1, 1,0, 0]}
+        u_Radius: {value: 1}
+        u_Vague: {value: 1}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+void main () {
+  mat4 mvp;
+  
+  mvp = cc_matViewProj;
+  
+  v_color = a_color;
+
+  gl_Position = mvp * vec4(a_position, 1);   
+  v_wp = cc_matWorld * vec4(a_position, 1);
+
+  // vec4 pos = vec4(a_position, 1);
+
+  //   #if CC_USE_MODEL
+  //   pos = cc_matViewProj * cc_matWorld * pos;
+  //   #else
+  //   pos = cc_matViewProj * pos;
+  //   #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+  //   v_color = a_color;
+
+  //   gl_Position = pos;
+}
+
+}%
+
+
+CCProgram fs %{
+precision mediump float;
+
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1 {
+  vec4 u_Position;
+  float u_Radius;
+  float u_time;
+  float u_Vague;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+#define u_resolution vec2(960.,640.)
+#define time u_time
+#define resolution u_resolution
+
+
+float noise(vec3 p) //Thx to Las^Mercury
+{
+	vec3 i = floor(p);
+	vec4 a = dot(i, vec3(1., 57., 21.)) + vec4(0., 57., 21., 78.);
+	vec3 f = cos((p-i)*acos(-1.))*(-.5)+.5;
+	a = mix(sin(cos(a)*a),sin(cos(1.+a)*(1.+a)), f.x);
+	a.xy = mix(a.xz, a.yw, f.y);
+	return mix(a.x, a.y, f.z);
+}
+
+float sphere(vec3 p, vec4 spr)
+{
+	return length(spr.xyz-p) - spr.w;
+}
+
+float flame(vec3 p)
+{
+	float d = sphere(p*vec3(1.,.5,1.), vec4(.0,-1.,.0,1.));
+	return d + (noise(p+vec3(.0,time*10.,.0)) + noise(p*3.)*.5)*.25*(p.y) ;
+}
+
+float scene(vec3 p)
+{
+	return min(100.-length(p) , abs(flame(p)) );
+}
+
+vec4 raymarch(vec3 org, vec3 dir)
+{
+	float d = 0.0, glow = 0.0, eps = 0.02;
+	vec3  p = org;
+	bool glowed = false;
+	
+	for(int i=0; i<64; i++)
+	{
+		d = scene(p) + eps;
+		p += d * dir;
+		if( d>eps )
+		{
+			if(flame(p) < .0)
+				glowed=true;
+			if(glowed)
+       			glow = float(i)/40.;
+		}
+	}
+	return vec4(p,glow);
+}
+
+
+void main(void)
+{
+	
+	vec2 v = -1.0 + 2.0 * gl_FragCoord.xy / resolution.xy;
+	v.x *= resolution.x/resolution.y;
+	
+	vec3 org = vec3(0., -2., 4.);
+	vec3 dir = normalize(vec3(v.x*1.6, -v.y, -1.5));
+	
+	vec4 p = raymarch(org, dir);
+	float glow = p.w;
+	
+	vec4 col = mix(vec4(1.,.5,.1,1.), vec4(0.1,.5,1.,1.), p.y*.02+.4);
+	
+	gl_FragColor = mix(vec4(0.), col, pow(glow*2.1,4.));
+	//gl_FragColor = mix(vec4(1.), mix(vec4(1.,.5,.1,1.),vec4(0.1,.5,1.,1.),p.y*.02+.4), pow(glow*2.,4.));
+
+}
+
+
+}%

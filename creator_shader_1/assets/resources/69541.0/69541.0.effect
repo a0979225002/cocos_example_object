@@ -1,0 +1,142 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_mouse: {value: [1.0, 1.0]}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+ void main () {
+   mat4 mvp;
+   mvp = cc_matViewProj;
+   v_color = a_color;
+   gl_Position = mvp * vec4(a_position, 1);
+   v_wp = cc_matWorld * vec4(a_position, 1);
+
+   v_uv0 = a_uv0;
+ }
+
+}%
+
+
+CCProgram fs %{
+precision mediump float;
+
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1 {
+  vec2 u_mouse;
+  float u_time;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+
+#define resolution vec2(960.,640.)
+#define u_resolution resolution
+#define time u_time
+#define iResolution resolution
+#define iTime time
+#define fragColor gl_FragColor
+#define fragCoord gl_FragCoord
+#define iMouse u_mouse
+#define PI 3.14159265358979323846
+#define MYUV vec2 uv = vec2(1. - v_uv0.x,v_uv0.y);vec2 st = uv;
+#define OCTAVES 6
+
+// --------[ Original ShaderToy begins here ]---------- //
+#define SEED 0.12345679
+#define GRAV vec2(0.,-.56)
+#define SIZE 0.024
+#define DIE_TIME 0.9
+#define PARTICLE_COUNT 320.0
+#define PI 3.14159265359
+
+float rand (vec2 p) {
+    return fract(sin(dot(p.xy,
+                         vec2(6.8245,7.1248)))*
+        9.1283);
+}
+
+float particle(vec2 uv, float identifier, vec2 anchor, vec2 velocity, float creationTime) {
+    float particleTime = max(0., iTime - creationTime);
+
+    float size = max(0., DIE_TIME - particleTime) * SIZE;
+
+    vec2 velocityOffset = velocity * particleTime;
+    vec2 gravityOffset = GRAV * pow(particleTime, 1.798);
+    
+    vec2 point = anchor + velocityOffset + gravityOffset;
+    
+    float dist = distance(uv, point);
+    float hit = smoothstep(size, 0., dist);
+    
+    return hit;
+}
+
+vec3 currentColor() {
+  float c = iTime * 0.2;
+  float r = sin(c * PI) / 2. + .5;
+  float g = sin((c + .6) * PI) / 2. + .5;
+  float b = sin((c + 1.2) * PI) / 2. + .5;
+  return vec3(r, 0.,0.);
+}
+
+void mainImage( )
+{
+    vec2 uv = fragCoord.xy/iResolution.xx;
+    vec3 col = vec3(0.);
+
+    
+    for (float i = 0.0; i < PARTICLE_COUNT; i++) {
+      float seed = SEED + floor(i / PARTICLE_COUNT + iTime);
+
+      vec2 anchor = vec2(0.5, 0.3);
+      vec2 velocity = vec2(mix(-.5, .5, rand(vec2(seed, i))), mix(-.5, .5, rand(vec2(i, seed) / 3.)));
+      
+      float creationTime = iTime - fract(i / PARTICLE_COUNT + iTime);
+      
+      col += particle(uv, 0., anchor, velocity, creationTime) * currentColor();
+    }
+
+    col = smoothstep(.6, .9, col);
+
+    
+    fragColor = vec4(col, 1.);
+}
+// --------[ Original ShaderToy ends here ]---------- //
+
+void main()
+{
+    mainImage();
+}
+}%

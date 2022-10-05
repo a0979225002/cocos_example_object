@@ -1,0 +1,10 @@
+{
+  "name": "ssr-fbo-node",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "SuperSuRaccoon",
+  "main": "main.js",
+  "gizmos": {
+      "FBONodeInPlaceComponent": "packages://ssr-fbo-node/gizmos/FBONodeInPlaceGizmo.js"
+  }
+}

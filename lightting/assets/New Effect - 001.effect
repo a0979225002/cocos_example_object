@@ -1,0 +1,126 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd. 
+
+//builtin->内置
+
+// 此部分为声明流程控制清单 YAML
+CCEffect %{
+   # techniques 是一个数组
+  techniques:
+  # passes 是 techniques 数组的第0项
+  - passes:
+    - vert: vs #参数指定了顶点着色器 还可以 vs:vert  这时候就是vert() 函数替代 main() 入口了
+      frag: fs #参数指定了片元着色器
+
+      # 混合模式开启 Pass 可选配置参数
+      blendState:
+        targets:
+        - blend: true #true, false
+      rasterizerState: #光栅器状态 光栅也称衍射光栅。是利用多缝衍射原理使光发生色散(分解为光谱)的光学元件 该接口表示用于配置管线光栅化阶段的状态组
+        cullMode: none #设置材质的裁减模式。front, back, none  https://www.cnblogs.com/zeppelin5/p/10042863.html
+      properties:  # properties 列出可以在 Inspector 编辑器编辑的属性
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 } 
+        #设置alpha阈值， 只有模板（stencil）的alpha像素大于alpha阈值（alphaThreshold）时内容才会被绘制。 alpha阈值（threshold）范围应是0到1之间的浮点数。 alpha阈值（threshold）默认为1
+        #https://forum.cocos.org/t/cocos-creator-etc1-alpha/78024 ETC1 + Alpha 纹理压缩
+}% 
+
+//在pass 中定义
+/**
+ passes:
+    - vert: vs #参数指定了顶点着色器
+      frag: fs #参数指定了片元着色器
+*/
+ //具体实现 用CCProgram中实现       渲染管线也称为渲染流水线，是显示芯片内部处理图形信号相互独立的并行处理单元。
+
+CCProgram vs %{
+  precision highp float;//精确 高精度浮点 
+  //highp  – 32位浮点格式，适合用于顶点变换，但性能最慢。
+  //mediump  – 16位浮点格式，适用于纹理UV坐标和比highp 大约快两倍
+  //lowp – 10位的顶点格式，适合对颜色，照明计算和其它高性能操作，速度大约是highp 的4倍
+
+  // CC 所有内置的 Shader 变量都必须要要通过 #include 引入该变量的头文件
+  // 所有头文件都在 chunks 目录下
+  #include <cc-global>  //http://blog.sina.com.cn/s/blog_4aff14d50100y86y.html
+  #include <cc-local>
+
+  // 顶点Shader 从渲染管道里面获取哪些数据
+  // in 用在函数的参数中，表示这个参数是输入的，在函数中改变这个值，并不会影响对调用的函数产生副作用。（相当于C语言的传值），这个是函数参数默认的修饰符
+
+  in vec3 a_position;// 顶点坐标  // a_position 是笛卡尔坐标右手系，也是OpenGL的坐标系，原点在左下角，X轴正方向往右，Y轴正方向往上，Z轴正方向往外
+  in vec4 a_color;   // 顶点颜色，实际为对应节点的颜色
+  out vec4 v_color;  // 顶点 Shader 片段最后会输出的颜色值   // 在片元 Shader 片段中可以接收到这个参数名的值
+
+// 定义了一个宏，如果使用了纹理那么执行这之间的代码
+  #if USE_TEXTURE
+  in vec2 a_uv0; // 输入的纹理坐标  // a_uv0 是标准屏幕坐标系，即原点在左上角，X轴正方向往右，Y轴正方向往下
+  out vec2 v_uv0;// 输出的纹理坐标  // 在片元 Shader 片段中可以接收到这个参数名的值
+  #endif
+
+  void main () {// 内置变量说明 https://docs.cocos.com/creator3d/manual/zh/material-system/builtin-shader-variables.html
+    vec4 pos = vec4(a_position, 1);//局部坐标  Vec3(x, y, z) ==> Vec4(x, y, z, a)
+
+    #if CC_USE_MODEL /*如果使用了模型 针对3D */  //  cc_matWorld：本地空间转世界空间
+    pos = cc_matViewProj * cc_matWorld * pos;//如果是3D模型 模型的
+    #else
+    pos = cc_matViewProj * pos;// cc_matViewProj 视图投影矩阵 把局部坐标->投影坐标
+    #endif
+
+    #if USE_TEXTURE 
+    v_uv0 = a_uv0;//纹理坐标信息 输出到片元着色器上去用
+    #endif
+
+    v_color = a_color;//顶点的颜色也输出到片元着色器上去
+
+    gl_Position = pos;//最后的位置也输出到片元着色器上去
+  }
+}%
+
+// 顶点着色器的输出数据经过光栅化处理后，输入给片段着色器，而片段着色器的功能就是为正在光栅化的当前像素提供颜色。
+
+// 每个像素都会调用片段着色器。片段着色器的输入数据有如下3种方式：
+
+// Uniforms (对于单个绘图调用的每个像素保持相同的值，同上)
+
+// Textures (从像素pixels和纹元texels中读取的数据)
+
+// Varyings (从顶点着色器传递并插值的数据) //cocos Creator 2.3 的写法为：out  ps:Attribute 改为 in
+
+CCProgram fs %{
+  precision highp float;
+  // 这里引入了内置的chunks目录下的 alpha-test 头文件
+  #include <alpha-test>
+  #include <texture>
+
+ // 接收来自上方顶点 Shader 片段的输出参数 v_color
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+  // 接收来自上方顶点 Shader 片段的输出参数 v_uv0
+  // 顶点的坐标
+  in vec2 v_uv0;//纹理坐标
+
+   // uniform ：一致变量。在着色器执行期间一致变量的值是不变的
+  // 与const常量不同的是，这个值在编译时期是未知的是由着色器外部初始化的
+  // 一致变量在顶点着色器和片段着色器之间是共享的。它也只能在全局范围进行声明。
+  uniform sampler2D texture;//纹理像素在顶点着色器已经被存入显存里了。这里的texture 只是存一个索引。根据这个索引，找到具体的像素点
+  #endif
+
+  //图片的(0,0)位置一般在左上角，而OpenGL纹理坐标的(0,0)在左下角，这样y轴顺序相反
+
+  void main () {
+    vec4 o = vec4(1, 1, 1, 1);
+
+    #if USE_TEXTURE
+      CCTexture(texture, v_uv0, o);//https://www.cnblogs.com/psklf/p/5762308.html
+    #endif
+  // 纹理颜色 和 节点颜色进行混合得出最终颜色
+    o *= v_color;
+
+    // 这个方法来自 alpha-test 头文件
+    // 意思大概为，如果传入的参数vec4 类型的参数o的透明通道值小于传入来的 alphaThreshold 值时，会discard
+    // 使用discard会退出片段着色器，不执行后面的片段着色操作。片段也不会写入帧缓冲区。
+    ALPHA_TEST(o);
+
+    gl_FragColor = o;
+  }
+}%

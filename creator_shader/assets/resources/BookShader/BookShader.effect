@@ -1,0 +1,267 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_Position: {value: [1, 1,0, 0]}
+        u_Radius: {value: 1}
+        u_mouse: {value: [1.0, 1.0]}
+        u_Vague: {value: 1}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+ void main () {
+   mat4 mvp;
+  
+   mvp = cc_matViewProj;
+  
+   v_color = a_color;
+
+   gl_Position = mvp * vec4(a_position, 1);   
+   v_wp = cc_matWorld * vec4(a_position, 1);
+
+   // vec4 pos = vec4(a_position, 1);
+
+   //   #if CC_USE_MODEL
+   //   pos = cc_matViewProj * cc_matWorld * pos;
+   //   #else
+   //   pos = cc_matViewProj * pos;
+   //   #endif
+
+#if USE_TEXTURE
+   v_uv0 = a_uv0;
+#endif
+
+   //   v_color = a_color;
+
+   //   gl_Position = pos;
+ }
+
+}%
+
+
+CCProgram fs %{
+precision mediump float;
+
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1 {
+  vec4 u_Position;
+  vec2 u_mouse;
+  float u_Radius;
+  float u_time;
+  float u_Vague;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+
+#define resolution vec2(960.,640.)
+#define u_resolution resolution
+#define time u_time
+#define iResolution resolution
+#define iTime time
+
+#define fragColor gl_FragColor
+#define fragCoord gl_FragCoord
+#define iMouse u_mouse
+#define MYUV vec2 uv = vec2(1. - v_uv0.x,1.-v_uv0.y);
+#define PI 3.14159265358979323846
+
+ float box(in vec2 _st, in vec2 _pos,in vec2 _size){
+   vec2 ret = step(_pos,_st);
+   ret *= step(_st,_pos + _size);
+   return ret.x * ret.y;
+ }
+
+ float cross1(in vec2 _st, in vec2 _pos,in vec2 _size){
+   return  box(
+               _st,
+               vec2(_pos.x + _size.x / 3.,_pos.y),
+               vec2(_size.x / 3.,_size.y)
+               )
+     +
+     box(
+         _st,
+         vec2(_pos.x,_pos.y + _size.x / 3.),
+         vec2(_size.y,_size.x / 3.)
+         )
+     ;
+ }
+
+
+ vec2 rotate2D(vec2 _st, float _angle){
+   _st -= 0.5;
+   _st =  mat2(cos(_angle),-sin(_angle),
+               sin(_angle),cos(_angle)) * _st;
+   _st += 0.5;
+   return _st;
+ }
+
+ vec2 tile(vec2 _st, float _zoom){
+   _st *= _zoom;
+   return fract(_st);
+ }
+
+ float box(vec2 _st, vec2 _size, float _smoothEdges){
+   _size = vec2(0.5)-_size*0.5;
+   vec2 aa = vec2(_smoothEdges*0.5);
+   vec2 uv = smoothstep(_size,_size+aa,_st);
+   uv *= smoothstep(_size,_size+aa,vec2(1.0)-_st);
+   return uv.x*uv.y;
+ }
+
+ float random (vec2 st) {    //亂數範圍 [0,1]
+   return fract(sin(dot(st.xy,
+                        vec2(12.9898,78.233)))*
+                43758.5453123);
+ }
+
+ float circle(in vec2 _st, in float _radius){
+   vec2 l = _st-vec2(0.5);
+   return 1.-smoothstep(_radius-(_radius*0.01),
+                        _radius+(_radius*0.01),
+                        dot(l,l)*4.0);
+ }
+
+
+ vec2 brickTile(vec2 _st, float _zoom){
+   _st *= _zoom;
+
+   // Here is where the offset is happening
+   _st.x += step(1., mod(_st.y,2.0)) * -u_time;
+   vec2 temp = _st;
+   _st = fract(_st);
+   _st = rotate2D(_st,PI* -u_time * step(1., mod(temp.y,2.0)));
+   return _st; 
+ }
+
+ vec2 truchetPattern(in vec2 _st, in float _index){
+    _index = fract(((_index-0.5)*2.0));
+    if (_index > 0.75) {
+        _st = vec2(1.0) - _st;
+    } else if (_index > 0.5) {
+        _st = vec2(1.0-_st.x,_st.y);
+    } else if (_index > 0.25) {
+        _st = 1.0-vec2(1.0-_st.x,_st.y);
+    }
+    return _st;
+}
+ ////////////////////////////////////////////////////////////////////////////////////////
+ float hash1(vec2 p)			//亂數範圍 [-1,1]
+ {
+   p  = 50.0*fract( p*0.3183099 + vec2(0.71,0.113));
+   return -1.0+2.0*fract( p.x*p.y*(p.x+p.y) );
+ }
+
+ vec2 hash2( vec2 x )			//亂數範圍 [-1,1]
+ {
+   const vec2 k = vec2( 0.3183099, 0.3678794 );
+   x = x*k + k.yx;
+   return -1.0 + 2.0*fract( 16.0 * k*fract( x.x*x.y*(x.x+x.y)) );
+ }
+
+ float gnoise( in vec2 p )		//亂數範圍 [-1,1]
+ {
+   vec2 i = floor( p );
+   vec2 f = fract( p );
+	
+   vec2 u = f*f*(3.0-2.0*f);
+
+   return mix( mix( dot( hash2( i + vec2(0.0,0.0) ), f - vec2(0.0,0.0) ), 
+                    dot( hash2( i + vec2(1.0,0.0) ), f - vec2(1.0,0.0) ), u.x),
+               mix( dot( hash2( i + vec2(0.0,1.0) ), f - vec2(0.0,1.0) ), 
+                    dot( hash2( i + vec2(1.0,1.0) ), f - vec2(1.0,1.0) ), u.x), u.y);}
+
+ // 2D Noise based on Morgan McGuire @morgan3d
+ // https://www.shadertoy.com/view/4dS3Wd
+ float noise (in vec2 st) {
+   vec2 i = floor(st);
+   vec2 f = fract(st);
+
+   // Four corners in 2D of a tile
+   float a = random(i);
+   float b = random(i + vec2(1.0, 0.0));
+   float c = random(i + vec2(0.0, 1.0));
+   float d = random(i + vec2(1.0, 1.0));
+
+   // Smooth Interpolation
+
+   // Cubic Hermine Curve.  Same as SmoothStep()
+   vec2 u = f*f*(3.0-2.0*f);
+   // u = smoothstep(0.,1.,f);
+
+   // Mix 4 coorners percentages
+   return mix(a, b, u.x) +
+     (c - a)* u.y * (1.0 - u.x) +
+     (d - b) * u.x * u.y;
+ }
+
+ float Remap(float a, float b, float c, float d, float t) {
+   return ((t-a)/(b-a))*(d-c)+c;
+ }
+
+
+ void main() {
+   // vec2 uv = fragCoord.xy/iResolution.xy;
+
+   MYUV;
+   float t = u_time;
+   uv.y += t * 0.25;
+   uv.x *= resolution.x / resolution.y;
+   vec2 aspect = vec2(2.,1.);
+   uv *= 5. * aspect;
+   vec2 gv = fract(uv);
+   gv -= .5;
+
+   vec2 dropPosOff = vec2(0.,sin(t+sin(t+sin(t)*0.5))*0.45);
+   float drop = smoothstep(.065,.06,length((gv - dropPosOff)/aspect));
+
+   //   这里我们希望生成多个水珠拖尾所以我们把dropTrailPos.y乘8然后frac
+   //	还是一样因为之前给dropTrailPos.y乘于 了8所以我们需要除以8
+   //	然后-0.03是因为我们得到的是一个半圆 
+
+   vec2 dropTrailPos =  vec2(gv.x,fract(gv.y * 8.)/8.-.05);
+   float dropTrail = smoothstep(0.035, 0.03, length(dropTrailPos/aspect));
+   // dropTrail *= smoothstep(-.05,.05,dropTrailPos.y);
+   dropTrail *= step(dropTrailPos.y,(gv-dropPosOff).y);
+   dropTrail *= smoothstep(0.5, dropPosOff.y, gv.y);
+
+   vec3 col = vec3(.0);
+   col += drop;
+   col += dropTrail;
+
+   if (gv.x > 0.48 || gv.y > 0.49) {
+     col = vec3(1., 0., 0.);
+   }
+   gl_FragColor = vec4(col, 1.0);
+ }
+}%

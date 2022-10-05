@@ -1,0 +1,204 @@
+
+CCEffect %{
+techniques: 
+  - passes: 
+      - vert: vs
+        frag: fs
+        blendState: 
+          targets: 
+            - blend: true
+        rasterizerState: 
+          cullMode: none
+        properties: 
+          texture: 
+            value: white
+          u_float_11: 
+            value: 0.300
+          masktex: 
+            value: white
+          rongjie: 
+            value: 2.000
+          u_float_62: 
+            value: 1
+          u_float_61: 
+            value: 0.050
+          linecolor: 
+            value: 
+              - 1.000
+              - 1.000
+              - 1.000
+              - 1.000
+            inspector: 
+              type: color
+          linetex: 
+            value: white
+          lineglow: 
+            value: 1.000
+}%
+        
+CCProgram vs %{
+    precision highp float;
+    #include <cc-global>
+    #include <cc-local>
+
+    in vec3 a_position;
+    #if USE_TEXTURE
+        in vec2 a_uv0;
+        out vec2 v_uv0;
+    #endif  
+    in vec4 a_color;
+    out vec4 v_color;
+
+    void main () {
+        mat4 mvp;
+        #if CC_USE_MODEL
+            mvp = cc_matViewProj * cc_matWorld;
+        #else
+            mvp = cc_matViewProj;
+        #endif
+
+        #if USE_TEXTURE
+            v_uv0 = a_uv0;
+        #endif
+
+        #if USE_TINT
+            // clear warning for spine
+        #endif
+
+        v_color = a_color;
+        gl_Position = mvp * vec4(a_position, 1);
+    }
+}%
+        
+CCProgram fs %{
+    precision highp float;
+    #include <cc-global>
+    #if USE_TEXTURE
+        in vec2 v_uv0;
+        uniform sampler2D texture;
+    #endif
+    in vec4 v_color;
+    uniform Constant {
+		vec4 linecolor;
+		float u_float_11;
+		float rongjie;
+		float u_float_62;
+		float u_float_61;
+		float lineglow;
+	};
+	uniform sampler2D masktex;
+	uniform sampler2D linetex;
+
+    vec2 c_UV0_main_9() {
+	    return v_uv0;
+	}
+	vec4 c_TextureToRGBA_main_6(vec2 UV, sampler2D Texture) {
+	    return texture2D(Texture, UV);
+	}
+	vec4 c_TextureToRGBA_main_13(vec2 UV, sampler2D Texture) {
+	    return texture2D(Texture, UV);
+	}
+	float c_Exp21_main_15(float Input) {
+	    return exp2(Input);
+	}
+	float c_Pow1_main_14(float InputA, float InputB) {
+	    return pow(InputA, InputB);
+	}
+	float c_Step1_main_10(float Input, float Edge) {
+	    return step(Edge, Input);
+	}
+	float c_Mul1_main_8(float InputA, float InputB) {
+	    return (InputA * InputB);
+	}
+	vec4 c_4To4_main_7(float InputA, float InputB, float InputC, float InputD) {
+	    return vec4(InputA, InputB, InputC, InputD);
+	}
+	float c_Step1_main_60(float Input, float Edge) {
+	    return step(Edge, Input);
+	}
+	float c_Sub1_main_63(float InputA, float InputB) {
+	    return (InputA - InputB);
+	}
+	vec4 c_Split4_main_71(vec4 Input) {
+	    return Input;
+	}
+	float c_Mul1_main_74(float InputA, float InputB) {
+	    return (InputA * InputB);
+	}
+	vec4 c_1To4_main_57(float Input) {
+	    return vec4(Input);
+	}
+	vec4 c_TextureToRGBA_main_17(vec2 UV, sampler2D Texture) {
+	    return texture2D(Texture, UV);
+	}
+	float c_Mul1_main_24(float InputA, float InputB) {
+	    return (InputA * InputB);
+	}
+	float c_Mul1_main_29(float InputA, float InputB) {
+	    return (InputA * InputB);
+	}
+	vec4 c_4To4_main_23(float InputA, float InputB, float InputC, float InputD) {
+	    return vec4(InputA, InputB, InputC, InputD);
+	}
+	vec4 c_31To4_main_72(vec3 InputA, float InputB) {
+	    return vec4(InputA, InputB);
+	}
+	vec4 c_Mul4_main_70(vec4 InputA, vec4 InputB) {
+	    return (InputA * InputB);
+	}
+	vec4 c_1To4_main_76(float Input) {
+	    return vec4(Input);
+	}
+	vec4 c_Pow4_main_75(vec4 InputA, vec4 InputB) {
+	    return pow(InputA, InputB);
+	}
+	vec4 c_Mul4_main_59(vec4 InputA, vec4 InputB) {
+	    return (InputA * InputB);
+	}
+	vec4 c_Add4_main_21(vec4 InputA, vec4 InputB) {
+	    return (InputA + InputB);
+	}
+	vec4 c_Output_main_1(vec4 Color) { 
+	    return Color; 
+	}
+	void main()                                    
+	{                                              
+	    vec2 out_UV_UV0_9 = c_UV0_main_9();
+	    vec4 out_Color_TextureToRGBA_6 = c_TextureToRGBA_main_6(out_UV_UV0_9, texture);
+	    float out_r_TextureToRGBA_6 = out_Color_TextureToRGBA_6.r;
+	    float out_g_TextureToRGBA_6 = out_Color_TextureToRGBA_6.g;
+	    float out_b_TextureToRGBA_6 = out_Color_TextureToRGBA_6.b;
+	    float out_a_TextureToRGBA_6 = out_Color_TextureToRGBA_6.a;
+	    vec4 out_Color_TextureToRGBA_13 = c_TextureToRGBA_main_13(v_uv0, masktex);
+	    float out_r_TextureToRGBA_13 = out_Color_TextureToRGBA_13.r;
+	    float out_Output_Exp21_15 = c_Exp21_main_15(rongjie);
+	    float out_Output_Pow1_14 = c_Pow1_main_14(out_r_TextureToRGBA_13, out_Output_Exp21_15);
+	    float out_Output_Step1_10 = c_Step1_main_10(0.300, out_Output_Pow1_14);
+	    float out_Output_Mul1_8 = c_Mul1_main_8(out_a_TextureToRGBA_6, out_Output_Step1_10);
+	    vec4 out_Output_4To4_7 = c_4To4_main_7(out_r_TextureToRGBA_6, out_g_TextureToRGBA_6, out_b_TextureToRGBA_6, out_Output_Mul1_8);
+	    float out_Output_Step1_60 = c_Step1_main_60(0.050, out_Output_Pow1_14);
+	    float out_Output_Sub1_63 = c_Sub1_main_63(1.000, out_Output_Step1_60);
+	    vec4 out_Output_Split4_71 = c_Split4_main_71(linecolor);
+	    float out_w_Split4_71 = out_Output_Split4_71.w;
+	    vec3 out_xyz_Split4_71 = out_Output_Split4_71.xyz;
+	    float out_Output_Mul1_74 = c_Mul1_main_74(out_w_Split4_71, out_Output_Sub1_63);
+	    vec4 out_Output_1To4_57 = c_1To4_main_57(out_Output_Mul1_74);
+	    vec4 out_Color_TextureToRGBA_17 = c_TextureToRGBA_main_17(v_uv0, linetex);
+	    float out_r_TextureToRGBA_17 = out_Color_TextureToRGBA_17.r;
+	    float out_g_TextureToRGBA_17 = out_Color_TextureToRGBA_17.g;
+	    float out_b_TextureToRGBA_17 = out_Color_TextureToRGBA_17.b;
+	    float out_a_TextureToRGBA_17 = out_Color_TextureToRGBA_17.a;
+	    float out_Output_Mul1_24 = c_Mul1_main_24(out_a_TextureToRGBA_17, out_Output_Step1_10);
+	    float out_Output_Mul1_29 = c_Mul1_main_29(out_Output_Mul1_24, out_a_TextureToRGBA_6);
+	    vec4 out_Output_4To4_23 = c_4To4_main_23(out_r_TextureToRGBA_17, out_g_TextureToRGBA_17, out_b_TextureToRGBA_17, out_Output_Mul1_29);
+	    vec4 out_Output_31To4_72 = c_31To4_main_72(out_xyz_Split4_71, 0.0);
+	    vec4 out_Output_Mul4_70 = c_Mul4_main_70(out_Output_31To4_72, out_Output_4To4_23);
+	    vec4 out_Output_1To4_76 = c_1To4_main_76(lineglow);
+	    vec4 out_Output_Pow4_75 = c_Pow4_main_75(out_Output_Mul4_70, out_Output_1To4_76);
+	    vec4 out_Output_Mul4_59 = c_Mul4_main_59(out_Output_Pow4_75, out_Output_1To4_57);
+	    vec4 out_Output_Add4_21 = c_Add4_main_21(out_Output_Mul4_59, out_Output_4To4_7);
+	    gl_FragColor = c_Output_main_1(out_Output_Add4_21);
+	}                                              
+	
+}%
+        

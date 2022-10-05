@@ -1,0 +1,130 @@
+
+CCEffect %{
+techniques: 
+  - passes: 
+      - vert: vs
+        frag: fs
+        blendState: 
+          targets: 
+            - blend: true
+        rasterizerState: 
+          cullMode: none
+        properties: 
+          texture: 
+            value: white
+          Intensity: 
+            value: 1.079
+          Pos: 
+            value: 
+              - 0.500
+              - 0.500
+          color: 
+            value: 
+              - 1.000
+              - 1.000
+              - 1.000
+              - 1.000
+            inspector: 
+              type: color
+}%
+        
+CCProgram vs %{
+    precision highp float;
+    #include <cc-global>
+    #include <cc-local>
+
+    in vec3 a_position;
+    #if USE_TEXTURE
+        in vec2 a_uv0;
+        out vec2 v_uv0;
+    #endif  
+    in vec4 a_color;
+    out vec4 v_color;
+
+    void main () {
+        mat4 mvp;
+        #if CC_USE_MODEL
+            mvp = cc_matViewProj * cc_matWorld;
+        #else
+            mvp = cc_matViewProj;
+        #endif
+
+        #if USE_TEXTURE
+            v_uv0 = a_uv0;
+        #endif
+
+        #if USE_TINT
+            // clear warning for spine
+        #endif
+
+        v_color = a_color;
+        gl_Position = mvp * vec4(a_position, 1);
+    }
+}%
+        
+CCProgram fs %{
+    precision highp float;
+    #include <cc-global>
+    #if USE_TEXTURE
+        in vec2 v_uv0;
+        uniform sampler2D texture;
+    #endif
+    in vec4 v_color;
+    uniform Constant {
+		vec4 color;
+		vec2 Pos;
+		float Intensity;
+	};
+
+    vec2 c_UV0_main_5() {
+	    return v_uv0;
+	}
+	float c_Distance2_main_6(vec2 InputA, vec2 InputB) {
+	    return distance(InputA, InputB);
+	}
+	float c_Mul1_main_8(float InputA, float InputB) {
+	    return (InputA * InputB);
+	}
+	float c_Abs1_main_9(float Input) {
+	    return abs(Input);
+	}
+	float c_Negate1_main_22(float Input) {
+	    return (-Input);
+	}
+	float c_Exp1_main_11(float Input) {
+	    return exp(Input);
+	}
+	vec4 c_TextureToRGBA_main_4(vec2 UV, sampler2D Texture) {
+	    return texture2D(Texture, UV);
+	}
+	vec4 c_Split4_main_21(vec4 Input) {
+	    return Input;
+	}
+	vec4 c_31To4_main_20(vec3 InputA, float InputB) {
+	    return vec4(InputA, InputB);
+	}
+	vec4 c_Mix4_main_13(vec4 InputA, vec4 InputB, float Percent) {
+	    return mix(InputA, InputB, Percent);
+	}
+	vec4 c_Output_main_1(vec4 Color) { 
+	    return Color; 
+	}
+	void main()                                    
+	{                                              
+	    vec2 out_UV_UV0_5 = c_UV0_main_5();
+	    float out_Output_Distance2_6 = c_Distance2_main_6(out_UV_UV0_5, Pos);
+	    float out_Output_Mul1_8 = c_Mul1_main_8(Intensity, out_Output_Distance2_6);
+	    float out_Output_Abs1_9 = c_Abs1_main_9(out_Output_Mul1_8);
+	    float out_Output_Negate1_22 = c_Negate1_main_22(out_Output_Abs1_9);
+	    float out_Output_Exp1_11 = c_Exp1_main_11(out_Output_Negate1_22);
+	    vec4 out_Color_TextureToRGBA_4 = c_TextureToRGBA_main_4(v_uv0, texture);
+	    float out_a_TextureToRGBA_4 = out_Color_TextureToRGBA_4.a;
+	    vec4 out_Output_Split4_21 = c_Split4_main_21(color);
+	    vec3 out_xyz_Split4_21 = out_Output_Split4_21.xyz;
+	    vec4 out_Output_31To4_20 = c_31To4_main_20(out_xyz_Split4_21, out_a_TextureToRGBA_4);
+	    vec4 out_Output_Mix4_13 = c_Mix4_main_13(out_Output_31To4_20, out_Color_TextureToRGBA_4, out_Output_Exp1_11);
+	    gl_FragColor = c_Output_main_1(out_Output_Mix4_13);
+	}                                              
+	
+}%
+        

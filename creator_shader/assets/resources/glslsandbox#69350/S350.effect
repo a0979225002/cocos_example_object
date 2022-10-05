@@ -1,0 +1,262 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_Position: {value: [1, 1,0, 0]}
+        u_Radius: {value: 1}
+        u_Vague: {value: 1}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+void main () {
+  mat4 mvp;
+  
+  mvp = cc_matViewProj;
+  
+  v_color = a_color;
+
+  gl_Position = mvp * vec4(a_position, 1);   
+  v_wp = cc_matWorld * vec4(a_position, 1);
+
+  // vec4 pos = vec4(a_position, 1);
+
+  //   #if CC_USE_MODEL
+  //   pos = cc_matViewProj * cc_matWorld * pos;
+  //   #else
+  //   pos = cc_matViewProj * pos;
+  //   #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+  //   v_color = a_color;
+
+  //   gl_Position = pos;
+}
+
+}%
+
+
+CCProgram fs %{
+precision mediump float;
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1
+{
+  vec4 u_Position;
+  float u_Radius;
+  float u_time;
+  float u_Vague;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+#define resolution vec2(960.,640.)
+#define u_resolution resolution
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+float random (vec2 st) {		//亂數範圍 [0,1]
+    return fract(sin(dot(st.xy,
+                         vec2(12.9898,78.233)))*
+        43758.5453123);
+}
+
+
+float Gaussian (vec2 st, float mean, float std) {	
+	float white=random(st);		//範圍調整成 [0,1]，因為log不宜給負數
+	//float white=hash1(st)*0.5+0.5;		//範圍調整成 [0,1]，因為log不宜給負數
+	float PI=3.14159;
+	return  sqrt( -2.0 * log(white) ) * cos( 2.0* PI * white) * std + mean; //轉換公式待檢驗
+}
+////////////////////////////////////////////////////////////////////////////////////////
+float hash1(vec2 p)			//亂數範圍 [-1,1]
+{
+    p  = 50.0*fract( p*0.3183099 + vec2(0.71,0.113));
+    return -1.0+2.0*fract( p.x*p.y*(p.x+p.y) );
+}
+
+vec2 hash2( vec2 x )			//亂數範圍 [-1,1]
+{
+    const vec2 k = vec2( 0.3183099, 0.3678794 );
+    x = x*k + k.yx;
+    return -1.0 + 2.0*fract( 16.0 * k*fract( x.x*x.y*(x.x+x.y)) );
+}
+float gnoise( in vec2 p )		//亂數範圍 [-1,1]
+{
+    vec2 i = floor( p );
+    vec2 f = fract( p );
+	
+    vec2 u = f*f*(3.0-2.0*f);
+
+    return mix( mix( dot( hash2( i + vec2(0.0,0.0) ), f - vec2(0.0,0.0) ), 
+                     	    dot( hash2( i + vec2(1.0,0.0) ), f - vec2(1.0,0.0) ), u.x),
+                	     mix( dot( hash2( i + vec2(0.0,1.0) ), f - vec2(0.0,1.0) ), 
+                     	    dot( hash2( i + vec2(1.0,1.0) ), f - vec2(1.0,1.0) ), u.x), u.y);}
+
+float noise( in vec2 p )		//亂數範圍 [-1,1]
+{
+  // return 0.;
+  return gnoise(p);	//gradient noise
+}
+float fbm(in vec2 uv)		//亂數範圍 [-1,1]
+{
+	float f;												//fbm - fractal noise (4 octaves)
+	mat2 m = mat2( 1.6,  1.2, -1.2,  1.6 );
+	f  = 1.0000*noise( uv-0.1*u_time ); uv = m*uv;		  
+	f += 0.500*noise( uv-0.1*u_time ); uv = m*uv;
+	f += 0.250*noise( uv ); uv = m*uv;
+	f += 0.125*noise( uv); uv = m*uv;
+	return f;
+}
+////////////////////////////////////////////////////////////////////////////////////////
+//範圍[-1,1]-----------
+float noise_sum(vec2 p){
+    float f = 0.0;
+    p = p * 4.0;
+	f += 1.0000 * noise(p); p = 2.0 * p;
+	f += 0.5000 * noise(p); p = 2.0 * p;
+	f += 0.2500 * noise(p); p = 2.0 * p;
+	f += 0.1250 * noise(p); p = 2.0 * p;
+	f += 0.0625 * noise(p); p = 2.0 * p;
+    return f;
+}
+float noise_sum_abs(vec2 p){
+    float f = 0.0;
+    p = p * 3.0;
+f += 1.0000 * abs(noise(p)); p = 2.0 * p;
+    	f += 0.5000 * abs(noise(p)); p = 2.0 * p;
+	f += 0.2500 * abs(noise(p)); p = 2.0 * p;
+	f += 0.1250 * abs(noise(p)); p = 2.0 * p;
+	f += 0.0625 * abs(noise(p)); p = 2.0 * p;
+    return f;
+}
+float noise_sum_abs_sin(vec2 p){
+    float f = noise_sum_abs(p);
+    f = sin(f * 2.5 + p.x * 5.0 - 1.5);
+    return f ;
+}
+vec3 draw_simple(float f){
+    f = f * 0.5 + 0.5;
+    return f * vec3(25.0/255.0, 161.0/255.0, 245.0/255.0);
+}
+vec3 draw_cloud(float f){
+    f = f * 0.5 + 0.5;
+    return mix(	vec3(8.0/255.0, 65.0/255.0, 82.0/255.0),
+              		vec3(178.0/255.0, 161.0/255.0, 205.0/255.0),
+               		f*f);
+}
+vec3 draw_fire(float f){
+    f = f * 0.5 + 0.5;
+    return mix(	vec3(131.0/255.0, 8.0/255.0, 0.0/255.0),
+              		vec3(204.0/255.0, 194.0/255.0, 56.0/255.0),
+               		pow(f, 3.));
+}
+vec3 draw_marble(float f){
+    f = f * 0.5 + 0.5;
+    return mix(	vec3(31.0/255.0, 14.0/255.0, 4.0/255.0),
+              		vec3(172.0/255.0, 153.0/255.0, 138.0/255.0),
+               		1.0 - pow(f, 3.));
+}
+
+
+float glow(float d, float str, float thickness){
+    return thickness / pow(d, str);
+}
+////////////////////////////////////////////////////////////////////////////////////////
+
+mat2 rotate2d(float _angle){
+    return mat2(cos(_angle),-sin(_angle),
+                sin(_angle),cos(_angle));
+}
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+void main() {
+    vec2 uv = gl_FragCoord.xy/u_resolution.xy;
+    uv.x *= u_resolution.x/u_resolution.y;
+    uv= uv*2.0-1.0;
+    vec2 st = gl_FragCoord.xy/u_resolution.xy;
+    st.x *= u_resolution.x/u_resolution.y;
+    st*=1.0;
+    
+    /*vec2 uvs=uv*16.0;
+    vec2 ipos = floor(uvs);  // get the integer coords
+    vec2 fpos = fract(uvs);  // get the fractional coords
+    vec2 new_uv;
+    
+    new_uv= fpos*2.0-1.0;
+    new_uv*= rotate2d(random(ipos)*3.14159+u_time);		//以亂數增加個體變化*/
+
+    vec3 x;
+
+    
+    //陰晴圓缺
+    float pi=3.14159;
+    float theta=2.0*pi*u_time/2.144;
+    vec2 point=vec2(sin(theta), cos(theta));
+    float dir= dot(point, normalize(uv));
+
+    
+    //定義圓環
+    float dist = length(uv);
+    float circle_dist = abs(dist-0.512);								//光環大小
+    x = vec3(noise_sum(st*.4+.245*vec2(sin(theta*0.25),cos(theta*0.25))));
+    //動態呼吸
+    float breathing=sin(u_time*2.0*pi/5.0)*0.5+0.5;						//option1
+    //float breathing=(exp(sin(u_time*2.0*pi/5.0)) - 0.36787944)*0.42545906412; 			//option2
+    float strength =(0.2*breathing*dir+0.180);			//[0.2~0.3]			//光暈強度加上動態時間營造呼吸感
+    float thickness=(0.5*breathing+0.084);			//[0.1~0.2]			//光環厚度 營造呼吸感
+    float glow_circle = glow(circle_dist, strength, thickness);
+    //gl_FragColor = vec4(vec3(glow_circle)*vec3(1.0, 0.5, 0.25),1.0);
+    
+    vec3 col1 = vec3(0.112,0.571,0.980); //vec3(0., 0.2, 0.5)
+	vec3 col2 = vec3(.1, .1, .1)*5.520;
+    gl_FragColor = vec4( mix(x, col2, glow_circle*0.5+0.5), 1.0 ); //noise[-1,1] —> [0,1]
+
+    /*vec3 col1 = vec3(0.); //vec3(0., 0.2, 0.5)
+    vec3 col2 = vec3(1.0, 1.0, 1.0)*1.0;
+	gl_FragColor = vec4( mix(col1, col2, x.x*0.5+0.5), 1.0 ); //noise[-1,1] —> [0,1]*/
+             
+    /*定義框
+    float squareUV =  square(-new_uv, 0.2+0.2*random(ipos));   //以亂數增加個體變化
+    float glowSquare = glow(squareUV, 0.644, 0.104);  //第一種寫法 by thickness/pow(dist, strength)
+    gl_FragColor = vec4(vec3(glowSquare),1.0);*/
+
+
+}
+
+// void main() {
+//   gl_FragColor = vec4(1.);
+// }
+}%

@@ -1,0 +1,190 @@
+
+
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_Position: {value: [1, 1,0, 0]}
+        u_Radius: {value: 1}
+        u_mouse: {value: [1.0, 1.0]}
+        u_Vague: {value: 1}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+ void main () {
+   mat4 mvp;
+  
+   mvp = cc_matViewProj;
+  
+   v_color = a_color;
+
+   gl_Position = mvp * vec4(a_position, 1);   
+   v_wp = cc_matWorld * vec4(a_position, 1);
+
+   // vec4 pos = vec4(a_position, 1);
+
+   //   #if CC_USE_MODEL
+   //   pos = cc_matViewProj * cc_matWorld * pos;
+   //   #else
+   //   pos = cc_matViewProj * pos;
+   //   #endif
+
+#if USE_TEXTURE
+   v_uv0 = a_uv0;
+#endif
+
+   //   v_color = a_color;
+
+   //   gl_Position = pos;
+ }
+
+}%
+
+
+CCProgram fs %{
+precision mediump float;
+
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1 {
+  vec4 u_Position;
+  vec2 u_mouse;
+  float u_Radius;
+  float u_time;
+  float u_Vague;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+
+#define resolution vec2(960.,640.)
+#define u_resolution resolution
+#define time u_time
+#define iResolution resolution
+#define iTime time
+
+#define fragColor gl_FragColor
+#define fragCoord gl_FragCoord
+#define iMouse u_mouse
+#define MYUV vec2 uv = vec2(1. - v_uv0.x,v_uv0.y);vec2 st = uv;
+#define PI 3.14159265358979323846
+
+ void main() {
+      // Normalized pixel coordinates (from 0 to 1)
+      MYUV;
+
+      vec2 offset1,offset2,offset3,offset4,offset5,offset6,offset7,offset8,offset9;
+      offset1 = vec2(-1.,-1.);
+      offset2 = vec2(0.,-1.);
+      offset3 = vec2(1.,-1.);
+
+      offset4 = vec2(-1.,0.);
+      offset5 = vec2(0.,0.);
+      offset6 = vec2(1.,0.);
+
+      offset7 = vec2(-1.,1.);
+      offset8 = vec2(0.,1.);
+      offset9 = vec2(1.,1.);
+
+
+      float lightScale = .5;
+      float kernelVal1, kernelVal2, kernelVal3, kernelVal4, kernelVal5, kernelVal6, kernelVal7, kernelVal8, kernelVal9;
+
+      #if PING_HUA
+      // 平滑过渡
+      kernelVal1 = 1.;
+      kernelVal2 = 1.;
+      kernelVal3 = 1.;
+      kernelVal4 = 1.;
+      kernelVal5 = 1.;
+      kernelVal6 = 1.;
+      kernelVal7 = 1.;
+      kernelVal8 = 1.;
+      kernelVal9 = 1.;
+      lightScale = 1. / 9.;
+      #elif BIAN_YUAN_JIAN_CE
+      // 边缘检测
+      kernelVal1 = 0.;
+      kernelVal2 = 1.;
+      kernelVal3 = 0.;
+      kernelVal4 = 1.;
+      kernelVal5 = -4.;
+      kernelVal6 = 1.;
+      kernelVal7 = 0.;
+      kernelVal8 = 1.;
+      kernelVal9 = 0.;
+      lightScale = 1. * 10.;
+
+      #elif FU_DIAO
+      //浮雕
+      kernelVal1 = 2.;
+      kernelVal2 = 0.;
+      kernelVal3 = 2.;
+      kernelVal4 = 0.;
+      kernelVal5 = 0.;
+      kernelVal6 = 0.;
+      kernelVal7 = 3.;
+      kernelVal8 = 0.;
+      kernelVal9 = -6.;
+      lightScale = 1. * 1.;
+
+      #else
+      //高斯模糊
+      kernelVal1 = 1.326;
+      kernelVal2 = 1.774;
+      kernelVal3 = 1.515;
+      kernelVal4 = 2.839;
+      kernelVal5 = 3.694;
+      kernelVal6 = 3.076;
+      kernelVal7 = 3.221;
+      kernelVal8 = 4.141;
+      kernelVal9 = 3.410;
+      lightScale = 1. * .05;
+      #endif
+
+      vec4 color =
+        texture2D(texture, uv + offset1 / iResolution.xy) * kernelVal1 +
+        texture2D(texture, uv + offset2 / iResolution.xy) * kernelVal2 +
+        texture2D(texture, uv + offset3 / iResolution.xy) * kernelVal3 +
+        texture2D(texture, uv + offset4 / iResolution.xy) * kernelVal4 +
+        texture2D(texture, uv + offset5 / iResolution.xy) * kernelVal5 +
+        texture2D(texture, uv + offset6 / iResolution.xy) * kernelVal6 +
+        texture2D(texture, uv + offset7 / iResolution.xy) * kernelVal7 +
+        texture2D(texture, uv + offset8 / iResolution.xy) * kernelVal8 +
+        texture2D(texture, uv + offset9 / iResolution.xy) * kernelVal9;
+
+      color *= lightScale;
+      gl_FragColor = vec4(color.xyz,1.);
+
+      // gl_FragColor = texture2D(texture,uv);
+   }
+}%

@@ -1,0 +1,68 @@
+// 
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+}%
+
+CCProgram vs %{
+
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+#if USE_TINT
+#endif
+
+in vec3 a_position;
+in vec2 a_uv0;
+out vec2 v_uv0;
+
+in vec4 a_color;
+out vec4 v_color;
+
+void main () {
+  mat4 mvp;
+  #if CC_USE_MODEL
+    mvp = cc_matViewProj * cc_matWorld;
+  #else
+    mvp = cc_matViewProj;
+  #endif
+  v_uv0 = a_uv0;
+  v_color = a_color;
+  gl_Position = mvp * vec4(a_position, 1);
+}
+
+}%
+
+CCProgram fs %{
+
+precision highp float;
+
+uniform sampler2D texture;
+
+#include <cc-global>
+
+in vec2 v_uv0;
+in vec4 v_color;
+
+float pixelateIt (float uv, float size) {
+    return (uv - mod(uv,size)) + (size / 2.0);
+}
+
+void main () {
+    vec2 c = v_uv0;
+    c.x = pixelateIt(c.x, 0.01);
+    c.y = pixelateIt(c.y, 0.01); 
+    gl_FragColor = texture2D(texture, c);
+}
+}%

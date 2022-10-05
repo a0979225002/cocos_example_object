@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "uv",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "a75c7b24-4f81-4c67-9be7-448681354f2d"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "time": 0,
+        "speed": 1.2
+      },
+      "defines": {
+        "USE_TEXTURE": true,
+        "USE_ALPHA_TEST": true
+      }
+    }
+  }
+}

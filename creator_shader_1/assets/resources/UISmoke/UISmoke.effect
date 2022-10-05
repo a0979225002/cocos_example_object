@@ -1,0 +1,162 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_mouse: {value: [1.0, 1.0]}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+ void main () {
+   mat4 mvp;
+   mvp = cc_matViewProj;
+   v_color = a_color;
+   gl_Position = mvp * vec4(a_position, 1);
+   v_wp = cc_matWorld * vec4(a_position, 1);
+
+   v_uv0 = a_uv0;
+ }
+
+}%
+
+
+CCProgram fs %{
+precision mediump float;
+
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1 {
+  vec2 u_mouse;
+  float u_time;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+
+#define resolution vec2(960.,640.)
+#define u_resolution resolution
+#define time u_time
+#define iResolution resolution
+#define iTime time
+
+#define fragColor gl_FragColor
+#define fragCoord gl_FragCoord
+#define iMouse u_mouse
+#define PI 3.14159265358979323846
+#define MYUV vec2 uv = vec2(1. - v_uv0.x,v_uv0.y);vec2 st = uv;
+
+ float plot(vec2 st, float pct){
+   return  smoothstep( pct-0.02, pct, st.y) -
+     smoothstep( pct, pct+0.02, st.y);
+ }
+float random (in vec2 st) {
+    return fract(sin(dot(st.xy,
+                         vec2(12.9898,78.233)))*
+        43758.5453123);
+}
+
+// Based on Morgan McGuire @morgan3d
+// https://www.shadertoy.com/view/4dS3Wd
+float noise (in vec2 st) {
+    vec2 i = floor(st);
+    vec2 f = fract(st);
+
+    // Four corners in 2D of a tile
+    float a = random(i);
+    float b = random(i + vec2(1.0, 0.0));
+    float c = random(i + vec2(0.0, 1.0));
+    float d = random(i + vec2(1.0, 1.0));
+
+    vec2 u = f * f * (3.0 - 2.0 * f);
+
+    return mix(a, b, u.x) +
+            (c - a)* u.y * (1.0 - u.x) +
+            (d - b) * u.x * u.y;
+}
+
+#define OCTAVES 5
+float fbm (in vec2 st) {
+    // Initial values
+    float value = 0.0;
+    float amplitude = .5;
+    float frequency = 0.;
+    //
+    // Loop of octaves
+    for (int i = 0; i < OCTAVES; i++) {
+      value += amplitude * noise(st);
+        st *= 2.;
+        amplitude *= .5;
+    }
+    return value;
+}
+ float Remap(float a, float b, float c, float d, float t) {
+   return ((t-a)/(b-a))*(d-c)+c;
+ }
+
+float fbm11( in vec2 st ){
+  return texture2D(texture2,st).x;
+}
+void main() {
+  MYUV;
+
+    vec3 color = vec3(0.0);
+
+    float uvoff = noise(vec2(0.,u_time));
+    uvoff = Remap(0.,1.,-1.,1.,uvoff);
+
+    vec2 fbmuv = vec2(uv.x,uv.y - .8);
+    color += fbm(fbmuv * 4. +fbm(fbmuv*4.+vec2(0.,u_time)));
+    // color += fbm11(uv * 15.+ vec2(uvoff * .3,time * .3));
+    // color += fbm11(uv * (sin(u_time)*.5+.8));
+
+    color *= smoothstep(-.3,.8,uv.y);
+    // color *= min(color,.7);
+    // color = normalize(color);
+
+    vec4 tex = texture2D(texture, uv + vec2(0.,color.x * .05));
+    tex = texture2D(texture, uv + vec2(0.,0.));
+
+    // color.b = 0.;
+    vec3 cl = normalize(vec3(253,100,13));
+    color *= cl;
+    #if SHOW_TEX
+    vec3 oldcolor = color;
+    color = tex.xyz;
+    // color -= oldcolor * .2;
+    color = mix(color,oldcolor,oldcolor.x );
+    // color = mix(vec3(1.,1.,0.),color,oldcolor.x * .2);
+
+    // color *= smoothstep(.9,.7,uv.y);
+    #endif
+
+    gl_FragColor = vec4(color,tex.a);
+}
+}%

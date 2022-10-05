@@ -1,0 +1,128 @@
+
+CCEffect %{
+techniques: 
+  - passes: 
+      - vert: vs
+        frag: fs
+        blendState: 
+          targets: 
+            - blend: true
+        rasterizerState: 
+          cullMode: none
+        properties: 
+          texture: 
+            value: white
+          Color: 
+            value: 
+              - 0.000
+              - 0.000
+              - 0.000
+              - 1.000
+            inspector: 
+              type: color
+          Offset: 
+            value: 
+              - 0.05
+              - 0.01
+}%
+        
+CCProgram vs %{
+    precision highp float;
+    #include <cc-global>
+    #include <cc-local>
+
+    in vec3 a_position;
+    #if USE_TEXTURE
+        in vec2 a_uv0;
+        out vec2 v_uv0;
+    #endif  
+    in vec4 a_color;
+    out vec4 v_color;
+
+    void main () {
+        mat4 mvp;
+        #if CC_USE_MODEL
+            mvp = cc_matViewProj * cc_matWorld;
+        #else
+            mvp = cc_matViewProj;
+        #endif
+
+        #if USE_TEXTURE
+            v_uv0 = a_uv0;
+        #endif
+
+        #if USE_TINT
+            // clear warning for spine
+        #endif
+
+        v_color = a_color;
+        gl_Position = mvp * vec4(a_position, 1);
+    }
+}%
+        
+CCProgram fs %{
+    precision highp float;
+    #include <cc-global>
+    #if USE_TEXTURE
+        in vec2 v_uv0;
+        uniform sampler2D texture;
+    #endif
+    in vec4 v_color;
+    uniform Constant {
+		vec4 Color;
+		vec2 Offset;
+	};
+
+    vec2 c_UV0_main_8() {
+	    return v_uv0;
+	}
+	vec4 c_TextureToRGBA_main_4(vec2 UV, sampler2D Texture) {
+	    return texture2D(Texture, UV);
+	}
+	float c_Complement1_main_14(float Input) {
+	    return (1.0 - Input);
+	}
+	vec4 c_1To4_main_15(float Input) {
+	    return vec4(Input);
+	}
+	vec4 c_Split4_main_23(vec4 Input) {
+	    return Input;
+	}
+	vec2 c_Add2_main_7(vec2 InputA, vec2 InputB) {
+	    return (InputA + InputB);
+	}
+	vec4 c_TextureToRGBA_main_5(vec2 UV, sampler2D Texture) {
+	    return texture2D(Texture, UV);
+	}
+	vec4 c_31To4_main_24(vec3 InputA, float InputB) {
+	    return vec4(InputA, InputB);
+	}
+	vec4 c_Mul4_main_16(vec4 InputA, vec4 InputB) {
+	    return (InputA * InputB);
+	}
+	vec4 c_Add4_main_13(vec4 InputA, vec4 InputB) {
+	    return (InputA + InputB);
+	}
+	vec4 c_Output_main_1(vec4 Color) { 
+	    return Color; 
+	}
+	void main()                                    
+	{                                              
+	    vec2 out_UV_UV0_8 = c_UV0_main_8();
+	    vec4 out_Color_TextureToRGBA_4 = c_TextureToRGBA_main_4(out_UV_UV0_8, texture);
+	    float out_a_TextureToRGBA_4 = out_Color_TextureToRGBA_4.a;
+	    float out_Output_Complement1_14 = c_Complement1_main_14(out_a_TextureToRGBA_4);
+	    vec4 out_Output_1To4_15 = c_1To4_main_15(out_Output_Complement1_14);
+	    vec4 out_Output_Split4_23 = c_Split4_main_23(Color);
+	    vec3 out_xyz_Split4_23 = out_Output_Split4_23.xyz;
+	    vec2 out_Output_Add2_7 = c_Add2_main_7(Offset, out_UV_UV0_8);
+	    vec4 out_Color_TextureToRGBA_5 = c_TextureToRGBA_main_5(out_Output_Add2_7, texture);
+	    float out_a_TextureToRGBA_5 = out_Color_TextureToRGBA_5.a;
+	    vec4 out_Output_31To4_24 = c_31To4_main_24(out_xyz_Split4_23, out_a_TextureToRGBA_5);
+	    vec4 out_Output_Mul4_16 = c_Mul4_main_16(out_Output_31To4_24, out_Output_1To4_15);
+	    vec4 out_Output_Add4_13 = c_Add4_main_13(out_Color_TextureToRGBA_4, out_Output_Mul4_16);
+	    gl_FragColor = c_Output_main_1(out_Output_Add4_13);
+	}                                              
+	
+}%
+        

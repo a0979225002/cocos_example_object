@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.Material",
+  "_name": "CircularFogDemo",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1e7592db-c8e5-436a-845e-bc743e256cc6"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "Intensity": 5,
+        "Pos": {
+          "__type__": "cc.Vec2",
+          "x": "0.500",
+          "y": "0.500"
+        },
+        "color": {
+          "__type__": "cc.Color",
+          "r": 139,
+          "g": 181,
+          "b": 181,
+          "a": 255
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

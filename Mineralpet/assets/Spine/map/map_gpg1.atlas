@@ -1,0 +1,69 @@
+
+map_gpg1.png
+size: 1092,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+m_bg101
+  rotate: false
+  xy: 878, 146
+  size: 212, 212
+  orig: 212, 212
+  offset: 0, 0
+  index: -1
+m_bg102
+  rotate: false
+  xy: 2, 5
+  size: 353, 353
+  orig: 353, 353
+  offset: 0, 0
+  index: -1
+m_bg103
+  rotate: false
+  xy: 357, 10
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+m_bg104
+  rotate: false
+  xy: 681, 107
+  size: 195, 251
+  orig: 198, 251
+  offset: 0, 0
+  index: -1
+m_bg105
+  rotate: false
+  xy: 507, 93
+  size: 172, 265
+  orig: 172, 265
+  offset: 0, 0
+  index: -1
+m_bg106
+  rotate: false
+  xy: 681, 2
+  size: 127, 103
+  orig: 128, 107
+  offset: 0, 4
+  index: -1
+m_bg107
+  rotate: false
+  xy: 878, 5
+  size: 198, 139
+  orig: 198, 139
+  offset: 0, 0
+  index: -1
+m_bg108
+  rotate: false
+  xy: 507, 10
+  size: 160, 81
+  orig: 162, 81
+  offset: 1, 0
+  index: -1
+m_bg109
+  rotate: false
+  xy: 357, 52
+  size: 148, 306
+  orig: 148, 306
+  offset: 0, 0
+  index: -1

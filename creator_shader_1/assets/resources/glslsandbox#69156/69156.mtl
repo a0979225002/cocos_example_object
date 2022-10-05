@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.Material",
+  "_name": "69156",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "d3577f3e-c07c-4450-9f76-68b6780625de"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "u_Radius": 101,
+        "u_Position": {
+          "__type__": "cc.Vec4",
+          "x": 200,
+          "y": 200,
+          "z": 0,
+          "w": 0
+        },
+        "u_Vague": 50,
+        "texture2": {
+          "__uuid__": "7e4d4625-7959-455d-8ae9-ee914ed0e277"
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

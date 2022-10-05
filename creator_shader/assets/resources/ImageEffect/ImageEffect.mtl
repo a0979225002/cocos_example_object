@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "ImageEffect",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "bb4de731-d8a9-493b-8d33-5e726997d394"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "u_Radius": 101,
+        "u_Position": {
+          "__type__": "cc.Vec4",
+          "x": 200,
+          "y": 200,
+          "z": 0,
+          "w": 0
+        },
+        "u_Vague": -8.600000000000009,
+        "texture": {
+          "__uuid__": "e725676e-cd6b-48e1-b806-026e1cca59bf"
+        },
+        "texture2": {
+          "__uuid__": "e725676e-cd6b-48e1-b806-026e1cca59bf"
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true,
+        "PING_HUA": false,
+        "BIAN_YUAN_JIAN_CE": false,
+        "FU_DIAO": false
+      }
+    }
+  }
+}

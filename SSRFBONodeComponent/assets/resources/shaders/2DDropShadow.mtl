@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.Material",
+  "_name": "2DDropShadow",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "df5f62fc-43d2-4623-acfa-412bb75f1cfb"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "Color": {
+          "__type__": "cc.Color",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 150
+        },
+        "Offset": {
+          "__type__": "cc.Vec2",
+          "x": -0.07,
+          "y": -0.04
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

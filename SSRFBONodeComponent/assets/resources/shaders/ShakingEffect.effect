@@ -1,0 +1,107 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+/**
+ 扭曲 特效
+ author： lichanglong
+ create time：2020.8.11
+ **/
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 }
+}%
+
+
+CCProgram vs %{
+  precision highp float;
+
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec3 a_position;
+  in vec4 a_color;
+  out vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 a_uv0;
+  out vec2 v_uv0;
+  #endif
+
+  out vec4 v_time;
+
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if CC_USE_MODEL
+    pos = cc_matViewProj * cc_matWorld * pos;
+    #else
+    pos = cc_matViewProj * pos;
+    #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+    v_color = a_color;
+
+    v_time = cc_time;
+    gl_Position = pos;
+  }
+}%
+
+
+CCProgram fs %{
+  precision highp float;
+  
+  #include <alpha-test>
+  #include <texture>
+  #include <cc-global>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 v_uv0;
+  uniform sampler2D texture;
+  #endif
+
+  float col(vec2 coord) {
+      float time = cc_time.x;
+      float delta_theta = 0.897597901025655210989326680937;
+      float col = 0.0;
+      float theta = 0.0;
+      for (int i = 0; i < 8; i++) {
+          vec2 adjc = coord;
+          theta = delta_theta * float(i);
+          adjc.x += cos(theta) * time * 0.2 + time * 0.5;
+          adjc.y -= sin(theta) * time * 0.2 - time * 0.5;
+          col = col + cos((adjc.x * cos(theta) - adjc.y * sin(theta)) * 6.0);
+      }
+      return cos(col);
+  }
+
+  void main () {
+    vec2 p = v_uv0, c1 = p, c2 = p;
+    float cc1 = col(c1);
+    c2.x += 8.53;
+    float dx = 0.50 * (cc1 - col(c2)) / 60.0;
+    c2.x = p.x;
+    c2.y += 8.53;
+    float dy = 0.50 * (cc1 - col(c2)) / 60.0;
+    c1.x += dx * 2.0;
+    c1.y = (c1.y + dy * 2.0);
+    float alpha = 1.0 + dot(dx, dy) * 700.0 * 0.5;
+    float ddx = dx - 0.012;
+    float ddy = dy - 0.012;
+    if (ddx > 0.0 && ddy > 0.0) alpha = pow(alpha, ddx * ddy * 200000.0);
+    c1 = mix(p, c1, 0.5);
+    vec4 col = texture2D(texture, c1) * (alpha);
+    gl_FragColor = vec4(col.rgb, col.a);
+  }
+}%

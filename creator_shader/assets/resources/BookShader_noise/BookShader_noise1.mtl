@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "BookShader_noise1",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "e84ffc31-e174-462f-8458-52459320d90d"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "texture": {
+          "__uuid__": "2a53f5e8-1567-4a9c-b08d-71e7292bd86a"
+        }
+      },
+      "defines": {
+        "MAIN_1": true
+      }
+    }
+  }
+}

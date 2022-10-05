@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Material",
+  "_name": "342",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "f87d9186-d34d-4ed6-9f53-b7cded1f2f00"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "u_Radius": 101,
+        "u_Position": {
+          "__type__": "cc.Vec4",
+          "x": 200,
+          "y": 200,
+          "z": 0,
+          "w": 0
+        },
+        "u_Vague": 50
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

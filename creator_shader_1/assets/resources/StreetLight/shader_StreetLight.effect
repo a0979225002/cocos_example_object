@@ -1,0 +1,222 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: {  value: white }
+        texture2: {  value: white }
+        u_time: {value: 1}
+        u_Position: {value: [1, 1,0, 0]}
+        u_mouse: {value: [1.0, 1.0]}
+        u_Radius: {value: 1}
+        u_Vague: {value: 1}
+}%
+
+
+CCProgram vs %{
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+attribute vec3 a_position;
+attribute lowp vec4 a_color;
+attribute mediump vec2 a_uv0;
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+void main () {
+  mat4 mvp;
+  
+  mvp = cc_matViewProj;
+  
+  v_color = a_color;
+
+  gl_Position = mvp * vec4(a_position, 1);   
+  v_wp = cc_matWorld * vec4(a_position, 1);
+
+  // vec4 pos = vec4(a_position, 1);
+
+  //   #if CC_USE_MODEL
+  //   pos = cc_matViewProj * cc_matWorld * pos;
+  //   #else
+  //   pos = cc_matViewProj * pos;
+  //   #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+  //   v_color = a_color;
+
+  //   gl_Position = pos;
+}
+
+}%
+
+
+CCProgram fs %{
+#extension GL_OES_standard_derivatives : enable
+precision mediump float;
+
+uniform sampler2D texture;
+uniform sampler2D texture2;
+
+uniform Constants1 {
+  vec4 u_Position;
+  vec2 u_mouse;
+  float u_Radius;
+  float u_time;
+  float u_Vague;
+};
+
+varying mediump vec2 v_uv0;
+varying lowp vec4 v_color;
+varying lowp vec4 v_wp;
+
+#define resolution vec2(960.,640.)
+
+#define u_resolution resolution
+#define time u_time
+#define iResolution resolution
+#define iTime time
+
+#define fragColor gl_FragColor
+#define fragCoord gl_FragCoord
+#define iMouse u_mouse
+#define MYUV vec2 uv = vec2(1. - v_uv0.x,v_uv0.y);vec2 st = uv;
+
+const float tau = 3.14159265 * 2.;
+
+float sqr(float x) { return x*x; }
+float saw(float x) { return 2.*abs(fract(x-.5)-.5); }
+
+
+// David Hoskins' Hash without Sine https://www.shadertoy.com/view/4djSRW
+//----------------------------------------------------------------------------------------
+// 4 out, 2 in...
+vec4 hash42(vec2 p)
+{
+	vec4 p4 = fract(vec4(p.xyxy) * vec4(.1031, .1030, .0973, .1099));
+    p4 += dot(p4, p4.wzxy+33.33);
+    return fract((p4.xxyz+p4.yzzw)*p4.zywx);
+
+}
+
+
+//----------------------------------------------------------------------------------------
+//  2 out, 1 in...
+vec2 hash21(float p)
+{
+	vec3 p3 = fract(vec3(p) * vec3(.1031, .1030, .0973));
+	p3 += dot(p3, p3.yzx + 33.33);
+    return fract((p3.xx+p3.yz)*p3.zy);
+
+}
+
+
+vec4 renderSnowLayer(vec2 uv, int layer, float time, float dx) 
+{ 
+    vec4 col = vec4(0);
+
+    float fi = float(layer)*.25;
+    float tileSize = fi;
+    dx *= tileSize;
+    
+    float fallRate = .7 / fi;
+    float windRate = .7 / fi;
+    
+    // establish a grid, try to remove any hint of correlation between layers
+    vec2 tileSpace = (uv + hash21(fi) + vec2(windRate, fallRate)*time) * tileSize;
+    vec2 tileId = floor(tileSpace);
+    vec2 tileUV = fract(tileSpace);
+    
+    // 4 random numbers that are constant for each snowflake & unique per layer
+    vec4 rnd = hash42(tileId + fi*vec2(-3.3, 5.7));
+    
+    // give the snowflake a pendulum swaying motion as it falls
+    float flakeT = 2.*time*(.25 + .75*rnd.x) + rnd.y*tau;
+    flakeT = sin(flakeT)*tau/4. + tau/2.;
+    vec2 flakePos = .25 + .5*rnd.zw + .15*vec2(sin(flakeT),cos(flakeT));
+    
+    float flakeRad = .1;
+    float d = distance(tileUV, flakePos) - flakeRad;
+    
+    // bail early if there's nothing to do. 2*dx because fwidth needs to be defined
+    // up to dx, so we need an extra dx on top
+    //if (d > dx+dx) return col;
+    
+    // put the streetlight just out of view
+    vec2 lightPos = vec2(1.1, 1.1);
+    float falloff = smoothstep(1.3, .0, sqr(distance(uv, lightPos)));
+    float focus = pow(dot(normalize(uv - lightPos), vec2(0,-1)),9.);
+    float light = mix(1., 1., focus * falloff);
+
+    // use a texture for the snowflake
+    // make sure the texture space is constant
+    vec2 txuv = tileUV - flakePos;
+    // convert to polar
+    float txuvr = length(txuv);
+    float txuva = atan(txuv.y, txuv.x);
+    // give it a hexagonal shape + rotating + unique angle
+    txuva = saw(6.*(txuva/tau+time*(rnd.x-.5)))*.5 + rnd.y*tau;
+    // convert back to cartesian & add an offset
+    //txuv = txuvr * vec2(cos(txuva),sin(txuva)) + rnd.zw*1.;
+    // keep the tex lookup independent of texture res
+    // float tres = float( textureSize(texture, 0).x );
+    float tres = 600.;
+    // falloff radially; aim for some hexagonal edges, 
+    // blurry foreground flakes, at least a little subtlety
+    float tx = smoothstep(0., sqr(txuvr*30.), texture2D(texture, txuv*(50./tres)).x);
+    
+    // accumulate
+    col += smoothstep(+dx, -dx, d) * vec4(light) * tx;
+    
+    return col;
+}
+
+void main(  )
+{
+MYUV;
+ uv = vec2(uv.x,1.-uv.y);
+    float dx = 1.*length(fwidth(uv));
+    float time = iTime + iMouse.x/100.;
+
+    // time of day
+    float t = cos(tau*time/120.)*.5+.5;
+    
+    // cool night, warm day
+    // fragColor = vec4(.1+.7*t, .1+.65*t, .15+.55*t, 1.);
+    
+    // add snow
+    for (int i = 1; i < 64; i++) {
+        fragColor += renderSnowLayer(uv, i, time, dx);
+    }
+    
+    // fade in
+    // fragColor *= smoothstep(1., 10., iTime);
+    
+    // fragColor.xyz = fragColor.xyz * 0.7 + texture(iChannel2, fragCoord.xy / iResolution.xy).xyz;
+    // fragColor.rgb *= 30.0;
+    
+    fragColor.w = 1.;
+    vec2 uv11 = uv;
+    uv11.y = 1. - uv11.y;
+    fragColor.xyz = fragColor.xyz * 0.5 + texture2D(texture2, uv11).xyz;
+    // fragColor.xyz = mix(fragColor.xyz,texture2D(texture, uv11).xyz,fragColor.x);
+
+    fragColor.xyz += smoothstep(.3, .1, uv.y);
+    fragColor.xyz += step(.7,fragColor.x) * fragColor.x;
+}
+
+}%
